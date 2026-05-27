@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    03feb6d6-07d4-4dbc-9a32-6670abb097f6: e7e527b4-97d9-4829-8223-f2a1954d53e3/d4d338e305cd902f9c2e4545b543960b/Data/RightPartCable.mesh
+  Assets:
+    - !<FileMesh/03feb6d6-07d4-4dbc-9a32-6670abb097f6>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 188
+        Vertices: 132
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 1.192856, y: 0.940151, z: 1.192856}
+  SourceHash: d4d338e305cd902f9c2e4545b543960b
+  FileHash: cd677e993e3031733b80072dd10506e5
+  NativePackageItems:
+    []

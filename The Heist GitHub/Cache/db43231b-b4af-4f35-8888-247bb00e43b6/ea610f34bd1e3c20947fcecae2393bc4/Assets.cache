@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    d259f534-a571-4b82-88ba-1f489fffc45d: db43231b-b4af-4f35-8888-247bb00e43b6/ea610f34bd1e3c20947fcecae2393bc4/Data/Small Dot.jpg
+  Assets:
+    - !<FileTexture/d259f534-a571-4b82-88ba-1f489fffc45d>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: ea610f34bd1e3c20947fcecae2393bc4
+  FileHash: b6a9cbcdbb203af234f82ff2293db43a
+  NativePackageItems:
+    []

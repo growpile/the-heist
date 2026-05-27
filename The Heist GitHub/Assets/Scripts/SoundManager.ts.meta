@@ -1,0 +1,64 @@
+- !<AssetImportMetadata/44709a3f-8b8a-4b14-936a-c14fe7e7c1df>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> f652d25f-4b70-4578-ad62-950b148127dd
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> f652d25f-4b70-4578-ad62-950b148127dd
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 2a4d5078-8d2e-4dba-8f54-1f5353bedc23
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/2a4d5078-8d2e-4dba-8f54-1f5353bedc23>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: f0be0e26-32fb-4530-8426-74e34c440fc3
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    backgroundAudio: false
+    backgroundSounds: false
+    backgroundVolume: false
+    multipleSfxInstances: false
+    sounds: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - multipleSfxInstances: false
+      backgroundAudio: false
+      backgroundSounds: !<reference.AudioTrackAsset[]>
+        []
+      backgroundVolume: !<float> 1.000000
+      sounds: !<reference.AudioTrackAsset[]>
+        []
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Playback</span>"}'
+    - '// @input bool multipleSfxInstances {"hint":"Off = pool one AudioComponent per SFX index."}'
+    - '// @input bool backgroundAudio {"hint":"Start background music automatically on lens load."}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Background music</span>"}'
+    - '// @input Asset.AudioTrackAsset[] backgroundSounds = {} {"showIf":"backgroundAudio", "showIfValue":true}'
+    - '// @input float backgroundVolume = 1 {"hint":"Volume for the initial BGM track (index 0).", "widget":"slider", "min":0, "max":1, "step":0.01, "showIf":"backgroundAudio", "showIfValue":true}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Sound effects</span>"}'
+    - '// @input Asset.AudioTrackAsset[] sounds = {} {"hint":"SFX bank — global.playSfx(id, …) uses this array index."}'

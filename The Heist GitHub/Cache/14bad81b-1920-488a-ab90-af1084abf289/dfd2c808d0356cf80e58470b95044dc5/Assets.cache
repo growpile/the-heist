@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    e1ada4af-081c-4c68-8e68-1322d92c140d: 14bad81b-1920-488a-ab90-af1084abf289/dfd2c808d0356cf80e58470b95044dc5/Data/Alarm Early.mp3
+  Assets:
+    - !<FileAudioTrack/e1ada4af-081c-4c68-8e68-1322d92c140d>
+      PackagePath: ""
+  SourceHash: dfd2c808d0356cf80e58470b95044dc5
+  FileHash: f5e5085515cdefd86c06a983df381457
+  NativePackageItems:
+    []

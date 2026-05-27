@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    2d69b323-bf1f-4380-b48c-9a27d39fb680: 7fb510e7-4d81-43d2-af23-eb8e85dcf4c8/5be6198a5836366b335ee24b76c3b606/Data/Slots Simple Texture.jpg
+  Assets:
+    - !<FileTexture/2d69b323-bf1f-4380-b48c-9a27d39fb680>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: 5be6198a5836366b335ee24b76c3b606
+  FileHash: efb8203a121fe27e494b8af8a08a3764
+  NativePackageItems:
+    []

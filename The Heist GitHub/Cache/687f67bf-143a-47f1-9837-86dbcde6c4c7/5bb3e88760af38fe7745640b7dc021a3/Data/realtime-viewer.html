@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Supabase Realtime Viewer</title>
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 16px; background: #0f172a; color: #e2e8f0; }
+    .card { background: #1e293b; border: 1px solid #334155; border-radius: 12px; padding: 16px; max-width: 720px; margin: 0 auto 16px; box-shadow: 0 12px 30px rgba(0,0,0,0.25); }
+    h1 { margin: 0 0 12px; font-size: 20px; color: #38bdf8; }
+    label { display: block; margin-top: 10px; font-size: 13px; color: #cbd5e1; }
+    input { width: 100%; margin-top: 4px; padding: 10px; border-radius: 8px; border: 1px solid #334155; background: #0b1224; color: #e2e8f0; }
+    input:focus { outline: 1px solid #38bdf8; border-color: #38bdf8; }
+    button { margin-top: 12px; padding: 10px 14px; border: none; border-radius: 8px; background: #38bdf8; color: #0b1224; font-weight: 700; cursor: pointer; }
+    button.secondary { background: #475569; color: #e2e8f0; margin-left: 8px; }
+    #status { margin-top: 8px; font-size: 13px; color: #a5b4fc; }
+    #log { margin-top: 12px; background: #0b1224; border: 1px solid #334155; min-height: 80px; max-height: 160px; overflow-y: auto; padding: 10px; border-radius: 8px; font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: 12px; }
+    canvas { width: 100%; max-width: 720px; background: #000; border-radius: 12px; border: 1px solid #334155; display: block; margin: 0 auto; }
+    small { color: #94a3b8; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Supabase Realtime Viewer</h1>
+    <label>Join Room Code (for website viewers)
+      <input id="roomCodeJoin" placeholder="ABCDE" />
+    </label>
+    <label>Your Name
+      <input id="displayName" placeholder="Player" />
+    </label>
+    <div>
+      <button id="joinConnectBtn">Join & Connect</button>
+      <button id="disconnectBtn" class="secondary">Disconnect</button>
+    </div>
+    <div id="status">Disconnected</div>
+    <div id="log"></div>
+  </div>
+  <canvas id="canvas" width="640" height="360"></canvas>
+  <div class="card">
+    <small>Payload expectation: broadcast payload with <code>message</code> containing a base64 PNG/JPEG string (no data URI). We'll prefix with <code>data:image/png;base64,</code> and draw to the canvas.</small>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script>
+    const statusEl = document.getElementById('status');
+    const logEl = document.getElementById('log');
+    const canvas = document.getElementById('canvas');
+    const ctx = canvas.getContext('2d');
+
+    let client = null;
+    let channel = null;
+    let subscribed = false;
+
+    const HARDCODED_URL = "https://noczxyzkiqvzdolyjciv.snapcloud.dev";
+    const HARDCODED_KEY = "sb_publishable_uSdS9KBQxlnouVQSMKfcyw_2FzF8F-f";
+    const EVENT_NAME = "defuserTexture";
+    const ROOM_TABLE = "bomb_defusal_rooms";
+
+    function log(msg) {
+      const time = new Date().toLocaleTimeString();
+      const line = document.createElement('div');
+      line.textContent = `[${time}] ${msg}`;
+      logEl.appendChild(line);
+      logEl.scrollTop = logEl.scrollHeight;
+    }
+
+    function setStatus(text) {
+      statusEl.textContent = text;
+    }
+
+    function ensureClient() {
+      if (client) return client;
+      client = supabase.createClient(HARDCODED_URL, HARDCODED_KEY, {
+        realtime: { params: { eventsPerSecond: 10 } }
+      });
+      return client;
+    }
+
+    function connect() {
+      disconnect();
+      const channelName = document.getElementById('roomCodeJoin').value.trim().toUpperCase();
+      const eventName = EVENT_NAME;
+
+      if (!channelName) {
+        log('Please enter a room code.');
+        return;
+      }
+
+      ensureClient();
+
+      channel = client.channel(channelName, { config: { broadcast: { self: true } } });
+
+      channel.on('broadcast', { event: eventName }, (payload) => {
+        const data = payload.payload || {};
+        const base64 = data.message;
+        if (!base64) {
+          log('Received event without message payload');
+          return;
+        }
+        drawBase64ToCanvas(base64);
+      });
+
+      channel.subscribe((status) => {
+        setStatus(status);
+        log('Channel status: ' + status);
+        if (status === 'SUBSCRIBED') {
+          subscribed = true;
+        } else if (status === 'CLOSED' || status === 'CHANNEL_ERROR') {
+          subscribed = false;
+        }
+      });
+    }
+
+    function disconnect() {
+      if (channel) { channel.unsubscribe(); }
+      channel = null;
+      client = null;
+      subscribed = false;
+      setStatus('Disconnected');
+    }
+
+    async function joinRoom() {
+      const roomCode = document.getElementById('roomCodeJoin').value.trim().toUpperCase();
+      const name = document.getElementById('displayName').value.trim() || "Guest";
+
+      if (!roomCode) {
+        log("Enter a room code to join");
+        return;
+      }
+
+      ensureClient();
+
+      try {
+        const { data, error } = await client
+          .rpc("add_spectator", { p_room_code: roomCode, p_name: name }); // expects a Postgres function
+
+        if (error) {
+          log("Join failed: " + JSON.stringify(error));
+          return;
+        }
+
+        log("Joined room " + roomCode + " as " + name);
+      } catch (err) {
+        log("Join exception: " + err);
+      }
+    }
+
+    function drawBase64ToCanvas(base64) {
+      const img = new Image();
+      img.onload = () => {
+        canvas.width = img.width;
+        canvas.height = img.height;
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        ctx.drawImage(img, 0, 0);
+      };
+      img.onerror = () => log('Failed to load image from base64');
+      img.src = 'data:image/png;base64,' + base64;
+    }
+
+    document.getElementById('connectBtn').addEventListener('click', connect);
+    document.getElementById('disconnectBtn').addEventListener('click', disconnect);
+    document.getElementById('joinBtn').addEventListener('click', joinRoom);
+  </script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    e4c8e5a1-b4ca-4835-8be8-8c151f0e6c20: 5c67079a-f61d-4302-b172-7c6d9e84f2fd/82254b401f72e9dd0f079ce071faab54/Data/Left Hand Vertex Paint_Default OBJ.005_base.png
+  Assets:
+    - !<FileTexture/e4c8e5a1-b4ca-4835-8be8-8c151f0e6c20>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 2048
+        Height: 2048
+  SourceHash: 82254b401f72e9dd0f079ce071faab54
+  FileHash: 5c997df9ef843d2d541ae613b082cdd6
+  NativePackageItems:
+    []

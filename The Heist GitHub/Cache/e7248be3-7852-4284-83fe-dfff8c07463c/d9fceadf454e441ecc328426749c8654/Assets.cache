@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    9a7c619a-f8ed-47bf-b0a5-54f0b359ed2f: e7248be3-7852-4284-83fe-dfff8c07463c/d9fceadf454e441ecc328426749c8654/Data/JPEG image.jpeg
+  Assets:
+    - !<FileTexture/9a7c619a-f8ed-47bf-b0a5-54f0b359ed2f>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 2048
+        Height: 2048
+  SourceHash: d9fceadf454e441ecc328426749c8654
+  FileHash: 0133768111f57dc4a7069a9169b8edd0
+  NativePackageItems:
+    []

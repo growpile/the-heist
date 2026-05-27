@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    1b1b0413-f24f-4123-a5ec-36051ce1717a: 23edeb99-6367-43bf-b5b9-2ed6aabd7c6f/bdb0016687f540468a5a1f0ecd91b3a9/Data/BombAnthenaHolder.mesh
+  Assets:
+    - !<FileMesh/1b1b0413-f24f-4123-a5ec-36051ce1717a>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 256
+        Vertices: 272
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.757877, y: 0.757877, z: 0.270064}
+  SourceHash: bdb0016687f540468a5a1f0ecd91b3a9
+  FileHash: 4e6153f74c3ec139b90a132d08d81eef
+  NativePackageItems:
+    []

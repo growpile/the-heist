@@ -1,0 +1,75 @@
+- !<AssetCache>
+  AssetFiles:
+    3856f846-6bce-4a58-9d43-2b97cb607cec: c281ab6d-c6ab-410b-8407-6df14a089428/8c6507cff40769eb3b19786769da67b6/Data/Meshes/Star.mesh
+  Assets:
+    - !<ObjectPrefab/8bc49845-bd53-4870-8ec8-a9c002b87834>
+      PackagePath: ""
+      objects:
+        - !<own> 6fa8917c-3a74-45e1-aa1a-c99cfd0356c9
+      LazyLoading: false
+      RetainAssets: true
+    - !<FileMesh/3856f846-6bce-4a58-9d43-2b97cb607cec>
+      PackagePath: Meshes/Star
+      Info: !<MeshInfo>
+        Triangles: 1240
+        Vertices: 622
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 188.627090, y: 179.494476, z: 46.842842}
+  SourceHash: 8c6507cff40769eb3b19786769da67b6
+  FileHash: 478aa16728a549ffba4a982acb9cb6e9
+  NativePackageItems:
+    []
+- !<SceneObject/6fa8917c-3a74-45e1-aa1a-c99cfd0356c9>
+  PrefabRemaps:
+    - 6fa8917c-3a74-45e1-aa1a-c99cfd0356c9: 6fa8917c-3a74-45e1-55e5-366302fca936
+    - 9a1a5649-25f5-487f-ba7c-0fff5590c9dc: 9a1a5649-25f5-487f-4583-f000aa6f3623
+    - 9cd563ce-ca91-4c66-ae90-9b2c6b2dd87c: 9cd563ce-ca91-4c66-516f-64d394d22783
+  Name: Star
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 9cd563ce-ca91-4c66-ae90-9b2c6b2dd87c
+  Components:
+    []
+- !<RenderMeshVisual/9a1a5649-25f5-487f-ba7c-0fff5590c9dc>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 3856f846-6bce-4a58-9d43-2b97cb607cec
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/9cd563ce-ca91-4c66-ae90-9b2c6b2dd87c>
+  PrefabRemaps:
+    []
+  Name: Star
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 5.389668, y: 5.389668, z: 5.389668}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 9a1a5649-25f5-487f-ba7c-0fff5590c9dc

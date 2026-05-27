@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    364d2d7b-d78d-403c-8e6d-87cf0ffad9cb: 6e05fbb8-b61e-49ec-bd5d-fb848787b2b5/9860f03c1e32e33a1b09548b5e266a1d/Data/Logo V2.png
+  Assets:
+    - !<FileTexture/364d2d7b-d78d-403c-8e6d-87cf0ffad9cb>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 2048
+        Height: 641
+  SourceHash: 9860f03c1e32e33a1b09548b5e266a1d
+  FileHash: d9d5fd45c6e6fc9a7f1cf23bf579806c
+  NativePackageItems:
+    []

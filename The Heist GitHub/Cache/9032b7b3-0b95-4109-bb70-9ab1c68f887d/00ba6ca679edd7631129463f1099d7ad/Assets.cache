@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    ea6de2d9-5434-4382-9c03-64ed65c2129c: "9032b7b3-0b95-4109-bb70-9ab1c68f887d/00ba6ca679edd7631129463f1099d7ad/Data/ES_Mouth, Finger 02 - Epidemic Sound.mp3"
+  Assets:
+    - !<FileAudioTrack/ea6de2d9-5434-4382-9c03-64ed65c2129c>
+      PackagePath: ""
+  SourceHash: 00ba6ca679edd7631129463f1099d7ad
+  FileHash: 5d00df9875f05c7807a5d6bac5b450ea
+  NativePackageItems:
+    []

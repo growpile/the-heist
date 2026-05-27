@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    4a511ae5-ca31-4549-a1c2-d65a6a5286d6: c8a468c6-050f-495c-933b-f4bcc648c60b/6e03465b4e88373828eef458daa49e10/Data/Snow Impact 3.mp3
+  Assets:
+    - !<FileAudioTrack/4a511ae5-ca31-4549-a1c2-d65a6a5286d6>
+      PackagePath: ""
+  SourceHash: 6e03465b4e88373828eef458daa49e10
+  FileHash: 43426e795e17e57ceda4fa07fd34a0c8
+  NativePackageItems:
+    []

@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    0822da4a-a6bd-41e9-8405-771180cfeca8: 2be11c77-3610-3fcb-ac1f-95ae57e985fe/44d34160df80a4327471b1346bef3e2e/Data/Star.png
+  Assets:
+    - !<FileTexture/0822da4a-a6bd-41e9-8405-771180cfeca8>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 481
+        Height: 519
+  SourceHash: 44d34160df80a4327471b1346bef3e2e
+  FileHash: b89c83d8aa75c9dd964a51158386a2d5
+  NativePackageItems:
+    []

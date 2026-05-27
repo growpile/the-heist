@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    c3c2ac26-0a27-4851-bfb0-7c4d8d86ed82: 106fb5ad-f354-489b-9705-4f0984de93f1/a214d2ae37ae4c14644afefab6c585d9/Data/Wire Reel 21.mesh
+  Assets:
+    - !<FileMesh/c3c2ac26-0a27-4851-bfb0-7c4d8d86ed82>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 32
+        Vertices: 34
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 1.285911, y: 1.872016, z: 1.285911}
+  SourceHash: a214d2ae37ae4c14644afefab6c585d9
+  FileHash: a21330bb47150cde8981bbda91c0564a
+  NativePackageItems:
+    []

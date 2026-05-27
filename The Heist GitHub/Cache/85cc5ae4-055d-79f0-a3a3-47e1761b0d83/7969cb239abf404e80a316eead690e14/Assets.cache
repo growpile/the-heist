@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    cd849997-1e49-44b6-8e53-d57c7dd7740c: 85cc5ae4-055d-79f0-a3a3-47e1761b0d83/7969cb239abf404e80a316eead690e14/Data/Liberation Serif - Retro Font.ttf
+  Assets:
+    - !<Font/cd849997-1e49-44b6-8e53-d57c7dd7740c>
+      PackagePath: ""
+  SourceHash: 7969cb239abf404e80a316eead690e14
+  FileHash: b228eedcc6f450ff2e63f16d49d568ff
+  NativePackageItems:
+    []

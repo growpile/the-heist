@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    27a000ce-7eb7-4d44-9ce1-487c3f4df7d3: fb4d8b25-9e52-447b-9631-ee955e32f7c8/ffffba648ca37ba26d28cfe54b1b2894/Data/ES_Bubble Effect 04 - Epidemic Sound.mp3
+  Assets:
+    - !<FileAudioTrack/27a000ce-7eb7-4d44-9ce1-487c3f4df7d3>
+      PackagePath: ""
+  SourceHash: ffffba648ca37ba26d28cfe54b1b2894
+  FileHash: 7868b37d89d3c1991239bed1c674f14b
+  NativePackageItems:
+    []

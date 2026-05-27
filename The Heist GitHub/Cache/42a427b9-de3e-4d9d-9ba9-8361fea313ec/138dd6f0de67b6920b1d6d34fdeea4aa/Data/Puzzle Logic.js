@@ -1,0 +1,503 @@
+// @input Component.ScriptComponent[] wireButtons
+/** @type {ScriptComponent[]} */
+var wireButtons = script.wireButtons;
+// @input Component.Text ruleText
+/** @type {Text} */
+var ruleText = script.ruleText;
+
+// ---------------------------------------------------------------------
+// Puzzle state
+// ---------------------------------------------------------------------
+
+let puzzleActive = false;
+let colors = ["red", "green", "blue", "yellow"];
+
+// active puzzle data
+let wireColors = {
+    red: 0,
+    green: 0,
+    blue: 0,
+    yellow: 0
+};
+let wireColorsInOrder = [];
+let activeWiresCount = 0;
+let oddParityCount = 0;
+let evenParityCount = 0;
+let solution = [];
+let cutCount = 0;
+let totalToCut = 0;
+
+// ---------------------------------------------------------------------
+// Helpers
+// ---------------------------------------------------------------------
+
+function randomInt(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+function shuffleArray(array) {
+    var i, j, temp;
+    for (i = array.length - 1; i > 0; i--) {
+        j = Math.floor(Math.random() * (i + 1));
+        temp = array[i];
+        array[i] = array[j];
+        array[j] = temp;
+    }
+}
+
+function sample(array) {
+    if (!array || array.length === 0) {
+        return null;
+    }
+    return array[randomInt(0, array.length - 1)];
+}
+
+function getColorVec(colorName) {
+    if (colorName === "red") {
+        return new vec4(1, 0, 0, 1);
+    }
+    if (colorName === "green") {
+        return new vec4(0, 1, 0, 1);
+    }
+    if (colorName === "yellow") {
+        return new vec4(1, 1, 0, 1);
+    }
+    // default blue
+    return new vec4(0, 0, 1, 1);
+}
+
+function recountParity() {
+    oddParityCount = 0;
+    evenParityCount = 0;
+    for (var i = 0; i < activeWiresCount; i++) {
+        if ((i + 1) % 2 === 0) {
+            evenParityCount++;
+        } else {
+            oddParityCount++;
+        }
+    }
+}
+
+function createDecisionState(count) {
+    var decisions = [];
+    for (var i = 0; i < count; i++) {
+        decisions[i] = { action: "keep", reason: "default keep" };
+    }
+    return decisions;
+}
+
+function applyDecision(decisions, index, action, reason) {
+    if (index < 0 || index >= decisions.length) {
+        return false;
+    }
+    decisions[index] = { action: action, reason: reason };
+    return true;
+}
+
+function finalizeDecisions(decisions) {
+    solution = [];
+    totalToCut = 0;
+    for (var i = 0; i < decisions.length; i++) {
+        var shouldCut = decisions[i] && decisions[i].action === "cut";
+        solution[i] = shouldCut;
+        if (shouldCut) {
+            totalToCut++;
+        }
+    }
+}
+
+function getBombInfo() {
+    // Placeholder for future data providers (serial number, time, players, etc.)
+    return {
+        serial: "",
+        timeRemainingSeconds: 0,
+        playerNames: []
+    };
+}
+
+function buildRuleContext() {
+    return {
+        wireColors: wireColors,
+        wireColorsInOrder: wireColorsInOrder.slice(),
+        activeWiresCount: activeWiresCount,
+        oddParityCount: oddParityCount,
+        evenParityCount: evenParityCount,
+        bomb: getBombInfo()
+    };
+}
+
+// ---------------------------------------------------------------------
+// Rule system
+// ---------------------------------------------------------------------
+
+function randomParity() {
+    return randomInt(0, 1) === 0 ? "odd" : "even";
+}
+
+function describeRule(rule) {
+    if (rule.conditionText) {
+        return rule.text + " (if " + rule.conditionText + ")";
+    }
+    return rule.text;
+}
+
+function makeCutAllColorRule(color) {
+    var ruleId = "cut-all-" + color;
+    return {
+        id: ruleId,
+        text: "Cut all " + color + " wires.",
+        apply: function(decisions, ctx) {
+            var affected = 0;
+            for (var i = 0; i < ctx.wireColorsInOrder.length; i++) {
+                if (ctx.wireColorsInOrder[i] === color) {
+                    if (applyDecision(decisions, i, "cut", ruleId)) {
+                        affected++;
+                    }
+                }
+            }
+            return { affected: affected };
+        }
+    };
+}
+
+function makeDoNotCutColorRule(color) {
+    var ruleId = "keep-" + color;
+    return {
+        id: ruleId,
+        text: "Do not cut any " + color + " wires.",
+        apply: function(decisions, ctx) {
+            var affected = 0;
+            for (var i = 0; i < ctx.wireColorsInOrder.length; i++) {
+                if (ctx.wireColorsInOrder[i] === color) {
+                    if (applyDecision(decisions, i, "keep", ruleId)) {
+                        affected++;
+                    }
+                }
+            }
+            return { affected: affected };
+        }
+    };
+}
+
+function makeCutParityRule(parity) {
+    var ruleId = "cut-" + parity;
+    return {
+        id: ruleId,
+        text: "Cut all " + parity + " wires.",
+        apply: function(decisions, ctx) {
+            var affected = 0;
+            for (var i = 0; i < ctx.wireColorsInOrder.length; i++) {
+                var isEven = (i + 1) % 2 === 0;
+                var matches = parity === "even" ? isEven : !isEven;
+                if (matches) {
+                    if (applyDecision(decisions, i, "cut", ruleId)) {
+                        affected++;
+                    }
+                }
+            }
+            return { affected: affected };
+        }
+    };
+}
+
+function makeCutNthWireRule(position) {
+    var ruleId = "cut-position-" + position;
+    return {
+        id: ruleId,
+        text: "Cut the " + position + " wire.",
+        apply: function(decisions, ctx) {
+            if (position <= 0 || position > ctx.activeWiresCount) {
+                return { affected: 0, note: "position outside of active wires" };
+            }
+            return { affected: applyDecision(decisions, position - 1, "cut", ruleId) ? 1 : 0 };
+        }
+    };
+}
+
+function wrapWithCondition(rule, conditionText, conditionFn) {
+    return {
+        id: rule.id + "-conditioned",
+        text: rule.text,
+        apply: rule.apply,
+        condition: conditionFn,
+        conditionText: conditionText
+    };
+}
+
+var STANDARD_RULE_FACTORIES = [
+    function(context) {
+        return makeCutAllColorRule(sample(colors));
+    },
+    function(context) {
+        return makeDoNotCutColorRule(sample(colors));
+    },
+    function(context) {
+        return makeCutParityRule(randomParity());
+    },
+    function(context) {
+        return makeCutNthWireRule(randomInt(1, Math.max(1, context.activeWiresCount)));
+    }
+];
+
+var CONDITIONAL_WRAPPERS = [
+    function(context, rule) {
+        var firstColor = sample(colors);
+        var secondColor = sample(colors.filter(function(c) { return c !== firstColor; })) || firstColor;
+        var text = "there are more " + firstColor + " wires than " + secondColor + " wires";
+        var predicate = function(ctx) { return ctx.wireColors[firstColor] > ctx.wireColors[secondColor]; };
+        return wrapWithCondition(rule, text, predicate);
+    },
+    function(context, rule) {
+        var parity = randomParity();
+        var text = "the number of active wires is " + parity;
+        var predicate = function(ctx) {
+            var isEven = ctx.activeWiresCount % 2 === 0;
+            return parity === "even" ? isEven : !isEven;
+        };
+        return wrapWithCondition(rule, text, predicate);
+    },
+    function(context, rule) {
+        var color = sample(colors);
+        var text = "the first wire is " + color;
+        var predicate = function(ctx) { return ctx.wireColorsInOrder[0] === color; };
+        return wrapWithCondition(rule, text, predicate);
+    }
+];
+
+function createRuleSet(context) {
+    var rules = [];
+    var attempts = 0;
+
+    while (rules.length < 2 && attempts < 6) {
+        var factory = sample(STANDARD_RULE_FACTORIES);
+        if (factory) {
+            var rule = factory(context);
+            if (rule) {
+                rules.push(rule);
+            }
+        }
+        attempts++;
+    }
+
+    // Optionally wrap one of the rules with an IF condition
+    if (rules.length > 0 && CONDITIONAL_WRAPPERS.length > 0 && randomInt(0, 1) === 1) {
+        var targetIndex = randomInt(0, rules.length - 1);
+        var wrapper = sample(CONDITIONAL_WRAPPERS);
+        if (wrapper) {
+            rules[targetIndex] = wrapper(context, rules[targetIndex]);
+        }
+    }
+
+    if (rules.length === 0) {
+        rules.push(makeCutParityRule("odd"));
+    }
+
+    return rules;
+}
+
+function applyRule(rule, decisions, context) {
+    var label = describeRule(rule);
+    if (rule.condition && !rule.condition(context)) {
+        return { label: label, skipped: true, affected: 0, note: "condition not met" };
+    }
+
+    var result = rule.apply(decisions, context) || {};
+    return {
+        label: label,
+        skipped: false,
+        affected: result.affected || 0,
+        note: result.note || ""
+    };
+}
+
+// ---------------------------------------------------------------------
+// Win / fail handlers
+// ---------------------------------------------------------------------
+
+function handleFailure(reason) {
+    print("Puzzle failed: " + reason);
+    ruleText.text = ruleText.text + "\n\nFAIL: " + reason;
+
+    for (var i = 0; i < wireButtons.length; i++) {
+        wireButtons[i].enabled = false;
+    }
+    puzzleActive = false;
+}
+
+function handleSuccess() {
+    print("Puzzle solved!");
+    ruleText.text = ruleText.text + "\n\nSUCCESS: Correct wires cut.";
+
+    for (var i = 0; i < wireButtons.length; i++) {
+        wireButtons[i].enabled = false;
+    }
+    puzzleActive = false;
+}
+
+// ---------------------------------------------------------------------
+// Wire cutting logic
+// ---------------------------------------------------------------------
+
+function attemptWireCut(wireId) {
+    if (!puzzleActive) {
+        print("No active puzzle, ignoring cut.");
+        return;
+    }
+    if (wireId < 0 || wireId >= activeWiresCount) {
+        print("Wire " + (wireId + 1) + " is not part of this puzzle.");
+        return;
+    }
+    // Already cut? Ignore.
+    if (!wireButtons[wireId].enabled) {
+        return;
+    }
+
+    print("Attempting to cut wire " + (wireId + 1));
+
+    // Wrong wire => immediate failure
+    if (!solution[wireId]) {
+        handleFailure("You cut wire " + (wireId + 1) + ", which should not be cut.");
+        return;
+    }
+
+    // Visually cut the wire
+    wireButtons[wireId].enabled = false;
+
+    var buttonSO = wireButtons[wireId].getSceneObject();
+    var textComponent = buttonSO.getChild(0).getComponent("Component.Text");
+    textComponent.text = "Cut " + (wireId + 1);
+    textComponent.textFill.color = new vec4(1, 1, 1, 1); // white = cut
+
+    cutCount++;
+
+    // Because we fail on the first wrong cut, reaching totalToCut here
+    // means we've cut exactly the required set.
+    if (cutCount >= totalToCut) {
+        handleSuccess();
+    }
+}
+
+// ---------------------------------------------------------------------
+// Puzzle generation
+// ---------------------------------------------------------------------
+
+script.generatePuzzle = function() {
+    createWires(generateRules);
+}
+
+function createWires(onSuccess) {
+    print("Generating new puzzle...");
+
+    var i;
+    activeWiresCount = randomInt(3, Math.min(5, wireButtons.length));
+    wireColors = {
+        red: 0,
+        green: 0,
+        blue: 0,
+        yellow: 0
+    };
+    wireColorsInOrder = [];
+    solution = [];
+    cutCount = 0;
+    totalToCut = 0;
+    oddParityCount = 0;
+    evenParityCount = 0;
+    puzzleActive = true;
+
+    // setup each wire button
+    for (i = 0; i < wireButtons.length; i++) {
+        var buttonSO = wireButtons[i].getSceneObject();
+
+        if (i < activeWiresCount) {
+            buttonSO.enabled = true;
+            wireButtons[i].enabled = true;
+            if (wireButtons[i].initialize) {
+                wireButtons[i].initialize();
+            }
+
+            var colorName = colors[randomInt(0, colors.length - 1)];
+            wireColors[colorName]++;
+            wireColorsInOrder[i] = colorName;
+
+            var textComponent = buttonSO.getChild(0).getComponent("Component.Text");
+            textComponent.text = "Wire " + (i + 1);
+            textComponent.textFill.color = getColorVec(colorName);
+
+            print("Wire " + (i + 1) + " is active. Color: " + colorName);
+        } else {
+            buttonSO.enabled = false;
+            wireButtons[i].enabled = false;
+            wireColors[i] = null;
+        }
+
+        solution[i] = false; // reset
+    }
+
+    print(wireColors.red + " red, " + wireColors.green + " green, " + wireColors.blue + " blue, " + wireColors.yellow + " yellow.");
+    print(wireColorsInOrder);
+    print("Active wires: " + activeWiresCount);
+    recountParity();
+    if (onSuccess) onSuccess();
+};
+
+function generateRules() {
+    print("Generating rules...");
+
+    var context = buildRuleContext();
+    var decisions = createDecisionState(activeWiresCount);
+    var rules = createRuleSet(context);
+    var ruleLines = [];
+
+    for (var i = 0; i < rules.length; i++) {
+        var result = applyRule(rules[i], decisions, context);
+        var line = "- " + result.label;
+        if (result.skipped) {
+            line += " (ignored)";
+        } else if (result.affected === 0) {
+            line += " (partial: no matching wires)";
+        }
+        if (result.note) {
+            line += " [" + result.note + "]";
+        }
+        ruleLines.push(line);
+    }
+
+    finalizeDecisions(decisions);
+
+    ruleText.text = "Cut the wires according to these rules:\n" + ruleLines.join("\n");
+    if (totalToCut === 0) {
+        ruleText.text += "\n- No wires need to be cut. Press the big red button to defuse the bomb.";
+    } else {
+        ruleText.text += "\n- Total wires to cut: " + totalToCut;
+    }
+
+    ruleText.text += "\n\nRules apply in order, later rules override earlier ones where applicable.";
+    ruleText.text += "\nIf a rule cannot fully apply, it is applied where possible.";
+    print("Generated rules: " + ruleLines.length + " total. Wires to cut: " + totalToCut);
+}
+
+// Rules for the rules:
+// Rules are applied in order, with later rules overriding earlier ones where applicable, unless noted otherwise.
+// If a rule cannot be fully applied, it is partially applied where possible.
+// If no wires need to be cut, press the big red button to defuse the bomb.
+// If a rule is failed... you blow up in pieces and your mom gets mad at you.
+
+// ---------------------------------------------------------------------
+// UI hooks (already wired)
+// ---------------------------------------------------------------------
+
+script.cutWire1 = function(value) {
+    if (value) attemptWireCut(0);
+};
+script.cutWire2 = function(value) {
+    if (value) attemptWireCut(1);
+};
+script.cutWire3 = function(value) {
+    if (value) attemptWireCut(2);
+};
+script.cutWire4 = function(value) {
+    if (value) attemptWireCut(3);
+};
+script.cutWire5 = function(value) {
+    if (value) attemptWireCut(4);
+};

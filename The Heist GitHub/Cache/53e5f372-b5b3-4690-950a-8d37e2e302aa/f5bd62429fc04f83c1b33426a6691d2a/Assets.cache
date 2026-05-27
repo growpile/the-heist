@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    934ec2bf-a622-43cb-945a-f16c35373d29: 53e5f372-b5b3-4690-950a-8d37e2e302aa/f5bd62429fc04f83c1b33426a6691d2a/Data/PAGE 2.jpg
+  Assets:
+    - !<FileTexture/934ec2bf-a622-43cb-945a-f16c35373d29>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1080
+        Height: 1529
+  SourceHash: f5bd62429fc04f83c1b33426a6691d2a
+  FileHash: 8271dd4488c160205968eb10e1ee6cb0
+  NativePackageItems:
+    []

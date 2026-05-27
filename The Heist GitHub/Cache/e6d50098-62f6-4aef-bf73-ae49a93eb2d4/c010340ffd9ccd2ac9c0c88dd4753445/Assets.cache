@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    a4a89e51-1a1b-4ec2-8583-5a36651a3118: e6d50098-62f6-4aef-bf73-ae49a93eb2d4/c010340ffd9ccd2ac9c0c88dd4753445/Data/RobotoMono-VariableFont_wght.ttf
+  Assets:
+    - !<Font/a4a89e51-1a1b-4ec2-8583-5a36651a3118>
+      PackagePath: ""
+  SourceHash: c010340ffd9ccd2ac9c0c88dd4753445
+  FileHash: 668ce6edec867a9343276fcc2c6fbbff
+  NativePackageItems:
+    []

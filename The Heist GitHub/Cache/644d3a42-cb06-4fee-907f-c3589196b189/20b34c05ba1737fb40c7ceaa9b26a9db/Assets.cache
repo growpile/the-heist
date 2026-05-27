@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    202670ad-1eb3-4e66-8943-b4967e539f6a: 644d3a42-cb06-4fee-907f-c3589196b189/20b34c05ba1737fb40c7ceaa9b26a9db/Data/render.png
+  Assets:
+    - !<FileTexture/202670ad-1eb3-4e66-8943-b4967e539f6a>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1080
+        Height: 1920
+  SourceHash: 20b34c05ba1737fb40c7ceaa9b26a9db
+  FileHash: c55846a1217264325942cc1b11204b44
+  NativePackageItems:
+    []

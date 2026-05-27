@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    19af1d6b-d9f4-4e9e-8b19-826e48ddce85: 25d9aca4-df02-4e05-bb31-b5c7a5fad454/d19dc318f0f998f77c17d89b7771b57e/Data/Asset_34x-8.png
+  Assets:
+    - !<FileTexture/19af1d6b-d9f4-4e9e-8b19-826e48ddce85>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 2048
+        Height: 641
+  SourceHash: d19dc318f0f998f77c17d89b7771b57e
+  FileHash: 8cf10b52793b8819eeab2cd44a330c66
+  NativePackageItems:
+    []

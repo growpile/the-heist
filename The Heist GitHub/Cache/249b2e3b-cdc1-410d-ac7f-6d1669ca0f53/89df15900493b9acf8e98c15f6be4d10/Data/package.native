@@ -1,0 +1,29 @@
+- !<NativePackageDescriptor/88bad9b2-565b-4e7b-9db4-df8b5f387f01>
+  PackagePath: ""
+  StudioVersion:
+    major: 5
+    minor: 15
+    patch: 1
+    build: 25102815
+    type: Unset
+  Description: "Description : This script is used to setup physics on rigged objects that are connected as a chain\nEach joint in the rigged object will get a physics body component and a constraint connecting it to the previous joint.\n\n=== API ===\nsetChain(SceneObjectp[] newJoints, bool isConstrained) - create a new chain, newJoints being the joints, isConstrained determines if the chain is double ended. Can be called only if the chain wasn't set up before and has no other joints referenced.\n\ngetJoints() - returns the list of joints in the chain\n\n\n"
+  SvgIcon: <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 201.5 201.5"><defs><style>.cls-1{fill:#0f0056;}.cls-2{fill:#fff;stroke:#0f0056;stroke-miterlimit:10;stroke-width:9px;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><circle class="cls-1" cx="100.75" cy="100.75" r="100.75"/><path class="cls-2" d="M167.2,118.23,148.89,100a34.5,34.5,0,0,0-48.76,48.8l18.28,18.26a34.51,34.51,0,0,0,48.79-48.83ZM131.56,153.9,114,136.4l-.51-.53A15.9,15.9,0,0,1,136,113.38l.53.51,17.55,17.5a15.91,15.91,0,1,1-22.49,22.51Z"/><path class="cls-2" d="M100,52.82,81.68,34.58A34.5,34.5,0,0,0,32.92,83.39L51.2,101.65A34.51,34.51,0,1,0,100,52.82ZM64.35,88.49,46.8,71l-.51-.54A15.9,15.9,0,0,1,68.76,48l.53.51L86.84,66A15.91,15.91,0,1,1,64.35,88.49Z"/><path class="cls-2" d="M79.69,91.44l-.52-.53c-6-6.16-5.11-11.06-1.59-14.59S86,71.88,92.17,77.91l.52.52,32.14,32.14c6.21,6.2,5.74,11.57,2.15,15.15s-9,4.06-15.15-2.15Z"/><path class="cls-2" d="M144,155.91l-.52-.53c-6-6.15-5.11-11.06-1.59-14.58s8.43-4.45,14.59,1.59l.52.51,16.48,16.48c6.2,6.21,5.74,11.57,2.15,15.16s-8.95,4.05-15.15-2.15Z"/><path class="cls-2" d="M28.65,42.24l-.52-.53c-6-6.15-5.11-11-1.58-14.58S35,22.69,41.13,28.72l.53.52L58.13,45.72c6.21,6.2,5.74,11.57,2.15,15.15s-9,4.05-15.15-2.15Z"/></g></g></svg>
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  ExportUid: c1134c4c-8eed-4083-ba36-62b7fae39836
+  ComponentUid: 0005fa4e-1291-ef79-0000-000000019d82
+  Instantiable: !<reference> ce70fe32-2283-43ab-8246-20d895e376bf
+  AssetLibraryDependencyStructure: !<AssetLibraryDependencyStructure/1f2b9103-1adf-4606-81cb-e0a86a2c7b7d>
+    Name: Chain
+    AssetId: tEeGTJWNqIY84nWc98HQA
+    Hash: 1c998eaff67801fb40ca2a2c30462ab4
+    Version:
+      major: -1
+      minor: -1
+      patch: -1
+      build: 0
+  PackagePolicy: CanBeUnpacked
+  coreVersion: 330
+  clientVersion: 13.6000004
+  UpdateCheckpoint: 76

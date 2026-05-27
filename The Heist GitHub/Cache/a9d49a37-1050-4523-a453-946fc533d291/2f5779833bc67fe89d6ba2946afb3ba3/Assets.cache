@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    903645f5-0eca-41d1-9a2b-b393d071dc57: a9d49a37-1050-4523-a453-946fc533d291/2f5779833bc67fe89d6ba2946afb3ba3/Data/RightEarBud.mesh
+  Assets:
+    - !<FileMesh/903645f5-0eca-41d1-9a2b-b393d071dc57>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 316
+        Vertices: 308
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.090914, y: 0.090914, z: 0.090914}
+  SourceHash: 2f5779833bc67fe89d6ba2946afb3ba3
+  FileHash: 456eb93e41f5fe8f8c8ff602039ff0fc
+  NativePackageItems:
+    []

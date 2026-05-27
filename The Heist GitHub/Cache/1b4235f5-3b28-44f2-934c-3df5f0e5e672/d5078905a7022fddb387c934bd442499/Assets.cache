@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    4e9d0f18-82bb-4210-a697-23a417aa6342: 1b4235f5-3b28-44f2-934c-3df5f0e5e672/d5078905a7022fddb387c934bd442499/Data/Star Icon.png
+  Assets:
+    - !<FileTexture/4e9d0f18-82bb-4210-a697-23a417aa6342>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 415
+        Height: 423
+  SourceHash: d5078905a7022fddb387c934bd442499
+  FileHash: 8539b6ef924b3278178603ea0001277a
+  NativePackageItems:
+    []

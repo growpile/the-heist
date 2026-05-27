@@ -1,0 +1,46 @@
+- !<AssetImportMetadata/3c39eb8b-1f6b-4018-8a1b-78daf07e5d56>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 9831688a-6517-4cdc-8ae4-485b749aae4f
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 9831688a-6517-4cdc-8ae4-485b749aae4f
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> f4f3183b-3cb1-4e43-888f-97deddca1f9d
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/f4f3183b-3cb1-4e43-888f-97deddca1f9d>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: c1b46f67-63ef-42b9-b8a4-12a139e20e53
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    supabaseProject: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - supabaseProject: !<reference.SupabaseProject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Snap Cloud</span>"}'
+    - '// @input Asset.SupabaseProject supabaseProject {"hint":"SupabaseProject from Window → Supabase → Import Credentials."}'

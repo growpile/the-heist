@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    111fc174-d77a-4a95-aabe-4d61dd05df75: ef4e4979-4eed-4c3f-bb06-863e4b00c171/e656c03af173cb5126b988186d2d7b49/Data/MASTERuv.mesh
+  Assets:
+    - !<FileMesh/111fc174-d77a-4a95-aabe-4d61dd05df75>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 1316
+        Vertices: 1386
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 15.173657, y: 11.014757, z: 5.800496}
+  SourceHash: e656c03af173cb5126b988186d2d7b49
+  FileHash: cd2c4f778802e00cb3599db788f1d3a2
+  NativePackageItems:
+    []

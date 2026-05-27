@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    16ee20d2-b989-4bfc-9d90-d40c1afa6ec0: 92ba8243-3b1f-4109-80c0-ef58316f24bd/3b0659af5bea9a7e5808e6f32d3bb00a/Data/DynamiteWraps.002.mesh
+  Assets:
+    - !<FileMesh/16ee20d2-b989-4bfc-9d90-d40c1afa6ec0>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 768
+        Vertices: 652
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 10.496968, y: 9.221922, z: 6.060768}
+  SourceHash: 3b0659af5bea9a7e5808e6f32d3bb00a
+  FileHash: 4ae1b94976c87bb5948a04728749fef9
+  NativePackageItems:
+    []

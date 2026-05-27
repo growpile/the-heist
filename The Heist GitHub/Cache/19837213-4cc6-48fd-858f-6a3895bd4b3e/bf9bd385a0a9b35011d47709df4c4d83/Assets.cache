@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    79fdd3c4-0cce-4f17-bb91-27cade26f946: 19837213-4cc6-48fd-858f-6a3895bd4b3e/bf9bd385a0a9b35011d47709df4c4d83/Data/Slots Texture v2.jpg
+  Assets:
+    - !<FileTexture/79fdd3c4-0cce-4f17-bb91-27cade26f946>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: bf9bd385a0a9b35011d47709df4c4d83
+  FileHash: f1ea226a8fbd4e4467bfc2e0f18ee79e
+  NativePackageItems:
+    []

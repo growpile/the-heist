@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    b2294af0-7c81-4e96-a09e-96a2dde47bc7: 097ce040-3bad-42fc-aeb4-26567f1747fc/3588b3c9a901cd7498e85e83bfe83162/Data/Crowbar.mesh
+  Assets:
+    - !<FileMesh/b2294af0-7c81-4e96-a09e-96a2dde47bc7>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 480
+        Vertices: 426
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 4.188576, y: 3.188270, z: 0.140877}
+  SourceHash: 3588b3c9a901cd7498e85e83bfe83162
+  FileHash: 98a7252b7d7d95658eb78d839c9680c2
+  NativePackageItems:
+    []

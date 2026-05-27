@@ -1,0 +1,156 @@
+- !<AssetImportMetadata/28ee33dc-afd4-597f-6d19-18765b554421>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 266dba12-8482-44d5-b2f8-e63bc2f74e91
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 266dba12-8482-44d5-b2f8-e63bc2f74e91
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> bc971ea6-cef3-4377-a8e4-6cbb83722337
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/bc971ea6-cef3-4377-a8e4-6cbb83722337>
+  SvgIcon: |
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M10.9558 5.94128H8.95581V4.94128C8.95581 4.389 9.40353 3.94128 9.95581 3.94128C10.5081 3.94128 10.9558 4.389 10.9558 4.94128V5.94128ZM14.9558 4.94128C14.9558 4.389 14.5081 3.94128 13.9558 3.94128C13.4035 3.94128 12.9558 4.389 12.9558 4.94128V5.94128H14.9558V4.94128ZM8.95581 12.9413C8.95581 13.4936 9.40353 13.9413 9.95581 13.9413C10.5081 13.9413 10.9558 13.4936 10.9558 12.9413V11.9413H8.95581V12.9413ZM17.9558 9.94128C18.5081 9.94128 18.9558 9.49357 18.9558 8.94128C18.9558 8.389 18.5081 7.94128 17.9558 7.94128H16.9558V9.94128H17.9558ZM17.9558 13.9413C18.5081 13.9413 18.9558 13.4936 18.9558 12.9413C18.9558 12.389 18.5081 11.9413 17.9558 11.9413H16.9558V12.9413C16.9558 13.4936 17.4035 13.9413 17.9558 13.9413ZM12.9558 12.9413C12.9558 13.4936 13.4035 13.9413 13.9558 13.9413C14.5081 13.9413 14.9558 13.4936 14.9558 12.9413V11.9413H12.9558V12.9413ZM18.9558 4.94128C18.9558 4.389 18.5081 3.94128 17.9558 3.94128C17.4035 3.94128 16.9558 4.389 16.9558 4.94128V5.94128H17.9558C18.5081 5.94128 18.9558 5.49357 18.9558 4.94128ZM12.9558 7.94128V5.94128H10.9558V7.94128H12.9558ZM7.95581 9.94128C7.40353 9.94128 6.95581 9.49357 6.95581 8.94128C6.95581 8.389 7.40353 7.94128 7.95581 7.94128H8.95581V5.94128H7.95581C7.40353 5.94128 6.95581 5.49357 6.95581 4.94128C6.95581 4.39128 6.50581 3.94128 5.95581 3.94128C5.40581 3.94128 4.95581 4.39128 4.95581 4.94128V18.9413C4.95581 19.4913 5.40581 19.9413 5.95581 19.9413C6.50581 19.9413 6.95581 19.4913 6.95581 18.9413V13.9413C6.95581 12.8367 7.85124 11.9413 8.95581 11.9413V9.94128H7.95581ZM14.9558 11.9413H16.9558V9.94128H14.9558V11.9413ZM10.9558 9.94128V11.9413H12.9558V9.94128H10.9558ZM8.95581 7.94128V9.94128H10.9558V7.94128H8.95581ZM12.9558 9.94128H14.9558V7.94128H12.9558V9.94128ZM14.9558 5.94128V7.94128H16.9558V5.94128H14.9558Z" fill="white" fill-opacity="0.29"/>
+    <path d="M7.44579 13.5018L8.44825 8.26481C7.33055 8.82641 6.60288 9.07489 6.26526 9.01027C6.10413 8.97942 5.97237 8.88858 5.87 8.73774C5.7722 8.58379 5.73946 8.42241 5.77177 8.2536C5.80922 8.05794 5.89815 7.92582 6.03855 7.85724C6.17894 7.78866 6.41848 7.71122 6.75715 7.62492C7.26324 7.49509 7.67753 7.33577 8.00003 7.14694C8.32637 6.95884 8.62561 6.73573 8.89774 6.47761C9.16987 6.21948 9.34516 6.06213 9.4236 6.00555C9.50204 5.94898 9.63142 5.93795 9.81174 5.97247C10.0151 6.01139 10.1631 6.12125 10.2557 6.30205C10.3484 6.48286 10.3683 6.71137 10.3154 6.98761L9.05408 13.577C8.90647 14.3481 8.56985 14.6834 8.04424 14.5828C7.81021 14.538 7.63727 14.4233 7.52543 14.2389C7.41358 14.0544 7.38704 13.8087 7.44579 13.5018Z" fill="white"/>
+    <path d="M10.4806 17.9976L13.4846 18.5726C13.7839 18.6299 14.0004 18.735 14.1342 18.8879C14.268 19.0408 14.3147 19.2227 14.2743 19.4337C14.2383 19.6217 14.1446 19.7688 13.993 19.875C13.8452 19.982 13.6448 20.0112 13.3915 19.9627L9.15594 19.1519C8.8682 19.0969 8.65881 18.9753 8.52779 18.7871C8.3975 18.5951 8.35291 18.3917 8.39404 18.1769C8.42048 18.0387 8.50716 17.8664 8.65407 17.6599C8.80173 17.4495 8.94942 17.2909 9.09716 17.1839C9.70878 16.7521 10.2558 16.3876 10.7383 16.0902C11.2215 15.7889 11.5628 15.5957 11.762 15.5106C12.1192 15.3483 12.4227 15.1757 12.6725 14.9928C12.9268 14.8068 13.1301 14.6071 13.2823 14.3937C13.4391 14.1771 13.5392 13.9556 13.5825 13.7293C13.6295 13.4837 13.6119 13.2537 13.5297 13.0391C13.452 12.8214 13.3218 12.6393 13.1391 12.493C12.9601 12.3474 12.7517 12.2518 12.5138 12.2063C12.0113 12.1101 11.5739 12.255 11.2017 12.6412C11.1523 12.6914 11.0569 12.8362 10.9157 13.0756C10.7782 13.3158 10.6387 13.4939 10.4972 13.61C10.3595 13.7268 10.1813 13.7643 9.9626 13.7224C9.77078 13.6857 9.62367 13.5919 9.5213 13.4411C9.41893 13.2902 9.38867 13.1055 9.43053 12.8868C9.48121 12.622 9.59355 12.3572 9.76757 12.0922C9.94158 11.8272 10.168 11.6001 10.4468 11.4109C10.7295 11.2224 11.0647 11.0917 11.4526 11.0188C11.8449 10.9427 12.2848 10.9514 12.772 11.0446C13.359 11.157 13.842 11.3449 14.2212 11.6084C14.4662 11.7826 14.6698 11.9965 14.8321 12.2503C14.9943 12.5041 15.1038 12.7836 15.1608 13.0888C15.2222 13.3909 15.224 13.6935 15.166 13.9966C15.0749 14.4723 14.873 14.8831 14.5602 15.2289C14.252 15.5716 13.9538 15.8307 13.6657 16.0062C13.3783 16.1779 12.8997 16.4442 12.2301 16.8052C11.5643 17.167 11.099 17.4577 10.8342 17.6775C10.7223 17.7635 10.6044 17.8702 10.4806 17.9976Z" fill="white"/>
+    </svg>
+
+  SetupScript:
+    code: ""
+  Description: |-
+    The Score UI Component provides scoring functionality and automatically displays the score in the specified way - either as a head bound 3D object or as a 2D element. It also allows for smooth animations and customization of the score visuals.
+    
+    API:
+    global.score
+    - Global property to access the current score value.
+    
+    script.increaseScore(amount)
+    - Increases the score by a set amount. Argument is optional, if left empty increment is 1.
+    
+    script.decreaseScore(amount)
+    - Argument is optional, if left empty decrement is 1.
+    
+    script.clearScore()
+    - Clears the score, and resets it back to the initial score value.
+  VersionMajor: 11
+  VersionMinor: 0
+  VersionPatch: 6
+  ComponentUid: f5abf987-b028-4441-882d-f7e0749cf8b0
+  ExportUid: a6d104e7-2249-4000-b0e0-8feabfb709f6
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    advancedSettings: false
+    allowPersonalBest: false
+    autoStart: false
+    customEndText: false
+    customParticleTexture: false
+    customScoreBackplate: false
+    customScoreSize: false
+    customScoreSize3d: false
+    decimals: false
+    endAnimation: false
+    finalNewBestText: false
+    finalScoreText: false
+    fontPresetFontFiles: true
+    gameEndView: false
+    headAttachmentPoint: false
+    headScoreView: false
+    initialScoreFloat: false
+    initialScoreInt: false
+    letterSpacing: false
+    newBestVFX: false
+    orthographicCamera: false
+    outlineColor: false
+    outlineSize: false
+    particleTextureType: false
+    persistentScore: false
+    personalBestText: false
+    personalBestVFX: true
+    restartText: false
+    scoreAnimation: false
+    scoreBackplate: false
+    scoreColor: false
+    scoreCustomFont: false
+    scoreDisplay: false
+    scoreFontPreset: false
+    scoreFontType: false
+    scoreOutline: false
+    scoreSize: false
+    scoreType: false
+    scoreView: false
+    starParticleTexture: true
+    updatePersonalBest: false
+    useSpecificCameras: false
+    vfxCamera: false
+    vfxDuration: false
+    worldCamera: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    - AI
+    - Games
+    - Scoring
+  Attachments:
+    - !<reference> 532a5646-8022-4abb-b081-397a9cf70d34
+  DefaultScriptInputs:
+    - scoreType: 0
+      initialScoreInt: 0
+      initialScoreFloat: !<float> 0.000000
+      decimals: 2
+      persistentScore: true
+      allowPersonalBest: true
+      updatePersonalBest: 0
+      scoreDisplay: 0
+      headAttachmentPoint: 0
+      scoreAnimation: true
+      newBestVFX: true
+      vfxDuration: !<float> 0.000000
+      particleTextureType: 0
+      customParticleTexture: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      scoreBackplate: false
+      customScoreBackplate: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      scoreFontType: 0
+      scoreFontPreset: 0
+      scoreCustomFont: !<reference.Font> 00000000-0000-0000-0000-000000000000
+      scoreColor: !<Vec4> {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      letterSpacing: !<float> 0.000000
+      scoreOutline: false
+      outlineColor: !<Vec4> {x: 1.000000, y: 1.000000, z: 1.000000, w: 0.000000}
+      outlineSize: 0.250000
+      scoreSize: 0
+      customScoreSize: !<float> 0.000000
+      customScoreSize3d: !<float> 10.000000
+      scoreView: !<reference.ObjectPrefab> 2b232de3-0b91-4937-8a35-40db3c08a0d5
+      headScoreView: !<reference.ObjectPrefab> f32ccb39-5eda-4e11-ac15-d253b1c1eadf
+      gameEndView: !<reference.ObjectPrefab> cd6dcaa6-f77b-4cff-aea0-912cd76e889f
+      endAnimation: 0
+      customEndText: false
+      finalScoreText: FINAL SCORE
+      finalNewBestText: NEW BEST
+      personalBestText: "Personal Best:"
+      restartText: TAP TO RESTART
+      advancedSettings: false
+      useSpecificCameras: false
+      orthographicCamera: !<reference.Camera> 00000000-0000-0000-0000-000000000000
+      worldCamera: !<reference.Camera> 00000000-0000-0000-0000-000000000000
+      vfxCamera: !<reference.Camera> 00000000-0000-0000-0000-000000000000
+      fontPresetFontFiles: !<reference.Font[]>
+        - !<reference> a777f249-d974-4985-bca7-69699de1904b
+        - !<reference> cd849997-1e49-44b6-8e53-d57c7dd7740c
+        - !<reference> f0cd51e6-4528-4766-9b96-0c34ed2a261b
+        - !<reference> cb24bf96-a183-48d6-858c-5a44c502a89a
+      personalBestVFX: !<reference.ObjectPrefab> 2295d413-d001-4c1e-bd4f-e95836642445
+      starParticleTexture: !<reference.Texture> 0822da4a-a6bd-41e9-8405-771180cfeca8
+      autoStart: true
+  ScriptTypes:
+    -
+      {}

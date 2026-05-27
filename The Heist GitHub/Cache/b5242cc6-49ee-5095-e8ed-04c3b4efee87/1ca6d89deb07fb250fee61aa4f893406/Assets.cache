@@ -1,0 +1,318 @@
+- !<AssetCache>
+  AssetFiles:
+    d60dbf7f-e2f8-4848-a90f-9197ad201997: b5242cc6-49ee-5095-e8ed-04c3b4efee87/1ca6d89deb07fb250fee61aa4f893406/Data/Spectacles Hand Shader.ss_graph
+  Assets:
+    - !<ShaderGraphPass/d60dbf7f-e2f8-4848-a90f-9197ad201997>
+      PackagePath: ""
+      DefaultDefines:
+        - NODE_31_DROPLIST_ITEM 0
+      DefaultProperties:
+        Port_AO_N001:
+          typeIdx: 4
+          value: {x: 1.000000, y: 1.000000, z: 1.000000}
+        Port_Albedo_N001:
+          typeIdx: 4
+          value: {x: 1.000000, y: 1.000000, z: 1.000000}
+        Port_Depth_N004:
+          typeIdx: 1
+          value: 1.000000
+        Port_Emissive_N001:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Exponent_N026:
+          typeIdx: 1
+          value: 1.000000
+        Port_FinalColor1_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor2_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor3_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_GSplatPointSize_N004:
+          typeIdx: 1
+          value: 0.000000
+        Port_GSplatRotation_N004:
+          typeIdx: 5
+          value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+        Port_GSplatScale_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Input1_N018:
+          typeIdx: 5
+          value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+        Port_Input2_N018:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_Intensity_N026:
+          typeIdx: 1
+          value: 0.150000
+        Port_LODValue_N003:
+          typeIdx: 1
+          value: 0.000000
+        Port_LODValue_N035:
+          typeIdx: 1
+          value: 0.000000
+        Port_LODValue_N040:
+          typeIdx: 1
+          value: 0.000000
+        Port_Mask_N027:
+          typeIdx: 1
+          value: 1.000000
+        Port_Normal_N026:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+        Port_Opacity_N001:
+          typeIdx: 1
+          value: 1.000000
+        Port_PrevWorldPosition_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_RayDirection_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_RayOrigin_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Value3_N023:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value3_N024:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value3_N028:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value3_N029:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value4_N023:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value4_N024:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value4_N028:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value4_N029:
+          typeIdx: 1
+          value: 0.000000
+        Port_WorldNormal_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_WorldPosition_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_WorldTangent_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+      PassUiData: !<PassUiData>
+        ExtraDefines:
+          - SC_ENABLE_RT_CASTER
+          - SC_ENABLE_RT_RECEIVER
+        PassBindings:
+          - mLabel: Graph Parameters
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Normal
+            mType: Property
+            mName: normalTex
+            mWidget: texture_group
+            mHint: "Property: normalTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Custom Float
+            mType: Property
+            mName: Tweak_N7
+            mWidget: slider
+            mHint: "Property: Tweak_N7"
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Base Texture
+            mType: Property
+            mName: baseTex
+            mWidget: texture_group
+            mHint: "Property: baseTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Tint Color
+            mType: Property
+            mName: tintColor
+            mWidget: color
+            mHint: "Property: tintColor"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Fade Direction
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Select X for correct gradient visuals on Simulator. Change to Y when pushing to Spectacles.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: X ( Editor )
+                mType: DefineSelectValue
+                mName: NODE_31_DROPLIST_ITEM 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Y ( Spectacles )
+                mType: DefineSelectValue
+                mName: NODE_31_DROPLIST_ITEM 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Z
+                mType: DefineSelectValue
+                mName: NODE_31_DROPLIST_ITEM 2
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: Invert ( Spectacles )
+            mType: Define
+            mName: isLeftHand
+            mWidget: checkbox
+            mHint: |-
+              Define: isLeftHand
+              
+              Uncheck for correct Right Hand visuals on Simulator.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Gradient Values
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Height Min
+            mType: Property
+            mName: heightMin
+            mWidget: slider
+            mHint: "Property: heightMin"
+            mMin: -0.002000
+            mMax: 0.008000
+            mStep: 0.001000
+            mDefaultVal: 0.001000
+            mValues:
+              []
+          - mLabel: Height Max
+            mType: Property
+            mName: heightMax
+            mWidget: slider
+            mHint: "Property: heightMax"
+            mMin: 0.001000
+            mMax: 0.009000
+            mStep: 0.001000
+            mDefaultVal: 0.002000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Material Params
+            mType: Property
+            mName: materialParamsTex
+            mWidget: texture_group
+            mHint: "Property: materialParamsTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Alpha Test Threshold
+            mType: Property
+            mName: alphaTestThreshold
+            mWidget: slider
+            mHint: |-
+              Property: alphaTestThreshold
+              
+              When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 0.500000
+            mValues:
+              []
+        ShaderType: Mesh3d
+      ShaderPath: b5242cc6-49ee-5095-e8ed-04c3b4efee87/1ca6d89deb07fb250fee61aa4f893406/Data/b01d0f7/Spectacles Hand Shader.glsl
+      Defines:
+        []
+      Properties:
+        {}
+  SourceHash: 1ca6d89deb07fb250fee61aa4f893406
+  FileHash: ef2f700629e39ccf6678b992b9b6d6e7
+  NativePackageItems:
+    []

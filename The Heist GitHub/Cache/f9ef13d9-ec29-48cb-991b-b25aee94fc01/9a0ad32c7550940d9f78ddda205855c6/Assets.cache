@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    def97e86-10b8-4810-acd2-a139329d5649: f9ef13d9-ec29-48cb-991b-b25aee94fc01/9a0ad32c7550940d9f78ddda205855c6/Data/sack_normal.jpeg
+  Assets:
+    - !<FileTexture/def97e86-10b8-4810-acd2-a139329d5649>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 2048
+        Height: 2048
+  SourceHash: 9a0ad32c7550940d9f78ddda205855c6
+  FileHash: 37db9141e718cac4be202b61cc7441b3
+  NativePackageItems:
+    []

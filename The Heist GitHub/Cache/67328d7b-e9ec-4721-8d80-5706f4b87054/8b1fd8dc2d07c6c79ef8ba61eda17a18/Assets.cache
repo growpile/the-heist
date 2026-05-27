@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    c180a0dc-6193-443c-9378-886918324aac: 67328d7b-e9ec-4721-8d80-5706f4b87054/8b1fd8dc2d07c6c79ef8ba61eda17a18/Data/WireToRight.mesh
+  Assets:
+    - !<FileMesh/c180a0dc-6193-443c-9378-886918324aac>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 1920
+        Vertices: 1037
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 13.430466, y: 3.066670, z: 8.604775}
+  SourceHash: 8b1fd8dc2d07c6c79ef8ba61eda17a18
+  FileHash: 46702925441d1a0b903b3dcb28cd8152
+  NativePackageItems:
+    []

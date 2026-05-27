@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <title>Heist Client</title>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=Chakra+Petch:wght@400;600&display=swap");
+    :root {
+      --bg-intro: linear-gradient(135deg, #0b1f3a 0%, #0f4a9c 55%, #2aa1ff 100%);
+      --bg-heist: linear-gradient(135deg, #1b153d 0%, #2b115b 50%, #0f6fbf 100%);
+      --pattern-url: url("res/x_pattern.png");
+      --panel: rgba(7, 13, 30, 0.7);
+      --panel-border: rgba(148, 163, 184, 0.25);
+      --accent: #38f8d0;
+      --accent-2: #ffce38;
+      --text: #e2e8f0;
+      --muted: rgba(226, 232, 240, 0.7);
+      --danger: #f97316;
+      --shadow: 0 16px 50px rgba(0, 0, 0, 0.45);
+    }
+
+    * { box-sizing: border-box; }
+    html, body { height: 100%; }
+    body {
+      margin: 0;
+      font-family: "Space Grotesk", system-ui, sans-serif;
+      color: var(--text);
+      background: var(--bg-intro);
+      overflow: hidden;
+    }
+    body.heist { background: var(--bg-heist); }
+    .pattern {
+      position: fixed;
+      inset: -20% -10%;
+      background-image: var(--pattern-url);
+      background-size: 60px 60px;
+      animation: pattern-left 36s linear infinite;
+      opacity: 0.5;
+      pointer-events: none;
+      z-index: 0;
+    }
+    .pattern::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background-image: var(--pattern-url);
+      background-size: 60px 60px;
+      background-position: 0 30px;
+      animation: pattern-right 32s linear infinite;
+      opacity: 0.5;
+    }
+    @keyframes pattern-left {
+      from { background-position: 0 0; }
+      to { background-position: -360px 0; }
+    }
+    @keyframes pattern-right {
+      from { background-position: 0 30px; }
+      to { background-position: 360px 30px; }
+    }
+
+    .screen {
+      position: absolute;
+      inset: 0;
+      z-index: 1;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: clamp(16px, 4vw, 28px);
+      gap: clamp(16px, 3vw, 24px);
+      transition: opacity 240ms ease, transform 240ms ease;
+    }
+    .hidden {
+      opacity: 0;
+      transform: scale(0.96);
+      pointer-events: none;
+    }
+    .screen.pop-in {
+      opacity: 1;
+      transform: scale(1);
+    }
+    .loading-card {
+      margin-top: auto;
+      margin-bottom: auto;
+      padding: 18px 20px;
+      border-radius: 16px;
+      background: rgba(255, 255, 255, 0.92);
+      color: #0b1224;
+      box-shadow: 0 16px 40px rgba(0, 0, 0, 0.35);
+      text-align: center;
+      min-width: min(84vw, 320px);
+    }
+    .loading-title {
+      font-family: "Chakra Petch", sans-serif;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      font-size: 14px;
+      margin-bottom: 6px;
+    }
+    .loading-sub {
+      font-size: 13px;
+      color: rgba(15, 23, 42, 0.7);
+    }
+
+    .logo-area {
+      flex: 1;
+      width: 100%;
+      max-width: 420px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .logo-card {
+      width: min(80vw, 340px);
+      aspect-ratio: 1 / 1;
+      display: grid;
+      place-items: center;
+      position: relative;
+    }
+    .logo-card img {
+      width: 100%;
+      max-width: min(88vw, 420px);
+      height: auto;
+      object-fit: contain;
+      filter: drop-shadow(0 10px 30px rgba(56, 248, 208, 0.2));
+    }
+
+    .entry-card, .heist-card {
+      width: 100%;
+      max-width: 520px;
+      padding: clamp(16px, 3vw, 22px);
+    }
+    h1 {
+      font-family: "Chakra Petch", sans-serif;
+      margin: 0 0 8px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      font-size: clamp(20px, 4vw, 26px);
+      color: var(--accent);
+    }
+    .tagline {
+      font-family: "Chakra Petch", sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      font-size: 12px;
+      color: var(--accent-2);
+      margin-bottom: 8px;
+    }
+    input {
+      width: 100%;
+      margin-top: 12px;
+      padding: 16px 18px;
+      border-radius: 16px;
+      border: 1px solid rgba(148, 163, 184, 0.2);
+      background: rgba(2, 6, 23, 0.7);
+      color: var(--text);
+      font-size: 16px;
+    }
+    input:focus {
+      outline: 2px solid rgba(56, 248, 208, 0.5);
+      border-color: rgba(56, 248, 208, 0.6);
+    }
+    button {
+      width: 100%;
+      margin-top: 16px;
+      padding: 16px 18px;
+      border: none;
+      border-radius: 16px;
+      font-family: "Chakra Petch", sans-serif;
+      font-size: 16px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      background: linear-gradient(135deg, #38f8d0 0%, #38bdf8 100%);
+      color: #0b1224;
+      font-weight: 700;
+      cursor: pointer;
+      box-shadow: 0 10px 25px rgba(56, 248, 208, 0.35);
+    }
+    button.secondary {
+      background: rgba(148, 163, 184, 0.2);
+      color: var(--text);
+      box-shadow: none;
+      margin-top: 10px;
+    }
+    .footer {
+      margin-top: auto;
+      padding-bottom: 10px;
+      font-size: 12px;
+      color: rgba(226, 232, 240, 0.65);
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+    }
+
+    .heist-top {
+      width: 100%;
+      max-width: 720px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      align-items: center;
+    }
+    .canvas-frame {
+      width: 100%;
+      border-radius: 20px;
+      background: rgba(7, 13, 30, 0.6);
+      border: 1px solid rgba(148, 163, 184, 0.25);
+      padding: 12px;
+      position: relative;
+    }
+    .ornament {
+      width: min(82vw, 380px);
+      height: 64px;
+      margin-bottom: -12px;
+      background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='380' height='64' viewBox='0 0 380 64'%3E%3Cpath d='M0 40c40-30 120-30 160 0s120 30 220-10' stroke='%23ffffff' stroke-opacity='0.2' stroke-width='2' fill='none'/%3E%3Cpath d='M20 20c40-20 120-20 160 0s120 20 200-8' stroke='%2338f8d0' stroke-opacity='0.4' stroke-width='2' fill='none'/%3E%3C/svg%3E") no-repeat center/contain;
+    }
+    .timer-text {
+      position: absolute;
+      top: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-family: "Chakra Petch", sans-serif;
+      font-size: 14px;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--accent-2);
+    }
+    canvas {
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      border-radius: 14px;
+      background: #000;
+      display: block;
+      border: 1px solid rgba(148, 163, 184, 0.25);
+    }
+    .status {
+      margin-top: 8px;
+      font-size: 12px;
+      color: var(--muted);
+      text-align: center;
+    }
+
+    .manual-card {
+      width: min(90vw, 420px);
+      aspect-ratio: 9 / 16;
+      border-radius: 18px;
+      border: 1px solid rgba(148, 163, 184, 0.25);
+      overflow: hidden;
+      position: relative;
+      background: rgba(7, 13, 30, 0.6);
+      box-shadow: var(--shadow);
+    }
+    .manual-card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+    .manual-controls {
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+    }
+    .nav-btn {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      border: none;
+      background: rgba(15, 23, 42, 0.85);
+      color: #e2e8f0;
+      font-size: 18px;
+      font-weight: 700;
+      display: grid;
+      place-items: center;
+      cursor: pointer;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.35);
+      pointer-events: auto;
+    }
+    .nav-btn.prev { left: 10px; }
+    .nav-btn.next { right: 10px; }
+    .zoom-btn {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      border: none;
+      background: rgba(56, 248, 208, 0.9);
+      color: #0b1224;
+      font-size: 24px;
+      font-weight: 700;
+      display: grid;
+      place-items: center;
+      cursor: pointer;
+      box-shadow: 0 10px 25px rgba(56, 248, 208, 0.4);
+    }
+
+    .overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(5, 10, 20, 0.92);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      z-index: 10;
+      opacity: 0;
+      transition: opacity 220ms ease;
+    }
+    .overlay.active { display: flex; }
+    .overlay.visible { opacity: 1; }
+    .zoom-panel {
+      width: min(95vw, 820px);
+      height: min(90vh, 1200px);
+      background: #050a14;
+      border-radius: 20px;
+      border: 1px solid rgba(56, 248, 208, 0.25);
+      overflow: hidden;
+      position: relative;
+      touch-action: none;
+      transform: scale(0.92);
+      opacity: 0;
+      transition: transform 260ms ease, opacity 260ms ease;
+    }
+    .overlay.visible .zoom-panel {
+      transform: scale(1);
+      opacity: 1;
+    }
+    .zoom-panel img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      transform-origin: center;
+      transform: translate3d(0, 0, 0) scale(1);
+      cursor: grab;
+      user-select: none;
+      pointer-events: auto;
+      z-index: 1;
+      position: relative;
+    }
+    .zoom-controls {
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      z-index: 2;
+    }
+    .close-btn {
+      position: absolute;
+      top: 14px;
+      right: 14px;
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      border: none;
+      background: rgba(248, 113, 113, 0.9);
+      color: #0b1224;
+      border: none;
+      padding: 0;
+      font-weight: 700;
+      cursor: pointer;
+      display: grid;
+      place-items: center;
+      font-size: 18px;
+      box-shadow: 0 10px 20px rgba(248, 113, 113, 0.35);
+      z-index: 2;
+    }
+
+    @media (min-width: 900px) {
+      .screen { padding: 36px; }
+      .logo-area { max-width: 520px; }
+      .entry-card { max-width: 480px; }
+      .heist-top { flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+  <div class="pattern"></div>
+
+  <section id="introView" class="screen pop-in">
+    <div class="logo-area">
+      <div class="logo-card">
+        <img id="logoImage" src="res/Safe Crackers Test Logo.png" alt="Heist Logo" />
+      </div>
+    </div>
+    <div class="entry-card">
+      <div class="tagline">A Social Puzzle Game</div>
+      <h1>Join a Heist</h1>
+      <input id="displayName" placeholder="Nickname" />
+      <input id="roomCodeJoin" placeholder="Room Code" />
+      <button id="joinConnectBtn">Join & Connect</button>
+    </div>
+    <div class="footer">made by GrowPile 2026</div>
+  </section>
+
+  <section id="heistView" class="screen hidden">
+    <div class="heist-top">
+      <div class="ornament"></div>
+      <div class="canvas-frame">
+        <div class="timer-text" id="timerText">00:00</div>
+        <canvas id="canvas" width="640" height="360"></canvas>
+      </div>
+      <div class="status" id="status">Disconnected</div>
+    </div>
+    <div class="manual-card">
+      <button class="zoom-btn" id="zoomBtn">+</button>
+      <img id="manualImage" src="https://dummyimage.com/720x1280/0f172a/e2e8f0&text=Manual" alt="Bomb Manual" />
+      <div class="manual-controls">
+        <button class="nav-btn prev" id="manualPrev">&#x276E;</button>
+        <button class="nav-btn next" id="manualNext">&#x276F;</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="loadingView" class="screen hidden">
+    <div class="loading-card">
+      <div class="loading-title">Connecting to server...</div>
+      <div class="loading-sub">Waiting for realtime channel.</div>
+    </div>
+  </section>
+
+  <div class="overlay" id="overlay">
+    <div class="zoom-panel" id="zoomPanel">
+      <button class="close-btn" id="closeZoom">X</button>
+      <img id="zoomImage" src="https://dummyimage.com/720x1280/0f172a/e2e8f0&text=Manual" alt="Manual Zoom" />
+      <div class="zoom-controls">
+        <button class="nav-btn prev" id="zoomPrev">&#x276E;</button>
+        <button class="nav-btn next" id="zoomNext">&#x276F;</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script>
+    const statusEl = document.getElementById("status");
+    const canvas = document.getElementById("canvas");
+    let gl = null;
+    let glProgram = null;
+    let glTexture = null;
+    let glPositionBuffer = null;
+    let glLocations = null;
+    let glReady = false;
+    let glFailed = false;
+    let ctx2d = null;
+
+    const FX = {
+      distortion: 0.22,
+      vignetteInner: 0.2,
+      vignetteOuter: 0.95,
+      vignetteIntensity: 0.45,
+      scanlineIntensity: 0.18,
+      scanlineDensity: 900.0,
+      zoom: 1.5
+    };
+    const introView = document.getElementById("introView");
+    const heistView = document.getElementById("heistView");
+    const loadingView = document.getElementById("loadingView");
+    const timerText = document.getElementById("timerText");
+    const overlay = document.getElementById("overlay");
+    const zoomPanel = document.getElementById("zoomPanel");
+    const zoomImage = document.getElementById("zoomImage");
+    const manualImage = document.getElementById("manualImage");
+    const manualImages = [
+      "https://dummyimage.com/720x1280/0f172a/e2e8f0&text=Manual+01",
+      "https://dummyimage.com/720x1280/111827/e2e8f0&text=Manual+02",
+      "https://dummyimage.com/720x1280/0b1f3a/e2e8f0&text=Manual+03"
+    ];
+    let manualIndex = 0;
+
+    let client = null;
+    let channel = null;
+    let subscribed = false;
+
+    const HARDCODED_URL = "https://noczxyzkiqvzdolyjciv.snapcloud.dev";
+    const HARDCODED_KEY = "sb_publishable_uSdS9KBQxlnouVQSMKfcyw_2FzF8F-f";
+    const EVENT_NAME = "defuserTexture";
+
+    function formatTimer(seconds) {
+      const secs = Math.max(0, Math.ceil(seconds || 0));
+      const mins = Math.floor(secs / 60);
+      const rem = secs % 60;
+      const mm = mins < 10 ? "0" + mins : "" + mins;
+      const ss = rem < 10 ? "0" + rem : "" + rem;
+      return mm + ":" + ss;
+    }
+
+    function setStatus(text) {
+      statusEl.textContent = text;
+    }
+
+    function showHeistView() {
+      document.body.classList.add("heist");
+      introView.classList.add("hidden");
+      loadingView.classList.add("hidden");
+      heistView.classList.remove("hidden");
+      requestAnimationFrame(() => {
+        heistView.classList.add("pop-in");
+        introView.classList.remove("pop-in");
+        loadingView.classList.remove("pop-in");
+      });
+    }
+
+    function showIntroView() {
+      document.body.classList.remove("heist");
+      heistView.classList.add("hidden");
+      loadingView.classList.add("hidden");
+      introView.classList.remove("hidden");
+      requestAnimationFrame(() => {
+        introView.classList.add("pop-in");
+        heistView.classList.remove("pop-in");
+        loadingView.classList.remove("pop-in");
+      });
+    }
+
+    function showLoadingView() {
+      introView.classList.add("hidden");
+      heistView.classList.add("hidden");
+      loadingView.classList.remove("hidden");
+      requestAnimationFrame(() => {
+        loadingView.classList.add("pop-in");
+        introView.classList.remove("pop-in");
+        heistView.classList.remove("pop-in");
+      });
+    }
+
+    function ensureClient() {
+      if (client) return client;
+      client = supabase.createClient(HARDCODED_URL, HARDCODED_KEY, {
+        realtime: { params: { eventsPerSecond: 10 } }
+      });
+      return client;
+    }
+
+    function connect() {
+      disconnect(true);
+      const channelName = document.getElementById("roomCodeJoin").value.trim().toUpperCase();
+      if (!channelName) {
+        return Promise.reject(new Error("missing-room"));
+      }
+
+      ensureClient();
+
+      channel = client.channel(channelName, { config: { broadcast: { self: true } } });
+
+      channel.on("broadcast", { event: EVENT_NAME }, (payload) => {
+        const data = payload.payload || {};
+        const base64 = data.message;
+        if (!base64) {
+          return;
+        }
+        if (timerText) {
+          if (data.timerSeconds !== undefined && data.timerSeconds !== null) {
+            timerText.textContent = formatTimer(parseFloat(data.timerSeconds));
+          } else if (data.timer) {
+            timerText.textContent = data.timer;
+          }
+        }
+        drawBase64ToCanvas(base64);
+      });
+
+      return new Promise((resolve, reject) => {
+        channel.subscribe((status) => {
+          setStatus(status);
+          if (status === "SUBSCRIBED") {
+            subscribed = true;
+            resolve(true);
+          } else if (status === "CLOSED" || status === "CHANNEL_ERROR") {
+            subscribed = false;
+            reject(new Error(status));
+          }
+        });
+      });
+    }
+
+    function disconnect(silent) {
+      if (channel) { channel.unsubscribe(); }
+      channel = null;
+      client = null;
+      subscribed = false;
+      setStatus("Disconnected");
+      if (!silent) {
+        showIntroView();
+      }
+    }
+
+    async function joinRoom() {
+      const roomCode = document.getElementById("roomCodeJoin").value.trim().toUpperCase();
+      const name = document.getElementById("displayName").value.trim() || "Guest";
+
+      if (!roomCode) {
+        return;
+      }
+
+      ensureClient();
+
+      try {
+        const { error } = await client
+          .rpc("add_spectator", { p_room_code: roomCode, p_name: name });
+
+        if (error) {
+          return;
+        }
+      } catch (err) {
+        return;
+      }
+    }
+
+    function guessMimeType(base64) {
+      if (!base64 || base64.length < 4) {
+        return "image/png";
+      }
+      if (base64.indexOf("/9j/") === 0) {
+        return "image/jpeg";
+      }
+      if (base64.indexOf("iVBOR") === 0) {
+        return "image/png";
+      }
+      return "image/png";
+    }
+
+    function createShader(glCtx, type, source) {
+      const shader = glCtx.createShader(type);
+      glCtx.shaderSource(shader, source);
+      glCtx.compileShader(shader);
+      if (!glCtx.getShaderParameter(shader, glCtx.COMPILE_STATUS)) {
+        glCtx.deleteShader(shader);
+        return null;
+      }
+      return shader;
+    }
+
+    function createProgram(glCtx, vsSource, fsSource) {
+      const vs = createShader(glCtx, glCtx.VERTEX_SHADER, vsSource);
+      const fs = createShader(glCtx, glCtx.FRAGMENT_SHADER, fsSource);
+      if (!vs || !fs) {
+        return null;
+      }
+      const program = glCtx.createProgram();
+      glCtx.attachShader(program, vs);
+      glCtx.attachShader(program, fs);
+      glCtx.linkProgram(program);
+      if (!glCtx.getProgramParameter(program, glCtx.LINK_STATUS)) {
+        glCtx.deleteProgram(program);
+        return null;
+      }
+      return program;
+    }
+
+    function initGL() {
+      if (glReady) return true;
+      if (glFailed) return false;
+
+      gl = canvas.getContext("webgl", { premultipliedAlpha: false });
+      if (!gl) {
+        glFailed = true;
+        return false;
+      }
+
+      const vsSource = `
+        attribute vec2 a_position;
+        varying vec2 v_uv;
+        void main() {
+          v_uv = (a_position + 1.0) * 0.5;
+          gl_Position = vec4(a_position, 0.0, 1.0);
+        }
+      `;
+      const fsSource = `
+        precision mediump float;
+        uniform sampler2D u_tex;
+        uniform float u_distortion;
+        uniform float u_vignetteInner;
+        uniform float u_vignetteOuter;
+        uniform float u_vignetteIntensity;
+        uniform float u_scanlineIntensity;
+        uniform float u_scanlineDensity;
+        uniform float u_zoom;
+        varying vec2 v_uv;
+        void main() {
+          vec2 centered = v_uv * 2.0 - 1.0;
+          float r = length(centered);
+          float factor = 1.0 + u_distortion * r * r;
+          vec2 warped = centered * factor;
+          vec2 sampleUv = warped * 0.5 + 0.5;
+          sampleUv = (sampleUv - 0.5) / u_zoom + 0.5;
+          if (sampleUv.x < 0.0 || sampleUv.x > 1.0 || sampleUv.y < 0.0 || sampleUv.y > 1.0) {
+            gl_FragColor = vec4(0.0, 0.0, 0.0, 1.0);
+            return;
+          }
+          vec4 color = texture2D(u_tex, sampleUv);
+          float vig = smoothstep(u_vignetteInner, u_vignetteOuter, r);
+          float vigFactor = mix(1.0, 1.0 - u_vignetteIntensity, vig);
+          float scan = 0.5 + 0.5 * sin(sampleUv.y * u_scanlineDensity);
+          float scanFactor = mix(1.0 - u_scanlineIntensity, 1.0, scan);
+          gl_FragColor = vec4(color.rgb * vigFactor * scanFactor, color.a);
+        }
+      `;
+
+      glProgram = createProgram(gl, vsSource, fsSource);
+      if (!glProgram) {
+        glFailed = true;
+        return false;
+      }
+
+      glPositionBuffer = gl.createBuffer();
+      gl.bindBuffer(gl.ARRAY_BUFFER, glPositionBuffer);
+      gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([
+        -1, -1,
+         1, -1,
+        -1,  1,
+         1,  1
+      ]), gl.STATIC_DRAW);
+
+      glTexture = gl.createTexture();
+      gl.bindTexture(gl.TEXTURE_2D, glTexture);
+      gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_S, gl.CLAMP_TO_EDGE);
+      gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_T, gl.CLAMP_TO_EDGE);
+      gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.LINEAR);
+      gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.LINEAR);
+      gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, 1, 1, 0, gl.RGBA, gl.UNSIGNED_BYTE, new Uint8Array([0, 0, 0, 255]));
+
+      glLocations = {
+        position: gl.getAttribLocation(glProgram, "a_position"),
+        tex: gl.getUniformLocation(glProgram, "u_tex"),
+        distortion: gl.getUniformLocation(glProgram, "u_distortion"),
+        vignetteInner: gl.getUniformLocation(glProgram, "u_vignetteInner"),
+        vignetteOuter: gl.getUniformLocation(glProgram, "u_vignetteOuter"),
+        vignetteIntensity: gl.getUniformLocation(glProgram, "u_vignetteIntensity"),
+        scanlineIntensity: gl.getUniformLocation(glProgram, "u_scanlineIntensity"),
+        scanlineDensity: gl.getUniformLocation(glProgram, "u_scanlineDensity"),
+        zoom: gl.getUniformLocation(glProgram, "u_zoom")
+      };
+
+      glReady = true;
+      return true;
+    }
+
+    function drawImageToGL(img) {
+      if (!glReady && !initGL()) {
+        return false;
+      }
+      if (!gl || !glProgram || !glTexture || !glLocations) {
+        return false;
+      }
+
+      if (canvas.width !== img.width || canvas.height !== img.height) {
+        canvas.width = img.width;
+        canvas.height = img.height;
+        gl.viewport(0, 0, gl.drawingBufferWidth, gl.drawingBufferHeight);
+      }
+
+      gl.pixelStorei(gl.UNPACK_FLIP_Y_WEBGL, true);
+      gl.activeTexture(gl.TEXTURE0);
+      gl.bindTexture(gl.TEXTURE_2D, glTexture);
+      gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, gl.RGBA, gl.UNSIGNED_BYTE, img);
+
+      gl.useProgram(glProgram);
+      gl.bindBuffer(gl.ARRAY_BUFFER, glPositionBuffer);
+      gl.enableVertexAttribArray(glLocations.position);
+      gl.vertexAttribPointer(glLocations.position, 2, gl.FLOAT, false, 0, 0);
+
+      gl.uniform1i(glLocations.tex, 0);
+      gl.uniform1f(glLocations.distortion, FX.distortion);
+      gl.uniform1f(glLocations.vignetteInner, FX.vignetteInner);
+      gl.uniform1f(glLocations.vignetteOuter, FX.vignetteOuter);
+      gl.uniform1f(glLocations.vignetteIntensity, FX.vignetteIntensity);
+      gl.uniform1f(glLocations.scanlineIntensity, FX.scanlineIntensity);
+      gl.uniform1f(glLocations.scanlineDensity, FX.scanlineDensity);
+      gl.uniform1f(glLocations.zoom, FX.zoom);
+
+      gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4);
+      return true;
+    }
+
+    function drawBase64ToCanvas(base64) {
+      const img = new Image();
+      img.onload = () => {
+        if (drawImageToGL(img)) {
+          return;
+        }
+        if (!ctx2d) {
+          ctx2d = canvas.getContext("2d");
+        }
+        if (!ctx2d) {
+          return;
+        }
+        canvas.width = img.width;
+        canvas.height = img.height;
+        ctx2d.clearRect(0, 0, canvas.width, canvas.height);
+        ctx2d.drawImage(img, 0, 0);
+      };
+      img.src = "data:" + guessMimeType(base64) + ";base64," + base64;
+    }
+
+    async function joinAndConnect() {
+      showLoadingView();
+      await joinRoom();
+      let timeoutId = null;
+      const timeoutPromise = new Promise((_, reject) => {
+        timeoutId = setTimeout(() => reject(new Error("timeout")), 30000);
+      });
+      try {
+        await Promise.race([connect(), timeoutPromise]);
+        clearTimeout(timeoutId);
+        showHeistView();
+      } catch (err) {
+        clearTimeout(timeoutId);
+        disconnect(false);
+      }
+    }
+
+    document.getElementById("joinConnectBtn").addEventListener("click", joinAndConnect);
+    syncManualImages();
+
+    function openZoom() {
+      overlay.classList.add("active");
+      syncManualImages();
+      resetZoom();
+      requestAnimationFrame(() => {
+        overlay.classList.add("visible");
+      });
+    }
+
+    function closeZoom() {
+      overlay.classList.remove("visible");
+      setTimeout(() => {
+        overlay.classList.remove("active");
+      }, 260);
+    }
+
+    document.getElementById("zoomBtn").addEventListener("click", openZoom);
+    document.getElementById("closeZoom").addEventListener("click", closeZoom);
+    overlay.addEventListener("click", (e) => {
+      if (e.target === overlay) {
+        closeZoom();
+      }
+    });
+
+    function syncManualImages() {
+      manualImage.src = manualImages[manualIndex];
+      zoomImage.src = manualImages[manualIndex];
+    }
+
+    function nextManual() {
+      manualIndex = (manualIndex + 1) % manualImages.length;
+      syncManualImages();
+    }
+
+    function prevManual() {
+      manualIndex = (manualIndex - 1 + manualImages.length) % manualImages.length;
+      syncManualImages();
+    }
+
+    document.getElementById("manualNext").addEventListener("click", nextManual);
+    document.getElementById("manualPrev").addEventListener("click", prevManual);
+    document.getElementById("zoomNext").addEventListener("click", () => { nextManual(); resetZoom(); });
+    document.getElementById("zoomPrev").addEventListener("click", () => { prevManual(); resetZoom(); });
+
+    let pointers = new Map();
+    let startDist = 0;
+    let startScale = 1;
+    let currentScale = 1;
+    let translate = { x: 0, y: 0 };
+    let dragStart = { x: 0, y: 0 };
+    let baseScale = 1;
+
+    function clamp(val, min, max) {
+      return Math.min(Math.max(val, min), max);
+    }
+
+    function applyTransform() {
+      clampTranslate();
+      zoomImage.style.transform = `translate3d(${translate.x}px, ${translate.y}px, 0) scale(${currentScale})`;
+    }
+
+    function resetZoom() {
+      currentScale = 1;
+      translate = { x: 0, y: 0 };
+      computeBaseScale();
+      applyTransform();
+    }
+
+    function getDistance(a, b) {
+      const dx = a.x - b.x;
+      const dy = a.y - b.y;
+      return Math.sqrt(dx * dx + dy * dy);
+    }
+
+    function computeBaseScale() {
+      const panelRect = zoomPanel.getBoundingClientRect();
+      const imgWidth = zoomImage.naturalWidth || panelRect.width;
+      const imgHeight = zoomImage.naturalHeight || panelRect.height;
+      const scaleX = panelRect.width / imgWidth;
+      const scaleY = panelRect.height / imgHeight;
+      baseScale = Math.min(scaleX, scaleY);
+    }
+
+    function clampTranslate() {
+      const panelRect = zoomPanel.getBoundingClientRect();
+      const imgWidth = zoomImage.naturalWidth || panelRect.width;
+      const imgHeight = zoomImage.naturalHeight || panelRect.height;
+      const totalScale = baseScale * currentScale;
+      const displayWidth = imgWidth * totalScale;
+      const displayHeight = imgHeight * totalScale;
+
+      const maxX = Math.max(0, (displayWidth - panelRect.width) / 2);
+      const maxY = Math.max(0, (displayHeight - panelRect.height) / 2);
+
+      translate.x = clamp(translate.x, -maxX, maxX);
+      translate.y = clamp(translate.y, -maxY, maxY);
+    }
+
+    zoomPanel.addEventListener("pointerdown", (e) => {
+      zoomPanel.setPointerCapture(e.pointerId);
+      pointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
+      if (pointers.size === 1) {
+        dragStart = { x: e.clientX - translate.x, y: e.clientY - translate.y };
+      } else if (pointers.size === 2) {
+        const pts = Array.from(pointers.values());
+        startDist = getDistance(pts[0], pts[1]);
+        startScale = currentScale;
+      }
+    });
+
+    zoomPanel.addEventListener("pointermove", (e) => {
+      if (!pointers.has(e.pointerId)) return;
+      pointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
+      if (pointers.size === 1) {
+        translate.x = e.clientX - dragStart.x;
+        translate.y = e.clientY - dragStart.y;
+        applyTransform();
+      } else if (pointers.size === 2) {
+        const pts = Array.from(pointers.values());
+        const dist = getDistance(pts[0], pts[1]);
+        if (startDist > 0) {
+          currentScale = Math.max(1, Math.min(4, startScale * (dist / startDist)));
+          applyTransform();
+        }
+      }
+    });
+
+    zoomPanel.addEventListener("pointerup", (e) => {
+      pointers.delete(e.pointerId);
+      if (pointers.size < 2) {
+        startDist = 0;
+      }
+    });
+    zoomPanel.addEventListener("pointercancel", (e) => {
+      pointers.delete(e.pointerId);
+      if (pointers.size < 2) {
+        startDist = 0;
+      }
+    });
+
+    zoomImage.addEventListener("load", () => {
+      computeBaseScale();
+      applyTransform();
+    });
+
+    window.addEventListener("resize", () => {
+      computeBaseScale();
+      applyTransform();
+    });
+  </script>
+</body>
+</html>

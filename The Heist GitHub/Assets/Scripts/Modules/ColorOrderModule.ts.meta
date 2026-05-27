@@ -1,0 +1,61 @@
+- !<AssetImportMetadata/299b0373-a410-43e9-b71d-c4f357528a31>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> f2bb6766-6787-40f0-bf7b-fbceb5f6a6be
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> f2bb6766-6787-40f0-bf7b-fbceb5f6a6be
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 2f82a32f-108e-4387-8d4e-96690d0a28ae
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/2f82a32f-108e-4387-8d4e-96690d0a28ae>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: d1a1825a-e3be-42b1-a8c4-08ca2393bd1a
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    blueMaterial: false
+    buttonComponents: false
+    greenMaterial: false
+    redMaterial: false
+    yellowMaterial: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - buttonComponents: !<reference.ScriptComponent[]>
+        []
+      redMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      greenMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      blueMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      yellowMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Buttons</span>"}'
+    - '// @input Component.ScriptComponent[] buttonComponents = {} {"hint":"PushButton script on each colored button (index 0–3)."}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Button materials</span>"}'
+    - // @input Asset.Material redMaterial
+    - // @input Asset.Material greenMaterial
+    - // @input Asset.Material blueMaterial
+    - // @input Asset.Material yellowMaterial

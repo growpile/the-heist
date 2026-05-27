@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    b59aa4e3-9181-48f4-a0cc-1ccee5fa9933: df1113b8-edda-47a7-abc8-ff5c677d4f05/e99cd0c9974be9ca0b172d9b2bf2b7b5/Data/FrontWallOuterShell.mesh
+  Assets:
+    - !<FileMesh/b59aa4e3-9181-48f4-a0cc-1ccee5fa9933>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 194
+        Vertices: 220
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 15.018781, y: 2.779610, z: 15.018781}
+  SourceHash: e99cd0c9974be9ca0b172d9b2bf2b7b5
+  FileHash: 3b7a36db4428ec39d48b2f5017d458f2
+  NativePackageItems:
+    []

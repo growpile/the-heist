@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    e9cbd4a3-56ab-4c08-87df-0bda66c67ec1: 9cf2af30-acd7-4f5d-b76a-c33fc7ddd0a0/37328cca086cbf7ddcc5aed62250ed2d/Data/Long Button.mesh
+  Assets:
+    - !<FileMesh/e9cbd4a3-56ab-4c08-87df-0bda66c67ec1>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 110
+        Vertices: 84
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 1.858200, y: 11.001345, z: 2.974488}
+  SourceHash: 37328cca086cbf7ddcc5aed62250ed2d
+  FileHash: 15c56d0fa73a0cf4ef4244f7749fd5f1
+  NativePackageItems:
+    []

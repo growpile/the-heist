@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    399ebe49-b312-43eb-95bd-498a40c0c993: 67e712aa-0991-4d1c-9094-b61ba1747b2b/91ed1781e6f054a25f9d24f8d3339258/Data/rope_albedo.jpeg
+  Assets:
+    - !<FileTexture/399ebe49-b312-43eb-95bd-498a40c0c993>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 2048
+        Height: 2048
+  SourceHash: 91ed1781e6f054a25f9d24f8d3339258
+  FileHash: f642c9be454a6dd047dbbd7399235626
+  NativePackageItems:
+    []

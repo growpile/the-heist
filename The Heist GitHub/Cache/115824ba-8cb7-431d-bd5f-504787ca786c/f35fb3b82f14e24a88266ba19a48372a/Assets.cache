@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    53e64099-a220-45a2-88ae-3926b4cb4aa2: 115824ba-8cb7-431d-bd5f-504787ca786c/f35fb3b82f14e24a88266ba19a48372a/Data/Leather Gloves Albedo Opti.jpg
+  Assets:
+    - !<FileTexture/53e64099-a220-45a2-88ae-3926b4cb4aa2>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: f35fb3b82f14e24a88266ba19a48372a
+  FileHash: 2b23519b09117d163445f53937ab760a
+  NativePackageItems:
+    []

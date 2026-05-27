@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    a0753992-6c28-4495-a734-1e6d788cb002: a0bbaba2-6b09-46f3-85c4-e5f3dc3e6e74/3404ea1ef6cdd5fd13d607b208302dc3/Data/play.png
+  Assets:
+    - !<FileTexture/a0753992-6c28-4495-a734-1e6d788cb002>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 152
+        Height: 160
+  SourceHash: 3404ea1ef6cdd5fd13d607b208302dc3
+  FileHash: 04d35d4cdb97277f1cd62d0bede318e3
+  NativePackageItems:
+    []

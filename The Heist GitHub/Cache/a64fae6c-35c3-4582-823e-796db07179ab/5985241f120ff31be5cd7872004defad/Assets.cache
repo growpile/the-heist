@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    d2a07267-856f-4c15-9a32-b2a8bbad3fb5: a64fae6c-35c3-4582-823e-796db07179ab/5985241f120ff31be5cd7872004defad/Data/Cardboard Normal.png
+  Assets:
+    - !<FileTexture/d2a07267-856f-4c15-9a32-b2a8bbad3fb5>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 2048
+        Height: 2048
+  SourceHash: 5985241f120ff31be5cd7872004defad
+  FileHash: 55df7ea68cdbd167548240014db7a516
+  NativePackageItems:
+    []

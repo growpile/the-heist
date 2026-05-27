@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    5052b39c-4a4a-4ac9-ab03-6aebc84dcb82: f66bbd8c-4093-2fdd-19ac-e03c85777e7c/155b3f6d012c39825edd3247ac2e490f/Data/smoke_realistics.png
+  Assets:
+    - !<FileTexture/5052b39c-4a4a-4ac9-ab03-6aebc84dcb82>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 128
+        Height: 128
+  SourceHash: 155b3f6d012c39825edd3247ac2e490f
+  FileHash: fa9cda5955d3fe846c157575025bcfcd
+  NativePackageItems:
+    []

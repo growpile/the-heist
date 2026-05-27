@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    4e9cfd8b-3272-4042-bf66-f98149447631: ce7b9ce5-4ce7-4b02-84be-47abe72868ca/238b7e300c73f091ef4bfda587d981d5/Data/Asset_24x-8.png
+  Assets:
+    - !<FileTexture/4e9cfd8b-3272-4042-bf66-f98149447631>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 2048
+        Height: 641
+  SourceHash: 238b7e300c73f091ef4bfda587d981d5
+  FileHash: 3f29a2f745abfc89bbccf195eff955f5
+  NativePackageItems:
+    []

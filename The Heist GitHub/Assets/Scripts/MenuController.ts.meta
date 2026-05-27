@@ -1,0 +1,138 @@
+- !<AssetImportMetadata/af885320-8bba-4baf-b80a-bf2e504a0afe>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> b67a438c-fa7d-4cd1-9fbc-31fc30dde714
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> b67a438c-fa7d-4cd1-9fbc-31fc30dde714
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> a56c551e-deb3-4103-a18a-d0fadf1b2538
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/a56c551e-deb3-4103-a18a-d0fadf1b2538>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 1e9c3faa-5e58-4998-a170-c78f4611b810
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    bronzeMaterial: false
+    failedCopy: false
+    goldMaterial: false
+    logo: false
+    mainMenuView: false
+    menuBackground: false
+    menuButton: false
+    menuRoot: false
+    menuYOffsetFromCameraCm: false
+    onlineRoomView: false
+    postGameRoot: false
+    settingsView: false
+    silverMaterial: false
+    soloTipsView: false
+    solvedCopy: false
+    starOutlinesParent: false
+    starsParent: false
+    tabs: false
+    timeElapsedText: false
+    tutorialTipsView: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - menuRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      menuYOffsetFromCameraCm: !<float> 0.000000
+      menuBackground: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      logo: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      tabs:
+        []
+      mainMenuView:
+        root: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+        elements: !<reference.SceneObject[]>
+          []
+      soloTipsView:
+        root: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+        elements: !<reference.SceneObject[]>
+          []
+      tutorialTipsView:
+        root: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+        elements: !<reference.SceneObject[]>
+          []
+      onlineRoomView:
+        root: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+        elements: !<reference.SceneObject[]>
+          []
+      settingsView: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      postGameRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      timeElapsedText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      solvedCopy: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      failedCopy: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      menuButton: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
+      bronzeMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      silverMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      goldMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      starOutlinesParent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      starsParent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Menu Root</span>"}'
+    - // @input SceneObject menuRoot
+    - '// @input float menuYOffsetFromCameraCm {"hint":"World Y offset from camera (cm). Headlock handles XZ."}'
+    - '// @input Asset.Material menuBackground {"hint":"Backdrop material — tab 0/1 state, tab 2 fades opacity."}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Branding</span>"}'
+    - // @input SceneObject logo
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Main Menu Tabs</span>"}'
+    - /*
+    - "@typedef MenuTab"
+    - "@property {Component.ScriptComponent} button"
+    - "@property {SceneObject[]} elements = {}"
+    - "*/"
+    - "// @input MenuTab[] tabs = {}"
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Menu Steps</span>"}'
+    - /*
+    - "@typedef MenuView"
+    - "@property {SceneObject} root"
+    - '@property {SceneObject[]} elements = {} {"hint":"Leave empty to use direct children of root."}'
+    - "*/"
+    - // @input MenuView mainMenuView
+    - // @input MenuView soloTipsView
+    - // @input MenuView tutorialTipsView
+    - // @input MenuView onlineRoomView
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Settings</span>"}'
+    - // @input SceneObject settingsView
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Post-Game</span>"}'
+    - // @input SceneObject postGameRoot
+    - // @input Component.Text timeElapsedText
+    - // @input SceneObject solvedCopy
+    - // @input SceneObject failedCopy
+    - // @input AssignableType menuButton
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Post-Game Stars</span>"}'
+    - // @input Asset.Material bronzeMaterial
+    - // @input Asset.Material silverMaterial
+    - // @input Asset.Material goldMaterial
+    - // @input SceneObject starOutlinesParent
+    - // @input SceneObject starsParent

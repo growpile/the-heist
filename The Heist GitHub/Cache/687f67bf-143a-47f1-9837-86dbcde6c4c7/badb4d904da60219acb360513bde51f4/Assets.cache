@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    b465364f-c4d5-446d-9d0d-9ad6b8c054c3: 687f67bf-143a-47f1-9837-86dbcde6c4c7/badb4d904da60219acb360513bde51f4/Data/realtime-viewer.html
+  Assets:
+    - !<BinAsset/b465364f-c4d5-446d-9d0d-9ad6b8c054c3>
+      PackagePath: ""
+  SourceHash: badb4d904da60219acb360513bde51f4
+  FileHash: e9b85395c178f79449506bdfa6eb405c
+  NativePackageItems:
+    []

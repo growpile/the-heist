@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    8bd9bafe-c3de-4b42-a01b-f2b8867f13c6: 04559530-e1d8-4d7c-805e-c19b086f6761/385c28bdf08b12c1881e091c3c59bb3b/Data/CardboardAlbedo.png
+  Assets:
+    - !<FileTexture/8bd9bafe-c3de-4b42-a01b-f2b8867f13c6>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 2048
+        Height: 2048
+  SourceHash: 385c28bdf08b12c1881e091c3c59bb3b
+  FileHash: aedf2c435dc77771b117a21b52b727fd
+  NativePackageItems:
+    []

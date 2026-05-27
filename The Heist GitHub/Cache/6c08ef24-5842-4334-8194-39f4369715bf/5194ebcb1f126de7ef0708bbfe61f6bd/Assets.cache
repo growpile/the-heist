@@ -1,0 +1,75 @@
+- !<AssetCache>
+  AssetFiles:
+    f7574984-c831-4eee-825b-480de18951e7: 6c08ef24-5842-4334-8194-39f4369715bf/5194ebcb1f126de7ef0708bbfe61f6bd/Data/Meshes/Gold Bar.mesh
+  Assets:
+    - !<ObjectPrefab/ed4eff00-2179-476a-9a3b-789640d3bbdb>
+      PackagePath: ""
+      objects:
+        - !<own> 96bd9b8a-3be8-46a5-9c37-992b341a2f62
+      LazyLoading: false
+      RetainAssets: true
+    - !<FileMesh/f7574984-c831-4eee-825b-480de18951e7>
+      PackagePath: Meshes/Gold Bar
+      Info: !<MeshInfo>
+        Triangles: 188
+        Vertices: 148
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 10.146607, y: 4.585049, z: 1.830810}
+  SourceHash: 5194ebcb1f126de7ef0708bbfe61f6bd
+  FileHash: 886b9b0ae4d65e76ac0e9e082082a179
+  NativePackageItems:
+    []
+- !<SceneObject/139441c1-3241-4bbe-8179-574cdead911d>
+  PrefabRemaps:
+    []
+  Name: Gold Bar
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 90.000000, y: 0.000000, z: 180.000000}
+    Scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 3e82f3be-b5ce-4e06-8844-57c0f2e5183f
+- !<RenderMeshVisual/3e82f3be-b5ce-4e06-8844-57c0f2e5183f>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> f7574984-c831-4eee-825b-480de18951e7
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/96bd9b8a-3be8-46a5-9c37-992b341a2f62>
+  PrefabRemaps:
+    - 139441c1-3241-4bbe-8179-574cdead911d: 139441c1-3241-4bbe-7e86-a8b321526ee2
+    - 3e82f3be-b5ce-4e06-8844-57c0f2e5183f: 3e82f3be-b5ce-4e06-77bb-a83f0d1ae7c0
+    - 96bd9b8a-3be8-46a5-9c37-992b341a2f62: 96bd9b8a-3be8-46a5-63c8-66d4cbe5d09d
+  Name: Gold Bar
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 139441c1-3241-4bbe-8179-574cdead911d
+  Components:
+    []

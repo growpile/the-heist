@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    c07bb6ec-58d6-45af-8a74-ad57acfbf6ca: 89973e50-c2dd-4178-84b5-c3b4acdeb23d/aeafd3fe8b8f91f49df9bd2033a58857/Data/particle.png
+  Assets:
+    - !<FileTexture/c07bb6ec-58d6-45af-8a74-ad57acfbf6ca>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 272
+        Height: 272
+  SourceHash: aeafd3fe8b8f91f49df9bd2033a58857
+  FileHash: 223433027150b7710e4d5565455aad88
+  NativePackageItems:
+    []

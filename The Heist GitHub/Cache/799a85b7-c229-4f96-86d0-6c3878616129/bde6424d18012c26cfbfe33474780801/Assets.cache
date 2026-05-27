@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    8db82ef5-0028-4432-a712-a5b2f1758259: 799a85b7-c229-4f96-86d0-6c3878616129/bde6424d18012c26cfbfe33474780801/Data/Ticking Loop (1).mp3
+  Assets:
+    - !<FileAudioTrack/8db82ef5-0028-4432-a712-a5b2f1758259>
+      PackagePath: ""
+  SourceHash: bde6424d18012c26cfbfe33474780801
+  FileHash: f871c41eefc15f28535bb137e099c039
+  NativePackageItems:
+    []

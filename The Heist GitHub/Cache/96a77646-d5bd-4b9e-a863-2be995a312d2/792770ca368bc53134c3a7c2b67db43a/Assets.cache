@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    10ddc11f-4125-439a-8a94-1041eb145124: 96a77646-d5bd-4b9e-a863-2be995a312d2/792770ca368bc53134c3a7c2b67db43a/Data/Sun.jpg
+  Assets:
+    - !<FileTexture/10ddc11f-4125-439a-8a94-1041eb145124>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: 792770ca368bc53134c3a7c2b67db43a
+  FileHash: 6bf88c304ee1631bb1d3285c7a3d54f7
+  NativePackageItems:
+    []

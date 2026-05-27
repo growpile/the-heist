@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    6e2aeb1f-6628-4300-9423-bb911e80a435: d0bbd97a-2686-4852-bee2-8f4f4c3e1ca1/aab2dfd4a17f791b03ff2874a6b25535/Data/CableConnector.mesh
+  Assets:
+    - !<FileMesh/6e2aeb1f-6628-4300-9423-bb911e80a435>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 352
+        Vertices: 310
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 1.176733, y: 1.176734, z: 2.221461}
+  SourceHash: aab2dfd4a17f791b03ff2874a6b25535
+  FileHash: b8bcd658fadcd42ee588581c1ad98ccf
+  NativePackageItems:
+    []

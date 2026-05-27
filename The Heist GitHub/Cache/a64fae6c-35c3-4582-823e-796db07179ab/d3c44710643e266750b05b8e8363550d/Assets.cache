@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    d2a07267-856f-4c15-9a32-b2a8bbad3fb5: a64fae6c-35c3-4582-823e-796db07179ab/d3c44710643e266750b05b8e8363550d/Data/Carboard Normal.png
+  Assets:
+    - !<FileTexture/d2a07267-856f-4c15-9a32-b2a8bbad3fb5>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 2048
+        Height: 2048
+  SourceHash: d3c44710643e266750b05b8e8363550d
+  FileHash: 0b52a69dd54417496e3fbcbb8c3fdc0b
+  NativePackageItems:
+    []

@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    699a7ae7-7549-4704-9d6d-c8d3045cdd06: 9df39919-66e0-4854-a422-b8e4334ce7db/d971667e174b4f7bf0cd2ee470b3339b/Data/Module Frame Front.mesh
+  Assets:
+    - !<FileMesh/699a7ae7-7549-4704-9d6d-c8d3045cdd06>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 530
+        Vertices: 411
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 15.018781, y: 1.070086, z: 15.018781}
+  SourceHash: d971667e174b4f7bf0cd2ee470b3339b
+  FileHash: a997c2879493097f9d03c22c3d719f1f
+  NativePackageItems:
+    []

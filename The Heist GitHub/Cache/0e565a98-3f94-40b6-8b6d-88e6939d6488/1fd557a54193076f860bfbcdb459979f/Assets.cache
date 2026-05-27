@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    e91d9d42-c249-4aa4-84c5-30de0b2d53c2: 0e565a98-3f94-40b6-8b6d-88e6939d6488/1fd557a54193076f860bfbcdb459979f/Data/The Heist - Safe Manual V1 (1).pdf
+  Assets:
+    - !<BinAsset/e91d9d42-c249-4aa4-84c5-30de0b2d53c2>
+      PackagePath: ""
+  SourceHash: 1fd557a54193076f860bfbcdb459979f
+  FileHash: 8e2c5b096898ef78c500b9d4e34946a9
+  NativePackageItems:
+    []

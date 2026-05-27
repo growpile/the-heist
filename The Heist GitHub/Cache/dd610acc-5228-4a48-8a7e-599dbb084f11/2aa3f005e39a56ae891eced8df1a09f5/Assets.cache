@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    f0f4e7a3-243f-4a77-8c2a-41f5b49c4df6: dd610acc-5228-4a48-8a7e-599dbb084f11/2aa3f005e39a56ae891eced8df1a09f5/Data/LeverRod.002.mesh
+  Assets:
+    - !<FileMesh/f0f4e7a3-243f-4a77-8c2a-41f5b49c4df6>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 1152
+        Vertices: 796
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.710766, y: 0.710766, z: 6.466606}
+  SourceHash: 2aa3f005e39a56ae891eced8df1a09f5
+  FileHash: 4a1df47037e06eeb2fa701e1d69b6108
+  NativePackageItems:
+    []

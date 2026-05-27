@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    298e4a19-b1e6-4a2d-9761-cce6b0942d9d: 0e393302-dccd-4087-8f61-24b5e5fbe193/f97445cd13b724be224233daeb15e32c/Data/Coin.jpg
+  Assets:
+    - !<FileTexture/298e4a19-b1e6-4a2d-9761-cce6b0942d9d>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: f97445cd13b724be224233daeb15e32c
+  FileHash: 92b308b8ef9a7be7cf7b3d1fb8bdc932
+  NativePackageItems:
+    []

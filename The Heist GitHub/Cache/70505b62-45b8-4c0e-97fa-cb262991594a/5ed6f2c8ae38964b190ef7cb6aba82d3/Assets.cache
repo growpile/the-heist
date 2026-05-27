@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    57a11680-418f-4ccc-884f-546c5f30f6d8: 70505b62-45b8-4c0e-97fa-cb262991594a/5ed6f2c8ae38964b190ef7cb6aba82d3/Data/Star Glow.png
+  Assets:
+    - !<FileTexture/57a11680-418f-4ccc-884f-546c5f30f6d8>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 708
+        Height: 691
+  SourceHash: 5ed6f2c8ae38964b190ef7cb6aba82d3
+  FileHash: 314ad5454fd9ed09c47d00284fa8afaf
+  NativePackageItems:
+    []

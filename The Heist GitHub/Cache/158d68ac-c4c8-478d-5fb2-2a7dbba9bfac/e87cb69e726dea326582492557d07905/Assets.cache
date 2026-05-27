@@ -1,0 +1,14 @@
+- !<AssetCache>
+  AssetFiles:
+    fdfeaea4-b4d9-4c8c-b40c-310382df2674: 158d68ac-c4c8-478d-5fb2-2a7dbba9bfac/e87cb69e726dea326582492557d07905/Data/perlin_noise_3D.png
+  Assets:
+    - !<FileTexture3D/fdfeaea4-b4d9-4c8c-b40c-310382df2674>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo3D>
+        Width: 49
+        Height: 49
+        Depth: 49
+  SourceHash: e87cb69e726dea326582492557d07905
+  FileHash: 1a2a2b70bf02bbea944a983add15dfdc
+  NativePackageItems:
+    []

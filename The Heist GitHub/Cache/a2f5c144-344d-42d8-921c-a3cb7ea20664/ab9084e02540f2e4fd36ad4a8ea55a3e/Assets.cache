@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    61d559c0-2a34-46d1-a654-dee7a0c62c4b: a2f5c144-344d-42d8-921c-a3cb7ea20664/ab9084e02540f2e4fd36ad4a8ea55a3e/Data/Rectangle Button Group.mesh
+  Assets:
+    - !<FileMesh/61d559c0-2a34-46d1-a654-dee7a0c62c4b>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 250
+        Vertices: 153
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 2.000000, y: 0.184834, z: 2.000000}
+  SourceHash: ab9084e02540f2e4fd36ad4a8ea55a3e
+  FileHash: d7c72237a0e31ba4f43e40df87a7d803
+  NativePackageItems:
+    []

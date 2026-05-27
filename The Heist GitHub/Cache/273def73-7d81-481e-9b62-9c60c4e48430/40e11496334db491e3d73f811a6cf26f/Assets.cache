@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    549a5639-9382-4e45-870b-bbd20a2c31ae: 273def73-7d81-481e-9b62-9c60c4e48430/40e11496334db491e3d73f811a6cf26f/Data/Technology-Bold.ttf
+  Assets:
+    - !<Font/549a5639-9382-4e45-870b-bbd20a2c31ae>
+      PackagePath: ""
+  SourceHash: 40e11496334db491e3d73f811a6cf26f
+  FileHash: 5759aed87d590645278d1ec062c8487f
+  NativePackageItems:
+    []

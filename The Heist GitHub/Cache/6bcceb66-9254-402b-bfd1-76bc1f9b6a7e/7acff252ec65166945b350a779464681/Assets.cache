@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    eb51036d-6428-4576-a684-29d43747d42f: 6bcceb66-9254-402b-bfd1-76bc1f9b6a7e/7acff252ec65166945b350a779464681/Data/door.png
+  Assets:
+    - !<FileTexture/eb51036d-6428-4576-a684-29d43747d42f>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 2048
+        Height: 2048
+  SourceHash: 7acff252ec65166945b350a779464681
+  FileHash: 8b2e88df045000d72087f7116598ee17
+  NativePackageItems:
+    []

@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    d9a36fb8-9f57-49f7-ac47-12f71ecb41b5: 34ebf1f2-e88f-48e4-b738-e8b4b53fa6ee/8f895af61b1ee9609538896b6d3abaae/Data/DynamiteBundle.013.mesh
+  Assets:
+    - !<FileMesh/d9a36fb8-9f57-49f7-ac47-12f71ecb41b5>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 188
+        Vertices: 225
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 13.804378, y: 7.207557, z: 2.109625}
+  SourceHash: 8f895af61b1ee9609538896b6d3abaae
+  FileHash: 9509bb62f7ae05dfab6eb1e4cf2ba544
+  NativePackageItems:
+    []

@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    228acd99-082a-4e37-b816-a765b41dc5f1: e1406c99-f216-4e43-9c6d-6f003c86ac32/1a6d5c95987334f3885b4ef953a5aedb/Data/Slide1_SoloPlay.webp
+  Assets:
+    - !<FileTexture/228acd99-082a-4e37-b816-a765b41dc5f1>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 512
+  SourceHash: 1a6d5c95987334f3885b4ef953a5aedb
+  FileHash: 5f9b569672588e9b9c8e625f0ac5226c
+  NativePackageItems:
+    []

@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    ec5f1dd8-a033-42ce-b28c-0e8a04256ce7: 9354b023-fb33-4a0f-a8a0-6fe0ab42ce45/9195fc838167f6e26b6d6a1f5d4ccd8c/Data/Slots Texture Looped.jpg
+  Assets:
+    - !<FileTexture/ec5f1dd8-a033-42ce-b28c-0e8a04256ce7>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: 9195fc838167f6e26b6d6a1f5d4ccd8c
+  FileHash: fa3d6a9fcffc53472e25117a6f9f44f5
+  NativePackageItems:
+    []

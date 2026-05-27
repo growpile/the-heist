@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    e7690a0a-ffe2-490e-87c7-6268e135bac4: 52e0e0fb-7aab-4012-ae6e-a6329b9c44cd/cea1b4510e38fe90072238a9684c9e99/Data/Rectangle Button.003.mesh
+  Assets:
+    - !<FileMesh/e7690a0a-ffe2-490e-87c7-6268e135bac4>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 110
+        Vertices: 92
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 3.999996, y: 3.999996, z: 3.999997}
+  SourceHash: cea1b4510e38fe90072238a9684c9e99
+  FileHash: d94b0c2889cf09f6247b900530bfc265
+  NativePackageItems:
+    []

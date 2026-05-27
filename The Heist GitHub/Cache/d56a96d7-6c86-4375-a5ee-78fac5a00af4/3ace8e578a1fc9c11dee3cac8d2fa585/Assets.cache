@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    1db3af01-cdb5-4e11-8ed5-fe4ba61acdd8: d56a96d7-6c86-4375-a5ee-78fac5a00af4/3ace8e578a1fc9c11dee3cac8d2fa585/Data/Midweight Metal Drop.mp3
+  Assets:
+    - !<FileAudioTrack/1db3af01-cdb5-4e11-8ed5-fe4ba61acdd8>
+      PackagePath: ""
+  SourceHash: 3ace8e578a1fc9c11dee3cac8d2fa585
+  FileHash: dbcdec04359af534fe63942ba2db2237
+  NativePackageItems:
+    []

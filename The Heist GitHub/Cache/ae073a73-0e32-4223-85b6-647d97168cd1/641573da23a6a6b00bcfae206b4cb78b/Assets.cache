@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    5efe9be4-4a75-4344-bcb4-f645820fcc5b: ae073a73-0e32-4223-85b6-647d97168cd1/641573da23a6a6b00bcfae206b4cb78b/Data/Grid Plus.png
+  Assets:
+    - !<FileTexture/5efe9be4-4a75-4344-bcb4-f645820fcc5b>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1080
+        Height: 1080
+  SourceHash: 641573da23a6a6b00bcfae206b4cb78b
+  FileHash: b96c44e51d667f6cbe65e3f2b9564e70
+  NativePackageItems:
+    []

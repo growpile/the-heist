@@ -1,0 +1,91 @@
+- !<AssetImportMetadata/c9756f00-958d-4988-8cb9-53c7adef8a41>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> abc224d8-f17d-4f9d-b42c-20e6595f7f10
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> abc224d8-f17d-4f9d-b42c-20e6595f7f10
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> dc62c256-0925-4614-ad91-db29f97bad8d
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/dc62c256-0925-4614-ad91-db29f97bad8d>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: eeaaffab-85e9-4ae2-a1fb-3e2afa0b0ad2
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    boomVfx: false
+    coopNetwork: false
+    gloves: false
+    glovesToggle: false
+    groundPlane: false
+    interactionHintController: false
+    menuController: false
+    rotationManager: false
+    safeAnchorPlacement: false
+    safeOrigin: false
+    safePrefab: false
+    tableImpactVFX: false
+    uiKitSoundMaster: false
+    volumeSlider: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - menuController: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
+      coopNetwork: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      safePrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      safeOrigin: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      safeAnchorPlacement: !<MappingBased.AssignableType_2> 00000000-0000-0000-0000-000000000000
+      rotationManager: !<MappingBased.AssignableType_3> 00000000-0000-0000-0000-000000000000
+      groundPlane: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      volumeSlider: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      glovesToggle: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      gloves: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      uiKitSoundMaster: !<MappingBased.AssignableType_4> 00000000-0000-0000-0000-000000000000
+      interactionHintController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      tableImpactVFX: !<reference.VFXComponent> 00000000-0000-0000-0000-000000000000
+      boomVfx: !<reference.VFXComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Flow</span>"}'
+    - // @input AssignableType menuController
+    - // @input AssignableType_1 coopNetwork
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Safe & Placement</span>"}'
+    - // @input Asset.ObjectPrefab safePrefab
+    - // @input SceneObject safeOrigin
+    - // @input AssignableType_2 safeAnchorPlacement
+    - // @input AssignableType_3 rotationManager
+    - // @input SceneObject groundPlane
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Settings UI</span>"}'
+    - // @input Component.ScriptComponent volumeSlider
+    - // @input Component.ScriptComponent glovesToggle
+    - // @input SceneObject gloves
+    - // @input AssignableType_4 uiKitSoundMaster
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Feedback</span>"}'
+    - // @input Component.ScriptComponent interactionHintController
+    - // @input Component.VFXComponent tableImpactVFX
+    - // @input Component.VFXComponent boomVfx

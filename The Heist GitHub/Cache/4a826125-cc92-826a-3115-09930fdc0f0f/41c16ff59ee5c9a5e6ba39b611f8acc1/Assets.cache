@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    d9386f71-b003-480b-a271-e9d3cdc86010: 4a826125-cc92-826a-3115-09930fdc0f0f/41c16ff59ee5c9a5e6ba39b611f8acc1/Data/Fade_1_white.png
+  Assets:
+    - !<FileTexture/d9386f71-b003-480b-a271-e9d3cdc86010>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 128
+        Height: 1
+  SourceHash: 41c16ff59ee5c9a5e6ba39b611f8acc1
+  FileHash: 93a2f5ad7de5a148fbc2247bcaf231af
+  NativePackageItems:
+    []

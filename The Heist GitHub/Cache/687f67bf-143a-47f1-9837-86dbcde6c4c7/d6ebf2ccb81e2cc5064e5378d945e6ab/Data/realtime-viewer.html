@@ -1,0 +1,1080 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <title>Heist Client</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body { height: 100%; }
+    :root {
+      --pad: clamp(16px, 3vw, 24px);
+      --gap: clamp(10px, 2vw, 16px);
+      --panel-max: 520px;
+      --btn-size: 36px;
+      --nav-gap: 8px;
+      --pattern-size: 50px;
+      --pattern-size-max: 60px;
+    }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #111;
+      background: #000;
+      overflow: hidden;
+      overscroll-behavior: none;
+      touch-action: none;
+    }
+    .app-frame {
+      position: relative;
+      width: 100vw;
+      height: 100vh;
+      background: linear-gradient(160deg, #0a0a0a 0%, #1b1b1b 100%);
+      overflow: hidden;
+      isolation: isolate;
+    }
+    .app-frame::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: url("res/x_pattern.png") 0 0 / var(--pattern-size) var(--pattern-size) repeat;
+      opacity: 0.1;
+      animation: movingBackground 6s linear infinite, breathePattern 12s ease-in-out infinite;
+      pointer-events: none;
+      z-index: 0;
+      will-change: background-position;
+    }
+    @supports (height: 100svh) {
+      .app-frame { height: 100svh; }
+    }
+    @media (orientation: landscape) {
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .app-frame {
+        width: min(90vw, calc(90vh * 9 / 16));
+        height: min(90vh, calc(90vw * 16 / 9));
+        aspect-ratio: 9 / 16;
+      }
+    }
+    @keyframes movingBackground {
+      from { background-position: 0 0; }
+      to { background-position: var(--pattern-size) var(--pattern-size); }
+    }
+    @keyframes breathePattern {
+      0%, 100% { background-size: var(--pattern-size) var(--pattern-size); }
+      50% { background-size: var(--pattern-size-max) var(--pattern-size-max); }
+    }
+    .screen {
+      position: absolute;
+      inset: 0;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: var(--gap);
+      padding: var(--pad);
+      z-index: 1;
+    }
+    .hidden { display: none; }
+
+    h1, h2 { margin: 0; font-size: clamp(18px, 2.4vw, 22px); }
+
+    input {
+      width: min(100%, 320px);
+      padding: 10px 12px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      font-size: 16px;
+    }
+    button {
+      width: min(100%, 320px);
+      padding: 12px 14px;
+      border: 1px solid #111;
+      border-radius: 6px;
+      font-size: 16px;
+      background: #fff;
+      color: #111;
+      cursor: pointer;
+    }
+    button.secondary {
+      border-color: #999;
+      color: #555;
+    }
+
+    .loading-card { text-align: center; }
+
+    .heist-screen { justify-content: space-between; }
+    .canvas-frame {
+      width: min(100%, var(--panel-max));
+      aspect-ratio: 1 / 1;
+      border: 1px solid #ccc;
+      background: #000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      border-radius: 10px;
+      overflow: visible;
+    }
+    canvas {
+      width: 100%;
+      height: 100%;
+      display: block;
+      border-radius: 10px;
+    }
+    .frame-overlay {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 153%;
+      height: 153%;
+      transform: translate(-50%, -50%);
+      pointer-events: none;
+      object-fit: contain;
+      z-index: 2;
+    }
+    .timer-row {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      align-items: center;
+    }
+    .timer-text {
+      font-size: clamp(16px, 2.4vw, 18px);
+      letter-spacing: 0.08em;
+    }
+    .manual-card {
+      width: min(100%, var(--panel-max));
+      aspect-ratio: 1 / 1;
+      border: 1px solid #ccc;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #fff;
+      overflow: hidden;
+      touch-action: none;
+      border-radius: 10px;
+    }
+    .manual-card img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: auto;
+      height: auto;
+      max-width: none;
+      max-height: none;
+      display: block;
+      touch-action: none;
+      user-select: none;
+      cursor: grab;
+      transform-origin: center center;
+      transform: translate3d(-50%, -50%, 0)
+        translate3d(var(--tx, 0px), var(--ty, 0px), 0)
+        scale(var(--scale, 1));
+    }
+    .nav-btn, .zoom-btn {
+      width: var(--btn-size);
+      height: var(--btn-size);
+      border: none;
+      background: transparent no-repeat center / contain;
+      cursor: pointer;
+      padding: 0;
+      filter: grayscale(1) brightness(0.9);
+      opacity: 0.9;
+    }
+    .nav-btn {
+      font-size: 0;
+      line-height: 0;
+    }
+    .zoom-btn {
+      font-size: 0;
+      line-height: 0;
+    }
+    .nav-btn.left { background-image: url("res/arrow_left.svg"); background-size: 25%; }
+    .nav-btn.right { background-image: url("res/arrow_right.svg"); background-size: 25%; }
+    .zoom-btn { background-image: url("res/magnifier.svg"); background-size: 40%; }
+    body.zoom-active .zoom-btn { background-image: url("res/close_button.svg"); background-size: 70%; }
+    .manual-nav {
+      position: absolute;
+      left: 50%;
+      bottom: 10px;
+      transform: translateX(-50%);
+      display: flex;
+      align-items: center;
+      gap: var(--nav-gap);
+      padding: 10px 16px;
+      border-radius: 20px;
+      pointer-events: auto;
+      background: rgba(255, 255, 255, 0.65);
+      border: 1px solid rgba(255, 255, 255, 0.8);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+      z-index: 30;
+    }
+    .page-indicator {
+      width: var(--btn-size);
+      height: var(--btn-size);
+      border: none;
+      border-radius: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 15px;
+      font-weight: 700;
+      background: transparent;
+    }
+
+    .overlay {
+      position: absolute;
+      inset: 0;
+      background: rgba(0,0,0,0.7);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 20;
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+      transition: opacity 220ms ease;
+    }
+    .overlay.active {
+      opacity: 1;
+      visibility: visible;
+      pointer-events: auto;
+    }
+    .zoom-panel {
+      width: min(90vw, 720px);
+      height: min(85vh, 1200px);
+      background: transparent;
+      position: relative;
+      overflow: hidden;
+      touch-action: none;
+      border-radius: 10px;
+      transform: scale(0.96) translateY(8px);
+      transition: transform 240ms ease;
+    }
+    .overlay.active .zoom-panel {
+      transform: scale(1) translateY(0);
+    }
+    .zoom-panel img { width: 100%; height: 100%; object-fit: contain; touch-action: none; user-select: none; cursor: grab; }
+  </style>
+</head>
+<body>
+  <div class="app-frame">
+    <section id="landingView" class="screen">
+      <img src="res/logo.png" alt="Heist Client" style="width: min(60vw, 220px); height: auto;" />
+      <button id="manualBtn">Module Manual</button>
+      <button id="joinBtn">Join Heist</button>
+    </section>
+
+    <section id="joinView" class="screen hidden">
+      <h2>Join Heist</h2>
+      <input id="displayName" placeholder="Nickname" />
+      <input id="roomCodeJoin" placeholder="Room Code" />
+      <button id="joinConnectBtn">Join & Connect</button>
+      <button id="backBtn" class="secondary">Back</button>
+    </section>
+
+    <section id="heistView" class="screen hidden heist-screen">
+      <div class="canvas-frame">
+        <canvas id="canvas" width="640" height="360"></canvas>
+        <img class="frame-overlay" src="res/body-cam-frame.png" alt="" />
+      </div>
+      <div class="timer-row">
+        <div class="timer-text" id="timerText">00:00</div>
+      </div>
+      <div class="manual-card">
+        <img id="manualImage" src="res/pdf-images/Page%201.jpg" alt="Bomb Manual" />
+      </div>
+      <div class="manual-nav">
+        <button class="nav-btn left" id="manualPrev" aria-label="Previous page"></button>
+        <div class="page-indicator" id="manualPage">1 / 5</div>
+        <button class="nav-btn right" id="manualNext" aria-label="Next page"></button>
+        <button class="zoom-btn" id="zoomBtn" aria-label="Zoom"></button>
+      </div>
+    </section>
+
+    <section id="loadingView" class="screen hidden">
+      <div class="loading-card">
+        <div class="loading-title">Connecting to server...</div>
+        <div class="loading-sub">Waiting for realtime channel.</div>
+      </div>
+    </section>
+
+    <div class="overlay" id="overlay">
+      <div class="zoom-panel" id="zoomPanel">
+        <img id="zoomImage" src="res/pdf-images/Page%201.jpg" alt="Manual Zoom" />
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script>
+    const canvas = document.getElementById("canvas");
+    let gl = null;
+    let glProgram = null;
+    let glTexture = null;
+    let glPositionBuffer = null;
+    let glLocations = null;
+    let glReady = false;
+    let glFailed = false;
+    let ctx2d = null;
+
+    const FX = {
+      distortion: 0.22,
+      vignetteInner: 0.2,
+      vignetteOuter: 0.95,
+      vignetteIntensity: 0.45,
+      scanlineIntensity: 0.18,
+      scanlineDensity: 900.0,
+      zoom: 1.5
+    };
+    const landingView = document.getElementById("landingView");
+    const joinView = document.getElementById("joinView");
+    const heistView = document.getElementById("heistView");
+    const loadingView = document.getElementById("loadingView");
+    const timerText = document.getElementById("timerText");
+    const overlay = document.getElementById("overlay");
+    const zoomPanel = document.getElementById("zoomPanel");
+    const zoomImage = document.getElementById("zoomImage");
+    const manualImage = document.getElementById("manualImage");
+    const manualCard = document.querySelector(".manual-card");
+    const manualPage = document.getElementById("manualPage");
+    const manualImages = [
+      "res/pdf-images/Page%201.jpg",
+      "res/pdf-images/Page%202.jpg",
+      "res/pdf-images/Page%203.jpg",
+      "res/pdf-images/Page%204.jpg",
+      "res/pdf-images/Page%205.jpg"
+    ];
+    let manualIndex = 0;
+
+    let client = null;
+    let channel = null;
+
+    const HARDCODED_URL = "https://noczxyzkiqvzdolyjciv.snapcloud.dev";
+    const HARDCODED_KEY = "sb_publishable_uSdS9KBQxlnouVQSMKfcyw_2FzF8F-f";
+    const EVENT_NAME = "defuserTexture";
+
+    function formatTimer(seconds) {
+      const secs = Math.max(0, Math.ceil(seconds || 0));
+      const mins = Math.floor(secs / 60);
+      const rem = secs % 60;
+      const mm = mins < 10 ? "0" + mins : "" + mins;
+      const ss = rem < 10 ? "0" + rem : "" + rem;
+      return mm + ":" + ss;
+    }
+
+    function showHeistView() {
+      landingView.classList.add("hidden");
+      joinView.classList.add("hidden");
+      loadingView.classList.add("hidden");
+      heistView.classList.remove("hidden");
+      refreshManualView();
+    }
+
+    function showLandingView() {
+      heistView.classList.add("hidden");
+      loadingView.classList.add("hidden");
+      joinView.classList.add("hidden");
+      landingView.classList.remove("hidden");
+    }
+
+    function showJoinView() {
+      heistView.classList.add("hidden");
+      loadingView.classList.add("hidden");
+      landingView.classList.add("hidden");
+      joinView.classList.remove("hidden");
+    }
+
+    function showLoadingView() {
+      landingView.classList.add("hidden");
+      joinView.classList.add("hidden");
+      heistView.classList.add("hidden");
+      loadingView.classList.remove("hidden");
+    }
+
+    function ensureClient() {
+      if (client) return client;
+      client = supabase.createClient(HARDCODED_URL, HARDCODED_KEY, {
+        realtime: { params: { eventsPerSecond: 10 } }
+      });
+      return client;
+    }
+
+    function connect() {
+      disconnect(true);
+      const channelName = document.getElementById("roomCodeJoin").value.trim().toUpperCase();
+      if (!channelName) {
+        return Promise.reject(new Error("missing-room"));
+      }
+
+      ensureClient();
+
+      channel = client.channel(channelName, { config: { broadcast: { self: true } } });
+
+      channel.on("broadcast", { event: EVENT_NAME }, (payload) => {
+        const data = payload.payload || {};
+        const base64 = data.message;
+        if (!base64) {
+          return;
+        }
+        if (timerText) {
+          if (data.timerSeconds !== undefined && data.timerSeconds !== null) {
+            timerText.textContent = formatTimer(parseFloat(data.timerSeconds));
+          } else if (data.timer) {
+            timerText.textContent = data.timer;
+          }
+        }
+        drawBase64ToCanvas(base64);
+      });
+
+      return new Promise((resolve, reject) => {
+        channel.subscribe((status) => {
+          if (status === "SUBSCRIBED") {
+            resolve(true);
+          } else if (status === "CLOSED" || status === "CHANNEL_ERROR") {
+            reject(new Error(status));
+          }
+        });
+      });
+    }
+
+    function disconnect(silent) {
+      if (channel) { channel.unsubscribe(); }
+      channel = null;
+      client = null;
+      if (!silent) {
+        showLandingView();
+      }
+    }
+
+    async function joinRoom() {
+      const roomCode = document.getElementById("roomCodeJoin").value.trim().toUpperCase();
+      const name = document.getElementById("displayName").value.trim() || "Guest";
+
+      if (!roomCode) {
+        return;
+      }
+
+      ensureClient();
+
+      try {
+        const { error } = await client
+          .rpc("add_spectator", { p_room_code: roomCode, p_name: name });
+
+        if (error) {
+          return;
+        }
+      } catch (err) {
+        return;
+      }
+    }
+
+    function guessMimeType(base64) {
+      if (!base64 || base64.length < 4) {
+        return "image/png";
+      }
+      if (base64.indexOf("/9j/") === 0) {
+        return "image/jpeg";
+      }
+      if (base64.indexOf("iVBOR") === 0) {
+        return "image/png";
+      }
+      return "image/png";
+    }
+
+    function createShader(glCtx, type, source) {
+      const shader = glCtx.createShader(type);
+      glCtx.shaderSource(shader, source);
+      glCtx.compileShader(shader);
+      if (!glCtx.getShaderParameter(shader, glCtx.COMPILE_STATUS)) {
+        glCtx.deleteShader(shader);
+        return null;
+      }
+      return shader;
+    }
+
+    function createProgram(glCtx, vsSource, fsSource) {
+      const vs = createShader(glCtx, glCtx.VERTEX_SHADER, vsSource);
+      const fs = createShader(glCtx, glCtx.FRAGMENT_SHADER, fsSource);
+      if (!vs || !fs) {
+        return null;
+      }
+      const program = glCtx.createProgram();
+      glCtx.attachShader(program, vs);
+      glCtx.attachShader(program, fs);
+      glCtx.linkProgram(program);
+      if (!glCtx.getProgramParameter(program, glCtx.LINK_STATUS)) {
+        glCtx.deleteProgram(program);
+        return null;
+      }
+      return program;
+    }
+
+    function initGL() {
+      if (glReady) return true;
+      if (glFailed) return false;
+
+      gl = canvas.getContext("webgl", { premultipliedAlpha: false });
+      if (!gl) {
+        glFailed = true;
+        return false;
+      }
+
+      const vsSource = `
+        attribute vec2 a_position;
+        varying vec2 v_uv;
+        void main() {
+          v_uv = (a_position + 1.0) * 0.5;
+          gl_Position = vec4(a_position, 0.0, 1.0);
+        }
+      `;
+      const fsSource = `
+        precision mediump float;
+        uniform sampler2D u_tex;
+        uniform float u_distortion;
+        uniform float u_vignetteInner;
+        uniform float u_vignetteOuter;
+        uniform float u_vignetteIntensity;
+        uniform float u_scanlineIntensity;
+        uniform float u_scanlineDensity;
+        uniform float u_zoom;
+        varying vec2 v_uv;
+        void main() {
+          vec2 centered = v_uv * 2.0 - 1.0;
+          float r = length(centered);
+          float factor = 1.0 + u_distortion * r * r;
+          vec2 warped = centered * factor;
+          vec2 sampleUv = warped * 0.5 + 0.5;
+          sampleUv = (sampleUv - 0.5) / u_zoom + 0.5;
+          if (sampleUv.x < 0.0 || sampleUv.x > 1.0 || sampleUv.y < 0.0 || sampleUv.y > 1.0) {
+            gl_FragColor = vec4(0.0, 0.0, 0.0, 1.0);
+            return;
+          }
+          vec4 color = texture2D(u_tex, sampleUv);
+          float vig = smoothstep(u_vignetteInner, u_vignetteOuter, r);
+          float vigFactor = mix(1.0, 1.0 - u_vignetteIntensity, vig);
+          float scan = 0.5 + 0.5 * sin(sampleUv.y * u_scanlineDensity);
+          float scanFactor = mix(1.0 - u_scanlineIntensity, 1.0, scan);
+          gl_FragColor = vec4(color.rgb * vigFactor * scanFactor, color.a);
+        }
+      `;
+
+      glProgram = createProgram(gl, vsSource, fsSource);
+      if (!glProgram) {
+        glFailed = true;
+        return false;
+      }
+
+      glPositionBuffer = gl.createBuffer();
+      gl.bindBuffer(gl.ARRAY_BUFFER, glPositionBuffer);
+      gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([
+        -1, -1,
+         1, -1,
+        -1,  1,
+         1,  1
+      ]), gl.STATIC_DRAW);
+
+      glTexture = gl.createTexture();
+      gl.bindTexture(gl.TEXTURE_2D, glTexture);
+      gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_S, gl.CLAMP_TO_EDGE);
+      gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_T, gl.CLAMP_TO_EDGE);
+      gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.LINEAR);
+      gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.LINEAR);
+      gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, 1, 1, 0, gl.RGBA, gl.UNSIGNED_BYTE, new Uint8Array([0, 0, 0, 255]));
+
+      glLocations = {
+        position: gl.getAttribLocation(glProgram, "a_position"),
+        tex: gl.getUniformLocation(glProgram, "u_tex"),
+        distortion: gl.getUniformLocation(glProgram, "u_distortion"),
+        vignetteInner: gl.getUniformLocation(glProgram, "u_vignetteInner"),
+        vignetteOuter: gl.getUniformLocation(glProgram, "u_vignetteOuter"),
+        vignetteIntensity: gl.getUniformLocation(glProgram, "u_vignetteIntensity"),
+        scanlineIntensity: gl.getUniformLocation(glProgram, "u_scanlineIntensity"),
+        scanlineDensity: gl.getUniformLocation(glProgram, "u_scanlineDensity"),
+        zoom: gl.getUniformLocation(glProgram, "u_zoom")
+      };
+
+      glReady = true;
+      return true;
+    }
+
+    function drawImageToGL(img) {
+      if (!glReady && !initGL()) {
+        return false;
+      }
+      if (!gl || !glProgram || !glTexture || !glLocations) {
+        return false;
+      }
+
+      if (canvas.width !== img.width || canvas.height !== img.height) {
+        canvas.width = img.width;
+        canvas.height = img.height;
+        gl.viewport(0, 0, gl.drawingBufferWidth, gl.drawingBufferHeight);
+      }
+
+      gl.pixelStorei(gl.UNPACK_FLIP_Y_WEBGL, true);
+      gl.activeTexture(gl.TEXTURE0);
+      gl.bindTexture(gl.TEXTURE_2D, glTexture);
+      gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, gl.RGBA, gl.UNSIGNED_BYTE, img);
+
+      gl.useProgram(glProgram);
+      gl.bindBuffer(gl.ARRAY_BUFFER, glPositionBuffer);
+      gl.enableVertexAttribArray(glLocations.position);
+      gl.vertexAttribPointer(glLocations.position, 2, gl.FLOAT, false, 0, 0);
+
+      gl.uniform1i(glLocations.tex, 0);
+      gl.uniform1f(glLocations.distortion, FX.distortion);
+      gl.uniform1f(glLocations.vignetteInner, FX.vignetteInner);
+      gl.uniform1f(glLocations.vignetteOuter, FX.vignetteOuter);
+      gl.uniform1f(glLocations.vignetteIntensity, FX.vignetteIntensity);
+      gl.uniform1f(glLocations.scanlineIntensity, FX.scanlineIntensity);
+      gl.uniform1f(glLocations.scanlineDensity, FX.scanlineDensity);
+      gl.uniform1f(glLocations.zoom, FX.zoom);
+
+      gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4);
+      return true;
+    }
+
+    function drawBase64ToCanvas(base64) {
+      const img = new Image();
+      img.onload = () => {
+        if (drawImageToGL(img)) {
+          return;
+        }
+        if (!ctx2d) {
+          ctx2d = canvas.getContext("2d");
+        }
+        if (!ctx2d) {
+          return;
+        }
+        canvas.width = img.width;
+        canvas.height = img.height;
+        ctx2d.clearRect(0, 0, canvas.width, canvas.height);
+        ctx2d.drawImage(img, 0, 0);
+      };
+      img.src = "data:" + guessMimeType(base64) + ";base64," + base64;
+    }
+
+    async function joinAndConnect() {
+      showLoadingView();
+      await joinRoom();
+      let timeoutId = null;
+      const timeoutPromise = new Promise((_, reject) => {
+        timeoutId = setTimeout(() => reject(new Error("timeout")), 30000);
+      });
+      try {
+        await Promise.race([connect(), timeoutPromise]);
+        clearTimeout(timeoutId);
+        showHeistView();
+      } catch (err) {
+        clearTimeout(timeoutId);
+        disconnect(false);
+      }
+    }
+
+    document.getElementById("manualBtn").addEventListener("click", () => {
+      window.open("res/module-manual-v1.pdf", "_blank");
+    });
+    document.getElementById("joinBtn").addEventListener("click", showJoinView);
+    document.getElementById("backBtn").addEventListener("click", showLandingView);
+    document.getElementById("joinConnectBtn").addEventListener("click", joinAndConnect);
+
+    function openZoom() {
+      overlay.classList.add("active");
+      document.body.classList.add("zoom-active");
+      syncManualImages();
+      resetZoom();
+      zoomBtnLabel();
+    }
+
+    function closeZoom() {
+      document.body.classList.remove("zoom-active");
+      overlay.classList.remove("active");
+      zoomBtnLabel();
+    }
+
+    const zoomBtn = document.getElementById("zoomBtn");
+    zoomBtn.addEventListener("click", () => {
+      if (overlay.classList.contains("active")) {
+        closeZoom();
+      } else {
+        openZoom();
+      }
+    });
+    function syncManualImages() {
+      manualImage.src = manualImages[manualIndex];
+      zoomImage.src = manualImages[manualIndex];
+      if (manualPage) {
+        manualPage.textContent = `${manualIndex + 1}`;
+      }
+      if (manualImage.complete) {
+        resetManualZoom();
+      }
+      if (zoomImage.complete) {
+        computeBaseScale();
+        applyTransform();
+      }
+    }
+
+    function nextManual() {
+      manualIndex = (manualIndex + 1) % manualImages.length;
+      syncManualImages();
+    }
+
+    function prevManual() {
+      manualIndex = (manualIndex - 1 + manualImages.length) % manualImages.length;
+      syncManualImages();
+    }
+
+    document.getElementById("manualNext").addEventListener("click", nextManual);
+    document.getElementById("manualPrev").addEventListener("click", prevManual);
+    const zoomBtnLabel = () => {
+      if (overlay.classList.contains("active")) {
+        zoomBtn.setAttribute("aria-label", "Close");
+      } else {
+        zoomBtn.setAttribute("aria-label", "Zoom");
+      }
+    };
+    zoomBtnLabel();
+
+    let pointers = new Map();
+    let startDist = 0;
+    let startScale = 1;
+    let currentScale = 1;
+    let translate = { x: 0, y: 0 };
+    let dragStart = { x: 0, y: 0 };
+    let baseScale = 1;
+
+    let manualPointers = new Map();
+    let manualStartDist = 0;
+    let manualStartScale = 1;
+    let manualCurrentScale = 1;
+    let manualTranslate = { x: 0, y: 0 };
+    let manualDragStart = { x: 0, y: 0 };
+    let manualBaseScale = 1;
+
+    syncManualImages();
+
+    function clamp(val, min, max) {
+      return Math.min(Math.max(val, min), max);
+    }
+
+    function applyTransform() {
+      clampTranslate();
+      zoomImage.style.transform = `translate3d(${translate.x}px, ${translate.y}px, 0) scale(${currentScale})`;
+    }
+
+    function resetZoom() {
+      currentScale = 1;
+      translate = { x: 0, y: 0 };
+      computeBaseScale();
+      applyTransform();
+    }
+
+    function computeManualBaseScale() {
+      if (!manualCard) return;
+      const cardRect = manualCard.getBoundingClientRect();
+      const imgWidth = manualImage.naturalWidth || 0;
+      const imgHeight = manualImage.naturalHeight || 0;
+      if (!imgWidth || !imgHeight) {
+        manualBaseScale = 1;
+        return;
+      }
+      if (!cardRect.width || !cardRect.height) {
+        manualBaseScale = 1;
+        return;
+      }
+      const scaleX = cardRect.width / imgWidth;
+      manualBaseScale = scaleX > 0 ? scaleX : 1;
+    }
+
+    function clampManualTranslate() {
+      if (!manualCard) return;
+      const cardRect = manualCard.getBoundingClientRect();
+      const imgWidth = manualImage.naturalWidth || cardRect.width;
+      const imgHeight = manualImage.naturalHeight || cardRect.height;
+      const totalScale = manualBaseScale * manualCurrentScale;
+      const displayWidth = imgWidth * totalScale;
+      const displayHeight = imgHeight * totalScale;
+
+      const maxX = Math.max(0, (displayWidth - cardRect.width) / 2);
+      const maxY = Math.max(0, (displayHeight - cardRect.height) / 2);
+
+      manualTranslate.x = clamp(manualTranslate.x, -maxX, maxX);
+      manualTranslate.y = clamp(manualTranslate.y, -maxY, maxY);
+    }
+
+    function applyManualTransform() {
+      clampManualTranslate();
+      if (!manualImage) return;
+      const totalScale = manualBaseScale * manualCurrentScale;
+      manualImage.style.setProperty("--tx", `${manualTranslate.x}px`);
+      manualImage.style.setProperty("--ty", `${manualTranslate.y}px`);
+      manualImage.style.setProperty("--scale", `${totalScale}`);
+    }
+
+    function resetManualZoom() {
+      manualCurrentScale = 1;
+      manualTranslate = { x: 0, y: 0 };
+      computeManualBaseScale();
+      applyManualTransform();
+    }
+
+    function getDistance(a, b) {
+      const dx = a.x - b.x;
+      const dy = a.y - b.y;
+      return Math.sqrt(dx * dx + dy * dy);
+    }
+
+    function computeBaseScale() {
+      const panelRect = zoomPanel.getBoundingClientRect();
+      const imgWidth = zoomImage.naturalWidth || panelRect.width;
+      const imgHeight = zoomImage.naturalHeight || panelRect.height;
+      const scaleX = panelRect.width / imgWidth;
+      const scaleY = panelRect.height / imgHeight;
+      baseScale = Math.min(scaleX, scaleY);
+    }
+
+    function clampTranslate() {
+      const panelRect = zoomPanel.getBoundingClientRect();
+      const imgWidth = zoomImage.naturalWidth || panelRect.width;
+      const imgHeight = zoomImage.naturalHeight || panelRect.height;
+      const totalScale = baseScale * currentScale;
+      const displayWidth = imgWidth * totalScale;
+      const displayHeight = imgHeight * totalScale;
+
+      const maxX = Math.max(0, (displayWidth - panelRect.width) / 2);
+      const maxY = Math.max(0, (displayHeight - panelRect.height) / 2);
+
+      translate.x = clamp(translate.x, -maxX, maxX);
+      translate.y = clamp(translate.y, -maxY, maxY);
+    }
+
+    function shouldIgnoreZoomPointer(e) {
+      const target = e.target;
+      if (!target) return false;
+      return !!target.closest(".nav-btn, .zoom-btn");
+    }
+
+    zoomPanel.addEventListener("pointerdown", (e) => {
+      if (shouldIgnoreZoomPointer(e)) return;
+      e.preventDefault();
+      zoomPanel.setPointerCapture(e.pointerId);
+      pointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
+      if (pointers.size === 1) {
+        dragStart = { x: e.clientX - translate.x, y: e.clientY - translate.y };
+      } else if (pointers.size === 2) {
+        const pts = Array.from(pointers.values());
+        startDist = getDistance(pts[0], pts[1]);
+        startScale = currentScale;
+      }
+    });
+
+    zoomPanel.addEventListener("pointermove", (e) => {
+      if (!pointers.has(e.pointerId)) return;
+      if (shouldIgnoreZoomPointer(e)) return;
+      e.preventDefault();
+      pointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
+      if (pointers.size === 1) {
+        translate.x = e.clientX - dragStart.x;
+        translate.y = e.clientY - dragStart.y;
+        applyTransform();
+      } else if (pointers.size === 2) {
+        const pts = Array.from(pointers.values());
+        const dist = getDistance(pts[0], pts[1]);
+        if (startDist > 0) {
+          currentScale = Math.max(1, Math.min(4, startScale * (dist / startDist)));
+          applyTransform();
+        }
+      }
+    });
+
+    zoomPanel.addEventListener("pointerup", (e) => {
+      pointers.delete(e.pointerId);
+      if (pointers.size < 2) {
+        startDist = 0;
+      }
+    });
+    zoomPanel.addEventListener("pointercancel", (e) => {
+      pointers.delete(e.pointerId);
+      if (pointers.size < 2) {
+        startDist = 0;
+      }
+    });
+
+    zoomPanel.addEventListener("wheel", (e) => {
+      e.preventDefault();
+      const delta = e.deltaY || 0;
+      const zoomFactor = delta < 0 ? 1.08 : 0.92;
+      currentScale = Math.max(1, Math.min(4, currentScale * zoomFactor));
+      applyTransform();
+    }, { passive: false });
+
+    function shouldIgnoreManualPointer(e) {
+      const target = e.target;
+      if (!target) return false;
+      return !!target.closest(".nav-btn, .zoom-btn");
+    }
+
+    function onManualPointerDown(e) {
+        if (shouldIgnoreManualPointer(e)) return;
+        e.preventDefault();
+        const captureTarget = manualImage || manualCard;
+        if (captureTarget && captureTarget.setPointerCapture) {
+          captureTarget.setPointerCapture(e.pointerId);
+        }
+        manualPointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
+        if (manualPointers.size === 1) {
+          manualDragStart = { x: e.clientX - manualTranslate.x, y: e.clientY - manualTranslate.y };
+        } else if (manualPointers.size === 2) {
+          const pts = Array.from(manualPointers.values());
+          manualStartDist = getDistance(pts[0], pts[1]);
+          manualStartScale = manualCurrentScale;
+        }
+    }
+
+    function onManualPointerMove(e) {
+        if (!manualPointers.has(e.pointerId)) return;
+        e.preventDefault();
+        manualPointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
+        if (manualPointers.size === 1) {
+          manualTranslate.x = e.clientX - manualDragStart.x;
+          manualTranslate.y = e.clientY - manualDragStart.y;
+          applyManualTransform();
+        } else if (manualPointers.size === 2) {
+          const pts = Array.from(manualPointers.values());
+          const dist = getDistance(pts[0], pts[1]);
+          if (manualStartDist > 0) {
+            manualCurrentScale = Math.max(1, Math.min(4, manualStartScale * (dist / manualStartDist)));
+            applyManualTransform();
+          }
+        }
+    }
+
+    function onManualPointerUp(e) {
+        manualPointers.delete(e.pointerId);
+        if (manualPointers.size < 2) {
+          manualStartDist = 0;
+        }
+    }
+
+    function onManualPointerCancel(e) {
+        manualPointers.delete(e.pointerId);
+        if (manualPointers.size < 2) {
+          manualStartDist = 0;
+        }
+    }
+
+    if (manualCard) {
+      manualCard.addEventListener("pointerdown", onManualPointerDown);
+      manualCard.addEventListener("pointermove", onManualPointerMove);
+      manualCard.addEventListener("pointerup", onManualPointerUp);
+      manualCard.addEventListener("pointercancel", onManualPointerCancel);
+
+      manualCard.addEventListener("wheel", (e) => {
+        e.preventDefault();
+        const delta = e.deltaY || 0;
+        const zoomFactor = delta < 0 ? 1.08 : 0.92;
+        manualCurrentScale = Math.max(1, Math.min(4, manualCurrentScale * zoomFactor));
+        applyManualTransform();
+      }, { passive: false });
+
+      manualCard.addEventListener("touchstart", (e) => {
+        if (shouldIgnoreManualPointer(e)) return;
+        e.preventDefault();
+        const touches = e.touches;
+        if (touches.length === 1) {
+          const t = touches[0];
+          manualDragStart = { x: t.clientX - manualTranslate.x, y: t.clientY - manualTranslate.y };
+        } else if (touches.length >= 2) {
+          const t0 = touches[0];
+          const t1 = touches[1];
+          manualStartDist = getDistance({ x: t0.clientX, y: t0.clientY }, { x: t1.clientX, y: t1.clientY });
+          manualStartScale = manualCurrentScale;
+        }
+      }, { passive: false });
+
+      manualCard.addEventListener("touchmove", (e) => {
+        e.preventDefault();
+        const touches = e.touches;
+        if (touches.length === 1) {
+          const t = touches[0];
+          manualTranslate.x = t.clientX - manualDragStart.x;
+          manualTranslate.y = t.clientY - manualDragStart.y;
+          applyManualTransform();
+        } else if (touches.length >= 2) {
+          const t0 = touches[0];
+          const t1 = touches[1];
+          const dist = getDistance({ x: t0.clientX, y: t0.clientY }, { x: t1.clientX, y: t1.clientY });
+          if (manualStartDist > 0) {
+            manualCurrentScale = Math.max(1, Math.min(4, manualStartScale * (dist / manualStartDist)));
+            applyManualTransform();
+          }
+        }
+      }, { passive: false });
+
+      manualCard.addEventListener("touchend", (e) => {
+        if (e.touches.length < 2) {
+          manualStartDist = 0;
+        }
+      });
+
+      manualCard.addEventListener("touchcancel", (e) => {
+        if (e.touches.length < 2) {
+          manualStartDist = 0;
+        }
+      });
+    }
+
+    if (manualImage) {
+      manualImage.addEventListener("pointerdown", onManualPointerDown);
+      manualImage.addEventListener("pointermove", onManualPointerMove);
+      manualImage.addEventListener("pointerup", onManualPointerUp);
+      manualImage.addEventListener("pointercancel", onManualPointerCancel);
+    }
+
+    function refreshManualView() {
+      if (!manualCard || !manualImage) return;
+      requestAnimationFrame(() => {
+        resetManualZoom();
+        requestAnimationFrame(() => {
+          resetManualZoom();
+        });
+      });
+    }
+
+    if (manualCard && "ResizeObserver" in window) {
+      const ro = new ResizeObserver(() => {
+        if (manualCard.offsetWidth > 0 && manualCard.offsetHeight > 0) {
+          resetManualZoom();
+        }
+      });
+      ro.observe(manualCard);
+    }
+
+    zoomImage.addEventListener("load", () => {
+      computeBaseScale();
+      applyTransform();
+    });
+
+    manualImage.addEventListener("load", () => {
+      resetManualZoom();
+    });
+
+    window.addEventListener("resize", () => {
+      computeBaseScale();
+      applyTransform();
+      resetManualZoom();
+    });
+  </script>
+</body>
+</html>

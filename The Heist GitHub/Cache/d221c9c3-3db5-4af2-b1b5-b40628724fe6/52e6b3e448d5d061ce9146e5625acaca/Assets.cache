@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    329af34c-1871-4e41-b898-73abbb800305: d221c9c3-3db5-4af2-b1b5-b40628724fe6/52e6b3e448d5d061ce9146e5625acaca/Data/Heavy Metal Drop 1.mp3
+  Assets:
+    - !<FileAudioTrack/329af34c-1871-4e41-b898-73abbb800305>
+      PackagePath: ""
+  SourceHash: 52e6b3e448d5d061ce9146e5625acaca
+  FileHash: c2ec5a75ae5fd00d5877606f556115d2
+  NativePackageItems:
+    []

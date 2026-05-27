@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    6ea27a09-b3fc-42ca-b66d-8ce3b2a1c99f: 02afa63b-6765-4b97-a598-5fc70a2b99d9/0daccd8ef95a061b6ddc18938a39910a/Data/Safe Turn Whoosh 6.mp3
+  Assets:
+    - !<FileAudioTrack/6ea27a09-b3fc-42ca-b66d-8ce3b2a1c99f>
+      PackagePath: ""
+  SourceHash: 0daccd8ef95a061b6ddc18938a39910a
+  FileHash: fa86ff4bd31ebe10c125c0eaec82cf93
+  NativePackageItems:
+    []

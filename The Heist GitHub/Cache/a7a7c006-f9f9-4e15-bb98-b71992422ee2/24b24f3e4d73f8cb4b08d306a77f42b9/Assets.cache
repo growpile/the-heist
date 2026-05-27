@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    8795a1ce-0795-4b30-8cb1-e416607f02b2: a7a7c006-f9f9-4e15-bb98-b71992422ee2/24b24f3e4d73f8cb4b08d306a77f42b9/Data/Fail Notification.mp3
+  Assets:
+    - !<FileAudioTrack/8795a1ce-0795-4b30-8cb1-e416607f02b2>
+      PackagePath: ""
+  SourceHash: 24b24f3e4d73f8cb4b08d306a77f42b9
+  FileHash: 344b1b0bf0981a61dba8f80076a2edf6
+  NativePackageItems:
+    []

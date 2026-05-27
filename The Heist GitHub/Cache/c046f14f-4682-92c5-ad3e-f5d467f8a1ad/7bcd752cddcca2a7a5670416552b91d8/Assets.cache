@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    c7f84cb9-2fb7-4c44-b587-81ba4812d5bd: c046f14f-4682-92c5-ad3e-f5d467f8a1ad/7bcd752cddcca2a7a5670416552b91d8/Data/Safe Ground Shadow.jpg
+  Assets:
+    - !<FileTexture/c7f84cb9-2fb7-4c44-b587-81ba4812d5bd>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: 7bcd752cddcca2a7a5670416552b91d8
+  FileHash: 2e9bcbb9c4c90c7fb35a1d33af4b9685
+  NativePackageItems:
+    []

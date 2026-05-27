@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    9f49188d-6d4e-4ac5-9b02-ee611794fe9b: 34e8fdc6-605d-4861-8703-6fac84f480ed/cebdd435509ba0af506bcd75f1424665/Data/Lock_Opacity.webp
+  Assets:
+    - !<FileTexture/9f49188d-6d4e-4ac5-9b02-ee611794fe9b>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: cebdd435509ba0af506bcd75f1424665
+  FileHash: 0d0e20b61f37d47f2057403c7045df11
+  NativePackageItems:
+    []

@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    82784e45-a305-41a4-9af6-34813972beb7: 91c4f80b-f833-4049-bf3c-d3bac29b7cf9/abf6a30b8ef8978f1e2099cf6e343130/Data/Vertical Line.jpg
+  Assets:
+    - !<FileTexture/82784e45-a305-41a4-9af6-34813972beb7>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: abf6a30b8ef8978f1e2099cf6e343130
+  FileHash: 40172cdad35ae9660aa11ca3a4c1d72a
+  NativePackageItems:
+    []

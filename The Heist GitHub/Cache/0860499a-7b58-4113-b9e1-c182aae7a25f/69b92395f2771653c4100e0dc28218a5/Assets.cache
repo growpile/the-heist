@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    2220eeba-85e2-4dfa-a5da-60d5137e3729: 0860499a-7b58-4113-b9e1-c182aae7a25f/69b92395f2771653c4100e0dc28218a5/Data/Heist_TeamPlay.webp
+  Assets:
+    - !<FileTexture/2220eeba-85e2-4dfa-a5da-60d5137e3729>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: 69b92395f2771653c4100e0dc28218a5
+  FileHash: a1f513ffee81923f878d4dbb1eae30dc
+  NativePackageItems:
+    []

@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    caa36dae-dcdf-49da-ae83-abaaa70e8352: f85d0cae-450d-4807-b7b3-054e784e6854/5b39ba071765043c89cff82c0aa8823e/Data/Wire Connector.mesh
+  Assets:
+    - !<FileMesh/caa36dae-dcdf-49da-ae83-abaaa70e8352>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 288
+        Vertices: 245
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 1.176733, y: 1.176734, z: 2.221461}
+  SourceHash: 5b39ba071765043c89cff82c0aa8823e
+  FileHash: e5c1c8c91b78f95de6df7312be88b497
+  NativePackageItems:
+    []

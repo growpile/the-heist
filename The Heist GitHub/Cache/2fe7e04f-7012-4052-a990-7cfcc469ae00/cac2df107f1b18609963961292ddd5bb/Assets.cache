@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    5f16a7bf-2980-4fdd-9904-32b8eb6f28ea: 2fe7e04f-7012-4052-a990-7cfcc469ae00/cac2df107f1b18609963961292ddd5bb/Data/Helm Wheel.jpg
+  Assets:
+    - !<FileTexture/5f16a7bf-2980-4fdd-9904-32b8eb6f28ea>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: cac2df107f1b18609963961292ddd5bb
+  FileHash: e242f5204d3adea07044cf2f794f6ed7
+  NativePackageItems:
+    []

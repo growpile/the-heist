@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    1bed5824-9227-465f-904f-2b6118014473: bec71c95-300a-44a6-aefe-8fe3cfe69465/69fbd5e5402e0e7698d1b11bacb749a4/Data/p3.png
+  Assets:
+    - !<FileTexture/1bed5824-9227-465f-904f-2b6118014473>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1447
+        Height: 2048
+  SourceHash: 69fbd5e5402e0e7698d1b11bacb749a4
+  FileHash: fa67a37c323dd34e1900d1bd37771019
+  NativePackageItems:
+    []

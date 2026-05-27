@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    ecbf6e45-b508-4698-80b7-69ecb5d155be: 85a3692b-8d9a-4d88-babf-d6cc01bcf84f/66f35f5cd70ff17c7dc470c46697e0f5/Data/Gamble Carousel Tick.mp3
+  Assets:
+    - !<FileAudioTrack/ecbf6e45-b508-4698-80b7-69ecb5d155be>
+      PackagePath: ""
+  SourceHash: 66f35f5cd70ff17c7dc470c46697e0f5
+  FileHash: b37284499364aa0cdb8e9d45897500b6
+  NativePackageItems:
+    []

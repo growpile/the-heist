@@ -1,0 +1,19 @@
+// @input Component.ScriptComponent logic
+/** @type {ScriptComponent} */
+var logic = script.logic;
+
+// @input Component.ScriptComponent realtimeManager
+/** @type {ScriptComponent} */
+var realtimeManager = script.realtimeManager;
+
+// @input Component.ScriptComponent cameraAccessHandler
+/** @type {ScriptComponent} */
+var cameraAccessHandler = script.cameraAccessHandler;
+
+// @input SceneObject[] playerSlots
+/** @type {SceneObject[]} */
+var playerSlots = script.playerSlots;
+
+//@input Component.Text crewCodeText
+/** @type {Text} */
+var crewCodeText = script.crewCodeText;

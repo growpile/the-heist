@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    b22c38cb-2c2a-4aaa-be60-a37d4212a2b0: 0854f04c-ece8-4471-a563-c46e09c62c71/a1597af29a27e282ebe813053ecdea37/Data/Metal Dink 4.mp3
+  Assets:
+    - !<FileAudioTrack/b22c38cb-2c2a-4aaa-be60-a37d4212a2b0>
+      PackagePath: ""
+  SourceHash: a1597af29a27e282ebe813053ecdea37
+  FileHash: 517022ecce9564e0f1c9bfa715b08f3a
+  NativePackageItems:
+    []

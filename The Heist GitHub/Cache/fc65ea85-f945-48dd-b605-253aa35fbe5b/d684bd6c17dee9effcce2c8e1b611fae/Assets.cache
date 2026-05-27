@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    5aac8955-f599-4636-82c1-0e1bfd843271: fc65ea85-f945-48dd-b605-253aa35fbe5b/d684bd6c17dee9effcce2c8e1b611fae/Data/body_noant_ao_new.jpg
+  Assets:
+    - !<FileTexture/5aac8955-f599-4636-82c1-0e1bfd843271>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: d684bd6c17dee9effcce2c8e1b611fae
+  FileHash: 59a37a9e4f67b3f4e4b373a9712c0af6
+  NativePackageItems:
+    []

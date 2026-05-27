@@ -1,0 +1,55 @@
+- !<AssetImportMetadata/2d7ca2f7-ced9-41b6-b2bf-c766ae7a3963>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 324beaa1-b89f-4544-a429-95b89671197f
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 324beaa1-b89f-4544-a429-95b89671197f
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 9733dcac-a169-48de-8d2d-0031d4c04c11
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/9733dcac-a169-48de-8d2d-0031d4c04c11>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: e373bf53-d6bc-4744-8e31-e3715dfdc488
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    placementSettingMode: false
+    placementVisuals: false
+    useAdjustmentWidget: false
+    widgetOffset: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - placementVisuals: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      placementSettingMode: 0
+      useAdjustmentWidget: true
+      widgetOffset: !<Vec3> {x: 10.000000, y: 10.000000, z: 0.000000}
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Placement Configuration</span>"}'
+    - '// @input SceneObject placementVisuals {"hint":"Hidden until surface confirmed (e.g. Safe Origin)."}'
+    - '// @input int placementSettingMode {"widget":"combobox", "values":[{"label":"Near Surface", "value":0}, {"label":"Horizontal", "value":1}, {"label":"Vertical", "value":2}]}'
+    - '// @input bool useAdjustmentWidget = true {"hint":"Show the height-adjustment slider widget (NEAR_SURFACE only)"}'
+    - '// @input vec3 widgetOffset = {10,10,0} {"hint":"Offset in cm of the height-adjustment widget from the surface center"}'

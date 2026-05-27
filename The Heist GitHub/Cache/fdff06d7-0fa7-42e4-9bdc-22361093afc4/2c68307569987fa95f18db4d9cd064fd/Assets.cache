@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    9aac9743-671a-4746-9d01-74eafdc1e5f8: fdff06d7-0fa7-42e4-9bdc-22361093afc4/2c68307569987fa95f18db4d9cd064fd/Data/Diamond.mesh
+  Assets:
+    - !<FileMesh/9aac9743-671a-4746-9d01-74eafdc1e5f8>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 302
+        Vertices: 544
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 4.295988, y: 4.295988, z: 2.620553}
+  SourceHash: 2c68307569987fa95f18db4d9cd064fd
+  FileHash: c0a239f50ed7d42d21e60e30545669fb
+  NativePackageItems:
+    []

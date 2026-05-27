@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    058563fe-d550-4765-bb04-780a42903beb: 7cb26957-020a-44e2-9341-d61c59cc08fd/5b8fffbf5898847c50283274edfa1e9d/Data/WireRight.mesh
+  Assets:
+    - !<FileMesh/058563fe-d550-4765-bb04-780a42903beb>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 1280
+        Vertices: 697
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 11.555609, y: 3.341474, z: 8.288928}
+  SourceHash: 5b8fffbf5898847c50283274edfa1e9d
+  FileHash: ac5ac416bf3490315202dc15e821352f
+  NativePackageItems:
+    []

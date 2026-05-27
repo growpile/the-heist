@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    aa0fb8ef-9ff6-45f2-a77a-7ab17edebaf7: 73b89ed9-09c5-4acd-8f15-fe0dcbf357d1/b6ad6bd48ca343da1ad80e0378aadf13/Data/Checkmark Icon.jpg
+  Assets:
+    - !<FileTexture/aa0fb8ef-9ff6-45f2-a77a-7ab17edebaf7>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: b6ad6bd48ca343da1ad80e0378aadf13
+  FileHash: 7aa215a305a3f1b44573152f70b4d3a0
+  NativePackageItems:
+    []

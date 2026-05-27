@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    f84ad3b6-2672-415c-81e0-953077430ee4: f725ac92-04c2-4eb6-b577-82f8ad02c173/1ae7d1e25ba861662f43fa1c4f3a7cf1/Data/dynamite_shadow.png
+  Assets:
+    - !<FileTexture/f84ad3b6-2672-415c-81e0-953077430ee4>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 2048
+        Height: 2048
+  SourceHash: 1ae7d1e25ba861662f43fa1c4f3a7cf1
+  FileHash: bfd0859d209066c3e7411537701ad584
+  NativePackageItems:
+    []

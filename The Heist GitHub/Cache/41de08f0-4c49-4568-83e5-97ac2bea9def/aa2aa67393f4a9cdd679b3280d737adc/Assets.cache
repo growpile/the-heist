@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    ac9a52eb-d4bf-4d3f-a081-ea52565cb744: 41de08f0-4c49-4568-83e5-97ac2bea9def/aa2aa67393f4a9cdd679b3280d737adc/Data/ES_Drop Large Coin Pouch Into Hands - Epidemic Sound.mp3
+  Assets:
+    - !<FileAudioTrack/ac9a52eb-d4bf-4d3f-a081-ea52565cb744>
+      PackagePath: ""
+  SourceHash: aa2aa67393f4a9cdd679b3280d737adc
+  FileHash: 86df0f169bdbde06d0ff5f390155c165
+  NativePackageItems:
+    []

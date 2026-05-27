@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    ec49b69f-17f0-4990-aef7-298f8a784847: fd7f9256-a0d4-4a53-b109-5e2ff212b3d0/f4c4078edc99f9673bda01305ee499d7/Data/elevator-music-royalty-free-infinite-loop-mp3cutnet_V0iwSiTx-loop.mp3
+  Assets:
+    - !<FileAudioTrack/ec49b69f-17f0-4990-aef7-298f8a784847>
+      PackagePath: ""
+  SourceHash: f4c4078edc99f9673bda01305ee499d7
+  FileHash: d453fa0ceeb309e8e80f6081ba7bdcde
+  NativePackageItems:
+    []

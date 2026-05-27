@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    c903aa0c-890c-4622-8f86-400e4f6ee8be: b337a340-5fe0-42d8-947d-42099e7d2145/556d7922e041bff720282b59d8f6b908/Data/coin_plane.png
+  Assets:
+    - !<FileTexture/c903aa0c-890c-4622-8f86-400e4f6ee8be>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: 556d7922e041bff720282b59d8f6b908
+  FileHash: 5be234ff4ca839b47690b797b2c4eab2
+  NativePackageItems:
+    []

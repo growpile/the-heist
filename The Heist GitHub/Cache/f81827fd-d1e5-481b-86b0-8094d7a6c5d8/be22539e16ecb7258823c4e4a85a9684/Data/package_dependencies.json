@@ -1,0 +1,11 @@
+{
+    "dependencies": [
+        {
+            "assetId": "",
+            "exportId": "25975315-886b-4343-8d11-2de3c670a8c4",
+            "id": "01a7be26-13e9-434c-ba23-02277cb9fdd4",
+            "name": "TweenTransform",
+            "version": "1.0.0"
+        }
+    ]
+}

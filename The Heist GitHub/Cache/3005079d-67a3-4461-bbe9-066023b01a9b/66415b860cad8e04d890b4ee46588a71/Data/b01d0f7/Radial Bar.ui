@@ -1,0 +1,166 @@
+{ 
+	"ui": 
+	[
+		{
+        	"label": "Graph Parameters",
+        	"widget": "group_start"
+        },
+{
+                	"label": "Bar Properties",
+                	"widget": "group_start"
+                },                    
+                    {
+                    	"bindingName": "progress",
+                    	"label":       "Progress",
+                    	"widget":      "slider",
+                    	"min":         0,
+                    	"max":         1,
+                    	"step":        "0.01",
+                    	"sortIndex":   "0",
+                    	"hint":        "",
+                    	"default":     "0.5"
+                    },
+                    
+                    {
+                    	"bindingName": "Tweak_N34",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"label":       "Invert Progress",
+                    	"widget":      "checkbox",
+                    	"sortIndex":   "1",
+                    	"hint":        ""
+                    },
+                    
+                    {
+                    	"bindingName": "angle",
+                    	"label":       "Start Angle",
+                    	"widget":      "slider",
+                    	"min":         0,
+                    	"max":         360,
+                    	"step":        "10",
+                    	"sortIndex":   "2",
+                    	"hint":        "",
+                    	"default":     "90.0"
+                    },
+                    
+                    {
+                    	"bindingName": "Tweak_N60",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"label":       "Animated Loading",
+                    	"widget":      "checkbox",
+                    	"sortIndex":   "5",
+                    	"hint":        ""
+                    },
+                    
+                    {
+                    	"bindingName": "loadingSpeed",
+                    	"label":       "Speed",
+                    	"widget":      "slider",
+                    	"min":         1,
+                    	"max":         10,
+                    	"step":        "1",
+                    	"sortIndex":   "6",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                {
+                	"widget": "group_end"
+                },
+                
+                {
+                	"label": "Bar Style",
+                	"widget": "group_start"
+                },                    
+                    {
+                    	"bindingName": "barColor",
+                    	"label":       "Bar Color",
+                    	"widget":      "color",
+                    	"sortIndex":   "0",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "opacity",
+                    	"label":       "Opacity",
+                    	"widget":      "slider",
+                    	"min":         0,
+                    	"max":         1,
+                    	"step":        "0.01",
+                    	"sortIndex":   "1",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "Tweak_N52",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"label":       "Fill",
+                    	"widget":      "checkbox",
+                    	"sortIndex":   "2",
+                    	"hint":        ""
+                    },
+                    
+                    {
+                    	"bindingName": "Tweak_N54",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"label":       "Flip Direction",
+                    	"widget":      "checkbox",
+                    	"sortIndex":   "3",
+                    	"hint":        ""
+                    },
+                    
+                    {
+                    	"bindingName": "outerSize",
+                    	"label":       "Outer Circle Size",
+                    	"widget":      "slider",
+                    	"min":         2,
+                    	"max":         10,
+                    	"step":        "0.01",
+                    	"sortIndex":   "4",
+                    	"hint":        "",
+                    	"default":     "2.0"
+                    },
+                    
+                    {
+                    	"bindingName": "sizeDiff",
+                    	"label":       "Size Difference",
+                    	"widget":      "slider",
+                    	"min":         0.15,
+                    	"max":         3,
+                    	"step":        "0.01",
+                    	"sortIndex":   "5",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                {
+                	"widget": "group_end"
+                },
+
+        {
+        	"widget": "group_end"
+        },
+        
+		
+	{
+		"bindingName": "alphaTestThreshold",
+		"widget": "slider",
+		"min" : 0.0,
+		"max" : 1.0,
+		"step": 0.001,
+		"default": 0.5,
+		"hint": "When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear."
+	}
+	
+	],
+	
+	"shaderType": "Mesh3d",
+	
+	"extraDefines":
+	[
+		"SC_ENABLE_RT_CASTER"
+	]
+}

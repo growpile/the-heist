@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    311f9b46-503c-4599-b4dd-4fdfceaddb4d: bd59bb01-ebd6-75cf-44dd-0408c0522592/cf825313b7bacda8cc463644c6f1ba1d/Data/stars_bokeh 2.jpg
+  Assets:
+    - !<FileTexture/311f9b46-503c-4599-b4dd-4fdfceaddb4d>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 384
+        Height: 64
+  SourceHash: cf825313b7bacda8cc463644c6f1ba1d
+  FileHash: f8c3da8220cf48d5b7aca0310bcc79aa
+  NativePackageItems:
+    []

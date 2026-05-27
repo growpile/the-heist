@@ -1,0 +1,75 @@
+- !<AssetCache>
+  AssetFiles:
+    ea2de208-a014-4a96-bf2c-684a3c5c81ae: 4751f66e-ea78-46b2-a62e-89709433b774/84f9b9b0e429032d000de5500209a21e/Data/Meshes/Circular Button.mesh
+  Assets:
+    - !<ObjectPrefab/40653e08-da3b-4778-b26f-cc2b8622334e>
+      PackagePath: ""
+      objects:
+        - !<own> 5632822c-87c0-43e1-9241-68daca78aef5
+      LazyLoading: false
+      RetainAssets: true
+    - !<FileMesh/ea2de208-a014-4a96-bf2c-684a3c5c81ae>
+      PackagePath: Meshes/Circular Button
+      Info: !<MeshInfo>
+        Triangles: 286
+        Vertices: 161
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 419.565063, y: 223.579895, z: 419.565094}
+  SourceHash: 84f9b9b0e429032d000de5500209a21e
+  FileHash: edaf5973f3080c38fa5b84c2885d1ec4
+  NativePackageItems:
+    []
+- !<SceneObject/548445b3-1257-44fd-a6ae-7cb48f135f42>
+  PrefabRemaps:
+    []
+  Name: Circular Button
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> c19de2c2-505a-404b-9572-3b720946e04b
+- !<SceneObject/5632822c-87c0-43e1-9241-68daca78aef5>
+  PrefabRemaps:
+    - 548445b3-1257-44fd-a6ae-7cb48f135f42: 548445b3-1257-44fd-5951-834b70eca0bd
+    - 5632822c-87c0-43e1-9241-68daca78aef5: 5632822c-87c0-43e1-6dbe-97253587510a
+    - c19de2c2-505a-404b-9572-3b720946e04b: c19de2c2-505a-404b-6a8d-c48df6b91fb4
+  Name: CircleButton
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 548445b3-1257-44fd-a6ae-7cb48f135f42
+  Components:
+    []
+- !<RenderMeshVisual/c19de2c2-505a-404b-9572-3b720946e04b>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> ea2de208-a014-4a96-bf2c-684a3c5c81ae
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    e8cdae40-2504-4ca4-bf96-b028ff027175: dda52448-41c3-471c-b5f5-86c6efb4130d/3239861b7914e5e6187314433f47b74b/Data/gear.svg
+  Assets:
+    - !<BinAsset/e8cdae40-2504-4ca4-bf96-b028ff027175>
+      PackagePath: ""
+  SourceHash: 3239861b7914e5e6187314433f47b74b
+  FileHash: 8f45bf9273bc4eda0d312b839944856e
+  NativePackageItems:
+    []

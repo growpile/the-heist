@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    8ead3ad7-4f18-4823-9336-9ccca6a471d3: a14abf70-b99d-4681-aeac-9feea35f0de3/0e3ec839c96ae80e4518b2479e70d427/Data/SFPRODISPLAYMEDIUM.OTF
+  Assets:
+    - !<Font/8ead3ad7-4f18-4823-9336-9ccca6a471d3>
+      PackagePath: ""
+  SourceHash: 0e3ec839c96ae80e4518b2479e70d427
+  FileHash: d2b6d40046e951d0f89c06216dad926f
+  NativePackageItems:
+    []

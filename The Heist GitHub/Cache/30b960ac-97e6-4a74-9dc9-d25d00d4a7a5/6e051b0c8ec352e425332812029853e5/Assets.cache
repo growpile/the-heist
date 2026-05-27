@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    6ccf8add-12d9-4825-972c-a0d52b354a0a: 30b960ac-97e6-4a74-9dc9-d25d00d4a7a5/6e051b0c8ec352e425332812029853e5/Data/LeverBall.002.mesh
+  Assets:
+    - !<FileMesh/6ccf8add-12d9-4825-972c-a0d52b354a0a>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 960
+        Vertices: 559
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 2.268157, y: 2.268158, z: 2.268159}
+  SourceHash: 6e051b0c8ec352e425332812029853e5
+  FileHash: 8914f3cb3d59c244f63706d39a397429
+  NativePackageItems:
+    []

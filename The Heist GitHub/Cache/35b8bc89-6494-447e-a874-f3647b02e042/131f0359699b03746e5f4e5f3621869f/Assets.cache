@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    c9f2a116-c97b-4146-b7e8-d0ef0e091429: 35b8bc89-6494-447e-a874-f3647b02e042/131f0359699b03746e5f4e5f3621869f/Data/Arrow Opacity Map.jpg
+  Assets:
+    - !<FileTexture/c9f2a116-c97b-4146-b7e8-d0ef0e091429>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: 131f0359699b03746e5f4e5f3621869f
+  FileHash: 5960330a440c4add16b196b04b92994e
+  NativePackageItems:
+    []

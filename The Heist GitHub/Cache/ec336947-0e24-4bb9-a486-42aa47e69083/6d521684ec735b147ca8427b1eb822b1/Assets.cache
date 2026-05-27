@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    5de2648b-9d48-4e05-aa6a-661a443927c8: ec336947-0e24-4bb9-a486-42aa47e69083/6d521684ec735b147ca8427b1eb822b1/Data/Slide1_Tutorial.webp
+  Assets:
+    - !<FileTexture/5de2648b-9d48-4e05-aa6a-661a443927c8>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 512
+  SourceHash: 6d521684ec735b147ca8427b1eb822b1
+  FileHash: 767eb12e8c84fcf214db7d2dfde4377f
+  NativePackageItems:
+    []

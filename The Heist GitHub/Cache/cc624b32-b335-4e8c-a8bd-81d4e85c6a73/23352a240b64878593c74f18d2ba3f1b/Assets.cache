@@ -1,0 +1,128 @@
+- !<AssetCache>
+  AssetFiles:
+    78b1420d-981a-4cb8-9667-5ed719050422: cc624b32-b335-4e8c-a8bd-81d4e85c6a73/23352a240b64878593c74f18d2ba3f1b/Data/Spectacles Metal Shader 2.ss_graph
+  Assets:
+    - !<ShaderGraphPass/78b1420d-981a-4cb8-9667-5ed719050422>
+      PackagePath: ""
+      DefaultDefines:
+        []
+      DefaultProperties:
+        Port_AO_N007:
+          typeIdx: 4
+          value: {x: 1.000000, y: 1.000000, z: 1.000000}
+        Port_Albedo_N007:
+          typeIdx: 4
+          value: {x: 1.000000, y: 1.000000, z: 1.000000}
+        Port_Center_N001:
+          typeIdx: 3
+          value: {x: 0.500000, y: 0.500000}
+        Port_Depth_N004:
+          typeIdx: 1
+          value: 1.000000
+        Port_Emissive_N007:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_FinalColor1_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor2_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor3_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_GSplatPointSize_N004:
+          typeIdx: 1
+          value: 0.000000
+        Port_GSplatRotation_N004:
+          typeIdx: 5
+          value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+        Port_GSplatScale_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Import_N140:
+          typeIdx: 1
+          value: 0.900000
+        Port_Import_N142:
+          typeIdx: 1
+          value: 0.600000
+        Port_Input1_N137:
+          typeIdx: 3
+          value: {x: 0.500000, y: 0.500000}
+        Port_Input1_N138:
+          typeIdx: 1
+          value: 2.000000
+        Port_Input1_N144:
+          typeIdx: 1
+          value: 0.000000
+        Port_Input2_N144:
+          typeIdx: 1
+          value: 1.000000
+        Port_Metallic_N007:
+          typeIdx: 1
+          value: 0.760000
+        Port_Normal_N007:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Opacity_N007:
+          typeIdx: 1
+          value: 1.000000
+        Port_PrevWorldPosition_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_RayDirection_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_RayOrigin_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Roughness_N007:
+          typeIdx: 1
+          value: 0.160000
+        Port_Scale_N001:
+          typeIdx: 3
+          value: {x: 0.600000, y: 0.600000}
+        Port_SpecularAO_N007:
+          typeIdx: 4
+          value: {x: 1.000000, y: 1.000000, z: 1.000000}
+        Port_Value_N003:
+          typeIdx: 5
+          value: {x: 0.115038, y: 0.424536, z: 0.074296, w: 1.000000}
+        Port_WorldNormal_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_WorldPosition_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_WorldTangent_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+      PassUiData: !<PassUiData>
+        ExtraDefines:
+          - SC_ENABLE_RT_CASTER
+          - SC_ENABLE_RT_RECEIVER
+        PassBindings:
+          - mLabel: Alpha Test Threshold
+            mType: Property
+            mName: alphaTestThreshold
+            mWidget: slider
+            mHint: |-
+              Property: alphaTestThreshold
+              
+              When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 0.500000
+            mValues:
+              []
+        ShaderType: Mesh3d
+      ShaderPath: cc624b32-b335-4e8c-a8bd-81d4e85c6a73/23352a240b64878593c74f18d2ba3f1b/Data/b01d0f7/Spectacles Metal Shader 2.glsl
+      Defines:
+        []
+      Properties:
+        {}
+  SourceHash: 23352a240b64878593c74f18d2ba3f1b
+  FileHash: 966e90360ea85be62e70d0baf98837b9
+  NativePackageItems:
+    []

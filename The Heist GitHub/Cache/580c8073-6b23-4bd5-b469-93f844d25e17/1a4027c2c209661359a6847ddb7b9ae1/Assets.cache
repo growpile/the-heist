@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    c1c798ee-cd46-49da-be37-46c1cced86f4: 580c8073-6b23-4bd5-b469-93f844d25e17/1a4027c2c209661359a6847ddb7b9ae1/Data/Module Wire Body.mesh
+  Assets:
+    - !<FileMesh/c1c798ee-cd46-49da-be37-46c1cced86f4>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 530
+        Vertices: 404
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.990443, y: 13.791682, z: 13.791682}
+  SourceHash: 1a4027c2c209661359a6847ddb7b9ae1
+  FileHash: 77ab2e30ae8379c83802dceb80492f8d
+  NativePackageItems:
+    []

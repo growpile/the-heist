@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    0baa3453-97a3-482c-b2fb-2de2c2ccf698: 57640eec-ca88-4d07-8524-737975709155/4891e5df9155ca2baf34ec166c7f5734/Data/PossibleWordLongButton.002.mesh
+  Assets:
+    - !<FileMesh/0baa3453-97a3-482c-b2fb-2de2c2ccf698>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 110
+        Vertices: 64
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 11.001345, y: 2.974488, z: 1.858198}
+  SourceHash: 4891e5df9155ca2baf34ec166c7f5734
+  FileHash: 730c8f71687afd99e8c188ebf5554b11
+  NativePackageItems:
+    []

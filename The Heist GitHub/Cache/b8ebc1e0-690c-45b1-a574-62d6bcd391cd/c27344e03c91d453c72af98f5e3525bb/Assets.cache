@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    24bd532b-f64c-498c-be60-b515736d88fa: b8ebc1e0-690c-45b1-a574-62d6bcd391cd/c27344e03c91d453c72af98f5e3525bb/Data/CableModuleInnerPart.mesh
+  Assets:
+    - !<FileMesh/24bd532b-f64c-498c-be60-b515736d88fa>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 194
+        Vertices: 212
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 2.704508, y: 13.791682, z: 13.791682}
+  SourceHash: c27344e03c91d453c72af98f5e3525bb
+  FileHash: 6aaa2c876bcaf33a6d5b8729533d5fb8
+  NativePackageItems:
+    []

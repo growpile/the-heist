@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    f53cc0b7-b92e-437f-90d5-d379209f6f6a: 14dfc413-ad01-4c3b-96c3-fbd29ec620be/7dc6de367c3ec6c99b36dfdc1873d963/Data/Wire Socket 3.mesh
+  Assets:
+    - !<FileMesh/f53cc0b7-b92e-437f-90d5-d379209f6f6a>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 142
+        Vertices: 110
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 1.287687, y: 2.299623, z: 1.588589}
+  SourceHash: 7dc6de367c3ec6c99b36dfdc1873d963
+  FileHash: 8dc8ac84b51a0452350093dcec8c415b
+  NativePackageItems:
+    []

@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    e9e57a7a-b7d9-4126-9c61-ff253c4c2e1b: b06c53c9-047a-4c4e-b518-b5a946649ac6/a8bdaf73a57af7e6b485f0e687f99fbe/Data/E1234.ttf
+  Assets:
+    - !<Font/e9e57a7a-b7d9-4126-9c61-ff253c4c2e1b>
+      PackagePath: ""
+  SourceHash: a8bdaf73a57af7e6b485f0e687f99fbe
+  FileHash: a0ed48eeefce87067ad878bd3217b9df
+  NativePackageItems:
+    []

@@ -1,0 +1,61 @@
+- !<AssetImportMetadata/ad0f193c-df1e-4567-9534-c4e67c91423e>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 91e81645-ee50-4341-a83d-e5428ca5d7fd
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 91e81645-ee50-4341-a83d-e5428ca5d7fd
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 78b7deb1-1d8b-4a84-be8d-955079ca08ee
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/78b7deb1-1d8b-4a84-be8d-955079ca08ee>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 6607888a-6572-4943-a016-c88d5ae8d2ad
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    groundMaterial: false
+    leftArea: false
+    rightArea: false
+    rotateIcons: false
+    safeRotateOrigin: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - safeRotateOrigin: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      leftArea: !<reference.BodyComponent> 00000000-0000-0000-0000-000000000000
+      rightArea: !<reference.BodyComponent> 00000000-0000-0000-0000-000000000000
+      rotateIcons: !<reference.Image[]>
+        []
+      groundMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Rotation</span>"}'
+    - // @input SceneObject safeRotateOrigin
+    - // @input Component.BodyComponent leftArea
+    - // @input Component.BodyComponent rightArea
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Feedback</span>"}'
+    - "// @input Component.Image[] rotateIcons"
+    - // @input Asset.Material groundMaterial

@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    b53e541f-b0ac-4a35-abe3-904715b13641: a204e5f0-4af3-4f52-a9c9-2252b602c086/f27391e2b4533fc97acc7b69a5fcb73e/Data/read.md
+  Assets:
+    - !<MarkdownAsset/b53e541f-b0ac-4a35-abe3-904715b13641>
+      PackagePath: ""
+  SourceHash: f27391e2b4533fc97acc7b69a5fcb73e
+  FileHash: 3786d98bb4edecc6625a10a00cd36543
+  NativePackageItems:
+    []

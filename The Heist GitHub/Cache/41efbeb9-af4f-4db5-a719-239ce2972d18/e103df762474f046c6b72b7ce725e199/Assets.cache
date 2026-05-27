@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    f9b3915f-5537-4398-a80e-5c9dfce90235: 41efbeb9-af4f-4db5-a719-239ce2972d18/e103df762474f046c6b72b7ce725e199/Data/PAGE 7.jpg
+  Assets:
+    - !<FileTexture/f9b3915f-5537-4398-a80e-5c9dfce90235>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1080
+        Height: 1529
+  SourceHash: e103df762474f046c6b72b7ce725e199
+  FileHash: 024fcd9910cab32180ba2662ce796fb8
+  NativePackageItems:
+    []

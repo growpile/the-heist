@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    3046a145-053b-4c0d-848e-773e8a88d363: dd3c6d68-91df-472e-ad8b-1d7cd277f9aa/1906defe703dffee81cece06901e58cd/Data/door_ao.jpg
+  Assets:
+    - !<FileTexture/3046a145-053b-4c0d-848e-773e8a88d363>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 2048
+        Height: 2048
+  SourceHash: 1906defe703dffee81cece06901e58cd
+  FileHash: 1520b8438d6afd35254932a258035f54
+  NativePackageItems:
+    []

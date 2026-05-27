@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    9212fe12-f146-476d-8cbc-9a61fdbd9e71: 46ce8a23-ac10-4996-a6a5-cc3a98e4b0b1/dc8b586c5595dcefc9913ccad359847f/Data/LeftPartCable.mesh
+  Assets:
+    - !<FileMesh/9212fe12-f146-476d-8cbc-9a61fdbd9e71>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 188
+        Vertices: 208
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 1.192855, y: 0.940151, z: 1.192856}
+  SourceHash: dc8b586c5595dcefc9913ccad359847f
+  FileHash: 6099b350f42affc53f5adaa850e542cb
+  NativePackageItems:
+    []

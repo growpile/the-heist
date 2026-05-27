@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    79d74f53-1bd0-4afa-972b-c094ae2a984d: b49b5842-ca19-4afe-9134-c634d607261b/96ac3980a0f131f24baf824704366459/Data/SafeShelf.003.mesh
+  Assets:
+    - !<FileMesh/79d74f53-1bd0-4afa-972b-c094ae2a984d>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 12
+        Vertices: 24
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 15.375597, y: 15.036009, z: 0.567062}
+  SourceHash: 96ac3980a0f131f24baf824704366459
+  FileHash: 340c2d66448fd37ed573b5070d804da0
+  NativePackageItems:
+    []

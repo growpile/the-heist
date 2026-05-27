@@ -1,0 +1,127 @@
+- !<AssetCache>
+  AssetFiles:
+    e8a2d9d1-20a5-4e09-84f4-928574af59aa: a4eaaa79-c1b0-29fc-ce31-9c5a0477e009/e14a15b1907d6a6d44b2a92f56b985a1/Data/parallax button.ss_graph
+  Assets:
+    - !<ShaderGraphPass/e8a2d9d1-20a5-4e09-84f4-928574af59aa>
+      PackagePath: ""
+      DefaultDefines:
+        []
+      DefaultProperties:
+        Port_Depth_N004:
+          typeIdx: 1
+          value: 1.000000
+        Port_Direction_N012:
+          typeIdx: 3
+          value: {x: 1.000000, y: 1.000000}
+        Port_Direction_N013:
+          typeIdx: 3
+          value: {x: -1.000000, y: -1.000000}
+        Port_Direction_N016:
+          typeIdx: 3
+          value: {x: 1.000000, y: 1.000000}
+        Port_Direction_N017:
+          typeIdx: 3
+          value: {x: -1.000000, y: -1.000000}
+        Port_FinalColor1_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor2_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor3_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_GSplatPointSize_N004:
+          typeIdx: 1
+          value: 0.000000
+        Port_GSplatRotation_N004:
+          typeIdx: 5
+          value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+        Port_GSplatScale_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Height_N000:
+          typeIdx: 1
+          value: 0.100000
+        Port_Input1_N003:
+          typeIdx: 1
+          value: 0.500000
+        Port_Input1_N005:
+          typeIdx: 1
+          value: 0.300000
+        Port_Input1_N008:
+          typeIdx: 1
+          value: 0.500000
+        Port_Input1_N009:
+          typeIdx: 1
+          value: 0.300000
+        Port_PrevWorldPosition_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_RayDirection_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_RayOrigin_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Scale_N001:
+          typeIdx: 3
+          value: {x: 5.000000, y: 5.000000}
+        Port_Scale_N007:
+          typeIdx: 3
+          value: {x: 10.000000, y: 10.000000}
+        Port_Scale_N014:
+          typeIdx: 3
+          value: {x: 5.000000, y: 5.000000}
+        Port_Scale_N018:
+          typeIdx: 3
+          value: {x: 10.000000, y: 10.000000}
+        Port_Speed_N012:
+          typeIdx: 1
+          value: 0.200000
+        Port_Speed_N013:
+          typeIdx: 1
+          value: 0.200000
+        Port_Speed_N016:
+          typeIdx: 1
+          value: 0.100000
+        Port_Speed_N017:
+          typeIdx: 1
+          value: 0.100000
+        Port_WorldNormal_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_WorldPosition_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_WorldTangent_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+      PassUiData: !<PassUiData>
+        ExtraDefines:
+          - SC_ENABLE_RT_CASTER
+        PassBindings:
+          - mLabel: Alpha Test Threshold
+            mType: Property
+            mName: alphaTestThreshold
+            mWidget: slider
+            mHint: |-
+              Property: alphaTestThreshold
+              
+              When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 0.500000
+            mValues:
+              []
+        ShaderType: Mesh3d
+      ShaderPath: a4eaaa79-c1b0-29fc-ce31-9c5a0477e009/e14a15b1907d6a6d44b2a92f56b985a1/Data/b01d0f7/parallax button.glsl
+      Defines:
+        []
+      Properties:
+        {}
+  SourceHash: e14a15b1907d6a6d44b2a92f56b985a1
+  FileHash: ba4212c65cfb7909129625a7ee6e904a
+  NativePackageItems:
+    []

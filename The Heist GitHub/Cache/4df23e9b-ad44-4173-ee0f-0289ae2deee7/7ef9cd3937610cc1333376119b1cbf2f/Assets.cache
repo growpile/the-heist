@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    f0cd51e6-4528-4766-9b96-0c34ed2a261b: 4df23e9b-ad44-4173-ee0f-0289ae2deee7/7ef9cd3937610cc1333376119b1cbf2f/Data/FA-1 - Sci-Fi Font.otf
+  Assets:
+    - !<Font/f0cd51e6-4528-4766-9b96-0c34ed2a261b>
+      PackagePath: ""
+  SourceHash: 7ef9cd3937610cc1333376119b1cbf2f
+  FileHash: 4ceb008f951eeb5f2228b0384ea3f7f8
+  NativePackageItems:
+    []

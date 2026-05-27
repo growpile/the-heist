@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    62c7bf23-d88b-47d9-a1c8-6bc0d69a179d: 3319ebbf-f845-4915-a078-b02b75145616/3167ede62b978cafcf06c939cccf1688/Data/SpinnerThings.004.mesh
+  Assets:
+    - !<FileMesh/62c7bf23-d88b-47d9-a1c8-6bc0d69a179d>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 124
+        Vertices: 130
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 2.000000, y: 2.000000, z: 0.639037}
+  SourceHash: 3167ede62b978cafcf06c939cccf1688
+  FileHash: c947fa877338a9bd9b41a5de4e7cc831
+  NativePackageItems:
+    []

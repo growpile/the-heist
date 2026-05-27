@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    928c7298-2f6b-4ac2-9d70-9a0f1d47785d: 50e0925c-47b3-7821-d16e-40bc08c1b3c5/8adca3e6e440f3c63ff4cdce1c9ed96f/Data/cr_blink.png
+  Assets:
+    - !<FileTexture/928c7298-2f6b-4ac2-9d70-9a0f1d47785d>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 128
+        Height: 1
+  SourceHash: 8adca3e6e440f3c63ff4cdce1c9ed96f
+  FileHash: d3c11a93449dbb76680021fd16d528f5
+  NativePackageItems:
+    []

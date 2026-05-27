@@ -1,0 +1,1 @@
+script.setupModule = function(safeContext, safeComponent) {}

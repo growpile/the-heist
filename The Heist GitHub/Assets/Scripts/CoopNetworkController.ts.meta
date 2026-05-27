@@ -1,0 +1,88 @@
+- !<AssetImportMetadata/4f965b1d-b28e-410c-be13-472b3fad6151>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 28097d8e-e0f1-4908-af28-2e5ef5c2d3ce
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 28097d8e-e0f1-4908-af28-2e5ef5c2d3ce
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> cc094521-8f4d-42ef-a720-fc33690fe206
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/cc094521-8f4d-42ef-a720-fc33690fe206>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 862143b9-7e73-443b-822d-c1866136c936
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    baseMessage: false
+    channelName: false
+    compositeTexture: false
+    crewCodeText: false
+    enableDebugLogs: false
+    maxEncodeFps: false
+    playerSlots: false
+    renderTexture: false
+    screenCropTexture: false
+    snapCloudRequirements: false
+    targetStreamFps: false
+    virtualRenderCameraSetup: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - snapCloudRequirements: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      channelName: ""
+      baseMessage: dT
+      crewCodeText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      playerSlots: !<reference.SceneObject[]>
+        []
+      targetStreamFps: !<float> 10.000000
+      maxEncodeFps: !<float> 15.000000
+      renderTexture: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      virtualRenderCameraSetup: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      screenCropTexture: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      compositeTexture: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      enableDebugLogs: true
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Snap Cloud</span>"}'
+    - // @input Component.ScriptComponent snapCloudRequirements
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Realtime Channel</span>"}'
+    - // @input string channelName
+    - '// @input string baseMessage = "dT"'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Room UI</span>"}'
+    - // @input Component.Text crewCodeText
+    - "// @input SceneObject[] playerSlots = {}"
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">AR Camera Stream</span>"}'
+    - '// @input float targetStreamFps = 24 {"hint":"Frames per second drained from buffer and sent over realtime."}'
+    - '// @input float maxEncodeFps = 24 {"hint":"Max encode starts per second in onNewFrame (independent of send FPS)."}'
+    - // @input Asset.Texture renderTexture
+    - // @input Asset.ObjectPrefab virtualRenderCameraSetup
+    - // @input Asset.Texture screenCropTexture
+    - // @input Asset.Texture compositeTexture
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Debug</span>"}'
+    - // @input bool enableDebugLogs

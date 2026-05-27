@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    93087424-1001-4935-b8ab-4dc541ac76c2: fb3edae3-41b4-7a7f-4c6c-9cabbb4b825b/a9f4511424d42aece2b4f0a92cee1c82/Data/Pin.mesh
+  Assets:
+    - !<FileMesh/93087424-1001-4935-b8ab-4dc541ac76c2>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 960
+        Vertices: 559
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 19.999989, y: 30.000000, z: 19.999981}
+  SourceHash: a9f4511424d42aece2b4f0a92cee1c82
+  FileHash: 25e1a766f4f5f9e2c05517f8448ea182
+  NativePackageItems:
+    []

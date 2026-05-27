@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    a777f249-d974-4985-bca7-69699de1904b: daf21478-cba2-80db-538c-51796a7b8309/627670a0377053bb2fe980880f974e67/Data/Inter - Modern Font.ttf
+  Assets:
+    - !<Font/a777f249-d974-4985-bca7-69699de1904b>
+      PackagePath: ""
+  SourceHash: 627670a0377053bb2fe980880f974e67
+  FileHash: b1afeede8a4eeae6c90de4d7b0ef2c05
+  NativePackageItems:
+    []

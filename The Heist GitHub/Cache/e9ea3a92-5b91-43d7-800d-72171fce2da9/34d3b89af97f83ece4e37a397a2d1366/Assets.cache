@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    52aac6da-668b-4918-abf9-30210e33874b: e9ea3a92-5b91-43d7-800d-72171fce2da9/34d3b89af97f83ece4e37a397a2d1366/Data/body_ant_ao_new.jpg
+  Assets:
+    - !<FileTexture/52aac6da-668b-4918-abf9-30210e33874b>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: 34d3b89af97f83ece4e37a397a2d1366
+  FileHash: b38e644439db742e88dd8693fa652170
+  NativePackageItems:
+    []

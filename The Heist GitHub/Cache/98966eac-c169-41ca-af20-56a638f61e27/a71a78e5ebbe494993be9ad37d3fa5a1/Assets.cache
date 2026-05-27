@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    cb461e26-80f7-45a1-a677-6a56e6c5c34d: 98966eac-c169-41ca-af20-56a638f61e27/a71a78e5ebbe494993be9ad37d3fa5a1/Data/SpinnerSeperator.005.mesh
+  Assets:
+    - !<FileMesh/cb461e26-80f7-45a1-a677-6a56e6c5c34d>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 268
+        Vertices: 182
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 3.960500, y: 7.920999, z: 0.593437}
+  SourceHash: a71a78e5ebbe494993be9ad37d3fa5a1
+  FileHash: 8290c5a5433169ccdbbc36d0d1e70dad
+  NativePackageItems:
+    []

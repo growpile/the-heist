@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    25981d48-791f-4459-84f4-e7bdd77420f9: 0c65ca35-edb0-475e-9d7f-e45964fc1307/a10644c136af09b4f547c371521cd78c/Data/sack_albedo.jpeg
+  Assets:
+    - !<FileTexture/25981d48-791f-4459-84f4-e7bdd77420f9>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 2048
+        Height: 2048
+  SourceHash: a10644c136af09b4f547c371521cd78c
+  FileHash: cead06125248dfb506c43119abddad16
+  NativePackageItems:
+    []

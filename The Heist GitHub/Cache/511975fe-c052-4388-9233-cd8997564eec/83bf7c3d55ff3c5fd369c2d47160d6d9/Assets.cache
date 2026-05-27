@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    6c76d304-c9a8-422e-b274-01a256683109: 511975fe-c052-4388-9233-cd8997564eec/83bf7c3d55ff3c5fd369c2d47160d6d9/Data/Slider Single Tick.mp3
+  Assets:
+    - !<FileAudioTrack/6c76d304-c9a8-422e-b274-01a256683109>
+      PackagePath: ""
+  SourceHash: 83bf7c3d55ff3c5fd369c2d47160d6d9
+  FileHash: 7de019477e51b16e8d2611b5e735f4cc
+  NativePackageItems:
+    []

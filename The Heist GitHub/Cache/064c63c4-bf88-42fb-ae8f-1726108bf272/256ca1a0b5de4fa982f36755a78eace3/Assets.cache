@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    95408550-9078-4472-ac0e-b62a0c3eb6e8: 064c63c4-bf88-42fb-ae8f-1726108bf272/256ca1a0b5de4fa982f36755a78eace3/Data/Metal Sheet Drop.mp3
+  Assets:
+    - !<FileAudioTrack/95408550-9078-4472-ac0e-b62a0c3eb6e8>
+      PackagePath: ""
+  SourceHash: 256ca1a0b5de4fa982f36755a78eace3
+  FileHash: 48d9a3a70f56abc3b12d0e10198fd9d5
+  NativePackageItems:
+    []

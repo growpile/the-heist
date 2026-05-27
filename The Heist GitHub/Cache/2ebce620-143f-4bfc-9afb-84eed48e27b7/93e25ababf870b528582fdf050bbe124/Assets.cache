@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    e9bbd771-21eb-4f04-909c-cfd0333937e4: 2ebce620-143f-4bfc-9afb-84eed48e27b7/93e25ababf870b528582fdf050bbe124/Data/Simple Blurred V2.jpg
+  Assets:
+    - !<FileTexture/e9bbd771-21eb-4f04-909c-cfd0333937e4>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: 93e25ababf870b528582fdf050bbe124
+  FileHash: 25557bb955f856e3679bbb03f5b1cb0d
+  NativePackageItems:
+    []

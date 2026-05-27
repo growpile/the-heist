@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    9a393ce6-9a5d-43e7-acb7-008f21fd4239: b0afbc81-1be8-419d-a55a-bfd54788a588/efdfd1cd6970d7cb5e472cbafc4cc7c1/Data/RightStethoscope.mesh
+  Assets:
+    - !<FileMesh/9a393ce6-9a5d-43e7-acb7-008f21fd4239>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 252
+        Vertices: 216
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.467316, y: 0.040855, z: 1.093710}
+  SourceHash: efdfd1cd6970d7cb5e472cbafc4cc7c1
+  FileHash: 1414998bbff25fc5f16ab128e633899a
+  NativePackageItems:
+    []

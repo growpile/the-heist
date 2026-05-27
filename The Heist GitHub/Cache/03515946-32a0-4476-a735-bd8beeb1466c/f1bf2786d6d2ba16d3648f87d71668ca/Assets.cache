@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    243f0af9-a8a5-455e-a436-9738d6850665: 03515946-32a0-4476-a735-bd8beeb1466c/f1bf2786d6d2ba16d3648f87d71668ca/Data/Ballpoint Antenna.mesh
+  Assets:
+    - !<FileMesh/243f0af9-a8a5-455e-a436-9738d6850665>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 92
+        Vertices: 84
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.951682, y: 0.951682, z: 12.621807}
+  SourceHash: f1bf2786d6d2ba16d3648f87d71668ca
+  FileHash: 75bcf3ec9f1a3aacded3133d8becd040
+  NativePackageItems:
+    []

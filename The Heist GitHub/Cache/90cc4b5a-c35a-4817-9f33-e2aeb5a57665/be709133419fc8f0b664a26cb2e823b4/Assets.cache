@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    e8071112-85f0-41ce-a85f-471f88faaa5c: 90cc4b5a-c35a-4817-9f33-e2aeb5a57665/be709133419fc8f0b664a26cb2e823b4/Data/Star.mp3
+  Assets:
+    - !<FileAudioTrack/e8071112-85f0-41ce-a85f-471f88faaa5c>
+      PackagePath: ""
+  SourceHash: be709133419fc8f0b664a26cb2e823b4
+  FileHash: a9de6cc7fb7d98d4bad954848be16ed0
+  NativePackageItems:
+    []

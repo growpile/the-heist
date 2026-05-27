@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    ef8a7a84-dacd-4065-8ac0-c997c3496276: 15ff69ad-d53a-4f9b-a9a5-ccd829bce96f/22f04007647f1c5ecf36a3d90d0030ca/Data/PAGE 6.jpg
+  Assets:
+    - !<FileTexture/ef8a7a84-dacd-4065-8ac0-c997c3496276>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1080
+        Height: 1529
+  SourceHash: 22f04007647f1c5ecf36a3d90d0030ca
+  FileHash: 4599fd67eebdda90f6110252070699ca
+  NativePackageItems:
+    []

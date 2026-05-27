@@ -1,0 +1,4251 @@
+- !<AssetCache>
+  AssetFiles:
+    451b63b9-bed8-467e-a1f8-77c6e618fd73: e4dc6799-a584-97d0-8fb8-fc563a945a28/3987465f4ad91871ce7041908ad55df4/Data/gpu_particles_custom.ss_graph
+  Assets:
+    - !<ShaderGraphPass/451b63b9-bed8-467e-a1f8-77c6e618fd73>
+      PackagePath: ""
+      DefaultDefines:
+        - NODE_13_DROPLIST_ITEM 0
+        - NODE_213_DROPLIST_ITEM 0
+        - NODE_23_DROPLIST_ITEM 0
+        - NODE_248_DROPLIST_ITEM 0
+        - NODE_67_DROPLIST_ITEM 0
+        - NODE_76_DROPLIST_ITEM 0
+      DefaultProperties:
+        Port_AO_N014:
+          typeIdx: 4
+          value: {x: 1.000000, y: 1.000000, z: 1.000000}
+        Port_Default_N247:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Depth_N004:
+          typeIdx: 1
+          value: 1.000000
+        Port_Emissive_N014:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_FinalColor1_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor2_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor3_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_GSplatPointSize_N004:
+          typeIdx: 1
+          value: 0.000000
+        Port_GSplatRotation_N004:
+          typeIdx: 5
+          value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+        Port_GSplatScale_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Input1_N068:
+          typeIdx: 1
+          value: 2.000000
+        Port_Input1_N069:
+          typeIdx: 1
+          value: 1.000000
+        Port_Input1_N119:
+          typeIdx: 1
+          value: 0.000000
+        Port_Input1_N154:
+          typeIdx: 1
+          value: 1.000000
+        Port_Input1_N216:
+          typeIdx: 1
+          value: 0.000000
+        Port_LODValue_N166:
+          typeIdx: 1
+          value: 0.000000
+        Port_LODValue_N289:
+          typeIdx: 1
+          value: 0.000000
+        Port_LODValue_N295:
+          typeIdx: 1
+          value: 0.000000
+        Port_PrevWorldPosition_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_RayDirection_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_RayOrigin_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_SpecularAO_N014:
+          typeIdx: 4
+          value: {x: 1.000000, y: 1.000000, z: 1.000000}
+        Port_Value3_N194:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value4_N194:
+          typeIdx: 1
+          value: 0.000000
+        Port_WorldTangent_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+      PassUiData: !<PassUiData>
+        ExtraDefines:
+          - SC_ENABLE_RT_RECEIVER
+        PassBindings:
+          - mLabel: Graph Parameters
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Mesh Type
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: |-
+              Determines how the particle positions and normals will be calculated.
+              
+              Quad = the default particle setting. Used to render 2D particles that face the camera. Useful for effects that only need textures (like sparkles and snow). When using this mode, ensure that Double-Sided rendering is enabled. In most cases, Depth Write can be disabled.
+              
+              3D Mesh = 3D particles that can move and rotate independently in 3D space. Useful for rendering full 3D objects that benefit from complex rotation and lighting (like asteroids and crowds). When using this mode, make sure that Double-Sided rendering is disabled and Depth Write is enabled. Note that this mode is more computationally expensive.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Quad
+                mType: DefineSelectValue
+                mName: MESHTYPE 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: 3D Mesh
+                mType: DefineSelectValue
+                mName: MESHTYPE 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: World / Local Space
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the purpose for which Rotation will be used.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Local Space
+                mType: DefineSelectValue
+                mName: rotationSpace 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: World Space - Ignore Emitter Rotation
+                mType: DefineSelectValue
+                mName: rotationSpace 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: World Force - Gravity Ingores Emitter Rotation
+                mType: DefineSelectValue
+                mName: rotationSpace 2
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: Spawn Location / Shape
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Initial Volume Spawn
+            mType: Define
+            mName: INILOCATION
+            mWidget: group_start
+            mHint: |-
+              Define: INILOCATION
+              
+              Initial Spawn Shape Offset.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Spawn Volume Position
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Sphere
+                mType: DefineSelectValue
+                mName: NODE_248_DROPLIST_ITEM 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Cube
+                mType: DefineSelectValue
+                mName: NODE_248_DROPLIST_ITEM 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Cylinder
+                mType: DefineSelectValue
+                mName: NODE_248_DROPLIST_ITEM 2
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Torus
+                mType: DefineSelectValue
+                mName: NODE_248_DROPLIST_ITEM 3
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Grid
+                mType: DefineSelectValue
+                mName: NODE_248_DROPLIST_ITEM 4
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Helix
+                mType: DefineSelectValue
+                mName: NODE_248_DROPLIST_ITEM 5
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Curves
+                mType: DefineSelectValue
+                mName: NODE_248_DROPLIST_ITEM 6
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Screen Space
+                mType: DefineSelectValue
+                mName: NODE_248_DROPLIST_ITEM 7
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: Volume Sphere
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Type
+            mType: Property
+            mName: Tweak_N255
+            mWidget: slider
+            mHint: "Property: Tweak_N255"
+            mMin: 0.000000
+            mMax: 2.000000
+            mStep: 1.000000
+            mDefaultVal: 0.000000
+            mValues:
+              []
+          - mLabel: Radius
+            mType: Property
+            mName: Tweak_N254
+            mWidget: spinbox
+            mHint: "Property: Tweak_N254"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Scale
+            mType: Property
+            mName: Tweak_N252
+            mWidget: spinbox
+            mHint: "Property: Tweak_N252"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Center
+            mType: Property
+            mName: Tweak_N253
+            mWidget: spinbox
+            mHint: "Property: Tweak_N253"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 0.000000
+            mValues:
+              []
+          - mLabel: Volume Fill
+            mType: Property
+            mName: Tweak_N224
+            mWidget: slider
+            mHint: "Property: Tweak_N224"
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Volume Cube
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Scale
+            mType: Property
+            mName: Tweak_N250
+            mWidget: spinbox
+            mHint: "Property: Tweak_N250"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Center
+            mType: Property
+            mName: Tweak_N251
+            mWidget: spinbox
+            mHint: "Property: Tweak_N251"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 0.000000
+            mValues:
+              []
+          - mLabel: Volume Fill
+            mType: Property
+            mName: volumeFill
+            mWidget: slider
+            mHint: "Property: volumeFill"
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Volume Cylinder
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Radius
+            mType: Property
+            mName: Tweak_N238
+            mWidget: spinbox
+            mHint: "Property: Tweak_N238"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 2.000000
+            mValues:
+              []
+          - mLabel: START Radius
+            mType: Property
+            mName: Tweak_N16
+            mWidget: slider
+            mHint: "Property: Tweak_N16"
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: END Radius
+            mType: Property
+            mName: Tweak_N234
+            mWidget: slider
+            mHint: "Property: Tweak_N234"
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Height
+            mType: Property
+            mName: Tweak_N239
+            mWidget: spinbox
+            mHint: "Property: Tweak_N239"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 5.000000
+            mValues:
+              []
+          - mLabel: Arc Angels
+            mType: Property
+            mName: Tweak_N240
+            mWidget: spinbox
+            mHint: "Property: Tweak_N240"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 0.000000
+            mValues:
+              []
+          - mLabel: Scale
+            mType: Property
+            mName: Tweak_N241
+            mWidget: spinbox
+            mHint: "Property: Tweak_N241"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Center
+            mType: Property
+            mName: Tweak_N242
+            mWidget: spinbox
+            mHint: "Property: Tweak_N242"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 0.000000
+            mValues:
+              []
+          - mLabel: Volume Fill
+            mType: Property
+            mName: Tweak_N226
+            mWidget: slider
+            mHint: "Property: Tweak_N226"
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Orientation Axis
+            mType: Property
+            mName: Tweak_N243
+            mWidget: slider
+            mHint: "Property: Tweak_N243"
+            mMin: 0.000000
+            mMax: 2.000000
+            mStep: 1.000000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Volume Torus
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Inner Radius
+            mType: Property
+            mName: Tweak_N257
+            mWidget: spinbox
+            mHint: "Property: Tweak_N257"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Outer Radius
+            mType: Property
+            mName: Tweak_N258
+            mWidget: spinbox
+            mHint: "Property: Tweak_N258"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Arc Angles
+            mType: Property
+            mName: Tweak_N259
+            mWidget: spinbox
+            mHint: "Property: Tweak_N259"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Scale
+            mType: Property
+            mName: Tweak_N260
+            mWidget: spinbox
+            mHint: "Property: Tweak_N260"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Center
+            mType: Property
+            mName: Tweak_N261
+            mWidget: spinbox
+            mHint: "Property: Tweak_N261"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 0.000000
+            mValues:
+              []
+          - mLabel: Volume Fill
+            mType: Property
+            mName: Tweak_N262
+            mWidget: slider
+            mHint: "Property: Tweak_N262"
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Orientation Axis
+            mType: Property
+            mName: Tweak_N263
+            mWidget: slider
+            mHint: "Property: Tweak_N263"
+            mMin: 0.000000
+            mMax: 2.000000
+            mStep: 1.000000
+            mDefaultVal: 0.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Volume Grid
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Size
+            mType: Property
+            mName: Tweak_N236
+            mWidget: spinbox
+            mHint: "Property: Tweak_N236"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 10.000000
+            mValues:
+              []
+          - mLabel: Dimention
+            mType: Property
+            mName: Tweak_N237
+            mWidget: spinbox
+            mHint: "Property: Tweak_N237"
+            mMin: 1.000000
+            mMax: ~
+            mStep: 1.000000
+            mDefaultVal: 10.000000
+            mValues:
+              []
+          - mLabel: Offset
+            mType: Property
+            mName: Tweak_N264
+            mWidget: spinbox
+            mHint: "Property: Tweak_N264"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 0.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Volume Helix
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Start Radius
+            mType: Property
+            mName: Tweak_N232
+            mWidget: slider
+            mHint: "Property: Tweak_N232"
+            mMin: 1.000000
+            mMax: 64.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: End Radius
+            mType: Property
+            mName: Tweak_N233
+            mWidget: slider
+            mHint: "Property: Tweak_N233"
+            mMin: 1.000000
+            mMax: 64.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Height
+            mType: Property
+            mName: Tweak_N231
+            mWidget: slider
+            mHint: "Property: Tweak_N231"
+            mMin: 0.000000
+            mMax: 64.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Height to center
+            mType: Property
+            mName: Tweak_N304
+            mWidget: slider
+            mHint: |-
+              Property: Tweak_N304
+              
+              0 - Start, 1 - Center, 2 - End
+            mMin: 0.000000
+            mMax: 2.000000
+            mStep: 1.000000
+            mDefaultVal: 0.000000
+            mValues:
+              []
+          - mLabel: Thickness
+            mType: Property
+            mName: Tweak_N229
+            mWidget: slider
+            mHint: "Property: Tweak_N229"
+            mMin: 0.000000
+            mMax: 64.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Volume Fill
+            mType: Property
+            mName: Tweak_N285
+            mWidget: slider
+            mHint: "Property: Tweak_N285"
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Orientation Axis
+            mType: Property
+            mName: Tweak_N245
+            mWidget: slider
+            mHint: "Property: Tweak_N245"
+            mMin: 0.000000
+            mMax: 2.000000
+            mStep: 1.000000
+            mDefaultVal: 0.000000
+            mValues:
+              []
+          - mLabel: Turns
+            mType: Property
+            mName: Tweak_N230
+            mWidget: slider
+            mHint: "Property: Tweak_N230"
+            mMin: 0.000000
+            mMax: 16.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Animated
+            mType: Property
+            mName: animated
+            mWidget: checkbox
+            mHint: |-
+              Property: animated
+              
+              along the path
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Speed
+            mType: Property
+            mName: Tweak_N279
+            mWidget: spinbox
+            mHint: "Property: Tweak_N279"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 0.100000
+            mValues:
+              []
+          - mLabel: Random Speed
+            mType: Property
+            mName: Tweak_N303
+            mWidget: checkbox
+            mHint: "Property: Tweak_N303"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Random Speed Min/Max
+            mType: Property
+            mName: Tweak_N336
+            mWidget: spinbox
+            mHint: "Property: Tweak_N336"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 0.100000
+            mValues:
+              []
+          - mLabel: Thickness Parameters
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: from Curve
+            mType: Property
+            mName: Tweak_N280
+            mWidget: checkbox
+            mHint: "Property: Tweak_N280"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Curve
+            mType: Property
+            mName: Tweak_N157
+            mWidget: ""
+            mHint: "Property: Tweak_N157"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Volume Curves
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Curve X
+            mType: Property
+            mName: Tweak_N293
+            mWidget: ""
+            mHint: "Property: Tweak_N293"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Curve Y
+            mType: Property
+            mName: Tweak_N305
+            mWidget: ""
+            mHint: "Property: Tweak_N305"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Curve Z
+            mType: Property
+            mName: Tweak_N297
+            mWidget: ""
+            mHint: "Property: Tweak_N297"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Scale All
+            mType: Property
+            mName: Tweak_N298
+            mWidget: slider
+            mHint: "Property: Tweak_N298"
+            mMin: 0.000000
+            mMax: 64.000000
+            mStep: 0.010000
+            mDefaultVal: 0.100000
+            mValues:
+              []
+          - mLabel: Scale XYZ
+            mType: Property
+            mName: Tweak_N330
+            mWidget: spinbox
+            mHint: "Property: Tweak_N330"
+            mMin: 0.000000
+            mMax: 16.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Animated
+            mType: Property
+            mName: Tweak_N308
+            mWidget: checkbox
+            mHint: |-
+              Property: Tweak_N308
+              
+              along the path
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Speed
+            mType: Property
+            mName: Tweak_N294
+            mWidget: spinbox
+            mHint: "Property: Tweak_N294"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 0.100000
+            mValues:
+              []
+          - mLabel: Random Speed
+            mType: Property
+            mName: Tweak_N339
+            mWidget: checkbox
+            mHint: "Property: Tweak_N339"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Random Speed Min/Max
+            mType: Property
+            mName: Tweak_N342
+            mWidget: spinbox
+            mHint: "Property: Tweak_N342"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 0.100000
+            mValues:
+              []
+          - mLabel: Thickness
+            mType: Property
+            mName: Tweak_N301
+            mWidget: slider
+            mHint: "Property: Tweak_N301"
+            mMin: 0.000000
+            mMax: 2.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Volume Fill
+            mType: Property
+            mName: Tweak_N302
+            mWidget: slider
+            mHint: "Property: Tweak_N302"
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Resolution
+            mType: Property
+            mName: Tweak_N318
+            mWidget: spinbox
+            mHint: "Property: Tweak_N318"
+            mMin: ~
+            mMax: ~
+            mStep: 0.001000
+            mDefaultVal: 0.030000
+            mValues:
+              []
+          - mLabel: Thickness Parameters
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: from Curve
+            mType: Property
+            mName: Tweak_N274
+            mWidget: checkbox
+            mHint: "Property: Tweak_N274"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Curve Thickness
+            mType: Property
+            mName: Tweak_N299
+            mWidget: ""
+            mHint: "Property: Tweak_N299"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Volume Screen Coordinates
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Seed
+            mType: Property
+            mName: Tweak_N271
+            mWidget: spinbox
+            mHint: |-
+              Property: Tweak_N271
+              
+              Random UV position INT seed
+            mMin: 1.000000
+            mMax: ~
+            mStep: 1.000000
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Position Z
+            mType: Property
+            mName: Tweak_N273
+            mWidget: spinbox
+            mHint: |-
+              Property: Tweak_N273
+              
+              Z Depth
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 40.000000
+            mValues:
+              []
+          - mLabel: Expand XY
+            mType: Property
+            mName: Tweak_N270
+            mWidget: spinbox
+            mHint: "Property: Tweak_N270"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 0.000000
+            mValues:
+              []
+          - mLabel: Offset
+            mType: Property
+            mName: Tweak_N272
+            mWidget: spinbox
+            mHint: |-
+              Property: Tweak_N272
+              
+              XY offset
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 0.000000
+            mValues:
+              []
+          - mLabel: Depth Thickness
+            mType: Property
+            mName: Tweak_N269
+            mWidget: slider
+            mHint: |-
+              Property: Tweak_N269
+              
+              normalized distance from Depth to Camera and back
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Push
+            mType: Property
+            mName: Tweak_N275
+            mWidget: slider
+            mHint: "Property: Tweak_N275"
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Push Metod
+            mType: Property
+            mName: Tweak_N161
+            mWidget: slider
+            mHint: |-
+              Property: Tweak_N161
+              
+              0 - no push, 1 - distance remap,  2 - mix all
+            mMin: 0.000000
+            mMax: 2.000000
+            mStep: 1.000000
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: INILOCATION
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Initial Box Spawn
+            mType: Define
+            mName: BOXSPAWN
+            mWidget: group_start
+            mHint: |-
+              Define: BOXSPAWN
+              
+              Initial Spawn Shape Offset.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Spawn Box
+            mType: Property
+            mName: spawnBox
+            mWidget: spinbox
+            mHint: "Property: spawnBox"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: BOXSPAWN
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Initial Sphere Spawn
+            mType: Define
+            mName: SPHERESPAWN
+            mWidget: group_start
+            mHint: |-
+              Define: SPHERESPAWN
+              
+              Initial Spawn Shape Offset.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Spawn Sphere
+            mType: Property
+            mName: spawnSphere
+            mWidget: spinbox
+            mHint: "Property: spawnSphere"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: SPHERESPAWN
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Spawn / Time
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Global Time Multiplier
+            mType: Property
+            mName: timeGlobal
+            mWidget: spinbox
+            mHint: |-
+              Property: timeGlobal
+              
+              Particle System Time Multiplier. 1.0 is default.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: External Time
+            mType: Define
+            mName: EXTERNALTIME
+            mWidget: group_start
+            mHint: |-
+              Define: EXTERNALTIME
+              
+              Time can be overrided by this function
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: External Time Input
+            mType: Property
+            mName: externalTimeInput
+            mWidget: spinbox
+            mHint: |-
+              Property: externalTimeInput
+              
+              Use externalTimeInput to override particles time.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 0.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: EXTERNALTIME
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: External Seed
+            mType: Property
+            mName: externalSeed
+            mWidget: slider
+            mHint: |-
+              Property: externalSeed
+              
+              This control randomizes the look of the particle system given the same setup. Valid range is 0-1.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 0.000000
+            mValues:
+              []
+          - mLabel: World Position Seed
+            mType: Define
+            mName: WORLDPOSSEED
+            mWidget: checkbox
+            mHint: |-
+              Define: WORLDPOSSEED
+              
+              Use World Position as Seed Value.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Lifetime
+            mType: Property
+            mName: lifeTimeConstant
+            mWidget: spinbox
+            mHint: |-
+              Property: lifeTimeConstant
+              
+              How long particles live.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Lifetime Random
+            mType: Define
+            mName: LIFETIMEMINMAX
+            mWidget: group_start
+            mHint: |-
+              Define: LIFETIMEMINMAX
+              
+              When enabled, particles lifetime is randomized using Lifetime Min/Max.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Lifetime Min/Max
+            mType: Property
+            mName: lifeTimeMinMax
+            mWidget: spinbox
+            mHint: |-
+              Property: lifeTimeMinMax
+              
+              The min and max possible lifetime for particles.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: LIFETIMEMINMAX
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Spawn Duration
+            mType: Property
+            mName: spawnDuration
+            mWidget: spinbox
+            mHint: |-
+              Property: spawnDuration
+              
+              The number of seconds between when the lens starts and when spawning stops. 0 means infinite spawn.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 0.000000
+            mValues:
+              []
+          - mLabel: Instant Spawn
+            mType: Define
+            mName: INSTANTSPAWN
+            mWidget: checkbox
+            mHint: |-
+              Define: INSTANTSPAWN
+              
+              All Particle Spawn at Time of 0.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Constant Spawn
+            mType: Define
+            mName: CONSTANTSPAWN
+            mWidget: checkbox
+            mHint: |-
+              Define: CONSTANTSPAWN
+              
+              When enabled, particles spawn at consistent intervals. The interval is based on the lifetime of the particles and the particle count.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Pre-Warm
+            mType: Define
+            mName: PREWARMSPAWN
+            mWidget: checkbox
+            mHint: |-
+              Define: PREWARMSPAWN
+              
+              When enabled, particles spawn as if the system has already been running.
+              Otherwise, particles spawn in when enabled.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Textures
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Base Texture
+            mType: Define
+            mName: BASETEXTURE
+            mWidget: group_start
+            mHint: |-
+              Define: BASETEXTURE
+              
+              Base Texture for Particles.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: mainTexture
+            mWidget: texture_group
+            mHint: "Property: mainTexture"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: BASETEXTURE
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Flipbook
+            mType: Define
+            mName: FLIPBOOK
+            mWidget: group_start
+            mHint: |-
+              Define: FLIPBOOK
+              
+              This function can be used to create a texture animation.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: "Num Columns, Rows"
+            mType: Property
+            mName: gridSize
+            mWidget: spinbox
+            mHint: |-
+              Property: gridSize
+              
+              Sets the flipbook texture atlas grid size. x is the number of columns, y is the number of rows in the atlas.
+            mMin: 1.000000
+            mMax: ~
+            mStep: 1.000000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Num Valid Frames
+            mType: Property
+            mName: numValidFrames
+            mWidget: spinbox
+            mHint: |-
+              Property: numValidFrames
+              
+              Number of valid animation frames. May be set to at most columns*rows. May be set to less if there are unused frames at the end of the grid.
+            mMin: 1.000000
+            mMax: ~
+            mStep: 1.000000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Flipbook Speed
+            mType: Property
+            mName: flipBookSpeedMult
+            mWidget: spinbox
+            mHint: |-
+              Property: flipBookSpeedMult
+              
+              Flipbook playback speed, in frames per second. (For example, speed = 10 will play 10 frames per second). 
+              
+              When By Life is enabled, then speed is frames per particle lifetime.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 0.000000
+            mValues:
+              []
+          - mLabel: Flipbook Random
+            mType: Property
+            mName: flipBookRandomStart
+            mWidget: spinbox
+            mHint: |-
+              Property: flipBookRandomStart
+              
+              Randomizes the start frame, with a range of 0 to Random Value.
+              
+              For example:
+                 - A value of 0 will have no random offset (all animations start on Frame 0).
+                 - A value of 1 will cause the start frame to be either Frame 0 or Frame 1.
+            mMin: ~
+            mMax: ~
+            mStep: 1.000000
+            mDefaultVal: 0.000000
+            mValues:
+              []
+          - mLabel: Frame Blend
+            mType: Define
+            mName: FLIPBOOKBLEND
+            mWidget: checkbox
+            mHint: |-
+              Define: FLIPBOOKBLEND
+              
+              Blend Flipbook between frames.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: By Life
+            mType: Define
+            mName: FLIPBOOKBYLIFE
+            mWidget: checkbox
+            mHint: |-
+              Define: FLIPBOOKBYLIFE
+              
+              Flipbook speed normalized by particle life.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: FLIPBOOK
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Color Ramp Texture
+            mType: Define
+            mName: COLORRAMP
+            mWidget: group_start
+            mHint: |-
+              Define: COLORRAMP
+              
+              This can animate color/alpha over lifetime by ramp texture. size need to be 128x1.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: colorRampTexture
+            mWidget: texture_group
+            mHint: "Property: colorRampTexture"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Color Ramp Mult
+            mType: Property
+            mName: colorRampMult
+            mWidget: spinbox
+            mHint: "Property: colorRampMult"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: No Random Offset
+            mType: Define
+            mName: NORANDOFFSET
+            mWidget: group_start
+            mHint: "Define: NORANDOFFSET"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: NORANDOFFSET
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Quantize
+            mType: Define
+            mName: QUANTIZE
+            mWidget: group_start
+            mHint: "Define: QUANTIZE"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: QUANTIZE
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: COLORRAMP
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Color / Alpha
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Color Start
+            mType: Property
+            mName: colorStart
+            mWidget: color
+            mHint: "Property: colorStart"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Color End
+            mType: Property
+            mName: colorEnd
+            mWidget: color
+            mHint: "Property: colorEnd"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Color Random
+            mType: Define
+            mName: COLORMINMAX
+            mWidget: group_start
+            mHint: "Define: COLORMINMAX"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Color Min Start
+            mType: Property
+            mName: colorMinStart
+            mWidget: color
+            mHint: "Property: colorMinStart"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Color Max Start
+            mType: Property
+            mName: colorMaxStart
+            mWidget: color
+            mHint: "Property: colorMaxStart"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Color Min End
+            mType: Property
+            mName: colorMinEnd
+            mWidget: color
+            mHint: "Property: colorMinEnd"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Color Max End
+            mType: Property
+            mName: colorMaxEnd
+            mWidget: color
+            mHint: "Property: colorMaxEnd"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: COLORMINMAX
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Alpha Start
+            mType: Property
+            mName: alphaStart
+            mWidget: spinbox
+            mHint: "Property: alphaStart"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Alpha End
+            mType: Property
+            mName: alphaEnd
+            mWidget: spinbox
+            mHint: "Property: alphaEnd"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Alpha Random
+            mType: Define
+            mName: ALPHAMINMAX
+            mWidget: group_start
+            mHint: "Define: ALPHAMINMAX"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Alpha Min Start
+            mType: Property
+            mName: alphaMinStart
+            mWidget: spinbox
+            mHint: "Property: alphaMinStart"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Alpha Min End
+            mType: Property
+            mName: alphaMinEnd
+            mWidget: spinbox
+            mHint: "Property: alphaMinEnd"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Alpha Max Start
+            mType: Property
+            mName: alphaMaxStart
+            mWidget: spinbox
+            mHint: "Property: alphaMaxStart"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Alpha Max End
+            mType: Property
+            mName: alphaMaxEnd
+            mWidget: spinbox
+            mHint: "Property: alphaMaxEnd"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ALPHAMINMAX
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Premultiplied Color
+            mType: Define
+            mName: PREMULTIPLIEDCOLOR
+            mWidget: checkbox
+            mHint: |-
+              Define: PREMULTIPLIEDCOLOR
+              
+              Use Premultiplied Alpha as Blend Mode.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Black as Alpha
+            mType: Define
+            mName: BLACKASALPHA
+            mWidget: checkbox
+            mHint: |-
+              Define: BLACKASALPHA
+              
+              Use Add or Screen as Blend Mode.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Alpha Dissolving
+            mType: Define
+            mName: ALPHADISSOLVE
+            mWidget: group_start
+            mHint: |-
+              Define: ALPHADISSOLVE
+              
+              global dissovle control, the bigger the number the faster particle will dissolve.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Dissolve Speed
+            mType: Property
+            mName: alphaDissolveMult
+            mWidget: spinbox
+            mHint: |-
+              Property: alphaDissolveMult
+              
+              Global dissovle control, the bigger the number the faster particle will dissolve.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ALPHADISSOLVE
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Mono Color Random
+            mType: Define
+            mName: COLORMONOMIN
+            mWidget: checkbox
+            mHint: "Define: COLORMONOMIN"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Fade Close to Camera
+            mType: Define
+            mName: SCREENFADE
+            mWidget: group_start
+            mHint: "Define: SCREENFADE"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Fade Dist Visible
+            mType: Property
+            mName: fadeDistanceVisible
+            mWidget: slider
+            mHint: |-
+              Property: fadeDistanceVisible
+              
+              Particles will be fully visible at this distance, and fade out towards Fade Dist Invisible.
+            mMin: 0.000000
+            mMax: 1000.000000
+            mStep: 0.010000
+            mDefaultVal: 50.000000
+            mValues:
+              []
+          - mLabel: Fade Dist Invisible
+            mType: Property
+            mName: fadeDistanceInvisible
+            mWidget: slider
+            mHint: |-
+              Property: fadeDistanceInvisible
+              
+              Particles will be fully invisible at this distance, and will in towards Fade Dist Visible.
+            mMin: 0.000000
+            mMax: 1000.000000
+            mStep: 0.010000
+            mDefaultVal: 25.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: SCREENFADE
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: PBR
+            mType: Define
+            mName: PBR
+            mWidget: group_start
+            mHint: |-
+              Define: PBR
+              
+              (3D Mesh only) When enabled, applies PBR lighting to the mesh.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Metallic
+            mType: Property
+            mName: metallic
+            mWidget: slider
+            mHint: |-
+              Property: metallic
+              
+              (3D Mesh only) The metallic value for PBR lighting.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 0.000000
+            mValues:
+              []
+          - mLabel: Roughness
+            mType: Property
+            mName: roughness
+            mWidget: slider
+            mHint: |-
+              Property: roughness
+              
+              (3D Mesh only) The roughness value for PBR lighting.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 0.000000
+            mValues:
+              []
+          - mLabel: Normal Map
+            mType: Define
+            mName: PBRNORMALTEX
+            mWidget: group_start
+            mHint: |-
+              Define: PBRNORMALTEX
+              
+              (3D Mesh Only)
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: normalTexPBR
+            mWidget: texture_group
+            mHint: |-
+              Property: normalTexPBR
+              
+              (3D Mesh only) Applies a normal map to use with PBR lighting.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: PBRNORMALTEX
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: PBR
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Matcap
+            mType: Define
+            mName: matcap
+            mWidget: group_start
+            mHint: |-
+              Define: matcap
+              
+              (3D Mesh only) When enabled, applies PBR lighting to the mesh.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Intensity
+            mType: Property
+            mName: intensityMatcap
+            mWidget: spinbox
+            mHint: "Property: intensityMatcap"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Matcap Map
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: matcapTex
+            mWidget: texture_group
+            mHint: "Property: matcapTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Normal Map
+            mType: Define
+            mName: Tweak_N296
+            mWidget: group_start
+            mHint: |-
+              Define: Tweak_N296
+              
+              (3D Mesh Only)
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: normalTexMatcap
+            mWidget: texture_group
+            mHint: |-
+              Property: normalTexMatcap
+              
+              (3D Mesh only) Applies a normal map to use with PBR lighting.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: Tweak_N296
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: matcap
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: "Soft Occluder "
+            mType: Define
+            mName: Tweak_N323
+            mWidget: checkbox
+            mHint: "Define: Tweak_N323"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Soft Occluder
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Depth Map
+            mType: Property
+            mName: depthMap
+            mWidget: texture_group
+            mHint: "Property: depthMap"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Start Fade
+            mType: Property
+            mName: startFade
+            mWidget: spinbox
+            mHint: "Property: startFade"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 3.000000
+            mValues:
+              []
+          - mLabel: End Fade
+            mType: Property
+            mName: endFade
+            mWidget: spinbox
+            mHint: "Property: endFade"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Exponent
+            mType: Property
+            mName: exponentFade
+            mWidget: spinbox
+            mHint: "Property: exponentFade"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Noise
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Noise
+            mType: Define
+            mName: NOISE
+            mWidget: group_start
+            mHint: "Define: NOISE"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Noise Scale
+            mType: Property
+            mName: noiseMult
+            mWidget: spinbox
+            mHint: "Property: noiseMult"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Noise Frequency
+            mType: Property
+            mName: noiseFrequency
+            mWidget: spinbox
+            mHint: "Property: noiseFrequency"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: NOISE
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Simplex Noise
+            mType: Define
+            mName: SNOISE
+            mWidget: group_start
+            mHint: |-
+              Define: SNOISE
+              
+              Applies simplex noise to the velocity. IMPORTANT: only compatible with Mid and High End devices.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Noise Scale
+            mType: Property
+            mName: sNoiseMult
+            mWidget: spinbox
+            mHint: "Property: sNoiseMult"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Noise Frequency
+            mType: Property
+            mName: sNoiseFrequency
+            mWidget: spinbox
+            mHint: "Property: sNoiseFrequency"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: SNOISE
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Velocity
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Velocity Ramp Texture
+            mType: Define
+            mName: VELRAMP
+            mWidget: group_start
+            mHint: |-
+              Define: VELRAMP
+              
+              Using RGB channel to multiply XYZ Velocity over lifetime.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Velocity Ramp Texture
+            mType: Property
+            mName: velRampTexture
+            mWidget: texture_group
+            mHint: |-
+              Property: velRampTexture
+              
+              Using RGB channel to multiply XYZ Velocity over lifetime.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: VELRAMP
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Velocity Min
+            mType: Property
+            mName: velocityMin
+            mWidget: spinbox
+            mHint: "Property: velocityMin"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: -1.000000
+            mValues:
+              []
+          - mLabel: Velocity Max
+            mType: Property
+            mName: velocityMax
+            mWidget: spinbox
+            mHint: "Property: velocityMax"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Velocity Drag
+            mType: Property
+            mName: velocityDrag
+            mWidget: spinbox
+            mHint: "Property: velocityDrag"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Rotation
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Center BBox
+            mType: Property
+            mName: CENTER_BBOX
+            mWidget: checkbox
+            mHint: |-
+              Property: CENTER_BBOX
+              
+              (3D Mesh only) When enabled, particles will be centered about their local origin before being rotated.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Rotation Rate X
+            mType: Property
+            mName: rotationRateX
+            mWidget: spinbox
+            mHint: |-
+              Property: rotationRateX
+              
+              (3D Mesh only) The min and max number of complete rotations a particle will complete about its X axis during its lifetime.
+              
+              This rotation will be overridden if any Alignment settings are enabled.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 0.000000
+            mValues:
+              []
+          - mLabel: Initial Rotation X
+            mType: Property
+            mName: rotationRandomX
+            mWidget: spinbox
+            mHint: |-
+              Property: rotationRandomX
+              
+              (3D Mesh only) The min and max rotations in radians about its X axis each particle will have at birth.
+              
+              This rotation will be overriden if any Alignment settings are enabled.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 0.000000
+            mValues:
+              []
+          - mLabel: Rotation Rate Y
+            mType: Property
+            mName: rotationRateY
+            mWidget: spinbox
+            mHint: |-
+              Property: rotationRateY
+              
+              (3D Mesh only) The min and max number of complete rotations a particle will complete about its Y axis during its lifetime.
+              
+              This rotation will be overridden if any Alignment settings are enabled.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 0.000000
+            mValues:
+              []
+          - mLabel: Initial Rotation Y
+            mType: Property
+            mName: randomRotationY
+            mWidget: spinbox
+            mHint: |-
+              Property: randomRotationY
+              
+              (3D Mesh only) The min and max rotations in radians about its Y axis each particle will have at birth.
+              
+              This rotation will be overridden if any Alignment settings are enabled.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 0.000000
+            mValues:
+              []
+          - mLabel: Rotation Rate
+            mType: Property
+            mName: rotationRate
+            mWidget: spinbox
+            mHint: |-
+              Property: rotationRate
+              
+              The min and max rotations each particle will have rotated over their life.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Rotation Rate Z
+            mType: Property
+            mName: rotationRateZ
+            mWidget: spinbox
+            mHint: |-
+              Property: rotationRateZ
+              
+              (3D Mesh only) The min and max number of complete rotations a particle will complete about its Z axis during its lifetime.
+              
+              This rotation can be applied with Alignment settings enabled.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 0.000000
+            mValues:
+              []
+          - mLabel: Initial Rotation
+            mType: Property
+            mName: rotationRandom
+            mWidget: spinbox
+            mHint: |-
+              Property: rotationRandom
+              
+              The min and max rotations in radians each particle will have at birth.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Initial Rotation Z
+            mType: Property
+            mName: randomRotationZ
+            mWidget: spinbox
+            mHint: |-
+              Property: randomRotationZ
+              
+              (3D Mesh only) The min and max rotations in radians about its Z axis each particle will have at birth.
+              
+              This rotation can be applied with Alignment settings enabled.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 0.000000
+            mValues:
+              []
+          - mLabel: Rotation Drag
+            mType: Property
+            mName: rotationDrag
+            mWidget: spinbox
+            mHint: |-
+              Property: rotationDrag
+              
+              The power applied to the rotation rate on each particle.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 0.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Alignment
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Align Particles
+            mType: Define
+            mName: ALIGNPARTICLES
+            mWidget: group_start
+            mHint: |-
+              Define: ALIGNPARTICLES
+              
+              Enables controls for Particle Alignment.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Align To
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: |-
+              Controls how particle alignment. (Note: 3D Mesh particles align using their +Z vector as the forward vector.)
+               - Direction: particles align to their movement (based on velocity and forces).
+               - X Axis: particles align to the world X Axis.
+               - Y Axis: particles align to the world Y Axis.
+               - Z Axis: particles align to the world Z Axis.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Direction
+                mType: DefineSelectValue
+                mName: ALIGN_PARTICLES_TO_OPTION 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: X Axis
+                mType: DefineSelectValue
+                mName: ALIGN_PARTICLES_TO_OPTION 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Y Axis
+                mType: DefineSelectValue
+                mName: ALIGN_PARTICLES_TO_OPTION 2
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Z Axis
+                mType: DefineSelectValue
+                mName: ALIGN_PARTICLES_TO_OPTION 3
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: Velocity Scale Mult
+            mType: Property
+            mName: sizeVelScale
+            mWidget: spinbox
+            mHint: |-
+              Property: sizeVelScale
+              
+              Multiplier for velocity stretch. Higher numbers result in more stretching. 
+              The final length of the particle = clamp(length(velocity) * vel scale mult * particle size, vel scale min, vel scale max)
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Clamp Scale (Min / Max)
+            mType: Property
+            mName: velScaleMinMax
+            mWidget: spinbox
+            mHint: |-
+              Property: velScaleMinMax
+              
+              Clamps the velocity scaling to the specified range. 
+              The final length of the particle = clamp(length(velocity) * vel scale mult * particle size, vel scale min, vel scale max)
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Ignore Velocity Scale
+            mType: Property
+            mName: IGNOREVEL
+            mWidget: checkbox
+            mHint: |-
+              Property: IGNOREVEL
+              
+              Disables velocity stretching. Particles will still stretch based on the Velocity Scale Multiplier. 
+              When enabled, the final length of the particle = clamp(vel scale mult * particle size, vel scale min, vel scale max).
+              
+              NOTE: this will override Nomralize Scale setting.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Normalize Scale
+            mType: Property
+            mName: NORMALIZESCALETOTRANSFORM
+            mWidget: checkbox
+            mHint: |-
+              Property: NORMALIZESCALETOTRANSFORM
+              
+              When enabled, the stretching will be normalized to the transform scale. This can help prevent extra stretching when the particle system's transform scale is big.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ALIGNPARTICLES
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Quads / Trails
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Align to Camera
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Controls which Up vector is used to align Quad and Trail particles to the camera.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: World Up
+                mType: DefineSelectValue
+                mName: ALIGN_TO_CAMERA 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Camera Up
+                mType: DefineSelectValue
+                mName: ALIGN_TO_CAMERA 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Size
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Size Random
+            mType: Define
+            mName: SIZEMINMAX
+            mWidget: checkbox
+            mHint: |-
+              Define: SIZEMINMAX
+              
+              Randomizes the size of the particle size within the specified ranges. The particle's size at birth will be in the range [Size Start, Size Start Max], and the size at death will be in the range [Size End, Size End Max].
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Size Start
+            mType: Property
+            mName: sizeStart
+            mWidget: spinbox
+            mHint: |-
+              Property: sizeStart
+              
+              The size of the particle at birth.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Size Start Max
+            mType: Property
+            mName: sizeStartMax
+            mWidget: spinbox
+            mHint: |-
+              Property: sizeStartMax
+              
+              Randomizes particle size at birth, in the range [Size Start, Size Start Max].
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Size End
+            mType: Property
+            mName: sizeEnd
+            mWidget: spinbox
+            mHint: |-
+              Property: sizeEnd
+              
+              The size of the particle at death.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Size End Max
+            mType: Property
+            mName: sizeEndMax
+            mWidget: spinbox
+            mHint: |-
+              Property: sizeEndMax
+              
+              Randomizes particle size at death, in the range [Size End, Size End Max].
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Size Start
+            mType: Property
+            mName: sizeStart3D
+            mWidget: spinbox
+            mHint: |-
+              Property: sizeStart3D
+              
+              The size of the particle at birth.
+              
+              (Note: Trails using 3D Mesh geometry mode will only use the X and Y values.)
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Size Start Max
+            mType: Property
+            mName: sizeStartMax3D
+            mWidget: spinbox
+            mHint: |-
+              Property: sizeStartMax3D
+              
+              Randomizes particle size at birth, in the range [Size Start, Size Start Max].
+              
+              (Note: Trails using 3D Mesh geometry mode will only use the X and Y values.)
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Size End
+            mType: Property
+            mName: sizeEnd3D
+            mWidget: spinbox
+            mHint: |-
+              Property: sizeEnd3D
+              
+              The size of the particle at death.
+              
+              (Note: Trails using 3D Mesh geometry mode will only use the X and Y values.)
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Size End Max
+            mType: Property
+            mName: sizeEndMax3D
+            mWidget: spinbox
+            mHint: |-
+              Property: sizeEndMax3D
+              
+              Randomizes particle size at death, in the range [Size End, Size End Max].
+              
+              (Note: Trails using 3D Mesh geometry mode will only use the X and Y values.)
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Size Drag
+            mType: Property
+            mName: sizeSpeed
+            mWidget: spinbox
+            mHint: |-
+              Property: sizeSpeed
+              
+              Power applied to time controlling how quickly particles change size from Size Start to Size End.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Size Ramp Texture
+            mType: Define
+            mName: SIZERAMP
+            mWidget: group_start
+            mHint: |-
+              Define: SIZERAMP
+              
+              CAUTION! not supported by Low-End Mobile devices (size will become 0 on Low-End devices). 
+              
+              Interpolates the size of the particle between [0, Size Start] over the particle's lifetime. If using Size Random, the upper bound is randomized between [Size Start, Size Start Max]. The texture is read from left to right over the particle's lifetime.
+               - Quad: Uses R and G values from texture to apply X and Y scale, respectively.
+               - 3D Mesh: Uses R, G, and B values from texture to apply X, Y, and Z scale, respectively.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Size Ramp Texture
+            mType: Property
+            mName: sizeRampTexture
+            mWidget: texture_group
+            mHint: |-
+              Property: sizeRampTexture
+              
+              CAUTION! not supported by Low-End Mobile devices (size will become 0 on Low-End devices). 
+              
+              Interpolates the size of the particle between [0, Size Start] over the particle's lifetime. If using Size Random, the upper bound is randomized between Size Start and Size Start Max. The texture is read from left to right over the particle's lifetime.
+               - Quad: Uses R and G values from texture to apply X and Y scale, respectively.
+               - 3D Mesh: Uses R, G, and B values from texture to apply X, Y, and Z scale, respectively.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Size as Bounds
+            mType: Define
+            mName: ENABLE_SIZERAMPSTARTENDASBOUNDS
+            mWidget: checkbox
+            mHint: |-
+              Define: ENABLE_SIZERAMPSTARTENDASBOUNDS
+              
+              When enabled, the texture value interpolates particle size between [Size End, Size Start]. If Size Random is enabled, the bounds are randomized between [Size End, Size End Max] for the lower bound, and [Size Start, Size Start Max] for the upper bound.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: SIZERAMP
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Force / Gravity
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Gravity - cm/s
+            mType: Property
+            mName: gravity
+            mWidget: spinbox
+            mHint: "Property: gravity"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: -9.800000
+            mValues:
+              []
+          - mLabel: Local Force
+            mType: Define
+            mName: FORCE
+            mWidget: group_start
+            mHint: |-
+              Define: FORCE
+              
+              Adding Local Force separate from Gravity, Can be used as Wind.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Amount
+            mType: Property
+            mName: localForce
+            mWidget: spinbox
+            mHint: |-
+              Property: localForce
+              
+              Adding Local Force separate from Gravity, Can be used as Wind.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: FORCE
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Custom Force
+            mType: Define
+            mName: CUSTOMFORCE
+            mWidget: group_start
+            mHint: |-
+              Define: CUSTOMFORCE
+              
+              Applies a custom force equation to GPU Particles. The default example is Attract / Repel. You can modify this force equation directly by editing the graph in the 'Custom Force (EDIT ME)' section.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Attract / Repel
+            mType: Define
+            mName: Tweak_N131
+            mWidget: checkbox
+            mHint: "Define: Tweak_N131"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Attract / Repel
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Strength
+            mType: Property
+            mName: attractRepelForceStrength
+            mWidget: spinbox
+            mHint: |-
+              Property: attractRepelForceStrength
+              
+              Strength of the Custom Force.
+              Positive values create an attraction force.
+              Negative values create a repel force.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Force Origin
+            mType: Property
+            mName: customForceOrigin
+            mWidget: spinbox
+            mHint: |-
+              Property: customForceOrigin
+              
+              The origin of the custom force. This is relative to the Transform position.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 0.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: 3D Texture Force
+            mType: Define
+            mName: Tweak_N133
+            mWidget: checkbox
+            mHint: "Define: Tweak_N133"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: 3D Texture Force
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: 3d Texture
+            mType: Property
+            mName: Tex3d
+            mWidget: texture_group
+            mHint: "Property: Tex3d"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: 3d Texture Scale
+            mType: Property
+            mName: Tex3dScale
+            mWidget: spinbox
+            mHint: "Property: Tex3dScale"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Scroll Speed
+            mType: Property
+            mName: Tex3dScrollSpeed
+            mWidget: spinbox
+            mHint: "Property: Tex3dScrollSpeed"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 0.000000
+            mValues:
+              []
+          - mLabel: Strength
+            mType: Property
+            mName: Tex3dForceStrength
+            mWidget: spinbox
+            mHint: "Property: Tex3dForceStrength"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Path Direction Force
+            mType: Define
+            mName: Tweak_N313
+            mWidget: checkbox
+            mHint: "Define: Tweak_N313"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: "Path Direction Force [Helix Emitter Only]"
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Strength
+            mType: Property
+            mName: Tweak_N314
+            mWidget: spinbox
+            mHint: "Property: Tweak_N314"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: CUSTOMFORCE
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Transformation
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Displace
+            mType: Define
+            mName: Tweak_N282
+            mWidget: checkbox
+            mHint: "Define: Tweak_N282"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Displace
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Local Space (Displace)
+            mType: Define
+            mName: Tweak_N331
+            mWidget: checkbox
+            mHint: "Define: Tweak_N331"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: 3d Texture
+            mType: Property
+            mName: displace3dTex
+            mWidget: texture_group
+            mHint: "Property: displace3dTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: 3d Texture Scale
+            mType: Property
+            mName: displaceScale
+            mWidget: spinbox
+            mHint: "Property: displaceScale"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Texture Scroll Speed
+            mType: Property
+            mName: displaceSpeed
+            mWidget: spinbox
+            mHint: "Property: displaceSpeed"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 0.000000
+            mValues:
+              []
+          - mLabel: Displace Strength
+            mType: Property
+            mName: displaceStrength
+            mWidget: spinbox
+            mHint: "Property: displaceStrength"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Orbit
+            mType: Define
+            mName: Tweak_N228
+            mWidget: checkbox
+            mHint: "Define: Tweak_N228"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Orbit
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Local Space (Orbit)
+            mType: Define
+            mName: Tweak_N332
+            mWidget: checkbox
+            mHint: "Define: Tweak_N332"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Axis
+            mType: Property
+            mName: orbitAxis
+            mWidget: spinbox
+            mHint: "Property: orbitAxis"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 0.000000
+            mValues:
+              []
+          - mLabel: Center
+            mType: Property
+            mName: orbitCenter
+            mWidget: spinbox
+            mHint: "Property: orbitCenter"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 0.000000
+            mValues:
+              []
+          - mLabel: Min/Max Initial Angle
+            mType: Property
+            mName: orbitMinMaxAngle
+            mWidget: spinbox
+            mHint: "Property: orbitMinMaxAngle"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Min/Max Speed
+            mType: Property
+            mName: orbitMinMaxSpeed
+            mWidget: spinbox
+            mHint: "Property: orbitMinMaxSpeed"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Trails
+            mType: Define
+            mName: TRAILS
+            mWidget: group_start
+            mHint: |-
+              Define: TRAILS
+              
+              Enables particles to have trails. IMPORTANT: trail geometry is a quad split vertically with red applied to the vertex color.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Trail Behavior
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: "Determines how trail size, color, and fading is applied to the trail. Match Head: particle size, color, and life will be applied uniformly to the entire trail, matching the head particle. Trails will die once the head particle dies. Independent: particle size and color will be applied over the trail's lifetime. Particle trails will live the full lifetime of the particle + trail length mult."
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Match Head
+                mType: DefineSelectValue
+                mName: TRAILBEHAVIOR 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Independent
+                mType: DefineSelectValue
+                mName: TRAILBEHAVIOR 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: Trail Length Mult
+            mType: Property
+            mName: trailLength
+            mWidget: spinbox
+            mHint: |-
+              Property: trailLength
+              
+              Multiplies the length of the trail. This setting will increase the overall lifetime of particles when Particle Behavior set to 'Independent.' IMPORTANT: the overall length of the trail is influenced by how long the particle lives and how far the particle travels over its lifetime.
+            mMin: 0.000000
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Trail Width Mult
+            mType: Property
+            mName: trailWidth
+            mWidget: spinbox
+            mHint: |-
+              Property: trailWidth
+              
+              Scales the width of the trail relative to the head.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Taper
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Front / End
+            mType: Property
+            mName: trailTaper
+            mWidget: spinbox
+            mHint: |-
+              Property: trailTaper
+              
+              The width of the taper as a percentage of the particle size.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Fade
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Start / End
+            mType: Property
+            mName: trailFadeStartEnd
+            mWidget: spinbox
+            mHint: |-
+              Property: trailFadeStartEnd
+              
+              Fading applied to the tips of the trail, calculated as a percentage of the particle's length. X = fading applied to the start of the trail as it is born. Y = fading applied to the end of the trail as it dies.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 0.100000
+            mValues:
+              []
+          - mLabel: In / Out
+            mType: Property
+            mName: trailFadeInOut
+            mWidget: spinbox
+            mHint: |-
+              Property: trailFadeInOut
+              
+              (NOTE: this setting is only available when Particle Behavior is set to 'Match Head'). Fading applied uniformly to the entire particle on birth and death, calculated as a percentage of the particle's lifetime. X = how long it takes for particles to fade in after birth. Y = how long it takes particles to fade out before death.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 0.100000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Twist
+            mType: Define
+            mName: TRAILTWIST
+            mWidget: checkbox
+            mHint: |-
+              Define: TRAILTWIST
+              
+              When enabled, trails will twist using the Rotation settings. Works best with Two-Sided rendering enabled.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Textures
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Trail Texture
+            mType: Define
+            mName: TRAILTEXTURE
+            mWidget: group_start
+            mHint: |-
+              Define: TRAILTEXTURE
+              
+              Applies a texture to the trail. The texture is aligned with the top being closest to the head (or leading edge) of the trail, and the bottom towards the end of the trail. IMPORTANT: Trails do not use the Base Texture or Flipbook texture settings.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: trailTex
+            mWidget: texture_group
+            mHint: "Property: trailTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: TRAILTEXTURE
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Trail Color Ramp
+            mType: Define
+            mName: TRAILCOLORRAMP
+            mWidget: group_start
+            mHint: |-
+              Define: TRAILCOLORRAMP
+              
+              Applies an additional color ramp to the trail only. The color ramp combines with all other color settings, and is affected by the Trail Behavior setting.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: trailColorRampTex
+            mWidget: texture_group
+            mHint: "Property: trailColorRampTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: TRAILCOLORRAMP
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Trail Size Ramp
+            mType: Define
+            mName: TRAILSIZERAMP
+            mWidget: group_start
+            mHint: |-
+              Define: TRAILSIZERAMP
+              
+              Applies a size ramp to the trail using the base particle size settings. IMPORTANT: this will override the general particle Size Ramp.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Trail Size Ramp Texture
+            mType: Property
+            mName: trailSizeRampTex
+            mWidget: texture_group
+            mHint: "Property: trailSizeRampTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Size as Bounds
+            mType: Define
+            mName: TRAILSIZERAMPSTARTENDASBOUNDS
+            mWidget: checkbox
+            mHint: |-
+              Define: TRAILSIZERAMPSTARTENDASBOUNDS
+              
+              When enabled, the ramp value will interpolate the trail size between the Size Start and Size End values. Otherwise, the size is interpolated between 0 and Size Start.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: TRAILSIZERAMP
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: TRAILS
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Mask(Screen Space)
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Frame / Texture Mask
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Circular Mask
+            mType: Property
+            mName: circularMask
+            mWidget: checkbox
+            mHint: "Property: circularMask"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Square Mask
+            mType: Property
+            mName: squareMask
+            mWidget: checkbox
+            mHint: "Property: squareMask"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Mask Parameters
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Mask Threshold
+            mType: Property
+            mName: maskTreshold
+            mWidget: slider
+            mHint: "Property: maskTreshold"
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Mask Feather
+            mType: Property
+            mName: maskFeather
+            mWidget: slider
+            mHint: "Property: maskFeather"
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture Mask
+            mType: Property
+            mName: texMask
+            mWidget: checkbox
+            mHint: "Property: texMask"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture Mask
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Invert
+            mType: Property
+            mName: texMaskInvert
+            mWidget: checkbox
+            mHint: "Property: texMaskInvert"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Segmentation Texture
+            mType: Property
+            mName: segTex
+            mWidget: texture_group
+            mHint: "Property: segTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Alpha Test Threshold
+            mType: Property
+            mName: alphaTestThreshold
+            mWidget: slider
+            mHint: |-
+              Property: alphaTestThreshold
+              
+              When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 0.500000
+            mValues:
+              []
+        ShaderType: Mesh3d
+      ShaderPath: e4dc6799-a584-97d0-8fb8-fc563a945a28/3987465f4ad91871ce7041908ad55df4/Data/6a992e8/gpu_particles_custom.glsl
+      Defines:
+        []
+      Properties:
+        {}
+      ReferencedAssets:
+        []
+      GraphStatus: Evaluated
+  SourceHash: 3987465f4ad91871ce7041908ad55df4
+  FileHash: a1897f4f0185801477220d12115b9d00
+  NativePackageItems:
+    []

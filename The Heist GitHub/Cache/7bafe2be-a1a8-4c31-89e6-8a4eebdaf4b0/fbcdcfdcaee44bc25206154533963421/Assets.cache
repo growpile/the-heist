@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    d0fee289-6d50-4f2c-94fe-80905ae07460: 7bafe2be-a1a8-4c31-89e6-8a4eebdaf4b0/fbcdcfdcaee44bc25206154533963421/Data/RightScreen.mesh
+  Assets:
+    - !<FileMesh/d0fee289-6d50-4f2c-94fe-80905ae07460>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 110
+        Vertices: 208
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.372275, y: 2.408333, z: 2.514570}
+  SourceHash: fbcdcfdcaee44bc25206154533963421
+  FileHash: c80c2a6460e146c55b56fd9721c4e49e
+  NativePackageItems:
+    []

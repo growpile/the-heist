@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    2e325119-1a55-4b25-bbb5-0423cb466319: b7ea60d0-bc06-4268-a989-0810147f5131/221d4dd7bc23a08e7b27300ac82a36c8/Data/The Heist Logo V1.png
+  Assets:
+    - !<FileTexture/2e325119-1a55-4b25-bbb5-0423cb466319>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: 221d4dd7bc23a08e7b27300ac82a36c8
+  FileHash: 54ee3613fcd18748f47ee1cd08ac7dfc
+  NativePackageItems:
+    []

@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    a89665a6-37e8-48e5-8f7a-8284a479e6b3: 6b2d4381-3538-47fb-99b6-3b194027e8ac/e44e87d0a10518edd691ce48d943542a/Data/SafeDoor.mesh
+  Assets:
+    - !<FileMesh/a89665a6-37e8-48e5-8f7a-8284a479e6b3>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 28
+        Vertices: 48
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 16.379877, y: 2.191735, z: 22.815460}
+  SourceHash: e44e87d0a10518edd691ce48d943542a
+  FileHash: b2cead489d84d6ac97a6a435250350ba
+  NativePackageItems:
+    []

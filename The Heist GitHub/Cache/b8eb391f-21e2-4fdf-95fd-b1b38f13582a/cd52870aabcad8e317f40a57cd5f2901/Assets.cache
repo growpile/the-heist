@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    2cca7e19-f600-4542-bf8c-4bbf5b845694: b8eb391f-21e2-4fdf-95fd-b1b38f13582a/cd52870aabcad8e317f40a57cd5f2901/Data/14-segment-led.regular.ttf
+  Assets:
+    - !<Font/2cca7e19-f600-4542-bf8c-4bbf5b845694>
+      PackagePath: ""
+  SourceHash: cd52870aabcad8e317f40a57cd5f2901
+  FileHash: 3e8a3c7595ae2719e3d2184785e79294
+  NativePackageItems:
+    []

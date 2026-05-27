@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    db026cd3-747d-4b2a-b4a8-ced80449e4c4: bfec35dd-332d-45ea-b801-d038d2697aad/4a32e905ad63d412c1fa87fa9a4af9fa/Data/Wristwatch Tick Loop-loop.mp3
+  Assets:
+    - !<FileAudioTrack/db026cd3-747d-4b2a-b4a8-ced80449e4c4>
+      PackagePath: ""
+  SourceHash: 4a32e905ad63d412c1fa87fa9a4af9fa
+  FileHash: b020fbf4a3083f846ac3d85187b5c588
+  NativePackageItems:
+    []

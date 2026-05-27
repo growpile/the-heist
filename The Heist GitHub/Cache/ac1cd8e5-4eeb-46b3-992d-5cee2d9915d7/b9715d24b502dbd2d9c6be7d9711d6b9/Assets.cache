@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    4ae9fca3-50b0-489d-bfae-554199acd853: ac1cd8e5-4eeb-46b3-992d-5cee2d9915d7/b9715d24b502dbd2d9c6be7d9711d6b9/Data/pouch_ao.jpg
+  Assets:
+    - !<FileTexture/4ae9fca3-50b0-489d-bfae-554199acd853>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: b9715d24b502dbd2d9c6be7d9711d6b9
+  FileHash: ee0bff33f137fc65cd605f1cc42b42e3
+  NativePackageItems:
+    []

@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    09d76fa3-fab6-480a-a146-e2eb25d481ae: bb54b2a8-539f-4c8b-889a-eb7c44abfb7f/713147334f9cda74cb622eeaf45e2f34/Data/Module Frame Right.mesh
+  Assets:
+    - !<FileMesh/09d76fa3-fab6-480a-a146-e2eb25d481ae>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 530
+        Vertices: 411
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 1.070087, y: 15.018781, z: 15.018781}
+  SourceHash: 713147334f9cda74cb622eeaf45e2f34
+  FileHash: 985774575be77525b215f125fb72130f
+  NativePackageItems:
+    []

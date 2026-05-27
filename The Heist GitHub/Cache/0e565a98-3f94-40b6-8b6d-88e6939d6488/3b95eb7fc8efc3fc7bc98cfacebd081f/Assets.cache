@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    e91d9d42-c249-4aa4-84c5-30de0b2d53c2: 0e565a98-3f94-40b6-8b6d-88e6939d6488/3b95eb7fc8efc3fc7bc98cfacebd081f/Data/module-manual-v1.pdf
+  Assets:
+    - !<BinAsset/e91d9d42-c249-4aa4-84c5-30de0b2d53c2>
+      PackagePath: ""
+  SourceHash: 3b95eb7fc8efc3fc7bc98cfacebd081f
+  FileHash: ff6a797b7b9243956b29febc9716c40b
+  NativePackageItems:
+    []

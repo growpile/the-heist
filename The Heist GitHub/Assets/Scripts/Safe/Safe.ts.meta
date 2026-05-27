@@ -1,0 +1,116 @@
+- !<AssetImportMetadata/3c24080e-1f35-4fb2-8d90-420d31f89c60>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 0757d007-eecf-4e1a-8287-48564d95143f
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 0757d007-eecf-4e1a-8287-48564d95143f
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 35dba59a-08dc-418a-9d5e-ac917e1e0cd5
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/35dba59a-08dc-418a-9d5e-ac917e1e0cd5>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 9af07bde-15d1-4671-a9bf-f2bedcbf615f
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    antennaGlow: false
+    dynamiteFuseMaterials: false
+    dynamiteFuseObjects: false
+    enableDebug: false
+    gameFlow: false
+    moduleDisplayImages: false
+    moduleSlots: false
+    modules: false
+    safeBody: false
+    safeContents: false
+    safeDebugText: false
+    safeDoor: false
+    safeRoot: false
+    serialNumberText: false
+    timerBgTexts: false
+    timerDigitTexts: false
+    timerScreenRMV: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - modules:
+        []
+      moduleSlots: !<reference.SceneObject[]>
+        []
+      moduleDisplayImages: !<reference.Image[]>
+        []
+      safeRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      safeBody: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      safeDoor: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      safeContents: !<reference.SceneObject[]>
+        []
+      dynamiteFuseMaterials: !<reference.Material[]>
+        []
+      dynamiteFuseObjects: !<reference.SceneObject[]>
+        []
+      serialNumberText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      antennaGlow: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      timerScreenRMV: !<reference.RenderMeshVisual> 00000000-0000-0000-0000-000000000000
+      timerDigitTexts: !<reference.Text[]>
+        []
+      timerBgTexts: !<reference.Text[]>
+        []
+      gameFlow: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      enableDebug: false
+      safeDebugText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Modules</span>"}'
+    - /*
+    - "@typedef SafeModuleConfig"
+    - "@property {string} moduleName"
+    - "@property {string} moduleId"
+    - "@property {Asset.ObjectPrefab} prefab"
+    - "*/"
+    - "// @input SafeModuleConfig[] modules = {}"
+    - "// @input SceneObject[] moduleSlots = {}"
+    - "// @input Component.Image[] moduleDisplayImages = {}"
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Visuals</span>"}'
+    - '// @input SceneObject safeRoot {"hint":"Scaled away on win/fail — keep post-game UI outside this object."}'
+    - // @input SceneObject safeBody
+    - // @input SceneObject safeDoor
+    - "// @input SceneObject[] safeContents = {}"
+    - "// @input Asset.Material[] dynamiteFuseMaterials = {}"
+    - "// @input SceneObject[] dynamiteFuseObjects = {}"
+    - // @input Component.Text serialNumberText
+    - // @input SceneObject antennaGlow
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Timer UI</span>"}'
+    - // @input Component.RenderMeshVisual timerScreenRMV
+    - "// @input Component.Text[] timerDigitTexts = {}"
+    - "// @input Component.Text[] timerBgTexts = {}"
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Flow</span>"}'
+    - // @input Component.ScriptComponent gameFlow
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Debug</span>"}'
+    - // @input bool enableDebug
+    - '// @input Component.Text safeDebugText {"showIf":"enableDebug", "showIfValue":true}'

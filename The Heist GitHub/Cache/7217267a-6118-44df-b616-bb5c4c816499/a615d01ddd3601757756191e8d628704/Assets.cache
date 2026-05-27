@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    ac22fde3-d274-4d3c-bb3e-484060de49ae: 7217267a-6118-44df-b616-bb5c4c816499/a615d01ddd3601757756191e8d628704/Data/x_pattern.png
+  Assets:
+    - !<FileTexture/ac22fde3-d274-4d3c-bb3e-484060de49ae>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1080
+        Height: 1080
+  SourceHash: a615d01ddd3601757756191e8d628704
+  FileHash: 165d0168b882411e4b204682d8c27214
+  NativePackageItems:
+    []

@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    27e60ea8-cf07-4332-b588-e3f35230f7f6: f9ced8e2-d035-4187-8a6d-1f99cb9b8221/60e335187129af6718928cb3048a32dc/Data/Light Metal Drop.mp3
+  Assets:
+    - !<FileAudioTrack/27e60ea8-cf07-4332-b588-e3f35230f7f6>
+      PackagePath: ""
+  SourceHash: 60e335187129af6718928cb3048a32dc
+  FileHash: 9799f4418849f8a7e64772d4aa05046f
+  NativePackageItems:
+    []

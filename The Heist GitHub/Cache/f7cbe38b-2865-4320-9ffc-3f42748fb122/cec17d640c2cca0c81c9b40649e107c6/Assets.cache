@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    af7bbeb5-cff3-4b6a-ae0a-b8ba5d43a9a7: f7cbe38b-2865-4320-9ffc-3f42748fb122/cec17d640c2cca0c81c9b40649e107c6/Data/Heavy Metal Double Drop.mp3
+  Assets:
+    - !<FileAudioTrack/af7bbeb5-cff3-4b6a-ae0a-b8ba5d43a9a7>
+      PackagePath: ""
+  SourceHash: cec17d640c2cca0c81c9b40649e107c6
+  FileHash: b01f50581dc788429545969acb3c0479
+  NativePackageItems:
+    []

@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    ebde250b-4460-49bf-a5c0-3e7ab1f7d521: 750c5b8d-0a44-47ec-8566-add7d711bff1/8cf8bc2c9ee636bdbad8517f14acc27c/Data/Safe Body.mesh
+  Assets:
+    - !<FileMesh/ebde250b-4460-49bf-a5c0-3e7ab1f7d521>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 332
+        Vertices: 264
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 19.306761, y: 19.306761, z: 26.710978}
+  SourceHash: 8cf8bc2c9ee636bdbad8517f14acc27c
+  FileHash: ab821544231e81aca6dbea3fceea5d6a
+  NativePackageItems:
+    []

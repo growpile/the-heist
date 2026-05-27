@@ -1,0 +1,91 @@
+data:
+  externalSources:
+    - 00a4d30e-a044-4ece-80a9-dd71f1fff4ba: /Applications/Lens Studio Spectacles.app/Contents/JsPlugins/PresetsRegistry/Assets/Resources/flat.ss_graph
+    - 0594cdef-4a6b-44cf-a335-77b2296ab50e: /Applications/Lens Studio Spectacles.app/Contents/Plugins/Es_ShaderGraph_Presets.bundle/Assets/Empty.ss_graph
+    - 064c63c4-bf88-42fb-ae8f-1726108bf272: /Users/nickazak/Desktop/Safe Crackers SFX/Trimmed/Metal Sheet Drop.mp3
+    - 0860499a-7b58-4113-b9e1-c182aae7a25f: /Users/nickazak/Downloads/Heist_TeamPlay.webp
+    - 08f43f0a-8a47-4980-b35f-d72010fbecdf: /Users/nickazak/Desktop/Safe Crackers SFX/Trimmed/Safe Turn Whoosh 5.mp3
+    - 0c19701e-ac08-4326-b922-87de30b0c0ce: /Users/nickazak/Library/Preferences/Snap/Lens Studio/LibraryComponents/SpectaclesInteractionKit@0.17.2/SpectaclesInteractionKit.lspkg
+    - 14bad81b-1920-488a-ab90-af1084abf289: /Users/nickazak/Desktop/Safe Crackers SFX/Trimmed/Alarm Early.mp3
+    - 152a0aec-cb46-4fd2-87c3-2138333e77b7: /Users/nickazak/Desktop/Safe Crackers SFX/Trimmed/Mechanical Lever Pull 2.mp3
+    - 1b4235f5-3b28-44f2-934c-3df5f0e5e672: /Users/nickazak/Desktop/Star Icon.png
+    - 1dcd4cf0-c4d9-48f7-bffe-a8ffe1fab99a: /Users/nickazak/Desktop/Symbols Export/Dont Press.jpg
+    - 1dd51d53-3b76-43c2-93f7-eec9de35c047: /Users/nickazak/Library/Preferences/Snap/Lens Studio/LibraryComponents/SnapDecorators@1.0.0/SnapDecorators.lspkg
+    - 22405a6b-daee-43f9-a277-4aa6260f5c28: /Users/nickazak/Library/Preferences/Snap/Lens Studio/LibraryComponents/SupabaseClient@0.0.10/SupabaseClient.lspkg
+    - 23d24767-3f0d-43c6-9c61-59ca6111153a: /Users/nickazak/Desktop/Symbols Export/Fork.jpg
+    - 249b2e3b-cdc1-410d-ac7f-6d1669ca0f53: /Users/nickazak/Library/Preferences/Snap/Lens Studio/LibraryComponents/Chain@5.0.14/Chain.lsc
+    - 2ee19ff8-20a9-4cf3-8f5f-54c159996d88: /Users/nickazak/Documents/Lenses/ Spectacles/Hexenfurt Memories/Assets/Sounds/Code Safe Unlock.mp3
+    - 2fe7e04f-7012-4052-a990-7cfcc469ae00: /Users/nickazak/Desktop/Symbols Export/Helm Wheel.jpg
+    - 34e8fdc6-605d-4861-8703-6fac84f480ed: /Users/nickazak/Desktop/Lock_Opacity.webp
+    - 3560ba42-c549-4ef6-897c-106e0af0fb38: /Users/nickazak/Desktop/Safe Crackers SFX/Trimmed/Button Click 5.mp3
+    - 36c275dd-2ca0-4a1c-895c-4230938abf56: /Users/nickazak/Desktop/Safe Crackers SFX/Trimmed/Mechanical Lever Pull 1.mp3
+    - 3c39eb8b-1f6b-4018-8a1b-78daf07e5d56: /Users/nickazak/Documents/Lenses/ Spectacles/Hexenfurt Memories/Assets/SnapCloudRequirements.lsc/SnapCloudRequirements.ts
+    - 3ed9a4fb-0bc1-485e-86bf-bdf352dc07d9: /Users/nickazak/Documents/Lenses/ Spectacles/Vault Crack/Assets/Big Push Button.lspkg/Big Push Button/Rounded Push Button_Material_base.png
+    - 41de08f0-4c49-4568-83e5-97ac2bea9def: /Users/nickazak/Downloads/ES_Drop Large Coin Pouch Into Hands - Epidemic Sound.mp3
+    - 42c8176c-cf63-49a2-996c-e0fc5f6047d8: /Users/nickazak/Desktop/Symbols Export/Big Dot.jpg
+    - 4396b84f-2329-4afe-ba26-ad912d06c0c7: /Users/nickazak/Desktop/Safe Crackers SFX/Trimmed/Button Click End.mp3
+    - 452fa520-c541-4e3e-be2c-2b0128651805: /Users/nickazak/Library/Preferences/Snap/Lens Studio/LibraryComponents/VolumetricLine@0.1.0/VolumetricLine.lspkg
+    - 4cea2a83-9a3f-4f7f-aba0-c091d079b530: /Users/nickazak/Desktop/Safe Crackers SFX/Trimmed/Button Click Start.mp3
+    - 56e5ceff-413c-4c65-af4a-bd9079155ffa: /Users/nickazak/Documents/Lenses/ Spectacles/Vault Crack/Assets/Materials/Shaders/Spectacles Metal Shader w AO Map.ss_graph
+    - 5990c6e1-7eeb-4651-843f-18eab7e6d42a: /Users/nickazak/Downloads/Ticking Critical (1).mp3
+    - 5a64d97b-71cd-4b2c-a102-ff649bbb2887: /Users/nickazak/Desktop/Safe Crackers SFX/Trimmed/Penalty.mp3
+    - 5fc1c9c8-4d5d-4b5b-a507-6317459cf654: /Users/nickazak/Documents/Lenses/ Spectacles/Vault Crack/Assets/Materials/Shaders/Spectacles Metal Shader w AO Map.ss_graph
+    - 67c4fa72-0ca4-43dc-bfb1-16bccd0cc6c1: /Users/nickazak/Documents/Lenses/ Spectacles/Vault Crack/Assets/Big Push Button.lspkg/Big Push Button/Rounded Push Button_Material_normal.png
+    - 6aed4d23-494a-426a-9f1e-b9098deea816: /Users/nickazak/Library/Preferences/Snap/Lens Studio/LibraryComponents/Utilities@1.0.0/Utilities.lspkg
+    - 70505b62-45b8-4c0e-97fa-cb262991594a: /Users/nickazak/Desktop/Star Glow.png
+    - 73b89ed9-09c5-4acd-8f15-fe0dcbf357d1: /Users/nickazak/Desktop/Checkmark Icon.jpg
+    - 78ecd179-8cbe-4cae-9901-f46732020933: /Users/nickazak/Documents/Lenses/ Spectacles/Hexenfurt Memories/Assets/Sounds/Safe Door Open.mp3
+    - 799a85b7-c229-4f96-86d0-6c3878616129: /Users/nickazak/Downloads/Ticking Loop (1).mp3
+    - 80c8ac4d-3a75-451a-8889-ea2a96e39a5c: /Applications/Lens Studio Spectacles.app/Contents/JsPlugins/PresetsRegistry/Assets/EmptyMaterial/Resources/empty.ss_graph
+    - 8533e663-8332-4105-969f-05b954219926: /Users/nickazak/Desktop/Star Outline Icon.png
+    - 85a3692b-8d9a-4d88-babf-d6cc01bcf84f: /Users/nickazak/Desktop/Safe Crackers SFX/Trimmed/Gamble Carousel Tick.mp3
+    - 8969bde6-92f4-42a9-9d10-928f241af5ba: /Users/nickazak/Documents/Lenses/ Spectacles/Vault Crack/Assets/Materials/Shaders/Spectacles PBR.ss_graph
+    - 8aac2df0-711d-4e1b-8be0-62c613c2b0c9: /Users/nickazak/Library/Preferences/Snap/Lens Studio/LibraryComponents/Spectacles3DHandHints@1.1.0/Spectacles3DHandHints.lspkg
+    - 8b5bb949-8d03-4162-a3b8-0bd90ff73aed: /Users/nickazak/Documents/Lenses/ Spectacles/Vault Crack/Assets/Materials/Shaders/Module Screen Shader.ss_graph
+    - 8c7ce720-6fe0-4174-810d-c750aa88b072: /Users/nickazak/Desktop/Safe Crackers SFX/Trimmed/Safe Turn Whoosh 2.mp3
+    - 9032b7b3-0b95-4109-bb70-9ab1c68f887d: "/Users/nickazak/Downloads/ES_Mouth, Finger 02 - Epidemic Sound.mp3"
+    - 90cc4b5a-c35a-4817-9f33-e2aeb5a57665: /Users/nickazak/Downloads/Star.mp3
+    - 91c4f80b-f833-4049-bf3c-d3bac29b7cf9: /Users/nickazak/Desktop/Symbols Export/Vertical Line.jpg
+    - 92618845-9346-4622-a6fd-202fd4a41cda: /Users/nickazak/Desktop/Safe Crackers SFX/Trimmed/Safe Turn Whoosh 1.mp3
+    - 93ca302c-2681-4fbd-815e-65dedcf5d859: /Users/nickazak/Desktop/Safe Crackers SFX/Trimmed/Safe Turn Whoosh 4.mp3
+    - 9504bdf0-467f-4eb6-a0d6-05a5370f933a: /Users/nickazak/Downloads/sf-pro-display 2/SFPRODISPLAYBOLD.OTF
+    - 96a77646-d5bd-4b9e-a863-2be995a312d2: /Users/nickazak/Desktop/Symbols Export/Sun.jpg
+    - 97bc9126-d643-4a7d-a136-cb9da5dedcfe: /Users/nickazak/Library/Preferences/Snap/Lens Studio/LibraryComponents/SpectaclesUIKit@0.1.5/SpectaclesUIKit.lspkg
+    - 9db7af78-f63c-4724-9abd-2e0fc35ae73b: /Users/nickazak/Documents/Lenses/ Spectacles/Vault Crack/Assets/VFX/smoke_vfx.vfxgraph
+    - 9df26439-e5cb-4ef5-9341-b241e5eb88a1: /Users/nickazak/Documents/GitHub/Lens Studio Utilities/Textures/Lighting/light-orb.png
+    - 9e9d3176-7280-4510-a494-f3b4d8ed402a: /Applications/Lens Studio Spectacles.app/Contents/JsPlugins/PresetsRegistry/Assets/Meshes/Resources/Sphere.mesh
+    - a0bbaba2-6b09-46f3-85c4-e5f3dc3e6e74: /Users/nickazak/Desktop/play.png
+    - a14abf70-b99d-4681-aeac-9feea35f0de3: /Users/nickazak/Downloads/sf-pro-display 2/SFPRODISPLAYMEDIUM.OTF
+    - a75b7bcd-d6b1-49f1-8e9a-0979941dd430: /Users/nickazak/Desktop/Symbols Export/Horizontal Line.jpg
+    - acb0d8bf-d3ce-4d70-b635-173a296ede6d: /Users/nickazak/Desktop/Safe Crackers SFX/Trimmed/Metal Dink 1.mp3
+    - adbbff3a-551b-49d6-8276-cecadf920fe2: /Applications/Lens Studio Spectacles.app/Contents/JsPlugins/HelperScriptsRegistry/Assets/Packages/TweenManager.lspkg
+    - b02dddb5-2d6f-46fd-9bbf-71848b4cc558: /Users/nickazak/Documents/GrowPile/Docs/Logo/growpile-light-500px.png
+    - b06c53c9-047a-4c4e-b518-b5a946649ac6: /Users/nickazak/Downloads/e1234/E1234.ttf
+    - b1ea52e3-4751-4217-bbe3-55b8e0e6837f: /Users/nickazak/Desktop/Safe Crackers SFX/Trimmed/Wire Disconnect.mp3
+    - b86480c6-83c6-474a-8423-87573da4f61e: /Users/nickazak/Documents/Lenses/ Spectacles/Vault Crack/Assets/Materials/Shaders/flat.ss_graph
+    - bcd2c20b-02c9-4b0b-96c3-8b0c0e0c287a: /Users/nickazak/Desktop/Safe Crackers SFX/Trimmed/Wire Connect.mp3
+    - be21384c-0501-4fb4-b53e-6b90f0548e89: /Users/nickazak/Documents/Lenses/ Spectacles/Vault Crack/Assets/Materials/Shaders/Spectacles Metal Shader.ss_graph
+    - bf131d21-0558-4b50-88be-08a164d4a804: /Users/nickazak/Desktop/Safe Ground Shadow.jpg
+    - bfbe4820-d2ee-40c7-9458-f618a4774f72: /Users/nickazak/Downloads/fluorescent-light-turn-on-mp3cut-mp3cutnet_1iZKxAWw.mp3
+    - c0a20f00-e4ef-4bd9-aba5-5679e37a988d: /Users/nickazak/Documents/Lenses/ Spectacles/Vault Crack/Assets/Big Push Button.lspkg/Big Push Button/Rounded Push Button_Material_materialParams.png
+    - cb953a74-087c-4a99-b0fc-51e3d0d29386: /Users/nickazak/Downloads/Heist_SoloPlay.webp
+    - cc624b32-b335-4e8c-a8bd-81d4e85c6a73: /Users/nickazak/Documents/Lenses/ Spectacles/Vault Crack/Assets/Materials/Shaders/Spectacles Metal Shader.ss_graph
+    - cc69b8e7-b53a-4655-bd2a-6042676f1117: /Users/nickazak/Desktop/Symbols Export/Slavic F.jpg
+    - ce7b9ce5-4ce7-4b02-84be-47abe72868ca: /Users/nickazak/Desktop/Asset_24x-8.png
+    - d165c6f9-a8cf-40ce-b073-b501469cf1a1: /Users/nickazak/Library/Preferences/Snap/Lens Studio/LibraryComponents/LSTween@1.2.1@d27f1e5b5ce8ff8e2ca8f18479bec284/LSTween.lspkg
+    - d221c9c3-3db5-4af2-b1b5-b40628724fe6: /Users/nickazak/Desktop/Safe Crackers SFX/Trimmed/Heavy Metal Drop 1.mp3
+    - d56a96d7-6c86-4375-a5ee-78fac5a00af4: /Users/nickazak/Desktop/Safe Crackers SFX/Trimmed/Midweight Metal Drop.mp3
+    - db43231b-b4af-4f35-8888-247bb00e43b6: /Users/nickazak/Desktop/Symbols Export/Small Dot.jpg
+    - e1406c99-f216-4e43-9c6d-6f003c86ac32: /Users/nickazak/Downloads/Slide1_SoloPlay.webp
+    - e297daea-ff74-442b-a7d8-cd3ed7c01166: /Users/nickazak/Documents/Lenses/ Spectacles/Vault Crack/Assets/Materials/Shaders/Spectacles PBR.ss_graph
+    - e6d50098-62f6-4aef-bf73-ae49a93eb2d4: /Users/nickazak/Downloads/Roboto_Mono/RobotoMono-VariableFont_wght.ttf
+    - e7b6516f-c825-4806-9f33-5d9398fb84e7: /Users/nickazak/Desktop/Big Yus.jpg
+    - e91a011b-34d2-495a-91ad-b91fc2167979: /Applications/Lens Studio Spectacles.app/Contents/Plugins/Es_ShaderGraph_Presets.bundle/Assets/Empty.ss_graph
+    - ea5a0451-8d3b-4639-8b6a-b9ce0dd123f7: /Users/nickazak/Desktop/Safe Crackers SFX/Trimmed/Safe Turn Whoosh 3.mp3
+    - ec336947-0e24-4bb9-a486-42aa47e69083: /Users/nickazak/Downloads/Slide1_Tutorial.webp
+    - ee218232-3779-4963-b555-41fbccfe510b: /Applications/Lens Studio Spectacles.app/Contents/Plugins/Es_ShaderGraph_Presets.bundle/Assets/Empty.ss_graph
+    - f3907b41-52e6-46e6-bd9b-9d997ee06555: /Users/nickazak/Desktop/Safe Crackers SFX/Trimmed/Mechanical Lever Pull 3.mp3
+    - f538ddad-e3b6-4866-836a-24b5fcecb4aa: /Users/nickazak/Desktop/The Heist Update/Slide1_TeamPlay.webp
+    - f9ced8e2-d035-4187-8a6d-1f99cb9b8221: /Users/nickazak/Desktop/Safe Crackers SFX/Trimmed/Light Metal Drop.mp3
+    - fb4d8b25-9e52-447b-9631-ee955e32f7c8: /Users/nickazak/Downloads/ES_Bubble Effect 04 - Epidemic Sound.mp3
+    - fd7f9256-a0d4-4a53-b109-5e2ff212b3d0: /Users/nickazak/Downloads/elevator-music-royalty-free-infinite-loop-mp3cutnet_V0iwSiTx-loop.mp3

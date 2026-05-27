@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    402ab287-6d1f-47cb-a67c-76c251a1a202: 0e5a1dd2-f4a3-472d-802c-61c43fffe3c0/aa0aa4d544f2fc27b9d8c5f22834d1a3/Data/Testing Dial.mesh
+  Assets:
+    - !<FileMesh/402ab287-6d1f-47cb-a67c-76c251a1a202>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 286
+        Vertices: 262
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 3.999996, y: 3.351783, z: 4.538137}
+  SourceHash: aa0aa4d544f2fc27b9d8c5f22834d1a3
+  FileHash: eafb7498a735d4bd9ce42e3a6cc1a0b7
+  NativePackageItems:
+    []

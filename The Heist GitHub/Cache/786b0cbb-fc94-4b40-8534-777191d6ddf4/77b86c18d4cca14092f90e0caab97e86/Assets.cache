@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    b944d911-2787-4fed-8f38-efd53f6b839a: 786b0cbb-fc94-4b40-8534-777191d6ddf4/77b86c18d4cca14092f90e0caab97e86/Data/Leather Gloves Normals Opti.jpg
+  Assets:
+    - !<FileTexture/b944d911-2787-4fed-8f38-efd53f6b839a>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: 77b86c18d4cca14092f90e0caab97e86
+  FileHash: 33670aac5a37490707781a7252e4c0ff
+  NativePackageItems:
+    []

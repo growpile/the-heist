@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    b90f1b3f-702d-46dd-9d8a-19bb985adbbf: 05d549a8-d74a-47d7-bf15-0839d0599d7d/58a5f21e4aff24d450d95fc4ea3b0ef4/Data/Slots Simple Blurred Texture.jpg
+  Assets:
+    - !<FileTexture/b90f1b3f-702d-46dd-9d8a-19bb985adbbf>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: 58a5f21e4aff24d450d95fc4ea3b0ef4
+  FileHash: 4ca8eda4a6e47e224da904ee21da711f
+  NativePackageItems:
+    []

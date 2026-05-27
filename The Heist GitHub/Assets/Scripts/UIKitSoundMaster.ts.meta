@@ -1,0 +1,57 @@
+- !<AssetImportMetadata/a6c30d87-88d9-4e6b-984d-5442a57e042b>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> b7a4e345-2094-49a7-8437-aa0c87c94710
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> b7a4e345-2094-49a7-8437-aa0c87c94710
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 79d585b1-7fc5-4c84-b7b9-f3ed27f00d9e
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/79d585b1-7fc5-4c84-b7b9-f3ed27f00d9e>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: b2f28525-18b0-4c70-881d-b5482be8a0a6
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    buttons: false
+    menuTabs: false
+    toggleSwitch: false
+    volumeSlider: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - menuTabs: !<MappingBased.AssignableType[]>
+        []
+      buttons: !<MappingBased.AssignableType_1[]>
+        []
+      toggleSwitch: !<MappingBased.AssignableType_2> 00000000-0000-0000-0000-000000000000
+      volumeSlider: !<MappingBased.AssignableType_3> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">UIKit Controls</span>"}'
+    - "// @input AssignableType[] menuTabs = {}"
+    - "// @input AssignableType_1[] buttons = {}"
+    - // @input AssignableType_2 toggleSwitch
+    - // @input AssignableType_3 volumeSlider

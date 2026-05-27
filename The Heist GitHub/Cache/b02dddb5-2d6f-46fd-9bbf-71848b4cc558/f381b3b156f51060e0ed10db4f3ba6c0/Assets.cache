@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    646e4eca-a437-4eca-ad2b-97d252fea7a4: b02dddb5-2d6f-46fd-9bbf-71848b4cc558/f381b3b156f51060e0ed10db4f3ba6c0/Data/growpile-light-500px.png
+  Assets:
+    - !<FileTexture/646e4eca-a437-4eca-ad2b-97d252fea7a4>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 500
+        Height: 119
+  SourceHash: f381b3b156f51060e0ed10db4f3ba6c0
+  FileHash: 34d186cc58faa93e23fece51525d0473
+  NativePackageItems:
+    []

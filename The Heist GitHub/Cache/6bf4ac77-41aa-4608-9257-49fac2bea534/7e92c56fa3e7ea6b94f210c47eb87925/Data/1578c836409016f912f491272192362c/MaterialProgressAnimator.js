@@ -1,0 +1,48 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.stopAllProgressTweens = stopAllProgressTweens;
+exports.animateProgress = animateProgress;
+exports.animateGlowAmount = animateGlowAmount;
+const LSTween_1 = require("LSTween.lspkg/LSTween");
+const MaterialPropertyHelpers_1 = require("./MaterialPropertyHelpers");
+const activeTweens = [];
+function getProgress(material) {
+    return (0, MaterialPropertyHelpers_1.getMaterialScalar)(material, "progress");
+}
+function setProgress(material, value) {
+    (0, MaterialPropertyHelpers_1.setMaterialScalar)(material, "progress", value);
+}
+function stopAllProgressTweens() {
+    for (const tween of activeTweens) {
+        tween?.stop?.();
+    }
+    activeTweens.length = 0;
+}
+function animateProgress(material, targetValue, durationSec, onComplete) {
+    if (!material) {
+        onComplete?.();
+        return;
+    }
+    const startValue = getProgress(material);
+    if (startValue === null || startValue === undefined) {
+        onComplete?.();
+        return;
+    }
+    const tween = LSTween_1.LSTween.rawTween(durationSec * 1000)
+        .onUpdate((progress) => {
+        const t = progress.t;
+        const smoothT = t * t * (3 - 2 * t);
+        const value = startValue + (targetValue - startValue) * smoothT;
+        setProgress(material, value);
+    })
+        .onComplete(() => {
+        setProgress(material, targetValue);
+        onComplete?.();
+    });
+    activeTweens.push(tween);
+    tween.start();
+}
+function animateGlowAmount(material, targetValue, durationSec, onComplete) {
+    (0, MaterialPropertyHelpers_1.animateMaterialScalar)(material, "glowAmount", targetValue, durationSec, onComplete);
+}
+//# sourceMappingURL=MaterialProgressAnimator.js.map

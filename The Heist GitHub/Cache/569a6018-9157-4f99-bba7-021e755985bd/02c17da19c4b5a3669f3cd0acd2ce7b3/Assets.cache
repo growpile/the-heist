@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    17ae1ea8-328f-4319-b1c2-71cda8db8894: 569a6018-9157-4f99-bba7-021e755985bd/02c17da19c4b5a3669f3cd0acd2ce7b3/Data/Samll Button Base.mesh
+  Assets:
+    - !<FileMesh/17ae1ea8-328f-4319-b1c2-71cda8db8894>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 124
+        Vertices: 97
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 4.973899, y: 2.891125, z: 1.805134}
+  SourceHash: 02c17da19c4b5a3669f3cd0acd2ce7b3
+  FileHash: 20e3dda3460279b7b62ab01ff908d861
+  NativePackageItems:
+    []

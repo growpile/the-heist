@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    9ea0807b-2e98-43d7-a55f-b3866e61afc2: 9acbbe02-fb17-aa60-1049-71800415e99a/af8a6b03d9b216675b969a6e3f4e6ced/Data/Inter LICENSE.md
+  Assets:
+    - !<MarkdownAsset/9ea0807b-2e98-43d7-a55f-b3866e61afc2>
+      PackagePath: ""
+  SourceHash: af8a6b03d9b216675b969a6e3f4e6ced
+  FileHash: 081d8a40c5c2d03a334762683cca5cd4
+  NativePackageItems:
+    []

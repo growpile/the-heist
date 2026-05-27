@@ -1,0 +1,1 @@
+script.script.getSceneObject().getComponent("Component.Script").api.testFunction();

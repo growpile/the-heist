@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    cc37a665-a1b3-4056-9db0-1752b4548ef7: 56c66924-c07b-42fe-a44d-47317ac5d678/6427bad41912fd85f2bd6d395efc5baf/Data/FrontScreen.mesh
+  Assets:
+    - !<FileMesh/cc37a665-a1b3-4056-9db0-1752b4548ef7>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 110
+        Vertices: 208
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 2.408333, y: 0.372276, z: 2.514569}
+  SourceHash: 6427bad41912fd85f2bd6d395efc5baf
+  FileHash: eb4c975616fc31325f9c369c09b95335
+  NativePackageItems:
+    []

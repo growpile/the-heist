@@ -1,0 +1,142 @@
+- !<AssetCache>
+  AssetFiles:
+    ad5520ec-58ec-4a09-a5d4-8ab259342a66: 86198a69-aa9a-0829-d02a-91c8d7136e14/b7c3a19baa213a4d4f9f0893107ceecc/Data/Spectacles Hand Occluder Pass.ss_graph
+  Assets:
+    - !<ShaderGraphPass/ad5520ec-58ec-4a09-a5d4-8ab259342a66>
+      PackagePath: ""
+      DefaultDefines:
+        []
+      DefaultProperties:
+        Port_Depth_N004:
+          typeIdx: 1
+          value: 1.000000
+        Port_FinalColor1_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor2_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor3_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_GSplatPointSize_N004:
+          typeIdx: 1
+          value: 0.000000
+        Port_GSplatRotation_N004:
+          typeIdx: 5
+          value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+        Port_GSplatScale_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Import_N005:
+          typeIdx: 1
+          value: 0.000000
+        Port_Import_N037:
+          typeIdx: 1
+          value: 0.000000
+        Port_Import_N041:
+          typeIdx: 1
+          value: 0.000000
+        Port_Import_N049:
+          typeIdx: 1
+          value: 0.000000
+        Port_Import_N223:
+          typeIdx: 1
+          value: 0.200000
+        Port_Import_N247:
+          typeIdx: 1
+          value: 20.000000
+        Port_Import_N252:
+          typeIdx: 1
+          value: 0.000000
+        Port_Input1_N253:
+          typeIdx: 1
+          value: 0.000000
+        Port_Input2_N253:
+          typeIdx: 1
+          value: 1.000000
+        Port_PrevWorldPosition_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_RayDirection_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_RayOrigin_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Scale_N237:
+          typeIdx: 3
+          value: {x: 1.000000, y: 1.000000}
+        Port_WorldNormal_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_WorldTangent_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+      PassUiData: !<PassUiData>
+        ExtraDefines:
+          []
+        PassBindings:
+          - mLabel: Graph Parameters
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Vertex Inset
+            mType: Property
+            mName: vertexInset
+            mWidget: slider
+            mHint: "Property: vertexInset"
+            mMin: -0.100000
+            mMax: 0.000000
+            mStep: 0.001000
+            mDefaultVal: 0.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Alpha Test Threshold
+            mType: Property
+            mName: alphaTestThreshold
+            mWidget: slider
+            mHint: |-
+              Property: alphaTestThreshold
+              
+              When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 0.500000
+            mValues:
+              []
+        ShaderType: Mesh3d
+      ShaderPath: 86198a69-aa9a-0829-d02a-91c8d7136e14/b7c3a19baa213a4d4f9f0893107ceecc/Data/6a992e8/Spectacles Hand Occluder Pass.glsl
+      Defines:
+        []
+      Properties:
+        {}
+      ReferencedAssets:
+        []
+      GraphStatus: Evaluated
+  SourceHash: b7c3a19baa213a4d4f9f0893107ceecc
+  FileHash: e19d0c16af48d80cb88fe865361fff0c
+  NativePackageItems:
+    []

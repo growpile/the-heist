@@ -1,0 +1,2307 @@
+- !<AssetCache>
+  AssetFiles:
+    {}
+  Assets:
+    []
+  SourceHash: 78929fadfff02415d9baaa46779d53ae
+  FileHash: 192840dc84f8ce69e5c632a3b35ebef6
+  NativePackageItems:
+    - !<own> caebf90d-9d12-e09d-0965-2224fae12296
+    - !<own> a11c25c9-992e-55f6-041d-d34357e641b1
+    - !<own> 1863bfa4-fe18-bf45-67c7-3b4784c70604
+    - !<own> 2be11c77-3610-3fcb-ac1f-95ae57e985fe
+    - !<own> 287d506e-2db1-fec2-082a-0ec61182b404
+    - !<own> a6f87c87-efd2-d155-c3fb-f91df8a8a88d
+    - !<own> 38f9bc0f-ed46-c56c-42dd-4e8de7ebce3b
+    - !<own> d4754326-8672-bc16-b215-ce9ed5c9030a
+    - !<own> 764a81c1-12a4-94c6-ed9b-5614e5416591
+    - !<own> f401f1d2-591d-c6b2-fc5f-ae08ddd9b8ab
+    - !<own> cf6b8c48-488d-9665-9087-3fde5565507e
+    - !<own> 0ceded68-cfaa-27e5-4363-d931a9a84d36
+    - !<own> 85cc5ae4-055d-79f0-a3a3-47e1761b0d83
+    - !<own> a631e65e-f34d-b116-1a4c-024b0aaf7f45
+    - !<own> f3cb8be1-7a2f-118c-f615-7026066432f7
+    - !<own> 42c01b0b-7669-ed24-c21d-d781aebe5b12
+    - !<own> daf21478-cba2-80db-538c-51796a7b8309
+    - !<own> 9acbbe02-fb17-aa60-1049-71800415e99a
+    - !<own> 4df23e9b-ad44-4173-ee0f-0289ae2deee7
+    - !<own> c981b3e4-4020-88a2-4d56-1ce8c941100f
+    - !<own> ae4def01-2b66-de8c-a1e4-f738a1812f6c
+    - !<own> 8b8a1245-2fa4-7db8-0a3c-f9a0c13ab855
+    - !<own> d4d1d58a-8709-3fb8-91bc-47aaf27911a4
+    - !<own> 014c1de5-ff2f-b00d-5030-31d0a5c2d6c8
+    - !<own> 884f5616-62ff-c0a6-4bef-2993b75c38a4
+    - !<own> 00dfbc2e-1bfb-96c7-55ca-f45d2fc21167
+    - !<own> bef1dcd2-4c5d-bb0b-c5fb-608b62eeafe1
+- !<AssetImportMetadata/00dfbc2e-1bfb-96c7-55ca-f45d2fc21167>
+  ImportedAssetIds:
+    NativePackageDescriptor: !<reference> f9b76a80-f738-4fd7-859d-017b853b770f
+  ImporterName: NativePackageDescriptorImporter
+  PrimaryAsset: !<reference> f9b76a80-f738-4fd7-859d-017b853b770f
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/014c1de5-ff2f-b00d-5030-31d0a5c2d6c8>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> e2385734-d4e2-4f89-ae5b-0a43bafdfaac
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> e2385734-d4e2-4f89-ae5b-0a43bafdfaac
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> dc14bc80-8d83-47bb-ab90-7ca1c87ea3fb
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<Text/02e14cb6-cfe3-434f-65a0-a212dc7314c6>
+  PrefabRemaps:
+    []
+  Name: Text
+  Enabled: true
+  RenderOrder: 1
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Text: "Personal Best: 20"
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 48
+  Font: !<reference> a777f249-d974-4985-bca7-69699de1904b
+  LayoutRect:
+    left: -7.500000
+    bottom: -2.250000
+    right: 7.500000
+    top: 2.250000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  Fill: !<TextFill>
+    Mode: Solid
+    Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    Texture: !<reference> 00000000-0000-0000-0000-000000000000
+    ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    TileCount: 5.000000
+    TileZone: Rect
+    TextureStretch: FitWidth
+  BlendMode: PremultipliedAlpha
+  Outline: !<OutlineSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    Size: 0.250000
+  Dropshadow: !<DropshadowSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    OffsetX: 0.250000
+    OffsetY: 0.250000
+  Background: !<BackgroundSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    Margins:
+      left: 0.000000
+      bottom: 0.000000
+      right: 0.000000
+      top: 0.000000
+    CornerRadius: 0.000000
+  AdvancedLayout: !<TextAdvancedLayout>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+  DepthTest: false
+  TwoSided: false
+- !<SceneObject/02fb11b1-73d1-40f5-81f6-7a3a97dfdefe>
+  PrefabRemaps:
+    []
+  Name: Score Text
+  Enabled: true
+  Layers: 1835007
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> f95c97d4-0cdd-4d8b-8c95-d7c4ca166f78
+    - !<own> 48631bcc-6c1e-4a7c-ada7-2605687b1cdb
+    - !<own> 91be558f-9c5d-4db8-aca1-6d7c2d3914fa
+- !<ScreenTransform/054a33b8-e670-4db4-4144-74ada0715a5e>
+  PrefabRemaps:
+    []
+  Name: Screen Transform
+  Enabled: true
+  IsAdvanced: false
+  Constraints:
+    pinToLeft: false
+    pinToTop: false
+    pinToRight: false
+    pinToBottom: false
+    fixedWidth: false
+    fixedHeight: false
+    deactivatedFixedSprite: false
+    deactivatedFixedPivot: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  Transform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  RawMode: true
+  ForceBasic: true
+  Anchor:
+    left: -0.589333
+    bottom: -1.000000
+    right: 0.589332
+    top: -0.837289
+  Offset:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000
+- !<ScriptComponent/065d958b-4a60-4f94-5654-5047d61c6aee>
+  PrefabRemaps:
+    []
+  Name: Global Hierarchy Pointer
+  Enabled: true
+  ScriptAsset: !<reference> dc0ea5b3-e78b-41d6-924a-29b13b93bb8c
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      pointerIdentifier: restartText
+  ScriptTypes:
+    "":
+      {}
+- !<AssetImportMetadata/0ceded68-cfaa-27e5-4363-d931a9a84d36>
+  ImportedAssetIds:
+    Texture: !<reference> ccfdc362-0191-48b2-af75-690f62dc4fcb
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> ccfdc362-0191-48b2-af75-690f62dc4fcb
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: Performance
+    CompressionSettings: !<TextureCompressionSettings>
+      Level: Medium
+- !<ScreenTransform/0f0219a7-2075-44f1-6d4d-3500a0776ec7>
+  PrefabRemaps:
+    []
+  Name: Screen Transform
+  Enabled: true
+  IsAdvanced: false
+  Constraints:
+    pinToLeft: false
+    pinToTop: false
+    pinToRight: false
+    pinToBottom: false
+    fixedWidth: false
+    fixedHeight: false
+    deactivatedFixedSprite: false
+    deactivatedFixedPivot: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  Transform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  RawMode: true
+  ForceBasic: true
+  Anchor:
+    left: -0.589332
+    bottom: 0.499726
+    right: 0.589332
+    top: 0.812319
+  Offset:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000
+- !<SceneObject/10c19187-730d-41f7-a4a3-c602d8300751>
+  PrefabRemaps:
+    []
+  Name: Frame
+  Enabled: true
+  Layers: 1835007
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 9bfc59fc-a3dd-4e15-a443-17fe9c6b67bf
+    - !<own> 02fb11b1-73d1-40f5-81f6-7a3a97dfdefe
+  Components:
+    - !<own> 923c7587-8042-48bb-bcaa-8ee9bf240376
+- !<SceneObject/150e15eb-62c8-4eaa-abff-db2a4cbe5504>
+  PrefabRemaps:
+    []
+  Name: Frame
+  Enabled: true
+  Layers: 1835007
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 4778fd2c-d36a-4ea3-50cd-61b3d4a69438
+    - !<own> 81a37199-dcfd-4b04-5309-d39099f4f172
+    - !<own> 9d5e128a-804a-4034-570c-c9d57fe25590
+    - !<own> 9db31f68-835d-4270-6f7f-91c82cd51579
+    - !<own> 9f3ed24a-3540-4a13-9a61-c9ff8767214f
+  Components:
+    - !<own> 81a03117-c569-408b-b3da-055debb723b0
+- !<AssetImportMetadata/1863bfa4-fe18-bf45-67c7-3b4784c70604>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> abac6a61-a3b8-4b96-b421-3c0c90b94710
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> abac6a61-a3b8-4b96-b421-3c0c90b94710
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> e75e6b9a-e0a1-4a06-9a44-08a343cd1f31
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptComponent/195b1f6c-7e2b-419f-becb-cec510e877dd>
+  PrefabRemaps:
+    []
+  Name: Global Hierarchy Pointer
+  Enabled: true
+  ScriptAsset: !<reference> dc0ea5b3-e78b-41d6-924a-29b13b93bb8c
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      pointerIdentifier: pbVfxComponent
+  ScriptTypes:
+    "":
+      {}
+- !<Text/19a58806-225f-435f-992c-8e39b8f6d4c5>
+  PrefabRemaps:
+    []
+  Name: Text
+  Enabled: true
+  RenderOrder: 1
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Text: 0
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 48
+  Font: !<reference> 00000000-0000-0000-0000-000000000000
+  LayoutRect:
+    left: -7.500000
+    bottom: -2.250000
+    right: 7.500000
+    top: 2.250000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  Fill: !<TextFill>
+    Mode: Solid
+    Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    Texture: !<reference> 00000000-0000-0000-0000-000000000000
+    ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    TileCount: 5.000000
+    TileZone: Rect
+    TextureStretch: FitWidth
+  BlendMode: PremultipliedAlpha
+  Outline: !<OutlineSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    Size: 0.250000
+  Dropshadow: !<DropshadowSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    OffsetX: 0.250000
+    OffsetY: 0.250000
+  Background: !<BackgroundSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    Margins:
+      left: 0.000000
+      bottom: 0.000000
+      right: 0.000000
+      top: 0.000000
+    CornerRadius: 0.000000
+  AdvancedLayout: !<TextAdvancedLayout>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+  DepthTest: false
+  TwoSided: false
+- !<SceneObject/1d501ac8-ae81-41b9-571e-2978206fe102>
+  PrefabRemaps:
+    []
+  Name: Safe Area
+  Enabled: true
+  Layers: 1835007
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 150e15eb-62c8-4eaa-abff-db2a4cbe5504
+  Components:
+    - !<own> 3ab1bc8f-4b21-4b29-6548-ba6bb22e5e5d
+    - !<own> e2320f43-3881-4cf2-7107-cb6098a8d3eb
+- !<ObjectPrefabAssetData/24deedb8-f5a0-47df-bcfc-f152c16bb365>
+  Prototype: !<ObjectOwner/8d31fcbe-56bd-41c5-9ea8-ce4ef6d2811c>
+    PackagePath: ""
+    objects:
+      - !<own> e59dca8b-5a29-4752-72f9-08cb5657c157
+- !<VFXAssetData/2609b4f7-fdbf-4c7c-8e2d-692efcd0582d>
+  Mesh: !<reference> 00000000-0000-0000-0000-000000000000
+  SystemPassProperties:
+    39: !<VFXSystemPassProperties/8c2a6f5f-7e30-41a1-a08c-f34f0eac1a9d>
+      FeedbackProperties:
+        {}
+      SimulateProperties:
+        burstDuration:
+          typeIdx: 1
+          value: 0.000000
+        explosionForce:
+          typeIdx: 1
+          value: 400.000000
+      RenderProperties:
+        mainTex:
+          typeIdx: 9
+          value:
+            id: ccfdc362-0191-48b2-af75-690f62dc4fcb
+            sampler:
+              filteringMode: Trilinear
+              wrapModeU: Repeat
+              wrapModeV: Repeat
+              wrapModeW: ClampToEdge
+              borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+              mipmaps: false
+            type: Texture2D
+      FeedbackDefines:
+        []
+      SimulateDefines:
+        []
+      RenderDefines:
+        []
+- !<AssetImportMetadata/287d506e-2db1-fec2-082a-0ec61182b404>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 2b232de3-0b91-4937-8a35-40db3c08a0d5
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 2b232de3-0b91-4937-8a35-40db3c08a0d5
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> b013850c-dd98-49a5-ba8f-45a65b190adc
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/2be11c77-3610-3fcb-ac1f-95ae57e985fe>
+  ImportedAssetIds:
+    Texture: !<reference> 0822da4a-a6bd-41e9-8405-771180cfeca8
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> 0822da4a-a6bd-41e9-8405-771180cfeca8
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: Size
+    CompressionSettings: !<TextureCompressionSettings>
+      Level: Low
+- !<Text/2c6f9430-737f-4ba0-54f8-04955311ea40>
+  PrefabRemaps:
+    []
+  Name: Text
+  Enabled: true
+  RenderOrder: 1
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Text: TAP TO RESTART
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 48
+  Font: !<reference> a777f249-d974-4985-bca7-69699de1904b
+  LayoutRect:
+    left: -7.500000
+    bottom: -2.250000
+    right: 7.500000
+    top: 2.250000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  Fill: !<TextFill>
+    Mode: Solid
+    Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    Texture: !<reference> 00000000-0000-0000-0000-000000000000
+    ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    TileCount: 5.000000
+    TileZone: Rect
+    TextureStretch: FitWidth
+  BlendMode: PremultipliedAlpha
+  Outline: !<OutlineSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    Size: 0.250000
+  Dropshadow: !<DropshadowSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    OffsetX: 0.250000
+    OffsetY: 0.250000
+  Background: !<BackgroundSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    Margins:
+      left: 0.000000
+      bottom: 0.000000
+      right: 0.000000
+      top: 0.000000
+    CornerRadius: 0.000000
+  AdvancedLayout: !<TextAdvancedLayout>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+  DepthTest: false
+  TwoSided: false
+- !<ScriptComponent/2c7b6b62-caea-46f5-afe7-4e138e8fff7d>
+  PrefabRemaps:
+    []
+  Name: Global Hierarchy Pointer
+  Enabled: true
+  ScriptAsset: !<reference> dc0ea5b3-e78b-41d6-924a-29b13b93bb8c
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      pointerIdentifier: headBinding
+  ScriptTypes:
+    "":
+      {}
+- !<Text/30ee14f3-d41a-4851-61ce-fc1a9ba9262d>
+  PrefabRemaps:
+    []
+  Name: Text
+  Enabled: true
+  RenderOrder: 1
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Text: FINAL SCORE
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 48
+  Font: !<reference> a777f249-d974-4985-bca7-69699de1904b
+  LayoutRect:
+    left: -7.500000
+    bottom: -2.250000
+    right: 7.500000
+    top: 2.250000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  Fill: !<TextFill>
+    Mode: Solid
+    Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    Texture: !<reference> 00000000-0000-0000-0000-000000000000
+    ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    TileCount: 5.000000
+    TileZone: Rect
+    TextureStretch: FitWidth
+  BlendMode: PremultipliedAlpha
+  Outline: !<OutlineSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    Size: 0.250000
+  Dropshadow: !<DropshadowSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    OffsetX: 0.250000
+    OffsetY: 0.250000
+  Background: !<BackgroundSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    Margins:
+      left: 0.000000
+      bottom: 0.000000
+      right: 0.000000
+      top: 0.000000
+    CornerRadius: 0.000000
+  AdvancedLayout: !<TextAdvancedLayout>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+  DepthTest: false
+  TwoSided: false
+- !<Image/36a608fd-990b-440b-a8bb-19a497df179c>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 8cb7f081-1d94-42fa-8bb0-12920c04176a
+  FlipX: false
+  FlipY: false
+  RotationAngle: 0
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/38f9bc0f-ed46-c56c-42dd-4e8de7ebce3b>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> cd6dcaa6-f77b-4cff-aea0-912cd76e889f
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> cd6dcaa6-f77b-4cff-aea0-912cd76e889f
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 3aee0eed-202a-4869-93b9-798dc14d7d9c
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScreenTransform/3ab1bc8f-4b21-4b29-6548-ba6bb22e5e5d>
+  PrefabRemaps:
+    []
+  Name: Screen Transform
+  Enabled: true
+  IsAdvanced: false
+  Constraints:
+    pinToLeft: false
+    pinToTop: false
+    pinToRight: false
+    pinToBottom: false
+    fixedWidth: false
+    fixedHeight: false
+    deactivatedFixedSprite: false
+    deactivatedFixedPivot: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  Transform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  RawMode: true
+  ForceBasic: true
+  Anchor:
+    left: -1.000000
+    bottom: -0.570000
+    right: 1.000000
+    top: 0.850000
+  Offset:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000
+- !<ObjectPrefabAssetData/3aee0eed-202a-4869-93b9-798dc14d7d9c>
+  Prototype: !<ObjectOwner/3eaad407-0b0a-47b8-aea8-1f23997a432e>
+    PackagePath: ""
+    objects:
+      - !<own> 4a3c72cf-4268-462a-47c6-7c217333cd86
+- !<AssetImportMetadata/42c01b0b-7669-ed24-c21d-d781aebe5b12>
+  ImportedAssetIds:
+    MarkdownAsset: !<reference> 81623899-f475-4915-9205-ca68a226637b
+  ImporterName: MarkdownAssetImporter
+  PrimaryAsset: !<reference> 81623899-f475-4915-9205-ca68a226637b
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptComponent/44870c2e-b843-4fb0-aea5-eb9cb1afa62f>
+  PrefabRemaps:
+    []
+  Name: Global Hierarchy Pointer
+  Enabled: true
+  ScriptAsset: !<reference> dc0ea5b3-e78b-41d6-924a-29b13b93bb8c
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      pointerIdentifier: score
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/4778fd2c-d36a-4ea3-50cd-61b3d4a69438>
+  PrefabRemaps:
+    []
+  Name: View Title Text
+  Enabled: true
+  Layers: 1835007
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 30ee14f3-d41a-4851-61ce-fc1a9ba9262d
+    - !<own> 89940561-38d3-4a24-4b30-2916ca4cbb67
+    - !<own> d28e3e6f-5a4e-4d26-47c7-109657623c68
+- !<Text/48631bcc-6c1e-4a7c-ada7-2605687b1cdb>
+  PrefabRemaps:
+    []
+  Name: Text
+  Enabled: true
+  RenderOrder: 1
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Text: 0
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 48
+  Font: !<reference> 00000000-0000-0000-0000-000000000000
+  LayoutRect:
+    left: -7.500000
+    bottom: -2.250000
+    right: 7.500000
+    top: 2.250000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  Fill: !<TextFill>
+    Mode: Solid
+    Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    Texture: !<reference> 00000000-0000-0000-0000-000000000000
+    ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    TileCount: 5.000000
+    TileZone: Rect
+    TextureStretch: FitWidth
+  BlendMode: PremultipliedAlpha
+  Outline: !<OutlineSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    Size: 0.250000
+  Dropshadow: !<DropshadowSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    OffsetX: 0.250000
+    OffsetY: 0.250000
+  Background: !<BackgroundSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    Margins:
+      left: 0.000000
+      bottom: 0.000000
+      right: 0.000000
+      top: 0.000000
+    CornerRadius: 0.000000
+  AdvancedLayout: !<TextAdvancedLayout>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+  DepthTest: false
+  TwoSided: false
+- !<SceneObject/48793d75-690b-4324-808d-b03d0b72a8b5>
+  PrefabRemaps:
+    []
+  Name: Head Binding
+  Enabled: true
+  Layers: 1835007
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> ff8d76f5-22f4-4eb5-ae98-23ddcd4fe779
+  Components:
+    - !<own> a9e44e83-278e-4248-ad8f-4c08b49c306d
+    - !<own> 2c7b6b62-caea-46f5-afe7-4e138e8fff7d
+- !<SceneObject/4a3c72cf-4268-462a-47c6-7c217333cd86>
+  PrefabRemaps:
+    []
+  Name: "Game End View [UNPACK & CUSTOMIZE]"
+  Enabled: true
+  Layers: 1048576
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 1d501ac8-ae81-41b9-571e-2978206fe102
+  Components:
+    - !<own> c81f6d30-b633-4248-682b-592f4188ae36
+- !<AssetImportMetadata/4df23e9b-ad44-4173-ee0f-0289ae2deee7>
+  ImportedAssetIds:
+    Font: !<reference> f0cd51e6-4528-4766-9b96-0c34ed2a261b
+  ImporterName: FontImporter
+  PrimaryAsset: !<reference> f0cd51e6-4528-4766-9b96-0c34ed2a261b
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/56191d25-a9f8-44de-8b50-5fdc72de64b2>
+  PrefabRemaps:
+    []
+  Name: Head Bound Score
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 48793d75-690b-4324-808d-b03d0b72a8b5
+  Components:
+    []
+- !<Image/589b1d2a-b5f4-4608-989b-dcbd3bdf8640>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 8cb7f081-1d94-42fa-8bb0-12920c04176a
+  FlipX: false
+  FlipY: false
+  RotationAngle: 0
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+- !<VFXComponent/620490e2-afd3-4718-716d-0ebda76bee3b>
+  PrefabRemaps:
+    []
+  Name: VFX Component
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  VFXAsset: !<reference> 1ade3665-5c68-4e7a-852d-64fdc0824985
+- !<Image/635522f7-21a5-4ece-bb1a-b85aff9b1db0>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 8cb7f081-1d94-42fa-8bb0-12920c04176a
+  FlipX: false
+  FlipY: false
+  RotationAngle: 0
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/6544bea7-d290-4809-415b-a91869e8faed>
+  PrefabRemaps:
+    []
+  Name: VFX
+  Enabled: true
+  Layers: 1835007
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 35.000000, z: -40.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 620490e2-afd3-4718-716d-0ebda76bee3b
+    - !<own> 195b1f6c-7e2b-419f-becb-cec510e877dd
+- !<ScriptComponent/66a225c7-a5c3-40af-a6c4-e80b3d061cfb>
+  PrefabRemaps:
+    []
+  Name: Global Hierarchy Pointer
+  Enabled: true
+  ScriptAsset: !<reference> dc0ea5b3-e78b-41d6-924a-29b13b93bb8c
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      pointerIdentifier: scoreBackplate
+  ScriptTypes:
+    "":
+      {}
+- !<ScreenRegionComponent/6e121387-6d6d-4e88-b0aa-4cf0a5e606cd>
+  PrefabRemaps:
+    []
+  Name: Screen Region
+  Enabled: true
+  ScreenRegionType: SafeRender
+  ResizeWithKeyboard: false
+- !<AssetImportMetadata/764a81c1-12a4-94c6-ed9b-5614e5416591>
+  ImportedAssetIds:
+    VFXGraph: !<reference> 1ade3665-5c68-4e7a-852d-64fdc0824985
+  ImporterName: VFXAssetImporter
+  PrimaryAsset: !<reference> 1ade3665-5c68-4e7a-852d-64fdc0824985
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    VFXGraph: !<own> 2609b4f7-fdbf-4c7c-8e2d-692efcd0582d
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScreenTransform/81a03117-c569-408b-b3da-055debb723b0>
+  PrefabRemaps:
+    []
+  Name: Screen Transform
+  Enabled: true
+  IsAdvanced: false
+  Constraints:
+    pinToLeft: false
+    pinToTop: false
+    pinToRight: false
+    pinToBottom: false
+    fixedWidth: true
+    fixedHeight: true
+    deactivatedFixedSprite: false
+    deactivatedFixedPivot: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  Transform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  RawMode: true
+  ForceBasic: true
+  Anchor:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000
+  Offset:
+    left: -5.624997
+    bottom: -7.100000
+    right: 5.624997
+    top: 7.100000
+- !<SceneObject/81a37199-dcfd-4b04-5309-d39099f4f172>
+  PrefabRemaps:
+    []
+  Name: Personal Best Score Text
+  Enabled: true
+  Layers: 1835007
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 02e14cb6-cfe3-434f-65a0-a212dc7314c6
+    - !<own> f46f9f17-7e1b-49a1-6075-5bd9397964da
+    - !<own> aefe5f6e-373a-49d5-52b2-dde29a04ce2d
+- !<ScreenTransform/822481ed-f9dc-4eb9-93ad-d0b529aee4cc>
+  PrefabRemaps:
+    []
+  Name: Screen Transform
+  Enabled: true
+  IsAdvanced: false
+  Constraints:
+    pinToLeft: false
+    pinToTop: false
+    pinToRight: false
+    pinToBottom: false
+    fixedWidth: false
+    fixedHeight: false
+    deactivatedFixedSprite: false
+    deactivatedFixedPivot: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  Transform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  RawMode: true
+  ForceBasic: true
+  Anchor:
+    left: -1.000868
+    bottom: 0.122685
+    right: 0.999132
+    top: 1.189360
+  Offset:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000
+- !<AssetImportMetadata/85cc5ae4-055d-79f0-a3a3-47e1761b0d83>
+  ImportedAssetIds:
+    Font: !<reference> cd849997-1e49-44b6-8e53-d57c7dd7740c
+  ImporterName: FontImporter
+  PrimaryAsset: !<reference> cd849997-1e49-44b6-8e53-d57c7dd7740c
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/8676dc01-5928-49ae-b358-24f60b657b26>
+  PrefabRemaps:
+    []
+  Name: Score View
+  Enabled: true
+  Layers: 1048576
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 10c19187-730d-41f7-a4a3-c602d8300751
+  Components:
+    - !<own> a81cc115-1dc4-4045-9bc7-d6d7f413b4b0
+    - !<own> 6e121387-6d6d-4e88-b0aa-4cf0a5e606cd
+- !<ScreenTransform/86fe170b-1825-45be-a1e6-294adb238906>
+  PrefabRemaps:
+    []
+  Name: Screen Transform
+  Enabled: true
+  IsAdvanced: false
+  Constraints:
+    pinToLeft: false
+    pinToTop: false
+    pinToRight: false
+    pinToBottom: false
+    fixedWidth: false
+    fixedHeight: false
+    deactivatedFixedSprite: false
+    deactivatedFixedPivot: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  Transform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  RawMode: true
+  ForceBasic: true
+  Anchor:
+    left: -0.589333
+    bottom: 0.342222
+    right: 0.589332
+    top: 0.820640
+  Offset:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000
+- !<AssetImportMetadata/884f5616-62ff-c0a6-4bef-2993b75c38a4>
+  ImportedAssetIds:
+    MarkdownAsset: !<reference> 532a5646-8022-4abb-b081-397a9cf70d34
+  ImporterName: MarkdownAssetImporter
+  PrimaryAsset: !<reference> 532a5646-8022-4abb-b081-397a9cf70d34
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/88ea619f-8b29-4fdc-b921-79ebbc026844>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: aa2a12c9-6229-4d45-98ca-68b3c4449157
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    {}
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    -
+      {}
+  ScriptTypes:
+    -
+      {}
+- !<ScreenTransform/89940561-38d3-4a24-4b30-2916ca4cbb67>
+  PrefabRemaps:
+    []
+  Name: Screen Transform
+  Enabled: true
+  IsAdvanced: false
+  Constraints:
+    pinToLeft: false
+    pinToTop: false
+    pinToRight: false
+    pinToBottom: false
+    fixedWidth: false
+    fixedHeight: false
+    deactivatedFixedSprite: false
+    deactivatedFixedPivot: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  Transform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  RawMode: true
+  ForceBasic: true
+  Anchor:
+    left: -0.871701
+    bottom: 0.812319
+    right: 0.871701
+    top: 1.000000
+  Offset:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000
+- !<AssetImportMetadata/8b8a1245-2fa4-7db8-0a3c-f9a0c13ab855>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> af100d90-ca57-4899-8c30-cf14a24cdc8c
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> af100d90-ca57-4899-8c30-cf14a24cdc8c
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> cab284e6-35f9-496b-9e7e-c228b6b25b06
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/8bbf8503-1c21-48c1-a5ab-db4ce896a48b>
+  PrefabRemaps:
+    []
+  Name: Backplate
+  Enabled: true
+  Layers: 1835007
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: -1.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 15.000000, y: 15.000000, z: 15.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 589b1d2a-b5f4-4608-989b-dcbd3bdf8640
+    - !<own> a282c2a5-83a9-435a-98e3-5ca9475fa441
+- !<ScriptComponent/91be558f-9c5d-4db8-aca1-6d7c2d3914fa>
+  PrefabRemaps:
+    []
+  Name: Global Hierarchy Pointer
+  Enabled: true
+  ScriptAsset: !<reference> dc0ea5b3-e78b-41d6-924a-29b13b93bb8c
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      pointerIdentifier: score
+  ScriptTypes:
+    "":
+      {}
+- !<ScreenTransform/923c7587-8042-48bb-bcaa-8ee9bf240376>
+  PrefabRemaps:
+    []
+  Name: Screen Transform
+  Enabled: true
+  IsAdvanced: false
+  Constraints:
+    pinToLeft: false
+    pinToTop: false
+    pinToRight: false
+    pinToBottom: false
+    fixedWidth: false
+    fixedHeight: false
+    deactivatedFixedSprite: false
+    deactivatedFixedPivot: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  Transform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  RawMode: true
+  ForceBasic: true
+  Anchor:
+    left: -1.000000
+    bottom: -1.000000
+    right: 1.000000
+    top: 1.000000
+  Offset:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000
+- !<AssetImportMetadata/9acbbe02-fb17-aa60-1049-71800415e99a>
+  ImportedAssetIds:
+    MarkdownAsset: !<reference> 9ea0807b-2e98-43d7-a55f-b3866e61afc2
+  ImporterName: MarkdownAssetImporter
+  PrimaryAsset: !<reference> 9ea0807b-2e98-43d7-a55f-b3866e61afc2
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/9bfc59fc-a3dd-4e15-a443-17fe9c6b67bf>
+  PrefabRemaps:
+    []
+  Name: Score Backplate
+  Enabled: true
+  Layers: 1835007
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 86fe170b-1825-45be-a1e6-294adb238906
+    - !<own> 36a608fd-990b-440b-a8bb-19a497df179c
+    - !<own> f7be463c-89bb-4fb6-9a56-446ed61a405e
+- !<SceneObject/9d5e128a-804a-4034-570c-c9d57fe25590>
+  PrefabRemaps:
+    []
+  Name: Score Text
+  Enabled: true
+  Layers: 1835007
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 0f0219a7-2075-44f1-6d4d-3500a0776ec7
+    - !<own> ebd0c496-9a1d-49ca-4200-7135f46c9745
+    - !<own> b613ac41-e798-4f48-665c-87bd8b7d987a
+- !<SceneObject/9db31f68-835d-4270-6f7f-91c82cd51579>
+  PrefabRemaps:
+    []
+  Name: Restart Text
+  Enabled: true
+  Layers: 1835007
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 054a33b8-e670-4db4-4144-74ada0715a5e
+    - !<own> 2c6f9430-737f-4ba0-54f8-04955311ea40
+    - !<own> 065d958b-4a60-4f94-5654-5047d61c6aee
+- !<SceneObject/9f3ed24a-3540-4a13-9a61-c9ff8767214f>
+  PrefabRemaps:
+    []
+  Name: Backplate
+  Enabled: true
+  Layers: 1835007
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 822481ed-f9dc-4eb9-93ad-d0b529aee4cc
+    - !<own> 635522f7-21a5-4ece-bb1a-b85aff9b1db0
+    - !<own> 66a225c7-a5c3-40af-a6c4-e80b3d061cfb
+- !<AssetImportMetadata/a11c25c9-992e-55f6-041d-d34357e641b1>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 7bfec1e7-e225-44ae-9ec5-24d6cc938ff4
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 7bfec1e7-e225-44ae-9ec5-24d6cc938ff4
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> e7f740d9-7c80-4f5c-ab42-8b51683175ae
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptComponent/a282c2a5-83a9-435a-98e3-5ca9475fa441>
+  PrefabRemaps:
+    []
+  Name: Global Hierarchy Pointer
+  Enabled: true
+  ScriptAsset: !<reference> dc0ea5b3-e78b-41d6-924a-29b13b93bb8c
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      pointerIdentifier: scoreBackplate
+  ScriptTypes:
+    "":
+      {}
+- !<AssetImportMetadata/a631e65e-f34d-b116-1a4c-024b0aaf7f45>
+  ImportedAssetIds:
+    MarkdownAsset: !<reference> 338b94dc-22cc-4987-a445-105da5c02038
+  ImporterName: MarkdownAssetImporter
+  PrimaryAsset: !<reference> 338b94dc-22cc-4987-a445-105da5c02038
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/a6f87c87-efd2-d155-c3fb-f91df8a8a88d>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> f32ccb39-5eda-4e11-ac15-d253b1c1eadf
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> f32ccb39-5eda-4e11-ac15-d253b1c1eadf
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> d49a5589-6ae4-4090-9791-26dcd328a6d4
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScreenTransform/a81cc115-1dc4-4045-9bc7-d6d7f413b4b0>
+  PrefabRemaps:
+    []
+  Name: Screen Transform
+  Enabled: true
+  IsAdvanced: false
+  Constraints:
+    pinToLeft: false
+    pinToTop: false
+    pinToRight: false
+    pinToBottom: false
+    fixedWidth: false
+    fixedHeight: false
+    deactivatedFixedSprite: false
+    deactivatedFixedPivot: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  Transform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  RawMode: true
+  ForceBasic: true
+  Anchor:
+    left: -1.000000
+    bottom: -0.570000
+    right: 1.000000
+    top: 0.850000
+  Offset:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000
+- !<Head/a9e44e83-278e-4248-ad8f-4c08b49c306d>
+  PrefabRemaps:
+    []
+  Name: Head Binding
+  Enabled: true
+  AttachmentPointType: Forehead
+  FaceIndex: 0
+  AttachedBarycentricVertex:
+    indices:
+      - 0
+      - 0
+      - 0
+    weights:
+      - 0.000000
+      - 0.000000
+      - 0.000000
+  TrackingScope: !<reference> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/ae4def01-2b66-de8c-a1e4-f738a1812f6c>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> dc0ea5b3-e78b-41d6-924a-29b13b93bb8c
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> dc0ea5b3-e78b-41d6-924a-29b13b93bb8c
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> aed7b10d-f66e-4578-9c49-be71addbcd76
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/aed7b10d-f66e-4578-9c49-be71addbcd76>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: e40cad52-bd2e-4271-83ac-50192039acda
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    pointerIdentifier: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - pointerIdentifier: ""
+  ScriptTypes:
+    -
+      {}
+- !<ScriptComponent/aefe5f6e-373a-49d5-52b2-dde29a04ce2d>
+  PrefabRemaps:
+    []
+  Name: Global Hierarchy Pointer
+  Enabled: true
+  ScriptAsset: !<reference> dc0ea5b3-e78b-41d6-924a-29b13b93bb8c
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      pointerIdentifier: pbScoreText
+  ScriptTypes:
+    "":
+      {}
+- !<ObjectPrefabAssetData/b013850c-dd98-49a5-ba8f-45a65b190adc>
+  Prototype: !<ObjectOwner/0a401136-4261-4500-abca-b15c7b9eb8b7>
+    PackagePath: ""
+    objects:
+      - !<own> 8676dc01-5928-49ae-b358-24f60b657b26
+- !<ScriptComponent/b613ac41-e798-4f48-665c-87bd8b7d987a>
+  PrefabRemaps:
+    []
+  Name: Global Hierarchy Pointer
+  Enabled: true
+  ScriptAsset: !<reference> dc0ea5b3-e78b-41d6-924a-29b13b93bb8c
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      pointerIdentifier: score
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptAssetData/bc971ea6-cef3-4377-a8e4-6cbb83722337>
+  SvgIcon: |
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M10.9558 5.94128H8.95581V4.94128C8.95581 4.389 9.40353 3.94128 9.95581 3.94128C10.5081 3.94128 10.9558 4.389 10.9558 4.94128V5.94128ZM14.9558 4.94128C14.9558 4.389 14.5081 3.94128 13.9558 3.94128C13.4035 3.94128 12.9558 4.389 12.9558 4.94128V5.94128H14.9558V4.94128ZM8.95581 12.9413C8.95581 13.4936 9.40353 13.9413 9.95581 13.9413C10.5081 13.9413 10.9558 13.4936 10.9558 12.9413V11.9413H8.95581V12.9413ZM17.9558 9.94128C18.5081 9.94128 18.9558 9.49357 18.9558 8.94128C18.9558 8.389 18.5081 7.94128 17.9558 7.94128H16.9558V9.94128H17.9558ZM17.9558 13.9413C18.5081 13.9413 18.9558 13.4936 18.9558 12.9413C18.9558 12.389 18.5081 11.9413 17.9558 11.9413H16.9558V12.9413C16.9558 13.4936 17.4035 13.9413 17.9558 13.9413ZM12.9558 12.9413C12.9558 13.4936 13.4035 13.9413 13.9558 13.9413C14.5081 13.9413 14.9558 13.4936 14.9558 12.9413V11.9413H12.9558V12.9413ZM18.9558 4.94128C18.9558 4.389 18.5081 3.94128 17.9558 3.94128C17.4035 3.94128 16.9558 4.389 16.9558 4.94128V5.94128H17.9558C18.5081 5.94128 18.9558 5.49357 18.9558 4.94128ZM12.9558 7.94128V5.94128H10.9558V7.94128H12.9558ZM7.95581 9.94128C7.40353 9.94128 6.95581 9.49357 6.95581 8.94128C6.95581 8.389 7.40353 7.94128 7.95581 7.94128H8.95581V5.94128H7.95581C7.40353 5.94128 6.95581 5.49357 6.95581 4.94128C6.95581 4.39128 6.50581 3.94128 5.95581 3.94128C5.40581 3.94128 4.95581 4.39128 4.95581 4.94128V18.9413C4.95581 19.4913 5.40581 19.9413 5.95581 19.9413C6.50581 19.9413 6.95581 19.4913 6.95581 18.9413V13.9413C6.95581 12.8367 7.85124 11.9413 8.95581 11.9413V9.94128H7.95581ZM14.9558 11.9413H16.9558V9.94128H14.9558V11.9413ZM10.9558 9.94128V11.9413H12.9558V9.94128H10.9558ZM8.95581 7.94128V9.94128H10.9558V7.94128H8.95581ZM12.9558 9.94128H14.9558V7.94128H12.9558V9.94128ZM14.9558 5.94128V7.94128H16.9558V5.94128H14.9558Z" fill="white" fill-opacity="0.29"/>
+    <path d="M7.44579 13.5018L8.44825 8.26481C7.33055 8.82641 6.60288 9.07489 6.26526 9.01027C6.10413 8.97942 5.97237 8.88858 5.87 8.73774C5.7722 8.58379 5.73946 8.42241 5.77177 8.2536C5.80922 8.05794 5.89815 7.92582 6.03855 7.85724C6.17894 7.78866 6.41848 7.71122 6.75715 7.62492C7.26324 7.49509 7.67753 7.33577 8.00003 7.14694C8.32637 6.95884 8.62561 6.73573 8.89774 6.47761C9.16987 6.21948 9.34516 6.06213 9.4236 6.00555C9.50204 5.94898 9.63142 5.93795 9.81174 5.97247C10.0151 6.01139 10.1631 6.12125 10.2557 6.30205C10.3484 6.48286 10.3683 6.71137 10.3154 6.98761L9.05408 13.577C8.90647 14.3481 8.56985 14.6834 8.04424 14.5828C7.81021 14.538 7.63727 14.4233 7.52543 14.2389C7.41358 14.0544 7.38704 13.8087 7.44579 13.5018Z" fill="white"/>
+    <path d="M10.4806 17.9976L13.4846 18.5726C13.7839 18.6299 14.0004 18.735 14.1342 18.8879C14.268 19.0408 14.3147 19.2227 14.2743 19.4337C14.2383 19.6217 14.1446 19.7688 13.993 19.875C13.8452 19.982 13.6448 20.0112 13.3915 19.9627L9.15594 19.1519C8.8682 19.0969 8.65881 18.9753 8.52779 18.7871C8.3975 18.5951 8.35291 18.3917 8.39404 18.1769C8.42048 18.0387 8.50716 17.8664 8.65407 17.6599C8.80173 17.4495 8.94942 17.2909 9.09716 17.1839C9.70878 16.7521 10.2558 16.3876 10.7383 16.0902C11.2215 15.7889 11.5628 15.5957 11.762 15.5106C12.1192 15.3483 12.4227 15.1757 12.6725 14.9928C12.9268 14.8068 13.1301 14.6071 13.2823 14.3937C13.4391 14.1771 13.5392 13.9556 13.5825 13.7293C13.6295 13.4837 13.6119 13.2537 13.5297 13.0391C13.452 12.8214 13.3218 12.6393 13.1391 12.493C12.9601 12.3474 12.7517 12.2518 12.5138 12.2063C12.0113 12.1101 11.5739 12.255 11.2017 12.6412C11.1523 12.6914 11.0569 12.8362 10.9157 13.0756C10.7782 13.3158 10.6387 13.4939 10.4972 13.61C10.3595 13.7268 10.1813 13.7643 9.9626 13.7224C9.77078 13.6857 9.62367 13.5919 9.5213 13.4411C9.41893 13.2902 9.38867 13.1055 9.43053 12.8868C9.48121 12.622 9.59355 12.3572 9.76757 12.0922C9.94158 11.8272 10.168 11.6001 10.4468 11.4109C10.7295 11.2224 11.0647 11.0917 11.4526 11.0188C11.8449 10.9427 12.2848 10.9514 12.772 11.0446C13.359 11.157 13.842 11.3449 14.2212 11.6084C14.4662 11.7826 14.6698 11.9965 14.8321 12.2503C14.9943 12.5041 15.1038 12.7836 15.1608 13.0888C15.2222 13.3909 15.224 13.6935 15.166 13.9966C15.0749 14.4723 14.873 14.8831 14.5602 15.2289C14.252 15.5716 13.9538 15.8307 13.6657 16.0062C13.3783 16.1779 12.8997 16.4442 12.2301 16.8052C11.5643 17.167 11.099 17.4577 10.8342 17.6775C10.7223 17.7635 10.6044 17.8702 10.4806 17.9976Z" fill="white"/>
+    </svg>
+
+  SetupScript:
+    code: ""
+  Description: |-
+    The Score UI Component provides scoring functionality and automatically displays the score in the specified way - either as a head bound 3D object or as a 2D element. It also allows for smooth animations and customization of the score visuals.
+    
+    API:
+    global.score
+    - Global property to access the current score value.
+    
+    script.increaseScore(amount)
+    - Increases the score by a set amount. Argument is optional, if left empty increment is 1.
+    
+    script.decreaseScore(amount)
+    - Argument is optional, if left empty decrement is 1.
+    
+    script.clearScore()
+    - Clears the score, and resets it back to the initial score value.
+  VersionMajor: 11
+  VersionMinor: 0
+  VersionPatch: 6
+  ComponentUid: f5abf987-b028-4441-882d-f7e0749cf8b0
+  ExportUid: a6d104e7-2249-4000-b0e0-8feabfb709f6
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    advancedSettings: false
+    allowPersonalBest: false
+    autoStart: false
+    customEndText: false
+    customParticleTexture: false
+    customScoreBackplate: false
+    customScoreSize: false
+    customScoreSize3d: false
+    decimals: false
+    endAnimation: false
+    finalNewBestText: false
+    finalScoreText: false
+    fontPresetFontFiles: true
+    gameEndView: false
+    headAttachmentPoint: false
+    headScoreView: false
+    initialScoreFloat: false
+    initialScoreInt: false
+    letterSpacing: false
+    newBestVFX: false
+    orthographicCamera: false
+    outlineColor: false
+    outlineSize: false
+    particleTextureType: false
+    persistentScore: false
+    personalBestText: false
+    personalBestVFX: true
+    restartText: false
+    scoreAnimation: false
+    scoreBackplate: false
+    scoreColor: false
+    scoreCustomFont: false
+    scoreDisplay: false
+    scoreFontPreset: false
+    scoreFontType: false
+    scoreOutline: false
+    scoreSize: false
+    scoreType: false
+    scoreView: false
+    starParticleTexture: true
+    updatePersonalBest: false
+    useSpecificCameras: false
+    vfxCamera: false
+    vfxDuration: false
+    worldCamera: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    - AI
+    - Games
+    - Scoring
+  Attachments:
+    - !<reference> 532a5646-8022-4abb-b081-397a9cf70d34
+  DefaultScriptInputs:
+    - scoreType: 0
+      initialScoreInt: 0
+      initialScoreFloat: !<float> 0.000000
+      decimals: 2
+      persistentScore: true
+      allowPersonalBest: true
+      updatePersonalBest: 0
+      scoreDisplay: 0
+      headAttachmentPoint: 0
+      scoreAnimation: true
+      newBestVFX: true
+      vfxDuration: !<float> 0.000000
+      particleTextureType: 0
+      customParticleTexture: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      scoreBackplate: false
+      customScoreBackplate: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      scoreFontType: 0
+      scoreFontPreset: 0
+      scoreCustomFont: !<reference.Font> 00000000-0000-0000-0000-000000000000
+      scoreColor: !<Vec4> {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      letterSpacing: !<float> 0.000000
+      scoreOutline: false
+      outlineColor: !<Vec4> {x: 1.000000, y: 1.000000, z: 1.000000, w: 0.000000}
+      outlineSize: 0.250000
+      scoreSize: 0
+      customScoreSize: !<float> 0.000000
+      customScoreSize3d: !<float> 10.000000
+      scoreView: !<reference.ObjectPrefab> 2b232de3-0b91-4937-8a35-40db3c08a0d5
+      headScoreView: !<reference.ObjectPrefab> f32ccb39-5eda-4e11-ac15-d253b1c1eadf
+      gameEndView: !<reference.ObjectPrefab> cd6dcaa6-f77b-4cff-aea0-912cd76e889f
+      endAnimation: 0
+      customEndText: false
+      finalScoreText: FINAL SCORE
+      finalNewBestText: NEW BEST
+      personalBestText: "Personal Best:"
+      restartText: TAP TO RESTART
+      advancedSettings: false
+      useSpecificCameras: false
+      orthographicCamera: !<reference.Camera> 00000000-0000-0000-0000-000000000000
+      worldCamera: !<reference.Camera> 00000000-0000-0000-0000-000000000000
+      vfxCamera: !<reference.Camera> 00000000-0000-0000-0000-000000000000
+      fontPresetFontFiles: !<reference.Font[]>
+        - !<reference> a777f249-d974-4985-bca7-69699de1904b
+        - !<reference> cd849997-1e49-44b6-8e53-d57c7dd7740c
+        - !<reference> f0cd51e6-4528-4766-9b96-0c34ed2a261b
+        - !<reference> cb24bf96-a183-48d6-858c-5a44c502a89a
+      personalBestVFX: !<reference.ObjectPrefab> 2295d413-d001-4c1e-bd4f-e95836642445
+      starParticleTexture: !<reference.Texture> 0822da4a-a6bd-41e9-8405-771180cfeca8
+      autoStart: true
+  ScriptTypes:
+    -
+      {}
+- !<AssetImportMetadata/bef1dcd2-4c5d-bb0b-c5fb-608b62eeafe1>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 266dba12-8482-44d5-b2f8-e63bc2f74e91
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 266dba12-8482-44d5-b2f8-e63bc2f74e91
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> bc971ea6-cef3-4377-a8e4-6cbb83722337
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScreenTransform/c81f6d30-b633-4248-682b-592f4188ae36>
+  PrefabRemaps:
+    []
+  Name: Screen Transform
+  Enabled: true
+  IsAdvanced: false
+  Constraints:
+    pinToLeft: false
+    pinToTop: false
+    pinToRight: false
+    pinToBottom: false
+    fixedWidth: false
+    fixedHeight: false
+    deactivatedFixedSprite: false
+    deactivatedFixedPivot: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  Transform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  RawMode: true
+  ForceBasic: true
+  Anchor:
+    left: -1.000000
+    bottom: -1.000000
+    right: 1.000000
+    top: 1.000000
+  Offset:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000
+- !<AssetImportMetadata/c981b3e4-4020-88a2-4d56-1ce8c941100f>
+  ImportedAssetIds:
+    MarkdownAsset: !<reference> 3e19cafb-2d49-4b7a-bdf7-e4ae83e5c123
+  ImporterName: MarkdownAssetImporter
+  PrimaryAsset: !<reference> 3e19cafb-2d49-4b7a-bdf7-e4ae83e5c123
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/cab284e6-35f9-496b-9e7e-c228b6b25b06>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: c07695a9-5993-4cf7-81ff-93eae56ac9c3
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    {}
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    -
+      {}
+  ScriptTypes:
+    -
+      {}
+- !<AssetImportMetadata/caebf90d-9d12-e09d-0965-2224fae12296>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 770eefc6-415f-43f1-acb5-e88db42e368d
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 770eefc6-415f-43f1-acb5-e88db42e368d
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> e9aef6e6-b623-4fcc-9fba-9ea3a9d8c2f4
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/cf6b8c48-488d-9665-9087-3fde5565507e>
+  ImportedAssetIds:
+    Material: !<reference> 8cb7f081-1d94-42fa-8bb0-12920c04176a
+  ImporterName: MaterialImporter
+  PrimaryAsset: !<reference> 8cb7f081-1d94-42fa-8bb0-12920c04176a
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptComponent/d28e3e6f-5a4e-4d26-47c7-109657623c68>
+  PrefabRemaps:
+    []
+  Name: Global Hierarchy Pointer
+  Enabled: true
+  ScriptAsset: !<reference> dc0ea5b3-e78b-41d6-924a-29b13b93bb8c
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      pointerIdentifier: gameEndTitle
+  ScriptTypes:
+    "":
+      {}
+- !<AssetImportMetadata/d4754326-8672-bc16-b215-ce9ed5c9030a>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 2295d413-d001-4c1e-bd4f-e95836642445
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 2295d413-d001-4c1e-bd4f-e95836642445
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 24deedb8-f5a0-47df-bcfc-f152c16bb365
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ObjectPrefabAssetData/d49a5589-6ae4-4090-9791-26dcd328a6d4>
+  Prototype: !<ObjectOwner/4f2ee61b-2f11-4252-b7ee-514c3ec47a6b>
+    PackagePath: ""
+    objects:
+      - !<own> 56191d25-a9f8-44de-8b50-5fdc72de64b2
+- !<AssetImportMetadata/d4d1d58a-8709-3fb8-91bc-47aaf27911a4>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 1acf85d4-709a-4f94-8c96-9640c7d92cb9
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 1acf85d4-709a-4f94-8c96-9640c7d92cb9
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 88ea619f-8b29-4fdc-b921-79ebbc026844
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/daf21478-cba2-80db-538c-51796a7b8309>
+  ImportedAssetIds:
+    Font: !<reference> a777f249-d974-4985-bca7-69699de1904b
+  ImporterName: FontImporter
+  PrimaryAsset: !<reference> a777f249-d974-4985-bca7-69699de1904b
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/dc14bc80-8d83-47bb-ab90-7ca1c87ea3fb>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 1
+  VersionMinor: 1
+  VersionPatch: 0
+  ComponentUid: 8e5b2fdb-4a3f-430d-b20b-0228c2886200
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    {}
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    -
+      {}
+  ScriptTypes:
+    -
+      {}
+- !<ScreenRegionComponent/e2320f43-3881-4cf2-7107-cb6098a8d3eb>
+  PrefabRemaps:
+    []
+  Name: Screen Region
+  Enabled: true
+  ScreenRegionType: SafeRender
+  ResizeWithKeyboard: false
+- !<SceneObject/e59dca8b-5a29-4752-72f9-08cb5657c157>
+  PrefabRemaps:
+    []
+  Name: Score VFX
+  Enabled: true
+  Layers: 1835007
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 6544bea7-d290-4809-415b-a91869e8faed
+  Components:
+    []
+- !<ScriptAssetData/e75e6b9a-e0a1-4a06-9a44-08a343cd1f31>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 1
+  ComponentUid: 83b61fb5-c3ae-448e-be41-a03449cc2900
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    {}
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    -
+      {}
+  ScriptTypes:
+    -
+      {}
+- !<ScriptAssetData/e7f740d9-7c80-4f5c-ab42-8b51683175ae>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 29685b42-9d66-402d-9c96-63833d8bc073
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    {}
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    -
+      {}
+  ScriptTypes:
+    -
+      {}
+- !<ScriptAssetData/e9aef6e6-b623-4fcc-9fba-9ea3a9d8c2f4>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: df283321-a2c6-4d48-943e-dba847a5adcf
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    {}
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    -
+      {}
+  ScriptTypes:
+    -
+      {}
+- !<Text/ebd0c496-9a1d-49ca-4200-7135f46c9745>
+  PrefabRemaps:
+    []
+  Name: Text
+  Enabled: true
+  RenderOrder: 1
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Text: 0
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 48
+  Font: !<reference> 00000000-0000-0000-0000-000000000000
+  LayoutRect:
+    left: -7.500000
+    bottom: -2.250000
+    right: 7.500000
+    top: 2.250000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  Fill: !<TextFill>
+    Mode: Solid
+    Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    Texture: !<reference> 00000000-0000-0000-0000-000000000000
+    ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    TileCount: 5.000000
+    TileZone: Rect
+    TextureStretch: FitWidth
+  BlendMode: PremultipliedAlpha
+  Outline: !<OutlineSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    Size: 0.250000
+  Dropshadow: !<DropshadowSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    OffsetX: 0.250000
+    OffsetY: 0.250000
+  Background: !<BackgroundSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    Margins:
+      left: 0.000000
+      bottom: 0.000000
+      right: 0.000000
+      top: 0.000000
+    CornerRadius: 0.000000
+  AdvancedLayout: !<TextAdvancedLayout>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+  DepthTest: false
+  TwoSided: false
+- !<AssetImportMetadata/f3cb8be1-7a2f-118c-f615-7026066432f7>
+  ImportedAssetIds:
+    Font: !<reference> cb24bf96-a183-48d6-858c-5a44c502a89a
+  ImporterName: FontImporter
+  PrimaryAsset: !<reference> cb24bf96-a183-48d6-858c-5a44c502a89a
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/f401f1d2-591d-c6b2-fc5f-ae08ddd9b8ab>
+  ImportedAssetIds:
+    ShaderGraph: !<reference> d9ae0ed4-86be-4906-a9fc-62bfcf353b7d
+  ImporterName: ShaderGraphPassImporter
+  PrimaryAsset: !<reference> d9ae0ed4-86be-4906-a9fc-62bfcf353b7d
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScreenTransform/f46f9f17-7e1b-49a1-6075-5bd9397964da>
+  PrefabRemaps:
+    []
+  Name: Screen Transform
+  Enabled: true
+  IsAdvanced: false
+  Constraints:
+    pinToLeft: false
+    pinToTop: false
+    pinToRight: false
+    pinToBottom: false
+    fixedWidth: false
+    fixedHeight: false
+    deactivatedFixedSprite: false
+    deactivatedFixedPivot: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  Transform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  RawMode: true
+  ForceBasic: true
+  Anchor:
+    left: -0.871701
+    bottom: 0.364607
+    right: 0.871701
+    top: 0.499727
+  Offset:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000
+- !<ScriptComponent/f7be463c-89bb-4fb6-9a56-446ed61a405e>
+  PrefabRemaps:
+    []
+  Name: Global Hierarchy Pointer
+  Enabled: true
+  ScriptAsset: !<reference> dc0ea5b3-e78b-41d6-924a-29b13b93bb8c
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      pointerIdentifier: scoreBackplate
+  ScriptTypes:
+    "":
+      {}
+- !<ScreenTransform/f95c97d4-0cdd-4d8b-8c95-d7c4ca166f78>
+  PrefabRemaps:
+    []
+  Name: Screen Transform
+  Enabled: true
+  IsAdvanced: false
+  Constraints:
+    pinToLeft: false
+    pinToTop: false
+    pinToRight: false
+    pinToBottom: false
+    fixedWidth: false
+    fixedHeight: false
+    deactivatedFixedSprite: false
+    deactivatedFixedPivot: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  Transform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  RawMode: true
+  ForceBasic: true
+  Anchor:
+    left: -0.589333
+    bottom: 0.342222
+    right: 0.589332
+    top: 0.820640
+  Offset:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000
+- !<SceneObject/ff8d76f5-22f4-4eb5-ae98-23ddcd4fe779>
+  PrefabRemaps:
+    []
+  Name: Score Text
+  Enabled: true
+  Layers: 1835007
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 8bbf8503-1c21-48c1-a5ab-db4ce896a48b
+  Components:
+    - !<own> 19a58806-225f-435f-992c-8e39b8f6d4c5
+    - !<own> 44870c2e-b843-4fb0-aea5-eb9cb1afa62f

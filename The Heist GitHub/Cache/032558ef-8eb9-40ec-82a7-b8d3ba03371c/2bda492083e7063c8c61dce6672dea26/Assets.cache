@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    2d51f1d8-3841-4e0d-ad2f-a6d5c412b322: 032558ef-8eb9-40ec-82a7-b8d3ba03371c/2bda492083e7063c8c61dce6672dea26/Data/LeftWallOuterShell.mesh
+  Assets:
+    - !<FileMesh/2d51f1d8-3841-4e0d-ad2f-a6d5c412b322>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 194
+        Vertices: 220
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 2.779611, y: 15.018781, z: 15.018781}
+  SourceHash: 2bda492083e7063c8c61dce6672dea26
+  FileHash: 340c5d9686b5aadbc1a797d0cbee0076
+  NativePackageItems:
+    []

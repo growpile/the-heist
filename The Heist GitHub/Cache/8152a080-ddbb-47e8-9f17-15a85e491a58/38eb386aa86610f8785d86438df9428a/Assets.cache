@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    d6654d11-9922-4a3a-895c-3fb7572e229d: "8152a080-ddbb-47e8-9f17-15a85e491a58/38eb386aa86610f8785d86438df9428a/Data/ChatGPT Image May 16, 2026, 02_40_41 AM.png"
+  Assets:
+    - !<FileTexture/d6654d11-9922-4a3a-895c-3fb7572e229d>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1254
+        Height: 1254
+  SourceHash: 38eb386aa86610f8785d86438df9428a
+  FileHash: 6004ce01d5c8cc27ca4dd8829ce9a380
+  NativePackageItems:
+    []

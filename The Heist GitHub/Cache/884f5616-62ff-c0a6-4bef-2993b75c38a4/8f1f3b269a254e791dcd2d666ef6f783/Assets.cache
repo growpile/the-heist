@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    532a5646-8022-4abb-b081-397a9cf70d34: 884f5616-62ff-c0a6-4bef-2993b75c38a4/8f1f3b269a254e791dcd2d666ef6f783/Data/AiMetadata.md
+  Assets:
+    - !<MarkdownAsset/532a5646-8022-4abb-b081-397a9cf70d34>
+      PackagePath: ""
+  SourceHash: 8f1f3b269a254e791dcd2d666ef6f783
+  FileHash: 772adeb787ff4004e32081d276a54a42
+  NativePackageItems:
+    []

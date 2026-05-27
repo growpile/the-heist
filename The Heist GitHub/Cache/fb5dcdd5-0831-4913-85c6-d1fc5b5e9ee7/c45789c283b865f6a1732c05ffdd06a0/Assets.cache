@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    5fd7d068-7743-46c0-9b08-677a1316da0d: fb5dcdd5-0831-4913-85c6-d1fc5b5e9ee7/c45789c283b865f6a1732c05ffdd06a0/Data/Button Base.003.mesh
+  Assets:
+    - !<FileMesh/5fd7d068-7743-46c0-9b08-677a1316da0d>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 170
+        Vertices: 132
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 5.733011, y: 1.936484, z: 5.733011}
+  SourceHash: c45789c283b865f6a1732c05ffdd06a0
+  FileHash: 1a88ff13bca91fd221e8c876367d6258
+  NativePackageItems:
+    []

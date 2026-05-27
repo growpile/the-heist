@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    0e337890-c844-4b4f-85b9-a68292b6ce1c: 52a03590-c6b2-47cc-9243-8e9a5bf93f4f/45364ff635cc5b6ea87b4fd5edf68eae/Data/PCBTimer1.mesh
+  Assets:
+    - !<FileMesh/0e337890-c844-4b4f-85b9-a68292b6ce1c>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 14
+        Vertices: 16
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 7.546258, y: 4.391304, z: 3.193501}
+  SourceHash: 45364ff635cc5b6ea87b4fd5edf68eae
+  FileHash: a639188a8fc4bea8e9f267b5bc343bee
+  NativePackageItems:
+    []

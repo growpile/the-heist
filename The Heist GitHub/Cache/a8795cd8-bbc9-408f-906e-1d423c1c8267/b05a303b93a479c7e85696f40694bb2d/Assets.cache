@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    186693a8-8317-4a7e-a3e6-55e26f188c86: a8795cd8-bbc9-408f-906e-1d423c1c8267/b05a303b93a479c7e85696f40694bb2d/Data/LeftScreenBorder.mesh
+  Assets:
+    - !<FileMesh/186693a8-8317-4a7e-a3e6-55e26f188c86>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 70
+        Vertices: 66
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 1.348202, y: 3.707060, z: 3.948980}
+  SourceHash: b05a303b93a479c7e85696f40694bb2d
+  FileHash: 89f48fbb39b8ef44b4fd7183d1337ff2
+  NativePackageItems:
+    []

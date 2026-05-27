@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    96fe30dd-3475-4fca-835c-c99f8c02e234: 1af2ee23-9119-4e96-929d-22f02cba7349/9e520d1dc83e260f24d785fcd6022ae4/Data/Checkered Background.jpg
+  Assets:
+    - !<FileTexture/96fe30dd-3475-4fca-835c-c99f8c02e234>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: 9e520d1dc83e260f24d785fcd6022ae4
+  FileHash: 664886e6632eb3b6f6d556dc7dafe2ef
+  NativePackageItems:
+    []

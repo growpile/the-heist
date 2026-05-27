@@ -1,0 +1,75 @@
+- !<AssetCache>
+  AssetFiles:
+    31622449-d052-40e7-b7ff-186c0f81aef8: 01e5f278-5724-4af0-a5ea-17307d49a913/31886d68e8adc1e4331cf0c3c25b38c3/Data/Meshes/Default Button.mesh
+  Assets:
+    - !<ObjectPrefab/fa9e1394-6c87-48f0-bf78-cad55ca61cac>
+      PackagePath: ""
+      objects:
+        - !<own> 5a84958b-47e1-4649-8dc0-48ecfeb37321
+      LazyLoading: false
+      RetainAssets: true
+    - !<FileMesh/31622449-d052-40e7-b7ff-186c0f81aef8>
+      PackagePath: Meshes/Default Button
+      Info: !<MeshInfo>
+        Triangles: 110
+        Vertices: 112
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 3.999993, y: 1.843307, z: 3.999993}
+  SourceHash: 31886d68e8adc1e4331cf0c3c25b38c3
+  FileHash: 478057a9c3def53bc50d0b61b3e19450
+  NativePackageItems:
+    []
+- !<SceneObject/27b1f2dc-84b9-40e9-b941-ba8567b985be>
+  PrefabRemaps:
+    []
+  Name: Default Button
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 48320be8-cd72-4dd0-bdd3-9e4b1a8c2a0f
+- !<RenderMeshVisual/48320be8-cd72-4dd0-bdd3-9e4b1a8c2a0f>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 31622449-d052-40e7-b7ff-186c0f81aef8
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/5a84958b-47e1-4649-8dc0-48ecfeb37321>
+  PrefabRemaps:
+    - 27b1f2dc-84b9-40e9-b941-ba8567b985be: 27b1f2dc-84b9-40e9-46be-457a98467a41
+    - 48320be8-cd72-4dd0-bdd3-9e4b1a8c2a0f: 48320be8-cd72-4dd0-422c-61b4e573d5f0
+    - 5a84958b-47e1-4649-8dc0-48ecfeb37321: 5a84958b-47e1-4649-723f-b713014c8cde
+  Name: ButtonTest3
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 27b1f2dc-84b9-40e9-b941-ba8567b985be
+  Components:
+    []

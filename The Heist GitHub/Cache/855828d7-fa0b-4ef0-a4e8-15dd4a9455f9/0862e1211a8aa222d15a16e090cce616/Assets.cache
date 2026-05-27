@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    f1077a92-1fbd-419e-b0a1-d4770a1b437c: 855828d7-fa0b-4ef0-a4e8-15dd4a9455f9/0862e1211a8aa222d15a16e090cce616/Data/body_shadow.png
+  Assets:
+    - !<FileTexture/f1077a92-1fbd-419e-b0a1-d4770a1b437c>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 2048
+        Height: 2048
+  SourceHash: 0862e1211a8aa222d15a16e090cce616
+  FileHash: 41e3f22aad883bef184aaca7d5205c2f
+  NativePackageItems:
+    []

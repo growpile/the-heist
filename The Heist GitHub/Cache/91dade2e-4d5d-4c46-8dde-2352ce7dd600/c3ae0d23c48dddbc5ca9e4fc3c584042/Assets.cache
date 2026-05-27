@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    53327f83-e2cd-449c-a248-9a2fdc38d661: 91dade2e-4d5d-4c46-8dde-2352ce7dd600/c3ae0d23c48dddbc5ca9e4fc3c584042/Data/RightWallOuterShell.mesh
+  Assets:
+    - !<FileMesh/53327f83-e2cd-449c-a248-9a2fdc38d661>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 194
+        Vertices: 220
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 2.779611, y: 15.018781, z: 15.018781}
+  SourceHash: c3ae0d23c48dddbc5ca9e4fc3c584042
+  FileHash: 8e1c2bf8a0b6cd410c1d19f057afa38d
+  NativePackageItems:
+    []

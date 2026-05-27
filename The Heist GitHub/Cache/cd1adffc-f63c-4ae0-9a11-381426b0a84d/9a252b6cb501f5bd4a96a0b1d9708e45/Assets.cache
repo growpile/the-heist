@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    297a5a5f-e21b-4741-a6c0-2780fca5b3bb: cd1adffc-f63c-4ae0-9a11-381426b0a84d/9a252b6cb501f5bd4a96a0b1d9708e45/Data/WireToLeft.mesh
+  Assets:
+    - !<FileMesh/297a5a5f-e21b-4741-a6c0-2780fca5b3bb>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 1280
+        Vertices: 697
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 8.874962, y: 5.796862, z: 8.801525}
+  SourceHash: 9a252b6cb501f5bd4a96a0b1d9708e45
+  FileHash: 86d86380ec84b09b7fcd36398c4c8e72
+  NativePackageItems:
+    []

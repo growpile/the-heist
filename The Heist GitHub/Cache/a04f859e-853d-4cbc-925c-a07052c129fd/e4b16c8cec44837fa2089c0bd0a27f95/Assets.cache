@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    631996e4-0647-4541-8965-6f6835bfb162: a04f859e-853d-4cbc-925c-a07052c129fd/e4b16c8cec44837fa2089c0bd0a27f95/Data/Module Solve Display.mesh
+  Assets:
+    - !<FileMesh/631996e4-0647-4541-8965-6f6835bfb162>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 142
+        Vertices: 89
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 3.526687, y: 1.048232, z: 3.531318}
+  SourceHash: e4b16c8cec44837fa2089c0bd0a27f95
+  FileHash: 978a2c3b81cb83cb4cd9efa6615c1b23
+  NativePackageItems:
+    []

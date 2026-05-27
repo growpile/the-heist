@@ -1,0 +1,70 @@
+- !<AssetImportMetadata/32e77ca9-e04a-4321-a174-d807d8248f10>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> a7a5e9d2-d241-4ff9-b231-0636b2c5e3c6
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> a7a5e9d2-d241-4ff9-b231-0636b2c5e3c6
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> bbbc749a-0e52-4f0a-b931-7627dc50770a
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/bbbc749a-0e52-4f0a-b931-7627dc50770a>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 61faa80b-4c88-4d55-a3ca-d412184da087
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    lever: false
+    leverBall: false
+    leverHandle: false
+    leverMaxDegrees: false
+    leverMinDistance: false
+    sequenceLamps: false
+    slotSpinners: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - slotSpinners: !<reference.SceneObject[]>
+        []
+      sequenceLamps: !<reference.SceneObject[]>
+        []
+      lever: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      leverBall: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      leverHandle: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      leverMaxDegrees: !<float> 30.000000
+      leverMinDistance: 0.100000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Slot reels</span>"}'
+    - '// @input SceneObject[] slotSpinners = {} {"hint":"Three slot spinner roots (left to right)."}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Streak lamps</span>"}'
+    - '// @input SceneObject[] sequenceLamps = {} {"hint":"Five lamps — light in order on correct lever swings."}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Lever</span>"}'
+    - '// @input SceneObject lever {"hint":"Lever arm pivot object."}'
+    - '// @input SceneObject leverBall {"hint":"Ball anchor the handle snaps back to."}'
+    - // @input SceneObject leverHandle
+    - '// @input float leverMaxDegrees = 30 {"hint":"Max lever rotation in degrees during a swing.", "widget":"slider", "min":5, "max":90, "step":1}'
+    - '// @input float leverMinDistance = 0.1 {"hint":"Minimum vertical pull distance to register a swing.", "widget":"slider", "min":0.05, "max":10, "step":0.05}'

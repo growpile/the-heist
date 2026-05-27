@@ -1,0 +1,14 @@
+- !<AssetCache>
+  AssetFiles:
+    447fce19-144f-4e84-914b-b10259a511eb: aad557b6-e2bb-fe9c-e381-12bc2cf33aec/357043728a7109c1793a98ca62da1f75/Data/flow_noise_3D.png
+  Assets:
+    - !<FileTexture3D/447fce19-144f-4e84-914b-b10259a511eb>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo3D>
+        Width: 49
+        Height: 49
+        Depth: 49
+  SourceHash: 357043728a7109c1793a98ca62da1f75
+  FileHash: 5b75220d4200ce51e8f3aba93ca18188
+  NativePackageItems:
+    []

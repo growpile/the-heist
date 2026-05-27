@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    0a68078d-5ae1-4bce-a712-30b58d4e7c6e: ea1e5aa4-8f51-446c-86c3-02822e8dd9b0/407b2950a7fed5477b239ccdcd8ce149/Data/Cube Button.mesh
+  Assets:
+    - !<FileMesh/0a68078d-5ae1-4bce-a712-30b58d4e7c6e>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 170
+        Vertices: 96
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 4.006225, y: 1.844988, z: 4.006225}
+  SourceHash: 407b2950a7fed5477b239ccdcd8ce149
+  FileHash: 3082a817143c9a775fa2e96edcd28020
+  NativePackageItems:
+    []

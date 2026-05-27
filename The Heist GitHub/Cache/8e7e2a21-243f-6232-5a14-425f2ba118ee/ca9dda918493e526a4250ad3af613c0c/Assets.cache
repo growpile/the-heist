@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    782498b0-4389-4dd8-8d98-deba32fc4d1d: 8e7e2a21-243f-6232-5a14-425f2ba118ee/ca9dda918493e526a4250ad3af613c0c/Data/Inner Loader.png
+  Assets:
+    - !<FileTexture/782498b0-4389-4dd8-8d98-deba32fc4d1d>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 594
+        Height: 594
+  SourceHash: ca9dda918493e526a4250ad3af613c0c
+  FileHash: ed476647fb1f42878e5de3b4a45e4507
+  NativePackageItems:
+    []

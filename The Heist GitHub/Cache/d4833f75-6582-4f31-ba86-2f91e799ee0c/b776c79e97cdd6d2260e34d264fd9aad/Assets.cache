@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    bd86dbf8-c8c9-4f1e-a2b3-0055ca08c003: d4833f75-6582-4f31-ba86-2f91e799ee0c/b776c79e97cdd6d2260e34d264fd9aad/Data/Module Wire Input1.002.mesh
+  Assets:
+    - !<FileMesh/bd86dbf8-c8c9-4f1e-a2b3-0055ca08c003>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 864
+        Vertices: 595
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 2.000000, y: 0.863832, z: 2.271869}
+  SourceHash: b776c79e97cdd6d2260e34d264fd9aad
+  FileHash: 02520ee788cb2be83e6600dab12837dd
+  NativePackageItems:
+    []

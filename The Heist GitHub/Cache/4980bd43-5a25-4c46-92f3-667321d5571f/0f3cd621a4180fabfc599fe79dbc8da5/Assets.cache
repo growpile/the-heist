@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    325142e1-2568-4200-bf8a-d1b5314b860b: 4980bd43-5a25-4c46-92f3-667321d5571f/0f3cd621a4180fabfc599fe79dbc8da5/Data/LeftEarBud.mesh
+  Assets:
+    - !<FileMesh/325142e1-2568-4200-bf8a-d1b5314b860b>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 316
+        Vertices: 308
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.090914, y: 0.090914, z: 0.090914}
+  SourceHash: 0f3cd621a4180fabfc599fe79dbc8da5
+  FileHash: 5860e4562eb0858ca6943ce2c2d15efd
+  NativePackageItems:
+    []

@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    6a18f05e-0b1b-479e-9ce2-b1a9779e3bf7: 42c8176c-cf63-49a2-996c-e0fc5f6047d8/edea6081073e18dc7f4c33753c2be524/Data/Big Dot.jpg
+  Assets:
+    - !<FileTexture/6a18f05e-0b1b-479e-9ce2-b1a9779e3bf7>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: edea6081073e18dc7f4c33753c2be524
+  FileHash: 549719acfa95ea869587cd5103afac25
+  NativePackageItems:
+    []

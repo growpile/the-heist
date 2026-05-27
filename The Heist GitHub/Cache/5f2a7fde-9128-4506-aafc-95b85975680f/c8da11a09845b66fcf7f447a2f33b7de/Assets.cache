@@ -1,0 +1,4616 @@
+- !<AssetCache>
+  AssetFiles:
+    ee4e09af-efad-4761-b844-beafb2c67159: 5f2a7fde-9128-4506-aafc-95b85975680f/c8da11a09845b66fcf7f447a2f33b7de/Data/Meshes/BézierCurve.mesh
+    76ec82c6-4ff1-4458-b23b-2c038f93ff8c: 5f2a7fde-9128-4506-aafc-95b85975680f/c8da11a09845b66fcf7f447a2f33b7de/Data/Meshes/BézierCurve.001.mesh
+    38e4bd6b-c1f4-434e-bc16-78bab2b59fa5: 5f2a7fde-9128-4506-aafc-95b85975680f/c8da11a09845b66fcf7f447a2f33b7de/Data/Meshes/BézierCurve.002.mesh
+    4ca24456-d6f5-40b8-9c0a-8d05ac1a978e: 5f2a7fde-9128-4506-aafc-95b85975680f/c8da11a09845b66fcf7f447a2f33b7de/Data/Meshes/BézierCurve.003.mesh
+    6589bdcc-21f5-44ce-8a4a-e23ec5af399c: 5f2a7fde-9128-4506-aafc-95b85975680f/c8da11a09845b66fcf7f447a2f33b7de/Data/Meshes/BézierCurve.004.mesh
+    1cc93444-bbb0-44b1-ab57-407770361c70: 5f2a7fde-9128-4506-aafc-95b85975680f/c8da11a09845b66fcf7f447a2f33b7de/Data/Meshes/Cube.002.mesh
+    1a749454-71de-4d0b-8cd7-925138c4bd55: 5f2a7fde-9128-4506-aafc-95b85975680f/c8da11a09845b66fcf7f447a2f33b7de/Data/.hidden/TT_checker_512x512_UV_GRID.ss_graph
+    ded030fb-2239-44d3-bf99-a01a33a9599f: 5f2a7fde-9128-4506-aafc-95b85975680f/c8da11a09845b66fcf7f447a2f33b7de/Data/.hidden/white.jpg
+    60cf5fc8-6447-4164-97f4-03f6d769b5b1: 5f2a7fde-9128-4506-aafc-95b85975680f/c8da11a09845b66fcf7f447a2f33b7de/Data/Meshes/Cube.008.mesh
+    f87d7379-a48c-408e-a27b-fbf14ad50a2e: 5f2a7fde-9128-4506-aafc-95b85975680f/c8da11a09845b66fcf7f447a2f33b7de/Data/Meshes/Cylinder.mesh
+    20a4bde5-1204-4669-8f6c-563bcedeb657: 5f2a7fde-9128-4506-aafc-95b85975680f/c8da11a09845b66fcf7f447a2f33b7de/Data/Meshes/Cylinder.001.mesh
+    b055f815-b276-4613-b36c-123d1f93d50b: 5f2a7fde-9128-4506-aafc-95b85975680f/c8da11a09845b66fcf7f447a2f33b7de/Data/Meshes/Cylinder.002.mesh
+    3e62a941-3cda-4875-bb7a-06c95969a131: 5f2a7fde-9128-4506-aafc-95b85975680f/c8da11a09845b66fcf7f447a2f33b7de/Data/Meshes/Cylinder.003.mesh
+    f6fc5e49-c6d1-4757-a535-0e2264f7d4aa: 5f2a7fde-9128-4506-aafc-95b85975680f/c8da11a09845b66fcf7f447a2f33b7de/Data/Meshes/Cylinder.004.mesh
+    453f2789-eeee-43b5-b0ef-abee95356abb: 5f2a7fde-9128-4506-aafc-95b85975680f/c8da11a09845b66fcf7f447a2f33b7de/Data/Meshes/Cylinder.005.mesh
+    bdce82d8-9089-4999-8550-584e187bae3d: 5f2a7fde-9128-4506-aafc-95b85975680f/c8da11a09845b66fcf7f447a2f33b7de/Data/Meshes/Cylinder.006.mesh
+    85f7543b-8818-4566-9d76-927a53dae9ba: 5f2a7fde-9128-4506-aafc-95b85975680f/c8da11a09845b66fcf7f447a2f33b7de/Data/Meshes/Cylinder.007.mesh
+    83594cb6-fa15-4cbb-8103-918f03d2bc69: 5f2a7fde-9128-4506-aafc-95b85975680f/c8da11a09845b66fcf7f447a2f33b7de/Data/Meshes/Cylinder.008.mesh
+    deff9de0-11f5-43f7-8324-9e8723e96137: 5f2a7fde-9128-4506-aafc-95b85975680f/c8da11a09845b66fcf7f447a2f33b7de/Data/Meshes/Cylinder.009.mesh
+    9878fa1b-9c63-4e12-8490-48c8a246ed54: 5f2a7fde-9128-4506-aafc-95b85975680f/c8da11a09845b66fcf7f447a2f33b7de/Data/Meshes/Cylinder.016.mesh
+    f9c60494-6c02-4b87-bcc6-6f8a3541c57d: 5f2a7fde-9128-4506-aafc-95b85975680f/c8da11a09845b66fcf7f447a2f33b7de/Data/Meshes/DynamiteBundle.mesh
+    192256b2-8045-4b63-a30d-50a59b77ba53: 5f2a7fde-9128-4506-aafc-95b85975680f/c8da11a09845b66fcf7f447a2f33b7de/Data/Meshes/DynamiteWraps.mesh
+    1679fbd0-0127-4e5c-8d6f-f8647b0eefc4: 5f2a7fde-9128-4506-aafc-95b85975680f/c8da11a09845b66fcf7f447a2f33b7de/Data/Meshes/Gold.mesh
+    e4ffee75-d929-4cf5-8faf-b5582375f729: 5f2a7fde-9128-4506-aafc-95b85975680f/c8da11a09845b66fcf7f447a2f33b7de/Data/Meshes/Gold.001.mesh
+    00b1b500-a195-4253-a2c9-21b57a9df66f: 5f2a7fde-9128-4506-aafc-95b85975680f/c8da11a09845b66fcf7f447a2f33b7de/Data/Meshes/Gold.002.mesh
+    d70c3f7b-bea9-4a30-a171-0992946a98b3: 5f2a7fde-9128-4506-aafc-95b85975680f/c8da11a09845b66fcf7f447a2f33b7de/Data/Meshes/Gold.003.mesh
+    db1d1ac2-74d0-46cc-88f9-44ff23d7bc38: 5f2a7fde-9128-4506-aafc-95b85975680f/c8da11a09845b66fcf7f447a2f33b7de/Data/Meshes/Gold.004.mesh
+    b2f269b2-c1e7-4576-9f01-2ccd7d539eaf: 5f2a7fde-9128-4506-aafc-95b85975680f/c8da11a09845b66fcf7f447a2f33b7de/Data/Meshes/Gold.005.mesh
+    970443ea-c4ad-4723-a789-cf7001930398: 5f2a7fde-9128-4506-aafc-95b85975680f/c8da11a09845b66fcf7f447a2f33b7de/Data/Meshes/Safe.mesh
+    e8b40a21-c401-47ee-81e9-be5a336c9707: 5f2a7fde-9128-4506-aafc-95b85975680f/c8da11a09845b66fcf7f447a2f33b7de/Data/Meshes/Safe.003.mesh
+    93f24055-d7f3-48ff-8b93-332870b2ee44: 5f2a7fde-9128-4506-aafc-95b85975680f/c8da11a09845b66fcf7f447a2f33b7de/Data/Meshes/Safe.004.mesh
+    af24c56d-fd29-404a-98b9-439204663caa: 5f2a7fde-9128-4506-aafc-95b85975680f/c8da11a09845b66fcf7f447a2f33b7de/Data/Meshes/Safe.005.mesh
+    58bec3f8-6f37-453d-bf41-9eea7e723b79: 5f2a7fde-9128-4506-aafc-95b85975680f/c8da11a09845b66fcf7f447a2f33b7de/Data/Meshes/Safe.007.mesh
+    73246e1a-29b0-4ed4-8a44-3ed30e1d3043: 5f2a7fde-9128-4506-aafc-95b85975680f/c8da11a09845b66fcf7f447a2f33b7de/Data/Meshes/Safe.008.mesh
+    c7a4076d-1c9a-4895-a923-d8c362aff9d8: 5f2a7fde-9128-4506-aafc-95b85975680f/c8da11a09845b66fcf7f447a2f33b7de/Data/Meshes/Safe.010.mesh
+    62dfa3f4-6cee-4890-a922-8ecc54072487: 5f2a7fde-9128-4506-aafc-95b85975680f/c8da11a09845b66fcf7f447a2f33b7de/Data/Meshes/Safe.011.mesh
+    b1cf1508-10d7-4c0b-8131-28cf426370f5: 5f2a7fde-9128-4506-aafc-95b85975680f/c8da11a09845b66fcf7f447a2f33b7de/Data/Meshes/Safe_Door.mesh
+    b519ec97-1515-4f2a-bb7c-298e0cb31b95: 5f2a7fde-9128-4506-aafc-95b85975680f/c8da11a09845b66fcf7f447a2f33b7de/Data/Meshes/Cube.mesh
+    f51d8ef3-b9c9-4ac3-a191-1dba4b894d2e: 5f2a7fde-9128-4506-aafc-95b85975680f/c8da11a09845b66fcf7f447a2f33b7de/Data/Meshes/Cube.007.mesh
+    28c6e713-ec07-4af0-bbcd-be88321ca8a2: 5f2a7fde-9128-4506-aafc-95b85975680f/c8da11a09845b66fcf7f447a2f33b7de/Data/Meshes/Cube.009.mesh
+    14fcd0c0-86e3-4db5-b9e3-dda48aa9f2d0: 5f2a7fde-9128-4506-aafc-95b85975680f/c8da11a09845b66fcf7f447a2f33b7de/Data/Meshes/Cube.010.mesh
+    54c3776b-c62f-41b0-adeb-71b9fcdcd7ac: 5f2a7fde-9128-4506-aafc-95b85975680f/c8da11a09845b66fcf7f447a2f33b7de/Data/Meshes/Cube.011.mesh
+    36347eab-eee9-4743-a1bc-86473330b1f1: 5f2a7fde-9128-4506-aafc-95b85975680f/c8da11a09845b66fcf7f447a2f33b7de/Data/Meshes/Cube.012.mesh
+    fc9f8dd7-5c3d-488e-baef-25862762b4ed: 5f2a7fde-9128-4506-aafc-95b85975680f/c8da11a09845b66fcf7f447a2f33b7de/Data/Meshes/Cube.013.mesh
+    24a4d2b7-5287-4ce0-88de-31e887ab19ef: 5f2a7fde-9128-4506-aafc-95b85975680f/c8da11a09845b66fcf7f447a2f33b7de/Data/Meshes/Cube.014.mesh
+    4d3ca7d6-4c20-4f6b-8c42-29d27639d8b5: 5f2a7fde-9128-4506-aafc-95b85975680f/c8da11a09845b66fcf7f447a2f33b7de/Data/Meshes/Cube.015.mesh
+    d1a508bd-d135-4590-84b7-f7d36783da23: 5f2a7fde-9128-4506-aafc-95b85975680f/c8da11a09845b66fcf7f447a2f33b7de/Data/Meshes/Cube.016.mesh
+    d5701f73-9404-47b2-b82b-889dda7a8717: 5f2a7fde-9128-4506-aafc-95b85975680f/c8da11a09845b66fcf7f447a2f33b7de/Data/Meshes/Cube.017.mesh
+    a97ca7aa-d6a3-4eb2-b2d3-d7ba885b76d3: 5f2a7fde-9128-4506-aafc-95b85975680f/c8da11a09845b66fcf7f447a2f33b7de/Data/Meshes/Cylinder.010.mesh
+    40d1bbea-e050-4def-ab97-999c24ae4bb5: 5f2a7fde-9128-4506-aafc-95b85975680f/c8da11a09845b66fcf7f447a2f33b7de/Data/Meshes/Cylinder.017.mesh
+    556b786f-0635-47be-9478-1064811b2a30: 5f2a7fde-9128-4506-aafc-95b85975680f/c8da11a09845b66fcf7f447a2f33b7de/Data/Meshes/Cylinder.019.mesh
+    69ba50c3-b4ff-482a-a43d-626a58b48194: 5f2a7fde-9128-4506-aafc-95b85975680f/c8da11a09845b66fcf7f447a2f33b7de/Data/Meshes/Cylinder.023.mesh
+    9f0704f1-88d0-4f1f-a6c2-2bbfd61aca2c: 5f2a7fde-9128-4506-aafc-95b85975680f/c8da11a09845b66fcf7f447a2f33b7de/Data/Meshes/Cylinder.024.mesh
+    94fc6e40-d0bd-4c77-82b3-bdb347e77725: 5f2a7fde-9128-4506-aafc-95b85975680f/c8da11a09845b66fcf7f447a2f33b7de/Data/Meshes/Cylinder.025.mesh
+    7789cda7-52ce-4051-a64f-04c881d2c7a7: 5f2a7fde-9128-4506-aafc-95b85975680f/c8da11a09845b66fcf7f447a2f33b7de/Data/Meshes/Lock.mesh
+    a7e2a1d5-616d-4d45-b3b5-af3de3521e11: 5f2a7fde-9128-4506-aafc-95b85975680f/c8da11a09845b66fcf7f447a2f33b7de/Data/Meshes/Lock.001.mesh
+    c3a51237-e509-4aff-81db-748fc27b6955: 5f2a7fde-9128-4506-aafc-95b85975680f/c8da11a09845b66fcf7f447a2f33b7de/Data/Meshes/Lock.002.mesh
+    59b6e576-d788-40d9-818b-1e81c4eb4c3f: 5f2a7fde-9128-4506-aafc-95b85975680f/c8da11a09845b66fcf7f447a2f33b7de/Data/Meshes/Safe.006.mesh
+    8dd24506-3084-40b0-ae4a-63e31f83fa1d: 5f2a7fde-9128-4506-aafc-95b85975680f/c8da11a09845b66fcf7f447a2f33b7de/Data/Meshes/Safe.009.mesh
+    69abfaf0-99a4-4568-94e8-da146d021a6b: 5f2a7fde-9128-4506-aafc-95b85975680f/c8da11a09845b66fcf7f447a2f33b7de/Data/Meshes/Safe.012.mesh
+    0cfb810f-b838-4e99-bb10-00eedc0c3f05: 5f2a7fde-9128-4506-aafc-95b85975680f/c8da11a09845b66fcf7f447a2f33b7de/Data/Meshes/Safe.014.mesh
+    83f1e977-7300-4b8b-b691-4bc304647e8c: 5f2a7fde-9128-4506-aafc-95b85975680f/c8da11a09845b66fcf7f447a2f33b7de/Data/Meshes/Safe_Leg.mesh
+    89d2885b-62f5-4c59-a89c-5fca50204b79: 5f2a7fde-9128-4506-aafc-95b85975680f/c8da11a09845b66fcf7f447a2f33b7de/Data/Meshes/Safe_Leg.001.mesh
+    b7c21a2f-317c-4c1b-a119-9abb20d9949d: 5f2a7fde-9128-4506-aafc-95b85975680f/c8da11a09845b66fcf7f447a2f33b7de/Data/Meshes/Safe_Leg.002.mesh
+    1e05a7d4-ef8c-453f-8a6a-21e6f716283a: 5f2a7fde-9128-4506-aafc-95b85975680f/c8da11a09845b66fcf7f447a2f33b7de/Data/Meshes/Safe_Leg.003.mesh
+    3e6ff6e6-a0df-48d7-a93c-f1dcd984e66a: 5f2a7fde-9128-4506-aafc-95b85975680f/c8da11a09845b66fcf7f447a2f33b7de/Data/Meshes/Safe_Shelf.mesh
+  Assets:
+    - !<ObjectPrefab/367da23b-4e7e-4c2b-a0c9-4c61c06f0c91>
+      PackagePath: ""
+      objects:
+        - !<own> 6a7e20f1-9599-46c1-a6d4-c632d47b1910
+      LazyLoading: false
+      RetainAssets: true
+    - !<FileMesh/ee4e09af-efad-4761-b844-beafb2c67159>
+      PackagePath: Meshes/BézierCurve
+      Info: !<MeshInfo>
+        Triangles: 288
+        Vertices: 169
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.835723, y: 13.336452, z: 1.415013}
+    - !<FileMesh/76ec82c6-4ff1-4458-b23b-2c038f93ff8c>
+      PackagePath: Meshes/BézierCurve.001
+      Info: !<MeshInfo>
+        Triangles: 288
+        Vertices: 169
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.673085, y: 13.377022, z: 1.396405}
+    - !<FileMesh/38e4bd6b-c1f4-434e-bc16-78bab2b59fa5>
+      PackagePath: Meshes/BézierCurve.002
+      Info: !<MeshInfo>
+        Triangles: 288
+        Vertices: 169
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 1.329962, y: 13.594273, z: 1.359511}
+    - !<FileMesh/4ca24456-d6f5-40b8-9c0a-8d05ac1a978e>
+      PackagePath: Meshes/BézierCurve.003
+      Info: !<MeshInfo>
+        Triangles: 288
+        Vertices: 169
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 1.414342, y: 13.713449, z: 1.144873}
+    - !<FileMesh/6589bdcc-21f5-44ce-8a4a-e23ec5af399c>
+      PackagePath: Meshes/BézierCurve.004
+      Info: !<MeshInfo>
+        Triangles: 288
+        Vertices: 169
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 1.418547, y: 13.473445, z: 1.279141}
+    - !<FileMesh/1cc93444-bbb0-44b1-ab57-407770361c70>
+      PackagePath: Meshes/Cube.002
+      Info: !<MeshInfo>
+        Triangles: 70
+        Vertices: 64
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 1.559624, y: 8.899382, z: 6.000468}
+    - !<Material/4dccd574-a3ae-4164-8fd1-d425b6913d15>
+      PackagePath: Materials/TT_checker_512x512_UV_GRID
+      PassesInfo:
+        - !<own> 8676b961-73c7-4a25-b4f8-25d7b4a7374e
+    - !<ShaderGraphPass/1a749454-71de-4d0b-8cd7-925138c4bd55>
+      PackagePath: .hidden/TT_checker_512x512_UV_GRID
+      DefaultDefines:
+        - NODE_13_DROPLIST_ITEM 0
+        - NODE_181_DROPLIST_ITEM 0
+        - NODE_184_DROPLIST_ITEM 0
+        - NODE_221_DROPLIST_ITEM 0
+        - NODE_228_DROPLIST_ITEM 0
+        - NODE_27_DROPLIST_ITEM 0
+        - NODE_315_DROPLIST_ITEM 0
+        - NODE_38_DROPLIST_ITEM 0
+        - NODE_49_DROPLIST_ITEM 0
+        - NODE_69_DROPLIST_ITEM 0
+        - NODE_76_DROPLIST_ITEM 0
+      DefaultProperties:
+        Port_Depth_N004:
+          typeIdx: 1
+          value: 1.000000
+        Port_FinalColor1_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor2_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor3_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_GSplatPointSize_N004:
+          typeIdx: 1
+          value: 0.000000
+        Port_GSplatRotation_N004:
+          typeIdx: 5
+          value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+        Port_GSplatScale_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_PrevWorldPosition_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_RayDirection_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_RayOrigin_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_WorldNormal_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_WorldPosition_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_WorldTangent_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+      PassUiData: !<PassUiData>
+        ExtraDefines:
+          - SC_ENABLE_RT_CASTER
+          - SC_ENABLE_RT_RECEIVER
+        PassBindings:
+          - mLabel: Graph Parameters
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Vertex Color
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the purpose for which vertex color will be used. Requires vertex color to be supplied by the mesh.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: None
+                mType: DefineSelectValue
+                mName: NODE_38_DROPLIST_ITEM 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Base Color
+                mType: DefineSelectValue
+                mName: NODE_38_DROPLIST_ITEM 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Emissive
+                mType: DefineSelectValue
+                mName: NODE_38_DROPLIST_ITEM 2
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: AO
+                mType: DefineSelectValue
+                mName: NODE_38_DROPLIST_ITEM 3
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: Base Color
+            mType: Property
+            mName: baseColor
+            mWidget: color
+            mHint: |-
+              Property: baseColor
+              
+              Specifies the base color (albedo) of the material if the 'Base Textre' is disabled. 
+              Multiplied with the 'Base Texture' otherwise.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Base Texture
+            mType: Define
+            mName: ENABLE_BASE_TEX
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_BASE_TEX
+              
+              Most materials use a base texture (albedo), but disabling it means the base texture will be considered white, and 'Base Color' will solely control the color.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: baseTex
+            mWidget: texture_group
+            mHint: "Property: baseTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture UV
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the UV set used as the base on top of which the transform is applied.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Mesh UV 0
+                mType: DefineSelectValue
+                mName: NODE_27_DROPLIST_ITEM 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Mesh UV 1
+                mType: DefineSelectValue
+                mName: NODE_27_DROPLIST_ITEM 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 2
+                mType: DefineSelectValue
+                mName: NODE_27_DROPLIST_ITEM 2
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 3
+                mType: DefineSelectValue
+                mName: NODE_27_DROPLIST_ITEM 3
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_BASE_TEX
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Opacity Texture
+            mType: Define
+            mName: ENABLE_OPACITY_TEX
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_OPACITY_TEX
+              
+              Normally, the Base Texture's alpha is taken as opacity. Enabling this allows you to define a separate greyscale opacity texture. 
+              The 'Opacity Texture' value will be multiplied with the Base Texture's alpha (which is 1 for textures without alpha) to get the final opacity. 
+              'Opacity Texture' is only available if 'Blend Mode' is not 'Disabled'.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: opacityTex
+            mWidget: texture_group
+            mHint: "Property: opacityTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture UV
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the UV set used as the base on top of which the transform is applied.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Mesh UV 0
+                mType: DefineSelectValue
+                mName: NODE_69_DROPLIST_ITEM 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Mesh UV 1
+                mType: DefineSelectValue
+                mName: NODE_69_DROPLIST_ITEM 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 2
+                mType: DefineSelectValue
+                mName: NODE_69_DROPLIST_ITEM 2
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 3
+                mType: DefineSelectValue
+                mName: NODE_69_DROPLIST_ITEM 3
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_OPACITY_TEX
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Recolor
+            mType: Define
+            mName: ENABLE_RECOLOR
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_RECOLOR
+              
+              Recolor replaces colors in the base texture. 
+              This is useful for adding variety to assets, ex: recolor a red shirt with a green logo to a blue shirt with a black logo, or any other color combination. 
+              Where the base texture is red, you will get whatever color you set in Recolor Red, and same thing for the green and blue channels of the base texture. 
+              This also works in combination if the base color is not a pure red, green or blue color.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Recolor Red
+            mType: Property
+            mName: recolorRed
+            mWidget: color
+            mHint: "Property: recolorRed"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Recolor Green
+            mType: Property
+            mName: recolorGreen
+            mWidget: color
+            mHint: "Property: recolorGreen"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Recolor Blue
+            mType: Property
+            mName: recolorBlue
+            mWidget: color
+            mHint: "Property: recolorBlue"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_RECOLOR
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Normal Map
+            mType: Define
+            mName: ENABLE_NORMALMAP
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_NORMALMAP
+              
+              Enables the normal map texture and normal mapping. 
+              When this is disabled, the per pixel normal is solely determined by the interpolated vertex normals.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: normalTex
+            mWidget: texture_group
+            mHint: "Property: normalTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture UV
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the UV set used for sampling this texture.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Mesh UV 0
+                mType: DefineSelectValue
+                mName: NODE_181_DROPLIST_ITEM 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Mesh UV 1
+                mType: DefineSelectValue
+                mName: NODE_181_DROPLIST_ITEM 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 2
+                mType: DefineSelectValue
+                mName: NODE_181_DROPLIST_ITEM 2
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 3
+                mType: DefineSelectValue
+                mName: NODE_181_DROPLIST_ITEM 3
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: Detail Normal
+            mType: Define
+            mName: ENABLE_DETAIL_NORMAL
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_DETAIL_NORMAL
+              
+              Detail normal mapping perturbs the base normal map by a detail normal map.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: detailNormalTex
+            mWidget: texture_group
+            mHint: "Property: detailNormalTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture UV
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the UV set used for sampling this texture.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Mesh UV 0
+                mType: DefineSelectValue
+                mName: NODE_184_DROPLIST_ITEM 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Mesh UV 1
+                mType: DefineSelectValue
+                mName: NODE_184_DROPLIST_ITEM 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 2
+                mType: DefineSelectValue
+                mName: NODE_184_DROPLIST_ITEM 2
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 3
+                mType: DefineSelectValue
+                mName: NODE_184_DROPLIST_ITEM 3
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_DETAIL_NORMAL
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_NORMALMAP
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Emissive
+            mType: Define
+            mName: ENABLE_EMISSIVE
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_EMISSIVE
+              
+              Enables the emissive texture.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: emissiveTex
+            mWidget: texture_group
+            mHint: "Property: emissiveTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture UV
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the UV set used for sampling this texture.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Mesh UV 0
+                mType: DefineSelectValue
+                mName: NODE_76_DROPLIST_ITEM 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Mesh UV 1
+                mType: DefineSelectValue
+                mName: NODE_76_DROPLIST_ITEM 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 2
+                mType: DefineSelectValue
+                mName: NODE_76_DROPLIST_ITEM 2
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 3
+                mType: DefineSelectValue
+                mName: NODE_76_DROPLIST_ITEM 3
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: Color
+            mType: Property
+            mName: emissiveColor
+            mWidget: color
+            mHint: |-
+              Property: emissiveColor
+              
+              Multiplies the existing emissive color. 
+              Requires 'Enable Emissive' and/or 'Vertex Color' should be set to 'Emissive'.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Intensity
+            mType: Property
+            mName: emissiveIntensity
+            mWidget: slider
+            mHint: |-
+              Property: emissiveIntensity
+              
+              Multiplies the existing emissive color. 
+              Requires 'Enable Emissive' and/or 'Vertex Color' should be set to 'Emissive'.
+            mMin: 0.000000
+            mMax: 10.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_EMISSIVE
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Simple Reflection
+            mType: Define
+            mName: ENABLE_SIMPLE_REFLECTION
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_SIMPLE_REFLECTION
+              
+              Replaces the default PBR environment mapping with a simple lookup from a regular texture (no hdr, no roughness, no fresnel, etc.). 
+              It can even be used with unlit materials. The reflection lookup technically assumes a spherical environment map, which is a circular 
+              shaped texture as obtained by photographing a mirror ball. However, as a shortcut, it is sometimes used with simple, flat photos, and 
+              manually bent mesh normals. Note: this spherical mapping is technically different from the 'angular' envmap format that looks similar.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: reflectionTex
+            mWidget: texture_group
+            mHint: "Property: reflectionTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Intensity
+            mType: Property
+            mName: reflectionIntensity
+            mWidget: slider
+            mHint: "Property: reflectionIntensity"
+            mMin: 0.000000
+            mMax: 10.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Modulation Map
+            mType: Define
+            mName: Tweak_N177
+            mWidget: group_start
+            mHint: |-
+              Define: Tweak_N177
+              
+              This texture modulates the reflection color. It can be RGB or greyscale.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: reflectionModulationTex
+            mWidget: texture_group
+            mHint: "Property: reflectionModulationTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture UV
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the UV set used for sampling this texture.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Mesh UV 0
+                mType: DefineSelectValue
+                mName: NODE_228_DROPLIST_ITEM 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Mesh UV 1
+                mType: DefineSelectValue
+                mName: NODE_228_DROPLIST_ITEM 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 2
+                mType: DefineSelectValue
+                mName: NODE_228_DROPLIST_ITEM 2
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 3
+                mType: DefineSelectValue
+                mName: NODE_228_DROPLIST_ITEM 3
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: Tweak_N177
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_SIMPLE_REFLECTION
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Rim Highlight
+            mType: Define
+            mName: ENABLE_RIM_HIGHLIGHT
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_RIM_HIGHLIGHT
+              
+              'Rim highlight', aka. 'fake Fresnel effect'.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Color
+            mType: Property
+            mName: rimColor
+            mWidget: color
+            mHint: |-
+              Property: rimColor
+              
+              Specifies the color of the rim highlight.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Intensity
+            mType: Property
+            mName: rimIntensity
+            mWidget: slider
+            mHint: |-
+              Property: rimIntensity
+              
+              Multiplied with 'Rim Color'.
+            mMin: 0.000000
+            mMax: 10.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Exponent
+            mType: Property
+            mName: rimExponent
+            mWidget: slider
+            mHint: |-
+              Property: rimExponent
+              
+              Controls the tightness of the rim highlight.
+            mMin: 0.000000
+            mMax: 10.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Invert
+            mType: Define
+            mName: ENABLE_RIM_INVERT
+            mWidget: checkbox
+            mHint: |-
+              Define: ENABLE_RIM_INVERT
+              
+              Inverts the effect so it's brighter in the middle of the object and darker at the edge.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Rim Color Texture
+            mType: Define
+            mName: Tweak_N216
+            mWidget: group_start
+            mHint: |-
+              Define: Tweak_N216
+              
+              Allows the use of a texture to modulate the rim highlight color.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: rimColorTex
+            mWidget: texture_group
+            mHint: "Property: rimColorTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture UV
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the UV set used for sampling this texture.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Mesh UV 0
+                mType: DefineSelectValue
+                mName: NODE_315_DROPLIST_ITEM 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Mesh UV 1
+                mType: DefineSelectValue
+                mName: NODE_315_DROPLIST_ITEM 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 2
+                mType: DefineSelectValue
+                mName: NODE_315_DROPLIST_ITEM 2
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 3
+                mType: DefineSelectValue
+                mName: NODE_315_DROPLIST_ITEM 3
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: Tweak_N216
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_RIM_HIGHLIGHT
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Lighting
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Metallic
+            mType: Property
+            mName: metallic
+            mWidget: slider
+            mHint: |-
+              Property: metallic
+              
+              1 means metal, 0 means non-metal (dielectric). Multiplies the metallic channel of the Material Params texture if enabled.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Roughness
+            mType: Property
+            mName: roughness
+            mWidget: slider
+            mHint: |-
+              Property: roughness
+              
+              1 means completely rough (diffuse), 0 means perfectly smooth and shiny. 
+              Multiplies the roughness channel of the Material Params texture if enabled. 
+              If your roughness is 1 and your metallic is 0, it's more efficient to disable Specular alltogether.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: materialParamsTex
+            mWidget: texture_group
+            mHint: |-
+              Property: materialParamsTex
+              
+              Material params texture should have: R - metalness, G - roughness, B - ambient occlusion.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture UV
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the UV set used for sampling this texture.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Mesh UV 0
+                mType: DefineSelectValue
+                mName: NODE_221_DROPLIST_ITEM 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Mesh UV 1
+                mType: DefineSelectValue
+                mName: NODE_221_DROPLIST_ITEM 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 2
+                mType: DefineSelectValue
+                mName: NODE_221_DROPLIST_ITEM 2
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 3
+                mType: DefineSelectValue
+                mName: NODE_221_DROPLIST_ITEM 3
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: Specular AO
+            mType: Define
+            mName: ENABLE_SPECULAR_AO
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_SPECULAR_AO
+              
+              Allow AO to influence indirect specular lighting (reflections).
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Intensity
+            mType: Property
+            mName: specularAoIntensity
+            mWidget: slider
+            mHint: |-
+              Property: specularAoIntensity
+              
+              Specifies the amount of influence AO has on reflections. 
+              For metals the specular AO at its darkest approaches a saturated/darkened version of the metal color (ex: dark gold for gold). 
+              For non-metals, this is essentially the same as 'Darkeing'.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Darkening
+            mType: Property
+            mName: specularAoDarkening
+            mWidget: slider
+            mHint: |-
+              Property: specularAoDarkening
+              
+              For metals, this shifts the darkest AO color from a saturated version of the metal color towards pure black. 
+              For non-metals it's essentially equivalent to 'Intensity'.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_SPECULAR_AO
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Transformed UV 2
+            mType: Define
+            mName: ENABLE_UV2
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_UV2
+              
+              Allows tiling and animation of texture coordinates.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Source
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the UV set used as the base on top of which the transform is applied.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Mesh UV 0
+                mType: DefineSelectValue
+                mName: NODE_13_DROPLIST_ITEM 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Mesh UV 1
+                mType: DefineSelectValue
+                mName: NODE_13_DROPLIST_ITEM 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Screen UV
+                mType: DefineSelectValue
+                mName: NODE_13_DROPLIST_ITEM 2
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: Scale
+            mType: Property
+            mName: uv2Scale
+            mWidget: spinbox
+            mHint: |-
+              Property: uv2Scale
+              
+              Allows tiling of textures.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Offset
+            mType: Property
+            mName: uv2Offset
+            mWidget: spinbox
+            mHint: |-
+              Property: uv2Offset
+              
+              Allows shifting of textures, or controls the speed of scrolling if animation is enabled. 
+              If animation is enabled, the speed is 'Offset' UVs per second. So if 'Offset' is 2, the texture will scroll through two complete times per second.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Animation
+            mType: Define
+            mName: uv2EnableAnimation
+            mWidget: checkbox
+            mHint: |-
+              Define: uv2EnableAnimation
+              
+              If this is enabled, the UV's will scroll. In this case the Offset specifies the speed of scrolling. 
+              The speed is 'Offset' UVs per second. So if 'Offset' is 2, the texture will scroll through two complete times per second.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_UV2
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Transformed UV 3
+            mType: Define
+            mName: ENABLE_UV3
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_UV3
+              
+              Allows tiling and animation of texture coordinates.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Source
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the UV set used as the base on top of which the transform is applied.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Mesh UV 0
+                mType: DefineSelectValue
+                mName: NODE_49_DROPLIST_ITEM 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Mesh UV 1
+                mType: DefineSelectValue
+                mName: NODE_49_DROPLIST_ITEM 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Screen UV
+                mType: DefineSelectValue
+                mName: NODE_49_DROPLIST_ITEM 2
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 2
+                mType: DefineSelectValue
+                mName: NODE_49_DROPLIST_ITEM 3
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: Scale
+            mType: Property
+            mName: uv3Scale
+            mWidget: spinbox
+            mHint: |-
+              Property: uv3Scale
+              
+              Allows tiling of textures.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Offset
+            mType: Property
+            mName: uv3Offset
+            mWidget: spinbox
+            mHint: |-
+              Property: uv3Offset
+              
+              Allows shifting of textures, or controls the speed of scrolling if animation is enabled. 
+              If animation is enabled, the speed is 'Offset' UVs per second. So if 'Offset' is 2, the texture will scroll through two complete times per second.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Animation
+            mType: Define
+            mName: uv3EnableAnimation
+            mWidget: checkbox
+            mHint: |-
+              Define: uv3EnableAnimation
+              
+              If this is enabled, the UV's will scroll. In this case the Offset specifies the speed of scrolling. 
+              The speed is 'Offset' UVs per second. So if 'Offset' is 2, the texture will scroll through two complete times per second.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_UV3
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Alpha Test Threshold
+            mType: Property
+            mName: alphaTestThreshold
+            mWidget: slider
+            mHint: |-
+              Property: alphaTestThreshold
+              
+              When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 0.500000
+            mValues:
+              []
+        ShaderType: Mesh3d
+      ShaderPath: 5f2a7fde-9128-4506-aafc-95b85975680f/c8da11a09845b66fcf7f447a2f33b7de/Data/.hidden/b01d0f7/TT_checker_512x512_UV_GRID.glsl
+      Defines:
+        []
+      Properties:
+        {}
+    - !<FileTexture/ded030fb-2239-44d3-bf99-a01a33a9599f>
+      PackagePath: .hidden/white
+      FileInfo: !<FileTextureInfo>
+        Width: 10
+        Height: 10
+    - !<FileMesh/60cf5fc8-6447-4164-97f4-03f6d769b5b1>
+      PackagePath: Meshes/Cube.008
+      Info: !<MeshInfo>
+        Triangles: 70
+        Vertices: 64
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 1.559631, y: 8.899384, z: 6.000468}
+    - !<FileMesh/f87d7379-a48c-408e-a27b-fbf14ad50a2e>
+      PackagePath: Meshes/Cylinder
+      Info: !<MeshInfo>
+        Triangles: 60
+        Vertices: 66
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 1.129352, y: 0.890101, z: 1.129352}
+    - !<FileMesh/20a4bde5-1204-4669-8f6c-563bcedeb657>
+      PackagePath: Meshes/Cylinder.001
+      Info: !<MeshInfo>
+        Triangles: 60
+        Vertices: 66
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 1.129352, y: 0.890101, z: 1.129352}
+    - !<FileMesh/b055f815-b276-4613-b36c-123d1f93d50b>
+      PackagePath: Meshes/Cylinder.002
+      Info: !<MeshInfo>
+        Triangles: 60
+        Vertices: 66
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 1.129352, y: 0.890101, z: 1.129352}
+    - !<FileMesh/3e62a941-3cda-4875-bb7a-06c95969a131>
+      PackagePath: Meshes/Cylinder.003
+      Info: !<MeshInfo>
+        Triangles: 60
+        Vertices: 66
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 1.129352, y: 0.890101, z: 1.129352}
+    - !<FileMesh/f6fc5e49-c6d1-4757-a535-0e2264f7d4aa>
+      PackagePath: Meshes/Cylinder.004
+      Info: !<MeshInfo>
+        Triangles: 60
+        Vertices: 66
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 1.129352, y: 0.890101, z: 1.129352}
+    - !<FileMesh/453f2789-eeee-43b5-b0ef-abee95356abb>
+      PackagePath: Meshes/Cylinder.005
+      Info: !<MeshInfo>
+        Triangles: 60
+        Vertices: 66
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 1.129352, y: 0.890101, z: 1.129352}
+    - !<FileMesh/bdce82d8-9089-4999-8550-584e187bae3d>
+      PackagePath: Meshes/Cylinder.006
+      Info: !<MeshInfo>
+        Triangles: 60
+        Vertices: 66
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 1.129352, y: 0.890101, z: 1.129352}
+    - !<FileMesh/85f7543b-8818-4566-9d76-927a53dae9ba>
+      PackagePath: Meshes/Cylinder.007
+      Info: !<MeshInfo>
+        Triangles: 60
+        Vertices: 66
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 1.129352, y: 0.890101, z: 1.129352}
+    - !<FileMesh/83594cb6-fa15-4cbb-8103-918f03d2bc69>
+      PackagePath: Meshes/Cylinder.008
+      Info: !<MeshInfo>
+        Triangles: 60
+        Vertices: 66
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 1.129352, y: 0.890101, z: 1.129352}
+    - !<FileMesh/deff9de0-11f5-43f7-8324-9e8723e96137>
+      PackagePath: Meshes/Cylinder.009
+      Info: !<MeshInfo>
+        Triangles: 60
+        Vertices: 66
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 1.129352, y: 0.890101, z: 1.129352}
+    - !<FileMesh/9878fa1b-9c63-4e12-8490-48c8a246ed54>
+      PackagePath: Meshes/Cylinder.016
+      Info: !<MeshInfo>
+        Triangles: 124
+        Vertices: 136
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 3.036049, y: 1.722577, z: 1.722578}
+    - !<FileMesh/f9c60494-6c02-4b87-bcc6-6f8a3541c57d>
+      PackagePath: Meshes/DynamiteBundle
+      Info: !<MeshInfo>
+        Triangles: 868
+        Vertices: 984
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 21.470695, y: 19.335316, z: 8.181520}
+    - !<FileMesh/192256b2-8045-4b63-a30d-50a59b77ba53>
+      PackagePath: Meshes/DynamiteWraps
+      Info: !<MeshInfo>
+        Triangles: 768
+        Vertices: 652
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 15.476347, y: 14.835761, z: 8.642281}
+    - !<FileMesh/1679fbd0-0127-4e5c-8d6f-f8647b0eefc4>
+      PackagePath: Meshes/Gold
+      Info: !<MeshInfo>
+        Triangles: 12
+        Vertices: 24
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 6.039042, y: 12.319008, z: 3.051154}
+    - !<FileMesh/e4ffee75-d929-4cf5-8faf-b5582375f729>
+      PackagePath: Meshes/Gold.001
+      Info: !<MeshInfo>
+        Triangles: 12
+        Vertices: 24
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 6.039042, y: 12.319007, z: 3.051154}
+    - !<FileMesh/00b1b500-a195-4253-a2c9-21b57a9df66f>
+      PackagePath: Meshes/Gold.002
+      Info: !<MeshInfo>
+        Triangles: 12
+        Vertices: 24
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 6.039042, y: 12.319007, z: 3.051154}
+    - !<FileMesh/d70c3f7b-bea9-4a30-a171-0992946a98b3>
+      PackagePath: Meshes/Gold.003
+      Info: !<MeshInfo>
+        Triangles: 12
+        Vertices: 24
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 6.039042, y: 12.319007, z: 3.051154}
+    - !<FileMesh/db1d1ac2-74d0-46cc-88f9-44ff23d7bc38>
+      PackagePath: Meshes/Gold.004
+      Info: !<MeshInfo>
+        Triangles: 12
+        Vertices: 24
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 6.039042, y: 12.319007, z: 3.051154}
+    - !<FileMesh/b2f269b2-c1e7-4576-9f01-2ccd7d539eaf>
+      PackagePath: Meshes/Gold.005
+      Info: !<MeshInfo>
+        Triangles: 12
+        Vertices: 24
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 6.039042, y: 12.319007, z: 3.051154}
+    - !<FileMesh/970443ea-c4ad-4723-a789-cf7001930398>
+      PackagePath: Meshes/Safe
+      Info: !<MeshInfo>
+        Triangles: 204
+        Vertices: 172
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 27.938004, y: 34.922501, z: 41.907001}
+    - !<FileMesh/e8b40a21-c401-47ee-81e9-be5a336c9707>
+      PackagePath: Meshes/Safe.003
+      Info: !<MeshInfo>
+        Triangles: 458
+        Vertices: 310
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 3.688798, y: 16.680597, z: 20.016718}
+    - !<FileMesh/93f24055-d7f3-48ff-8b93-332870b2ee44>
+      PackagePath: Meshes/Safe.004
+      Info: !<MeshInfo>
+        Triangles: 380
+        Vertices: 280
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 3.197397, y: 14.835705, z: 18.171829}
+    - !<FileMesh/af24c56d-fd29-404a-98b9-439204663caa>
+      PackagePath: Meshes/Safe.005
+      Info: !<MeshInfo>
+        Triangles: 44
+        Vertices: 60
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.646782, y: 6.530851, z: 4.544353}
+    - !<FileMesh/58bec3f8-6f37-453d-bf41-9eea7e723b79>
+      PackagePath: Meshes/Safe.007
+      Info: !<MeshInfo>
+        Triangles: 458
+        Vertices: 310
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 3.688798, y: 16.680597, z: 20.016718}
+    - !<FileMesh/73246e1a-29b0-4ed4-8a44-3ed30e1d3043>
+      PackagePath: Meshes/Safe.008
+      Info: !<MeshInfo>
+        Triangles: 44
+        Vertices: 60
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 1.137956, y: 11.490354, z: 7.995316}
+    - !<FileMesh/c7a4076d-1c9a-4895-a923-d8c362aff9d8>
+      PackagePath: Meshes/Safe.010
+      Info: !<MeshInfo>
+        Triangles: 44
+        Vertices: 60
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.646788, y: 6.530852, z: 4.544353}
+    - !<FileMesh/62dfa3f4-6cee-4890-a922-8ecc54072487>
+      PackagePath: Meshes/Safe.011
+      Info: !<MeshInfo>
+        Triangles: 456
+        Vertices: 312
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 3.197401, y: 14.835706, z: 18.171829}
+    - !<FileMesh/b1cf1508-10d7-4c0b-8131-28cf426370f5>
+      PackagePath: Meshes/Safe_Door
+      Info: !<MeshInfo>
+        Triangles: 28
+        Vertices: 52
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 4.445251, y: 22.831011, z: 36.176781}
+    - !<FileMesh/b519ec97-1515-4f2a-bb7c-298e0cb31b95>
+      PackagePath: Meshes/Cube
+      Info: !<MeshInfo>
+        Triangles: 96
+        Vertices: 90
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.377881, y: 0.377881, z: 0.377881}
+    - !<FileMesh/f51d8ef3-b9c9-4ac3-a191-1dba4b894d2e>
+      PackagePath: Meshes/Cube.007
+      Info: !<MeshInfo>
+        Triangles: 70
+        Vertices: 64
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 1.559626, y: 8.899382, z: 6.000467}
+    - !<FileMesh/28c6e713-ec07-4af0-bbcd-be88321ca8a2>
+      PackagePath: Meshes/Cube.009
+      Info: !<MeshInfo>
+        Triangles: 96
+        Vertices: 90
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.377881, y: 0.377881, z: 0.377881}
+    - !<FileMesh/14fcd0c0-86e3-4db5-b9e3-dda48aa9f2d0>
+      PackagePath: Meshes/Cube.010
+      Info: !<MeshInfo>
+        Triangles: 8
+        Vertices: 18
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.723814, y: 2.347747, z: 2.837571}
+    - !<FileMesh/54c3776b-c62f-41b0-adeb-71b9fcdcd7ac>
+      PackagePath: Meshes/Cube.011
+      Info: !<MeshInfo>
+        Triangles: 8
+        Vertices: 18
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.723814, y: 2.347747, z: 2.837571}
+    - !<FileMesh/36347eab-eee9-4743-a1bc-86473330b1f1>
+      PackagePath: Meshes/Cube.012
+      Info: !<MeshInfo>
+        Triangles: 8
+        Vertices: 18
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.723814, y: 2.347747, z: 2.837571}
+    - !<FileMesh/fc9f8dd7-5c3d-488e-baef-25862762b4ed>
+      PackagePath: Meshes/Cube.013
+      Info: !<MeshInfo>
+        Triangles: 8
+        Vertices: 18
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.723814, y: 2.347747, z: 2.837571}
+    - !<FileMesh/24a4d2b7-5287-4ce0-88de-31e887ab19ef>
+      PackagePath: Meshes/Cube.014
+      Info: !<MeshInfo>
+        Triangles: 8
+        Vertices: 18
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.723816, y: 2.347747, z: 2.837571}
+    - !<FileMesh/4d3ca7d6-4c20-4f6b-8c42-29d27639d8b5>
+      PackagePath: Meshes/Cube.015
+      Info: !<MeshInfo>
+        Triangles: 8
+        Vertices: 18
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.723816, y: 2.347747, z: 2.837571}
+    - !<FileMesh/d1a508bd-d135-4590-84b7-f7d36783da23>
+      PackagePath: Meshes/Cube.016
+      Info: !<MeshInfo>
+        Triangles: 8
+        Vertices: 18
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.723816, y: 2.347747, z: 2.837571}
+    - !<FileMesh/d5701f73-9404-47b2-b82b-889dda7a8717>
+      PackagePath: Meshes/Cube.017
+      Info: !<MeshInfo>
+        Triangles: 8
+        Vertices: 18
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.723816, y: 2.347747, z: 2.837571}
+    - !<FileMesh/a97ca7aa-d6a3-4eb2-b2d3-d7ba885b76d3>
+      PackagePath: Meshes/Cylinder.010
+      Info: !<MeshInfo>
+        Triangles: 60
+        Vertices: 96
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 4.702189, y: 7.718123, z: 7.718124}
+    - !<FileMesh/40d1bbea-e050-4def-ab97-999c24ae4bb5>
+      PackagePath: Meshes/Cylinder.017
+      Info: !<MeshInfo>
+        Triangles: 60
+        Vertices: 66
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 1.031479, y: 1.031479, z: 0.876524}
+    - !<FileMesh/556b786f-0635-47be-9478-1064811b2a30>
+      PackagePath: Meshes/Cylinder.019
+      Info: !<MeshInfo>
+        Triangles: 572
+        Vertices: 610
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.366026, y: 0.366026, z: 8.356289}
+    - !<FileMesh/69ba50c3-b4ff-482a-a43d-626a58b48194>
+      PackagePath: Meshes/Cylinder.023
+      Info: !<MeshInfo>
+        Triangles: 60
+        Vertices: 66
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 1.137655, y: 1.145257, z: 1.137655}
+    - !<FileMesh/9f0704f1-88d0-4f1f-a6c2-2bbfd61aca2c>
+      PackagePath: Meshes/Cylinder.024
+      Info: !<MeshInfo>
+        Triangles: 12
+        Vertices: 24
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.413811, y: 1.730309, z: 0.455400}
+    - !<FileMesh/94fc6e40-d0bd-4c77-82b3-bdb347e77725>
+      PackagePath: Meshes/Cylinder.025
+      Info: !<MeshInfo>
+        Triangles: 274
+        Vertices: 222
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.696000, y: 0.695999, z: 7.428900}
+    - !<FileMesh/7789cda7-52ce-4051-a64f-04c881d2c7a7>
+      PackagePath: Meshes/Lock
+      Info: !<MeshInfo>
+        Triangles: 188
+        Vertices: 148
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 1.396899, y: 1.396896, z: 1.396899}
+    - !<FileMesh/a7e2a1d5-616d-4d45-b3b5-af3de3521e11>
+      PackagePath: Meshes/Lock.001
+      Info: !<MeshInfo>
+        Triangles: 188
+        Vertices: 148
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 1.396899, y: 1.396896, z: 1.396898}
+    - !<FileMesh/c3a51237-e509-4aff-81db-748fc27b6955>
+      PackagePath: Meshes/Lock.002
+      Info: !<MeshInfo>
+        Triangles: 188
+        Vertices: 144
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 1.396899, y: 1.396896, z: 1.396899}
+    - !<FileMesh/59b6e576-d788-40d9-818b-1e81c4eb4c3f>
+      PackagePath: Meshes/Safe.006
+      Info: !<MeshInfo>
+        Triangles: 458
+        Vertices: 310
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 3.688806, y: 16.680599, z: 20.016712}
+    - !<FileMesh/8dd24506-3084-40b0-ae4a-63e31f83fa1d>
+      PackagePath: Meshes/Safe.009
+      Info: !<MeshInfo>
+        Triangles: 44
+        Vertices: 60
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.646784, y: 6.530850, z: 4.544351}
+    - !<FileMesh/69abfaf0-99a4-4568-94e8-da146d021a6b>
+      PackagePath: Meshes/Safe.012
+      Info: !<MeshInfo>
+        Triangles: 214
+        Vertices: 154
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 3.197397, y: 14.835707, z: 18.171825}
+    - !<FileMesh/0cfb810f-b838-4e99-bb10-00eedc0c3f05>
+      PackagePath: Meshes/Safe.014
+      Info: !<MeshInfo>
+        Triangles: 44
+        Vertices: 60
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 1.137957, y: 11.490353, z: 3.804615}
+    - !<FileMesh/83f1e977-7300-4b8b-b691-4bc304647e8c>
+      PackagePath: Meshes/Safe_Leg
+      Info: !<MeshInfo>
+        Triangles: 68
+        Vertices: 53
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 3.094430, y: 3.152557, z: 1.247552}
+    - !<FileMesh/89d2885b-62f5-4c59-a89c-5fca50204b79>
+      PackagePath: Meshes/Safe_Leg.001
+      Info: !<MeshInfo>
+        Triangles: 68
+        Vertices: 53
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 3.094430, y: 3.152557, z: 1.247552}
+    - !<FileMesh/b7c21a2f-317c-4c1b-a119-9abb20d9949d>
+      PackagePath: Meshes/Safe_Leg.002
+      Info: !<MeshInfo>
+        Triangles: 68
+        Vertices: 53
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 3.094430, y: 3.152557, z: 1.247552}
+    - !<FileMesh/1e05a7d4-ef8c-453f-8a6a-21e6f716283a>
+      PackagePath: Meshes/Safe_Leg.003
+      Info: !<MeshInfo>
+        Triangles: 68
+        Vertices: 53
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 3.094430, y: 3.152557, z: 1.247552}
+    - !<FileMesh/3e6ff6e6-a0df-48d7-a93c-f1dcd984e66a>
+      PackagePath: Meshes/Safe_Shelf
+      Info: !<MeshInfo>
+        Triangles: 12
+        Vertices: 24
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 20.889149, y: 22.082050, z: 0.568335}
+  SourceHash: c8da11a09845b66fcf7f447a2f33b7de
+  FileHash: 15d30910d7c32e97f9e118efa87877a9
+  NativePackageItems:
+    []
+- !<RenderMeshVisual/00d4f6bc-67f3-4666-9b80-37a241551499>
+  PrefabRemaps:
+    []
+  Name: component_40
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 36347eab-eee9-4743-a1bc-86473330b1f1
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/059fca18-b056-4e90-a08e-4c12d11ed56d>
+  PrefabRemaps:
+    []
+  Name: Safe_Leg
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -12.956844, y: -9.093774, z: 1.737723}
+    Rotation: {x: 0.000000, y: -0.000000, z: -90.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 1baf6b07-2dba-4489-84f2-9147aa0e5c57
+- !<SceneObject/0a45d3a6-1f4a-4150-9cad-9a9013efcbca>
+  PrefabRemaps:
+    []
+  Name: BézierCurve.002
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -7.587650, y: -16.245476, z: 22.113060}
+    Rotation: {x: 0.000000, y: -0.000000, z: -90.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> c5fa8ea1-6e20-4481-80d4-4ffb83209878
+- !<RenderMeshVisual/11733d04-0f22-4336-a393-b465fda139d5>
+  PrefabRemaps:
+    []
+  Name: component_51
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4dccd574-a3ae-4164-8fd1-d425b6913d15
+  Mesh: !<reference> 94fc6e40-d0bd-4c77-82b3-bdb347e77725
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/11adb5a2-f925-49a7-93f6-95fa6726d73f>
+  PrefabRemaps:
+    []
+  Name: Cube.007
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.594946, y: 11.415497, z: 5.794809}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 95c06119-4f46-4b00-81c8-957ae22766d3
+- !<SceneObject/12d84688-274c-4ec1-b157-639c660109fc>
+  PrefabRemaps:
+    []
+  Name: Safe.006
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.021162, y: 11.415501, z: -7.060681}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> f9d3fe98-03f9-4901-a725-edfec2e2c28e
+- !<RenderMeshVisual/187cc0cd-a684-4f15-8f27-35e7f048560b>
+  PrefabRemaps:
+    []
+  Name: component_23
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4dccd574-a3ae-4164-8fd1-d425b6913d15
+  Mesh: !<reference> d70c3f7b-bea9-4a30-a171-0992946a98b3
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/19a0db24-5911-4cde-ab69-6b36c826cc3b>
+  PrefabRemaps:
+    []
+  Name: Lock.002
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 89e22aa9-6a7f-4730-b0d3-84003d1cd02a
+- !<RenderMeshVisual/1baf6b07-2dba-4489-84f2-9147aa0e5c57>
+  PrefabRemaps:
+    []
+  Name: component_59
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 83f1e977-7300-4b8b-b691-4bc304647e8c
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/224a2574-1c25-4a4a-a676-3f9fd03e0a21>
+  PrefabRemaps:
+    []
+  Name: Cube.014
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -3.387838, y: 15.738869, z: -11.110892}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> f950e147-61d6-4662-91ef-c14eab185889
+- !<SceneObject/230e424d-0d72-411b-98c4-1c7011d2011e>
+  PrefabRemaps:
+    []
+  Name: Safe_Leg.002
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -12.956845, y: 9.500236, z: 1.737727}
+    Rotation: {x: 0.000000, y: -0.000000, z: -90.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> db0b2eae-c7e0-4133-ac17-8e9dc5e40066
+- !<RenderMeshVisual/23969ca1-5e0c-4cbf-af35-2eb42f380f69>
+  PrefabRemaps:
+    []
+  Name: component_44
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> d1a508bd-d135-4590-84b7-f7d36783da23
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/24d9764f-a669-42d1-9504-e55ca3226007>
+  PrefabRemaps:
+    []
+  Name: DynamiteBundle
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -1.124299, y: 0.203225, z: 47.105721}
+    Rotation: {x: 0.000000, y: -0.000000, z: -90.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 61cc0c99-b7e4-485d-80d2-86810c82bce3
+- !<SceneObject/25783100-12a6-4645-b326-74b2923a217a>
+  PrefabRemaps:
+    []
+  Name: Cylinder.016
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -1.124300, y: 16.686342, z: 18.421448}
+    Rotation: {x: 0.000000, y: -0.000000, z: -90.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 3f381362-89c6-4b13-8458-4f1121987ac9
+- !<SceneObject/259bfb5d-7ce1-476f-8dd4-d90726dd9b37>
+  PrefabRemaps:
+    []
+  Name: Safe_Leg.003
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 10.708250, y: 9.500237, z: 1.737727}
+    Rotation: {x: 0.000000, y: -0.000000, z: -90.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> e4b721b5-f73c-4ee7-aa54-bb8159dfd4f2
+- !<RenderMeshVisual/259ebcbd-7c32-4c76-a6f9-61fa154b0104>
+  PrefabRemaps:
+    []
+  Name: component_4
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 6589bdcc-21f5-44ce-8a4a-e23ec5af399c
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/26dcd016-fd2a-48ec-a3ba-362710645eb1>
+  PrefabRemaps:
+    []
+  Name: component_43
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 4d3ca7d6-4c20-4f6b-8c42-29d27639d8b5
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/26fa37c9-5242-4123-869d-19571ea1ffe1>
+  PrefabRemaps:
+    []
+  Name: component_47
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4dccd574-a3ae-4164-8fd1-d425b6913d15
+  Mesh: !<reference> 40d1bbea-e050-4def-ab97-999c24ae4bb5
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/28f6aa05-9410-4659-94a5-399b5ab0c91c>
+  PrefabRemaps:
+    []
+  Name: Cylinder.017
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -1.851347, y: 17.403084, z: 3.164339}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 26fa37c9-5242-4123-869d-19571ea1ffe1
+- !<SceneObject/2e5f3b66-92e0-4a2e-8b96-19d2b6624dd1>
+  PrefabRemaps:
+    []
+  Name: Cylinder.019
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -1.851347, y: 17.403084, z: 3.210741}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> deb1d10d-5ae3-4b74-9142-cf3b04092f96
+- !<RenderMeshVisual/2ed9e90f-febf-4c96-b283-07e04dd253b3>
+  PrefabRemaps:
+    []
+  Name: component_35
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4dccd574-a3ae-4164-8fd1-d425b6913d15
+  Mesh: !<reference> b519ec97-1515-4f2a-bb7c-298e0cb31b95
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/2fef3391-cd37-4c83-9b0e-8180fd8584ca>
+  PrefabRemaps:
+    []
+  Name: Safe.010
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -1.124302, y: 15.586586, z: 34.651817}
+    Rotation: {x: 0.000000, y: -0.000000, z: -90.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> fea33dde-07b8-4512-8930-e393e893f02a
+- !<RenderMeshVisual/329f2cd9-a8b0-4324-b840-5db6e5f17451>
+  PrefabRemaps:
+    []
+  Name: component_24
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4dccd574-a3ae-4164-8fd1-d425b6913d15
+  Mesh: !<reference> db1d1ac2-74d0-46cc-88f9-44ff23d7bc38
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/3711a575-22ca-4feb-b9dd-9ddeda3ff9eb>
+  PrefabRemaps:
+    []
+  Name: Safe.004
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -1.124298, y: -13.787436, z: 22.058090}
+    Rotation: {x: 0.000000, y: -0.000000, z: -90.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 65e5bf3b-f1a6-4565-95c7-4ee0802dea2c
+- !<RenderMeshVisual/3ba8aaca-b487-4aed-8d05-85ac86049d41>
+  PrefabRemaps:
+    []
+  Name: component_41
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> fc9f8dd7-5c3d-488e-baef-25862762b4ed
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/3c07d021-d76a-40a8-a73c-4f88cc3ef13f>
+  PrefabRemaps:
+    []
+  Name: component_37
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4dccd574-a3ae-4164-8fd1-d425b6913d15
+  Mesh: !<reference> 28c6e713-ec07-4af0-bbcd-be88321ca8a2
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/3f381362-89c6-4b13-8458-4f1121987ac9>
+  PrefabRemaps:
+    []
+  Name: component_17
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4dccd574-a3ae-4164-8fd1-d425b6913d15
+  Mesh: !<reference> 9878fa1b-9c63-4e12-8490-48c8a246ed54
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/4030dc3c-9771-46f5-a515-4b3de2f6b0c4>
+  PrefabRemaps:
+    []
+  Name: Cylinder.025
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -1.676733, y: 20.880505, z: 2.042322}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 11733d04-0f22-4336-a393-b465fda139d5
+- !<SceneObject/432667f9-632b-483c-a9e4-8cc1da980114>
+  PrefabRemaps:
+    []
+  Name: Gold.002
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.554235, y: 3.229531, z: 8.164071}
+    Rotation: {x: 0.000000, y: -0.000000, z: -90.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> b908eefb-d863-4b13-943f-0c05f33ae80c
+- !<SceneObject/432be0a0-939d-4b99-8ce9-09494359fdad>
+  PrefabRemaps:
+    []
+  Name: Cylinder
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -8.258792, y: -16.245476, z: 24.977776}
+    Rotation: {x: 0.000000, y: -0.000000, z: -90.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> be785e04-2b48-4ad9-a959-d9e81ad17495
+- !<SceneObject/43cf83fa-6d2a-419f-9160-569f7252a3b2>
+  PrefabRemaps:
+    []
+  Name: Safe.003
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -1.124298, y: -13.765769, z: 22.058090}
+    Rotation: {x: 0.000000, y: -0.000000, z: -90.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 5856e6bc-edfb-4cc7-9906-7c687d1897b8
+- !<SceneObject/498b2b3b-bbdf-4a10-a22a-1e0ab808785c>
+  PrefabRemaps:
+    []
+  Name: DynamiteWraps
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -1.124299, y: 0.203225, z: 47.105721}
+    Rotation: {x: 0.000000, y: -0.000000, z: -90.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 4a3f7e9c-b680-4339-9288-d609dbc8996d
+- !<RenderMeshVisual/4a3f7e9c-b680-4339-9288-d609dbc8996d>
+  PrefabRemaps:
+    []
+  Name: component_19
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4dccd574-a3ae-4164-8fd1-d425b6913d15
+  Mesh: !<reference> 192256b2-8045-4b63-a30d-50a59b77ba53
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/4ba5c2b5-7e59-489c-94ab-49b135b23679>
+  PrefabRemaps:
+    []
+  Name: Cylinder.002
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -8.258792, y: -16.245476, z: 19.138407}
+    Rotation: {x: 0.000000, y: -0.000000, z: -90.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ea35c2a0-d980-4a4f-892a-d6393453a7ef
+- !<RenderMeshVisual/5856e6bc-edfb-4cc7-9906-7c687d1897b8>
+  PrefabRemaps:
+    []
+  Name: component_27
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4dccd574-a3ae-4164-8fd1-d425b6913d15
+  Mesh: !<reference> e8b40a21-c401-47ee-81e9-be5a336c9707
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/5c46c198-9b70-45b5-907e-92fd10fd8114>
+  PrefabRemaps:
+    []
+  Name: Cylinder.008
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 6.010204, y: -16.245476, z: 16.218719}
+    Rotation: {x: 0.000000, y: -0.000000, z: -90.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> b505a9b1-785b-4347-b216-a49474bbe928
+- !<RenderMeshVisual/61cc0c99-b7e4-485d-80d2-86810c82bce3>
+  PrefabRemaps:
+    []
+  Name: component_18
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4dccd574-a3ae-4164-8fd1-d425b6913d15
+  Mesh: !<reference> f9c60494-6c02-4b87-bcc6-6f8a3541c57d
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/62e1d3a6-56f3-42b9-9d28-0b32105bf2a6>
+  PrefabRemaps:
+    []
+  Name: component_33
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4dccd574-a3ae-4164-8fd1-d425b6913d15
+  Mesh: !<reference> 62dfa3f4-6cee-4890-a922-8ecc54072487
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/631872d5-31a3-460b-b782-3dd65a132965>
+  PrefabRemaps:
+    []
+  Name: component_50
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4dccd574-a3ae-4164-8fd1-d425b6913d15
+  Mesh: !<reference> 9f0704f1-88d0-4f1f-a6c2-2bbfd61aca2c
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/65e5bf3b-f1a6-4565-95c7-4ee0802dea2c>
+  PrefabRemaps:
+    []
+  Name: component_28
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4dccd574-a3ae-4164-8fd1-d425b6913d15
+  Mesh: !<reference> 93f24055-d7f3-48ff-8b93-332870b2ee44
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/670cfe91-d30f-420d-8e42-e53c78e297d1>
+  PrefabRemaps:
+    []
+  Name: Cylinder.001
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -8.258792, y: -16.245476, z: 27.897469}
+    Rotation: {x: 0.000000, y: -0.000000, z: -90.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> d6280860-9c1e-47c7-956a-a9cbf7731cc4
+- !<SceneObject/6a7e20f1-9599-46c1-a6d4-c632d47b1910>
+  PrefabRemaps:
+    - 00d4f6bc-67f3-4666-9b80-37a241551499: 00d4f6bc-67f3-4666-647f-c85dbeaaeb66
+    - 059fca18-b056-4e90-a08e-4c12d11ed56d: 059fca18-b056-4e90-5f71-b3ed2ee12a92
+    - 0a45d3a6-1f4a-4150-9cad-9a9013efcbca: 0a45d3a6-1f4a-4150-6352-656fec103435
+    - 11733d04-0f22-4336-a393-b465fda139d5: 11733d04-0f22-4336-5c6c-4b9a025ec62a
+    - 11adb5a2-f925-49a7-93f6-95fa6726d73f: 11adb5a2-f925-49a7-6c09-6a0598d928c0
+    - 12d84688-274c-4ec1-b157-639c660109fc: 12d84688-274c-4ec1-4ea8-9c6399fef603
+    - 187cc0cd-a684-4f15-8f27-35e7f048560b: 187cc0cd-a684-4f15-70d8-ca180fb7a9f4
+    - 19a0db24-5911-4cde-ab69-6b36c826cc3b: 19a0db24-5911-4cde-5496-94c937d933c4
+    - 1baf6b07-2dba-4489-84f2-9147aa0e5c57: 1baf6b07-2dba-4489-7b0d-6eb855f1a3a8
+    - 224a2574-1c25-4a4a-a676-3f9fd03e0a21: 224a2574-1c25-4a4a-5989-c0602fc1f5de
+    - 230e424d-0d72-411b-98c4-1c7011d2011e: 230e424d-0d72-411b-673b-e38fee2dfee1
+    - 23969ca1-5e0c-4cbf-af35-2eb42f380f69: 23969ca1-5e0c-4cbf-50ca-d14bd0c7f096
+    - 24d9764f-a669-42d1-9504-e55ca3226007: 24d9764f-a669-42d1-6afb-1aa35cdd9ff8
+    - 25783100-12a6-4645-b326-74b2923a217a: 25783100-12a6-4645-4cd9-8b4d6dc5de85
+    - 259bfb5d-7ce1-476f-8dd4-d90726dd9b37: 259bfb5d-7ce1-476f-722b-26f8d92264c8
+    - 259ebcbd-7c32-4c76-a6f9-61fa154b0104: 259ebcbd-7c32-4c76-5906-9e05eab4fefb
+    - 26dcd016-fd2a-48ec-a3ba-362710645eb1: 26dcd016-fd2a-48ec-5c45-c9d8ef9ba14e
+    - 26fa37c9-5242-4123-869d-19571ea1ffe1: 26fa37c9-5242-4123-7962-e6a8e15e001e
+    - 28f6aa05-9410-4659-94a5-399b5ab0c91c: 28f6aa05-9410-4659-6b5a-c664a54f36e3
+    - 2e5f3b66-92e0-4a2e-8b96-19d2b6624dd1: 2e5f3b66-92e0-4a2e-7469-e62d499db22e
+    - 2ed9e90f-febf-4c96-b283-07e04dd253b3: 2ed9e90f-febf-4c96-4d7c-f81fb22dac4c
+    - 2fef3391-cd37-4c83-9b0e-8180fd8584ca: 2fef3391-cd37-4c83-64f1-7e7f027a7b35
+    - 329f2cd9-a8b0-4324-b840-5db6e5f17451: 329f2cd9-a8b0-4324-47bf-a2491a0e8bae
+    - 3711a575-22ca-4feb-b9dd-9ddeda3ff9eb: 3711a575-22ca-4feb-4622-622125c00614
+    - 3ba8aaca-b487-4aed-8d05-85ac86049d41: 3ba8aaca-b487-4aed-72fa-7a5379fb62be
+    - 3c07d021-d76a-40a8-a73c-4f88cc3ef13f: 3c07d021-d76a-40a8-58c3-b07733c10ec0
+    - 3f381362-89c6-4b13-8458-4f1121987ac9: 3f381362-89c6-4b13-7ba7-b0eede678536
+    - 4030dc3c-9771-46f5-a515-4b3de2f6b0c4: 4030dc3c-9771-46f5-5aea-b4c21d094f3b
+    - 432667f9-632b-483c-a9e4-8cc1da980114: 432667f9-632b-483c-561b-733e2567feeb
+    - 432be0a0-939d-4b99-8ce9-09494359fdad: 432be0a0-939d-4b99-7316-f6b6bca60252
+    - 43cf83fa-6d2a-419f-9160-569f7252a3b2: 43cf83fa-6d2a-419f-6e9f-a9608dad5c4d
+    - 498b2b3b-bbdf-4a10-a22a-1e0ab808785c: 498b2b3b-bbdf-4a10-5dd5-e1f547f787a3
+    - 4a3f7e9c-b680-4339-9288-d609dbc8996d: 4a3f7e9c-b680-4339-6d77-29f624376692
+    - 4ba5c2b5-7e59-489c-94ab-49b135b23679: 4ba5c2b5-7e59-489c-6b54-b64eca4dc986
+    - 5856e6bc-edfb-4cc7-9906-7c687d1897b8: 5856e6bc-edfb-4cc7-66f9-839782e76847
+    - 5c46c198-9b70-45b5-907e-92fd10fd8114: 5c46c198-9b70-45b5-6f81-6d02ef027eeb
+    - 61cc0c99-b7e4-485d-80d2-86810c82bce3: 61cc0c99-b7e4-485d-7f2d-797ef37d431c
+    - 62e1d3a6-56f3-42b9-9d28-0b32105bf2a6: 62e1d3a6-56f3-42b9-62d7-f4cdefa40d59
+    - 631872d5-31a3-460b-b782-3dd65a132965: 631872d5-31a3-460b-487d-c229a5ecd69a
+    - 65e5bf3b-f1a6-4565-95c7-4ee0802dea2c: 65e5bf3b-f1a6-4565-6a38-b11f7fd215d3
+    - 670cfe91-d30f-420d-8e42-e53c78e297d1: 670cfe91-d30f-420d-71bd-1ac3871d682e
+    - 6a7e20f1-9599-46c1-a6d4-c632d47b1910: 6a7e20f1-9599-46c1-592b-39cd2b84e6ef
+    - 6f2a78cb-9285-46e5-a12b-10cc2f9fb42d: 6f2a78cb-9285-46e5-5ed4-ef33d0604bd2
+    - 72d26334-7e0e-4d2f-b5a0-095286e1408b: 72d26334-7e0e-4d2f-4a5f-f6ad791ebf74
+    - 753c905b-b0f9-4e0b-a3b7-d2f6d5270d43: 753c905b-b0f9-4e0b-5c48-2d092ad8f2bc
+    - 777a4964-e44c-4b0e-ab5f-0e128e5d9773: 777a4964-e44c-4b0e-54a0-f1ed71a2688c
+    - 77837693-5c0c-4695-a808-4580e70c8cd4: 77837693-5c0c-4695-57f7-ba7f18f3732b
+    - 77b02fd8-772c-4ee4-b0ae-9b14b12b19ac: 77b02fd8-772c-4ee4-4f51-64eb4ed4e653
+    - 78f90cd2-49ce-4d22-babd-bd7413acdbbc: 78f90cd2-49ce-4d22-4542-428bec532443
+    - 7e5f699e-e930-4adf-ba59-5163e194781f: 7e5f699e-e930-4adf-45a6-ae9c1e6b87e0
+    - 857cd4d6-6731-47c7-aa9c-6a48ca0a35df: 857cd4d6-6731-47c7-5563-95b735f5ca20
+    - 85eeafd5-2415-4749-9a77-0bb8f50e7c53: 85eeafd5-2415-4749-6588-f4470af183ac
+    - 86d2d357-4507-4376-9569-613de0894b9e: 86d2d357-4507-4376-6a96-9ec21f76b461
+    - 88b8580f-461a-4920-88d3-488ac08c5836: 88b8580f-461a-4920-772c-b7753f73a7c9
+    - 89e22aa9-6a7f-4730-b0d3-84003d1cd02a: 89e22aa9-6a7f-4730-4f2c-7bffc2e32fd5
+    - 8a1114e7-57da-427e-bd13-d698f3ef4115: 8a1114e7-57da-427e-42ec-29670c10beea
+    - 8ababa15-723d-40c7-b975-18ad8be2a659: 8ababa15-723d-40c7-468a-e752741d59a6
+    - 8d605a2c-ca5e-466f-9249-623e4105c0d7: 8d605a2c-ca5e-466f-6db6-9dc1befa3f28
+    - 8d62ef4f-8c10-4b23-9728-a33e582e26cb: 8d62ef4f-8c10-4b23-68d7-5cc1a7d1d934
+    - 8f8ea48d-ac6a-4f2a-95b2-23cb1556daec: 8f8ea48d-ac6a-4f2a-6a4d-dc34eaa92513
+    - 92f67031-7094-41b9-b284-ffa0b936da65: 92f67031-7094-41b9-4d7b-005f46c9259a
+    - 954ebf43-20fc-4841-8020-9bbaf3ff43e4: 954ebf43-20fc-4841-7fdf-64450c00bc1b
+    - 95c06119-4f46-4b00-81c8-957ae22766d3: 95c06119-4f46-4b00-7e37-6a851dd8992c
+    - 96bb8a93-a74c-4709-a8ae-e840bb16c7c1: 96bb8a93-a74c-4709-5751-17bf44e9383e
+    - 98106bf3-4c9d-4987-9c11-e491877777f6: 98106bf3-4c9d-4987-63ee-1b6e78888809
+    - 998d0394-d31c-47e9-b86e-146ac4dfd81e: 998d0394-d31c-47e9-4791-eb953b2027e1
+    - 9e3d977a-8545-4a0e-b914-32d525f84006: 9e3d977a-8545-4a0e-46eb-cd2ada07bff9
+    - a3d28143-d8ef-4ea9-ba54-f8a96753a23c: a3d28143-d8ef-4ea9-45ab-075698ac5dc3
+    - a4112c24-877f-4ef1-af54-29b295af73fd: a4112c24-877f-4ef1-50ab-d64d6a508c02
+    - a4f3c03b-69ca-473f-866c-403c7bef4bc1: a4f3c03b-69ca-473f-7993-bfc38410b43e
+    - a5233263-1892-4e5b-933f-9dba954531cf: a5233263-1892-4e5b-6cc0-62456abace30
+    - a53bd704-652a-48a1-85d4-5fbbdc53a75e: a53bd704-652a-48a1-7a2b-a04423ac58a1
+    - a6b9520f-db70-4915-aa6f-a52c2a85e831: a6b9520f-db70-4915-5590-5ad3d57a17ce
+    - aa337293-da22-4300-9c34-8d8885aca3e0: aa337293-da22-4300-63cb-72777a535c1f
+    - aaf84ef1-9b22-4816-a437-927c29ebf0df: aaf84ef1-9b22-4816-5bc8-6d83d6140f20
+    - abf78a62-0304-46c1-b85a-f57c8b3bf20c: abf78a62-0304-46c1-47a5-0a8374c40df3
+    - adfff96c-3a23-4ab9-91e2-8dbdf100964e: adfff96c-3a23-4ab9-6e1d-72420eff69b1
+    - b253d83b-fae4-42ef-a583-cfc05b7ad814: b253d83b-fae4-42ef-5a7c-303fa48527eb
+    - b3fd0d6d-59d5-4eab-8f45-82f90deee9d8: b3fd0d6d-59d5-4eab-70ba-7d06f2111627
+    - b505a9b1-785b-4347-b216-a49474bbe928: b505a9b1-785b-4347-4de9-5b6b8b4416d7
+    - b5498b3e-c37d-48ca-9ef1-93fae633124c: b5498b3e-c37d-48ca-610e-6c0519ccedb3
+    - b8870b85-088b-4327-93da-13c3c326ad35: b8870b85-088b-4327-6c25-ec3c3cd952ca
+    - b908eefb-d863-4b13-943f-0c05f33ae80c: b908eefb-d863-4b13-6bc0-f3fa0cc517f3
+    - b9fdd19d-cd64-443a-8ccf-502dad43b7bc: b9fdd19d-cd64-443a-7330-afd252bc4843
+    - ba3bbf52-6364-4b33-9d9a-a3d4f0e6c1df: ba3bbf52-6364-4b33-6265-5c2b0f193e20
+    - ba458b72-b42d-4c5c-b4ef-e22a2a5611a2: ba458b72-b42d-4c5c-4b10-1dd5d5a9ee5d
+    - bb53875b-28bf-43c7-835d-9dee40f952d4: bb53875b-28bf-43c7-7ca2-6211bf06ad2b
+    - be785e04-2b48-4ad9-a959-d9e81ad17495: be785e04-2b48-4ad9-56a6-2617e52e8b6a
+    - c4ab2f16-d5c8-45e7-82e2-3e632207d27e: c4ab2f16-d5c8-45e7-7d1d-c19cddf82d81
+    - c5fa8ea1-6e20-4481-80d4-4ffb83209878: c5fa8ea1-6e20-4481-7f2b-b0047cdf6787
+    - c6ce87d1-44df-4bf9-a843-8c6d3186020c: c6ce87d1-44df-4bf9-57bc-7392ce79fdf3
+    - c729a5d8-a0a8-47c8-8efa-ed49f18ba5cb: c729a5d8-a0a8-47c8-7105-12b60e745a34
+    - c74a6b13-df1f-4544-bd47-f8256f2fec04: c74a6b13-df1f-4544-42b8-07da90d013fb
+    - c79950d3-ef80-4535-82ce-85a52bfc0c51: c79950d3-ef80-4535-7d31-7a5ad403f3ae
+    - c7fdc6cf-0e5a-47aa-a2e4-7dc95a1c3923: c7fdc6cf-0e5a-47aa-5d1b-8236a5e3c6dc
+    - c9c100e4-2e66-4c52-b07b-b6d51abe9da2: c9c100e4-2e66-4c52-4f84-492ae541625d
+    - cbbd2bfa-1e72-4b2c-99e6-2f4579de8def: cbbd2bfa-1e72-4b2c-6619-d0ba86217210
+    - d10f3572-4554-4763-ab5d-92bffab4eff0: d10f3572-4554-4763-54a2-6d40054b100f
+    - d4ab6d04-250f-43c3-973f-202c76b254ee: d4ab6d04-250f-43c3-68c0-dfd3894dab11
+    - d4ece4a8-c833-4a96-ac77-b0b2c26ccc53: d4ece4a8-c833-4a96-5388-4f4d3d9333ac
+    - d6280860-9c1e-47c7-956a-a9cbf7731cc4: d6280860-9c1e-47c7-6a95-5634088ce33b
+    - d8aa7d8f-ab65-46fe-b742-da25e677355f: d8aa7d8f-ab65-46fe-48bd-25da1988caa0
+    - d9af78ad-e835-4e38-b9c1-1aa4d6c14560: d9af78ad-e835-4e38-463e-e55b293eba9f
+    - db0b2eae-c7e0-4133-ac17-8e9dc5e40066: db0b2eae-c7e0-4133-53e8-71623a1bff99
+    - dc4f2fb7-034a-40cf-8f00-ca8e566d3f71: dc4f2fb7-034a-40cf-70ff-3571a992c08e
+    - ddbc4383-510b-487a-b95f-3e8e160560e5: ddbc4383-510b-487a-46a0-c171e9fa9f1a
+    - deb1d10d-5ae3-4b74-9142-cf3b04092f96: deb1d10d-5ae3-4b74-6ebd-30c4fbf6d069
+    - df127244-dbbf-4473-97f3-b36141431ba9: df127244-dbbf-4473-680c-4c9ebebce456
+    - e39ab80e-0870-4854-ba6b-050f8990aadf: e39ab80e-0870-4854-4594-faf0766f5520
+    - e4b721b5-f73c-4ee7-aa54-bb8159dfd4f2: e4b721b5-f73c-4ee7-55ab-447ea6202b0d
+    - ea35c2a0-d980-4a4f-892a-d6393453a7ef: ea35c2a0-d980-4a4f-76d5-29c6cbac5810
+    - ea9b2002-8e33-4a76-a940-fc0d47dfb178: ea9b2002-8e33-4a76-56bf-03f2b8204e87
+    - ecdd7aa3-aba0-4333-bb17-3f3c83f523f4: ecdd7aa3-aba0-4333-44e8-c0c37c0adc0b
+    - ee2178b3-9413-40a5-b986-96d52a97c52d: ee2178b3-9413-40a5-4679-692ad5683ad2
+    - eec6643b-34d3-41ba-baa2-9b68ec218835: eec6643b-34d3-41ba-455d-649713de77ca
+    - f17ce93c-b926-48a5-86bd-aa9a48fcae9d: f17ce93c-b926-48a5-7942-5565b7035162
+    - f3633ae0-03b5-4ab8-96bc-3ea41f281f60: f3633ae0-03b5-4ab8-6943-c15be0d7e09f
+    - f376a217-3112-4d62-a01f-0af3400a9a17: f376a217-3112-4d62-5fe0-f50cbff565e8
+    - f571d6e5-51bb-4000-9a02-334612148524: f571d6e5-51bb-4000-65fd-ccb9edeb7adb
+    - f662ae91-25e8-442d-bf02-16f0f970ee2c: f662ae91-25e8-442d-40fd-e90f068f11d3
+    - f736e0f4-b9b9-42af-9002-29f22b227c17: f736e0f4-b9b9-42af-6ffd-d60dd4dd83e8
+    - f7894c04-641d-48f4-ac80-d6d19f1af843: f7894c04-641d-48f4-537f-292e60e507bc
+    - f7b99a42-20e2-4279-8b58-5edd439b700e: f7b99a42-20e2-4279-74a7-a122bc648ff1
+    - f94b29d0-6ab0-4047-8b5e-3edfe669cf9b: f94b29d0-6ab0-4047-74a1-c12019963064
+    - f950e147-61d6-4662-91ef-c14eab185889: f950e147-61d6-4662-6e10-3eb154e7a776
+    - f9d3fe98-03f9-4901-a725-edfec2e2c28e: f9d3fe98-03f9-4901-58da-12013d1d3d71
+    - fad17035-cf7b-4449-9245-228532e8916f: fad17035-cf7b-4449-6dba-dd7acd176e90
+    - fc8baed3-9860-40c6-b13d-3cbc3044388c: fc8baed3-9860-40c6-4ec2-c343cfbbc773
+    - fea33dde-07b8-4512-8930-e393e893f02a: fea33dde-07b8-4512-76cf-1c6c176c0fd5
+  Name: TestSafeMeow3
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> aa337293-da22-4300-9c34-8d8885aca3e0
+    - !<own> fc8baed3-9860-40c6-b13d-3cbc3044388c
+    - !<own> 0a45d3a6-1f4a-4150-9cad-9a9013efcbca
+    - !<own> b5498b3e-c37d-48ca-9ef1-93fae633124c
+    - !<own> abf78a62-0304-46c1-b85a-f57c8b3bf20c
+    - !<own> fad17035-cf7b-4449-9245-228532e8916f
+    - !<own> 8d62ef4f-8c10-4b23-9728-a33e582e26cb
+    - !<own> 432be0a0-939d-4b99-8ce9-09494359fdad
+    - !<own> 670cfe91-d30f-420d-8e42-e53c78e297d1
+    - !<own> 4ba5c2b5-7e59-489c-94ab-49b135b23679
+    - !<own> f662ae91-25e8-442d-bf02-16f0f970ee2c
+    - !<own> 998d0394-d31c-47e9-b86e-146ac4dfd81e
+    - !<own> 777a4964-e44c-4b0e-ab5f-0e128e5d9773
+    - !<own> f571d6e5-51bb-4000-9a02-334612148524
+    - !<own> adfff96c-3a23-4ab9-91e2-8dbdf100964e
+    - !<own> 5c46c198-9b70-45b5-907e-92fd10fd8114
+    - !<own> a5233263-1892-4e5b-933f-9dba954531cf
+    - !<own> 25783100-12a6-4645-b326-74b2923a217a
+    - !<own> 24d9764f-a669-42d1-9504-e55ca3226007
+    - !<own> 498b2b3b-bbdf-4a10-a22a-1e0ab808785c
+    - !<own> d8aa7d8f-ab65-46fe-b742-da25e677355f
+    - !<own> c729a5d8-a0a8-47c8-8efa-ed49f18ba5cb
+    - !<own> 432667f9-632b-483c-a9e4-8cc1da980114
+    - !<own> 77b02fd8-772c-4ee4-b0ae-9b14b12b19ac
+    - !<own> 8d605a2c-ca5e-466f-9249-623e4105c0d7
+    - !<own> 85eeafd5-2415-4749-9a77-0bb8f50e7c53
+    - !<own> f376a217-3112-4d62-a01f-0af3400a9a17
+    - !<own> 43cf83fa-6d2a-419f-9160-569f7252a3b2
+    - !<own> 3711a575-22ca-4feb-b9dd-9ddeda3ff9eb
+    - !<own> 77837693-5c0c-4695-a808-4580e70c8cd4
+    - !<own> ddbc4383-510b-487a-b95f-3e8e160560e5
+    - !<own> 88b8580f-461a-4920-88d3-488ac08c5836
+    - !<own> 2fef3391-cd37-4c83-9b0e-8180fd8584ca
+    - !<own> f3633ae0-03b5-4ab8-96bc-3ea41f281f60
+    - !<own> b253d83b-fae4-42ef-a583-cfc05b7ad814
+    - !<own> 059fca18-b056-4e90-a08e-4c12d11ed56d
+    - !<own> c79950d3-ef80-4535-82ce-85a52bfc0c51
+    - !<own> 230e424d-0d72-411b-98c4-1c7011d2011e
+    - !<own> 259bfb5d-7ce1-476f-8dd4-d90726dd9b37
+    - !<own> f7b99a42-20e2-4279-8b58-5edd439b700e
+  Components:
+    []
+- !<RenderMeshVisual/6f2a78cb-9285-46e5-a12b-10cc2f9fb42d>
+  PrefabRemaps:
+    []
+  Name: component_57
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4dccd574-a3ae-4164-8fd1-d425b6913d15
+  Mesh: !<reference> 69abfaf0-99a4-4568-94e8-da146d021a6b
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/72d26334-7e0e-4d2f-b5a0-095286e1408b>
+  PrefabRemaps:
+    []
+  Name: component_11
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> f6fc5e49-c6d1-4757-a535-0e2264f7d4aa
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/753c905b-b0f9-4e0b-a3b7-d2f6d5270d43>
+  PrefabRemaps:
+    []
+  Name: Cube.016
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -3.387838, y: 9.966188, z: -11.110892}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 23969ca1-5e0c-4cbf-af35-2eb42f380f69
+- !<SceneObject/777a4964-e44c-4b0e-ab5f-0e128e5d9773>
+  PrefabRemaps:
+    []
+  Name: Cylinder.005
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 6.010204, y: -16.245476, z: 24.977776}
+    Rotation: {x: 0.000000, y: -0.000000, z: -90.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 8a1114e7-57da-427e-bd13-d698f3ef4115
+- !<SceneObject/77837693-5c0c-4695-a808-4580e70c8cd4>
+  PrefabRemaps:
+    []
+  Name: Safe.005
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -1.124298, y: -14.942434, z: 34.651821}
+    Rotation: {x: 0.000000, y: -0.000000, z: -90.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> bb53875b-28bf-43c7-835d-9dee40f952d4
+- !<SceneObject/77b02fd8-772c-4ee4-b0ae-9b14b12b19ac>
+  PrefabRemaps:
+    []
+  Name: Gold.003
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.554235, y: -5.846809, z: 5.108694}
+    Rotation: {x: 0.000000, y: -0.000000, z: -90.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 187cc0cd-a684-4f15-8f27-35e7f048560b
+- !<RenderMeshVisual/78f90cd2-49ce-4d22-babd-bd7413acdbbc>
+  PrefabRemaps:
+    []
+  Name: component_34
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4dccd574-a3ae-4164-8fd1-d425b6913d15
+  Mesh: !<reference> b1cf1508-10d7-4c0b-8131-28cf426370f5
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/7e5f699e-e930-4adf-ba59-5163e194781f>
+  PrefabRemaps:
+    []
+  Name: component_56
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4dccd574-a3ae-4164-8fd1-d425b6913d15
+  Mesh: !<reference> 8dd24506-3084-40b0-ae4a-63e31f83fa1d
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/857cd4d6-6731-47c7-aa9c-6a48ca0a35df>
+  PrefabRemaps:
+    []
+  Name: component_30
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4dccd574-a3ae-4164-8fd1-d425b6913d15
+  Mesh: !<reference> 58bec3f8-6f37-453d-bf41-9eea7e723b79
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/85eeafd5-2415-4749-9a77-0bb8f50e7c53>
+  PrefabRemaps:
+    []
+  Name: Gold.005
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.554235, y: -2.820518, z: 8.164071}
+    Rotation: {x: 0.000000, y: -0.000000, z: -90.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> c7fdc6cf-0e5a-47aa-a2e4-7dc95a1c3923
+- !<PassInfo/8676b961-73c7-4a25-b4f8-25d7b4a7374e>
+  CachedProperties:
+    - alpha:
+        typeIdx: 1
+        value: 0.000000
+    - selfIllum:
+        typeIdx: 1
+        value: 0.000000
+  DepthWrite: true
+  DepthTest: true
+  DepthFunction: LessEqual
+  TwoSided: false
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    - ENABLE_DIFFUSE_LIGHTING
+    - ENABLE_DIRECT_LIGHTS
+    - ENABLE_ENVIRONMENT_MAP
+    - ENABLE_LIGHTING
+    - ENABLE_SPECULAR_LIGHTING
+    - ENABLE_TONE_MAPPING
+    - ENABLE_VERTEX_COLOR_NONE
+    - baseTexUV 0
+    - emissiveTexUV 0
+    - materialParamsTexUV 0
+    - normalTexUV 0
+    - opacityTexUV 0
+    - rimColorTexUV 0
+  BlendMode: Disabled
+  Properties:
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    baseColor:
+      typeIdx: 5
+      value: {x: 0.800000, y: 0.800000, z: 0.800000, w: 1.000000}
+    materialParamsTex:
+      typeIdx: 9
+      value:
+        id: ded030fb-2239-44d3-bf99-a01a33a9599f
+        sampler:
+          filteringMode: Bilinear
+          wrapModeU: ClampToEdge
+          wrapModeV: ClampToEdge
+          wrapModeW: ClampToEdge
+          borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+          mipmaps: false
+        type: Texture2D
+    metallic:
+      typeIdx: 1
+      value: 0.000000
+    roughness:
+      typeIdx: 1
+      value: 1.000000
+    uv2Offset:
+      typeIdx: 3
+      value: {x: 1.000000, y: 1.000000}
+    uv2Scale:
+      typeIdx: 3
+      value: {x: 1.000000, y: 1.000000}
+    uv3Offset:
+      typeIdx: 3
+      value: {x: 1.000000, y: 1.000000}
+    uv3Scale:
+      typeIdx: 3
+      value: {x: 1.000000, y: 1.000000}
+  Pass: !<reference> 1a749454-71de-4d0b-8cd7-925138c4bd55
+- !<SceneObject/86d2d357-4507-4376-9569-613de0894b9e>
+  PrefabRemaps:
+    []
+  Name: Cube.015
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -3.387838, y: 12.852528, z: -11.110892}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 26dcd016-fd2a-48ec-a3ba-362710645eb1
+- !<SceneObject/88b8580f-461a-4920-88d3-488ac08c5836>
+  PrefabRemaps:
+    []
+  Name: Safe.008
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -1.124302, y: 16.692766, z: 25.595707}
+    Rotation: {x: 0.000000, y: -0.000000, z: -90.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> a4112c24-877f-4ef1-af54-29b295af73fd
+- !<RenderMeshVisual/89e22aa9-6a7f-4730-b0d3-84003d1cd02a>
+  PrefabRemaps:
+    []
+  Name: component_54
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4dccd574-a3ae-4164-8fd1-d425b6913d15
+  Mesh: !<reference> c3a51237-e509-4aff-81db-748fc27b6955
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/8a1114e7-57da-427e-bd13-d698f3ef4115>
+  PrefabRemaps:
+    []
+  Name: component_12
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 453f2789-eeee-43b5-b0ef-abee95356abb
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/8ababa15-723d-40c7-b975-18ad8be2a659>
+  PrefabRemaps:
+    []
+  Name: Lock.001
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> b3fd0d6d-59d5-4eab-8f45-82f90deee9d8
+- !<SceneObject/8d605a2c-ca5e-466f-9249-623e4105c0d7>
+  PrefabRemaps:
+    []
+  Name: Gold.004
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.554235, y: 0.214257, z: 5.108694}
+    Rotation: {x: 0.000000, y: -0.000000, z: -90.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 329f2cd9-a8b0-4324-b840-5db6e5f17451
+- !<SceneObject/8d62ef4f-8c10-4b23-9728-a33e582e26cb>
+  PrefabRemaps:
+    []
+  Name: Cube.008
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -1.124301, y: 14.806772, z: 34.926979}
+    Rotation: {x: 0.000000, y: -0.000000, z: -90.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ba458b72-b42d-4c5c-b4ef-e22a2a5611a2
+- !<SceneObject/8f8ea48d-ac6a-4f2a-95b2-23cb1556daec>
+  PrefabRemaps:
+    []
+  Name: Safe.014
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -2.489378, y: 11.415497, z: -7.060680}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> e39ab80e-0870-4854-ba6b-050f8990aadf
+- !<RenderMeshVisual/92f67031-7094-41b9-b284-ffa0b936da65>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> ee4e09af-efad-4761-b844-beafb2c67159
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/954ebf43-20fc-4841-8020-9bbaf3ff43e4>
+  PrefabRemaps:
+    []
+  Name: Lock
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> f7894c04-641d-48f4-ac80-d6d19f1af843
+- !<RenderMeshVisual/95c06119-4f46-4b00-81c8-957ae22766d3>
+  PrefabRemaps:
+    []
+  Name: component_36
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4dccd574-a3ae-4164-8fd1-d425b6913d15
+  Mesh: !<reference> f51d8ef3-b9c9-4ac3-a191-1dba4b894d2e
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/96bb8a93-a74c-4709-a8ae-e840bb16c7c1>
+  PrefabRemaps:
+    []
+  Name: Cube.013
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -3.387838, y: 7.079845, z: -3.130009}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 3ba8aaca-b487-4aed-8d05-85ac86049d41
+- !<RenderMeshVisual/98106bf3-4c9d-4987-9c11-e491877777f6>
+  PrefabRemaps:
+    []
+  Name: component_46
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4dccd574-a3ae-4164-8fd1-d425b6913d15
+  Mesh: !<reference> a97ca7aa-d6a3-4eb2-b2d3-d7ba885b76d3
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/998d0394-d31c-47e9-b86e-146ac4dfd81e>
+  PrefabRemaps:
+    []
+  Name: Cylinder.004
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -8.258792, y: -16.245476, z: 22.058090}
+    Rotation: {x: 0.000000, y: -0.000000, z: -90.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 72d26334-7e0e-4d2f-b5a0-095286e1408b
+- !<RenderMeshVisual/9e3d977a-8545-4a0e-b914-32d525f84006>
+  PrefabRemaps:
+    []
+  Name: component_38
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 14fcd0c0-86e3-4db5-b9e3-dda48aa9f2d0
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/a3d28143-d8ef-4ea9-ba54-f8a96753a23c>
+  PrefabRemaps:
+    []
+  Name: Safe.009
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -1.374769, y: 11.415497, z: 5.601151}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 7e5f699e-e930-4adf-ba59-5163e194781f
+- !<RenderMeshVisual/a4112c24-877f-4ef1-af54-29b295af73fd>
+  PrefabRemaps:
+    []
+  Name: component_31
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4dccd574-a3ae-4164-8fd1-d425b6913d15
+  Mesh: !<reference> 73246e1a-29b0-4ed4-8a44-3ed30e1d3043
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/a4f3c03b-69ca-473f-866c-403c7bef4bc1>
+  PrefabRemaps:
+    []
+  Name: Cylinder.010
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.038851, y: 11.415501, z: 13.068182}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 98106bf3-4c9d-4987-9c11-e491877777f6
+- !<SceneObject/a5233263-1892-4e5b-933f-9dba954531cf>
+  PrefabRemaps:
+    []
+  Name: Cylinder.009
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 6.010204, y: -16.245476, z: 22.058090}
+    Rotation: {x: 0.000000, y: -0.000000, z: -90.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> aaf84ef1-9b22-4816-a437-927c29ebf0df
+- !<RenderMeshVisual/a53bd704-652a-48a1-85d4-5fbbdc53a75e>
+  PrefabRemaps:
+    []
+  Name: component_3
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 4ca24456-d6f5-40b8-9c0a-8d05ac1a978e
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/a6b9520f-db70-4915-aa6f-a52c2a85e831>
+  PrefabRemaps:
+    []
+  Name: Cube.017
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -3.387838, y: 7.079845, z: -11.110892}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> c4ab2f16-d5c8-45e7-82e2-3e632207d27e
+- !<SceneObject/aa337293-da22-4300-9c34-8d8885aca3e0>
+  PrefabRemaps:
+    []
+  Name: BézierCurve
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -7.587650, y: -16.245476, z: 16.218719}
+    Rotation: {x: 0.000000, y: -0.000000, z: -90.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 92f67031-7094-41b9-b284-ffa0b936da65
+- !<RenderMeshVisual/aaf84ef1-9b22-4816-a437-927c29ebf0df>
+  PrefabRemaps:
+    []
+  Name: component_16
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> deff9de0-11f5-43f7-8324-9e8723e96137
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/abf78a62-0304-46c1-b85a-f57c8b3bf20c>
+  PrefabRemaps:
+    []
+  Name: BézierCurve.004
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -7.587650, y: -16.245476, z: 27.995438}
+    Rotation: {x: 0.000000, y: -0.000000, z: -90.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 259ebcbd-7c32-4c76-a6f9-61fa154b0104
+- !<SceneObject/adfff96c-3a23-4ab9-91e2-8dbdf100964e>
+  PrefabRemaps:
+    []
+  Name: Cylinder.007
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 6.010204, y: -16.245476, z: 19.138407}
+    Rotation: {x: 0.000000, y: -0.000000, z: -90.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> c6ce87d1-44df-4bf9-a843-8c6d3186020c
+- !<SceneObject/b253d83b-fae4-42ef-a583-cfc05b7ad814>
+  PrefabRemaps:
+    []
+  Name: Safe_Door
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 16.336948, y: 11.618746, z: 22.058092}
+    Rotation: {x: 0.000000, y: -0.000000, z: -90.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> eec6643b-34d3-41ba-baa2-9b68ec218835
+    - !<own> 11adb5a2-f925-49a7-93f6-95fa6726d73f
+    - !<own> ba3bbf52-6364-4b33-9d9a-a3d4f0e6c1df
+    - !<own> ea9b2002-8e33-4a76-a940-fc0d47dfb178
+    - !<own> d4ece4a8-c833-4a96-ac77-b0b2c26ccc53
+    - !<own> f94b29d0-6ab0-4047-8b5e-3edfe669cf9b
+    - !<own> 96bb8a93-a74c-4709-a8ae-e840bb16c7c1
+    - !<own> 224a2574-1c25-4a4a-a676-3f9fd03e0a21
+    - !<own> 86d2d357-4507-4376-9569-613de0894b9e
+    - !<own> 753c905b-b0f9-4e0b-a3b7-d2f6d5270d43
+    - !<own> a6b9520f-db70-4915-aa6f-a52c2a85e831
+    - !<own> a4f3c03b-69ca-473f-866c-403c7bef4bc1
+    - !<own> 28f6aa05-9410-4659-94a5-399b5ab0c91c
+    - !<own> 2e5f3b66-92e0-4a2e-8b96-19d2b6624dd1
+    - !<own> c74a6b13-df1f-4544-bd47-f8256f2fec04
+    - !<own> b9fdd19d-cd64-443a-8ccf-502dad43b7bc
+    - !<own> 4030dc3c-9771-46f5-a515-4b3de2f6b0c4
+    - !<own> 954ebf43-20fc-4841-8020-9bbaf3ff43e4
+    - !<own> 8ababa15-723d-40c7-b975-18ad8be2a659
+    - !<own> 19a0db24-5911-4cde-ab69-6b36c826cc3b
+    - !<own> 12d84688-274c-4ec1-b157-639c660109fc
+    - !<own> a3d28143-d8ef-4ea9-ba54-f8a96753a23c
+    - !<own> d10f3572-4554-4763-ab5d-92bffab4eff0
+    - !<own> 8f8ea48d-ac6a-4f2a-95b2-23cb1556daec
+  Components:
+    - !<own> 78f90cd2-49ce-4d22-babd-bd7413acdbbc
+- !<RenderMeshVisual/b3fd0d6d-59d5-4eab-8f45-82f90deee9d8>
+  PrefabRemaps:
+    []
+  Name: component_53
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4dccd574-a3ae-4164-8fd1-d425b6913d15
+  Mesh: !<reference> a7e2a1d5-616d-4d45-b3b5-af3de3521e11
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/b505a9b1-785b-4347-b216-a49474bbe928>
+  PrefabRemaps:
+    []
+  Name: component_15
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 83594cb6-fa15-4cbb-8103-918f03d2bc69
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/b5498b3e-c37d-48ca-9ef1-93fae633124c>
+  PrefabRemaps:
+    []
+  Name: BézierCurve.003
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -7.587650, y: -16.245476, z: 25.084156}
+    Rotation: {x: 0.000000, y: -0.000000, z: -90.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> a53bd704-652a-48a1-85d4-5fbbdc53a75e
+- !<RenderMeshVisual/b8870b85-088b-4327-93da-13c3c326ad35>
+  PrefabRemaps:
+    []
+  Name: component_13
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> bdce82d8-9089-4999-8550-584e187bae3d
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/b908eefb-d863-4b13-943f-0c05f33ae80c>
+  PrefabRemaps:
+    []
+  Name: component_22
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4dccd574-a3ae-4164-8fd1-d425b6913d15
+  Mesh: !<reference> 00b1b500-a195-4253-a2c9-21b57a9df66f
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/b9fdd19d-cd64-443a-8ccf-502dad43b7bc>
+  PrefabRemaps:
+    []
+  Name: Cylinder.024
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -1.676733, y: 21.114353, z: -0.236149}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 631872d5-31a3-460b-b782-3dd65a132965
+- !<SceneObject/ba3bbf52-6364-4b33-9d9a-a3d4f0e6c1df>
+  PrefabRemaps:
+    []
+  Name: Cube.009
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -1.676733, y: 20.880505, z: 6.835661}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 3c07d021-d76a-40a8-a73c-4f88cc3ef13f
+- !<RenderMeshVisual/ba458b72-b42d-4c5c-b4ef-e22a2a5611a2>
+  PrefabRemaps:
+    []
+  Name: component_6
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4dccd574-a3ae-4164-8fd1-d425b6913d15
+  Mesh: !<reference> 60cf5fc8-6447-4164-97f4-03f6d769b5b1
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/bb53875b-28bf-43c7-835d-9dee40f952d4>
+  PrefabRemaps:
+    []
+  Name: component_29
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4dccd574-a3ae-4164-8fd1-d425b6913d15
+  Mesh: !<reference> af24c56d-fd29-404a-98b9-439204663caa
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/be785e04-2b48-4ad9-a959-d9e81ad17495>
+  PrefabRemaps:
+    []
+  Name: component_7
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> f87d7379-a48c-408e-a27b-fbf14ad50a2e
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/c4ab2f16-d5c8-45e7-82e2-3e632207d27e>
+  PrefabRemaps:
+    []
+  Name: component_45
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> d5701f73-9404-47b2-b82b-889dda7a8717
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/c5fa8ea1-6e20-4481-80d4-4ffb83209878>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 38e4bd6b-c1f4-434e-bc16-78bab2b59fa5
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/c6ce87d1-44df-4bf9-a843-8c6d3186020c>
+  PrefabRemaps:
+    []
+  Name: component_14
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 85f7543b-8818-4566-9d76-927a53dae9ba
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/c729a5d8-a0a8-47c8-8efa-ed49f18ba5cb>
+  PrefabRemaps:
+    []
+  Name: Gold.001
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.554235, y: 6.264314, z: 5.108694}
+    Rotation: {x: 0.000000, y: -0.000000, z: -90.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> c9c100e4-2e66-4c52-b07b-b6d51abe9da2
+- !<SceneObject/c74a6b13-df1f-4544-bd47-f8256f2fec04>
+  PrefabRemaps:
+    []
+  Name: Cylinder.023
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -1.676733, y: 19.619774, z: -0.205406}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ee2178b3-9413-40a5-b986-96d52a97c52d
+- !<SceneObject/c79950d3-ef80-4535-82ce-85a52bfc0c51>
+  PrefabRemaps:
+    []
+  Name: Safe_Leg.001
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 10.708250, y: -9.093772, z: 1.737723}
+    Rotation: {x: 0.000000, y: -0.000000, z: -90.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> d4ab6d04-250f-43c3-973f-202c76b254ee
+- !<RenderMeshVisual/c7fdc6cf-0e5a-47aa-a2e4-7dc95a1c3923>
+  PrefabRemaps:
+    []
+  Name: component_25
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4dccd574-a3ae-4164-8fd1-d425b6913d15
+  Mesh: !<reference> b2f269b2-c1e7-4576-9f01-2ccd7d539eaf
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/c9c100e4-2e66-4c52-b07b-b6d51abe9da2>
+  PrefabRemaps:
+    []
+  Name: component_21
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4dccd574-a3ae-4164-8fd1-d425b6913d15
+  Mesh: !<reference> e4ffee75-d929-4cf5-8faf-b5582375f729
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/cbbd2bfa-1e72-4b2c-99e6-2f4579de8def>
+  PrefabRemaps:
+    []
+  Name: component_26
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4dccd574-a3ae-4164-8fd1-d425b6913d15
+  Mesh: !<reference> 970443ea-c4ad-4723-a789-cf7001930398
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/d10f3572-4554-4763-ab5d-92bffab4eff0>
+  PrefabRemaps:
+    []
+  Name: Safe.012
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.021170, y: 11.415497, z: -7.060680}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 6f2a78cb-9285-46e5-a12b-10cc2f9fb42d
+- !<RenderMeshVisual/d4ab6d04-250f-43c3-973f-202c76b254ee>
+  PrefabRemaps:
+    []
+  Name: component_60
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 89d2885b-62f5-4c59-a89c-5fca50204b79
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/d4ece4a8-c833-4a96-ac77-b0b2c26ccc53>
+  PrefabRemaps:
+    []
+  Name: Cube.011
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -3.387838, y: 12.852528, z: -3.130009}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> dc4f2fb7-034a-40cf-8f00-ca8e566d3f71
+- !<RenderMeshVisual/d6280860-9c1e-47c7-956a-a9cbf7731cc4>
+  PrefabRemaps:
+    []
+  Name: component_8
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 20a4bde5-1204-4669-8f6c-563bcedeb657
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/d8aa7d8f-ab65-46fe-b742-da25e677355f>
+  PrefabRemaps:
+    []
+  Name: Gold
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.554235, y: 0.208352, z: 11.218217}
+    Rotation: {x: 0.000000, y: -0.000000, z: -90.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> df127244-dbbf-4473-97f3-b36141431ba9
+- !<RenderMeshVisual/d9af78ad-e835-4e38-b9c1-1aa4d6c14560>
+  PrefabRemaps:
+    []
+  Name: component_5
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4dccd574-a3ae-4164-8fd1-d425b6913d15
+  Mesh: !<reference> 1cc93444-bbb0-44b1-ab57-407770361c70
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/db0b2eae-c7e0-4133-ac17-8e9dc5e40066>
+  PrefabRemaps:
+    []
+  Name: component_61
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> b7c21a2f-317c-4c1b-a119-9abb20d9949d
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/dc4f2fb7-034a-40cf-8f00-ca8e566d3f71>
+  PrefabRemaps:
+    []
+  Name: component_39
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 54c3776b-c62f-41b0-adeb-71b9fcdcd7ac
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/ddbc4383-510b-487a-b95f-3e8e160560e5>
+  PrefabRemaps:
+    []
+  Name: Safe.007
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -1.124299, y: 14.172244, z: 22.058092}
+    Rotation: {x: 0.000000, y: -0.000000, z: -90.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 857cd4d6-6731-47c7-aa9c-6a48ca0a35df
+- !<RenderMeshVisual/deb1d10d-5ae3-4b74-9142-cf3b04092f96>
+  PrefabRemaps:
+    []
+  Name: component_48
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4dccd574-a3ae-4164-8fd1-d425b6913d15
+  Mesh: !<reference> 556b786f-0635-47be-9478-1064811b2a30
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/df127244-dbbf-4473-97f3-b36141431ba9>
+  PrefabRemaps:
+    []
+  Name: component_20
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4dccd574-a3ae-4164-8fd1-d425b6913d15
+  Mesh: !<reference> 1679fbd0-0127-4e5c-8d6f-f8647b0eefc4
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/e39ab80e-0870-4854-ba6b-050f8990aadf>
+  PrefabRemaps:
+    []
+  Name: component_58
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4dccd574-a3ae-4164-8fd1-d425b6913d15
+  Mesh: !<reference> 0cfb810f-b838-4e99-bb10-00eedc0c3f05
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/e4b721b5-f73c-4ee7-aa54-bb8159dfd4f2>
+  PrefabRemaps:
+    []
+  Name: component_62
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 1e05a7d4-ef8c-453f-8a6a-21e6f716283a
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/ea35c2a0-d980-4a4f-892a-d6393453a7ef>
+  PrefabRemaps:
+    []
+  Name: component_9
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> b055f815-b276-4613-b36c-123d1f93d50b
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/ea9b2002-8e33-4a76-a940-fc0d47dfb178>
+  PrefabRemaps:
+    []
+  Name: Cube.010
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -3.387838, y: 15.738869, z: -3.130011}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 9e3d977a-8545-4a0e-b914-32d525f84006
+- !<RenderMeshVisual/ecdd7aa3-aba0-4333-bb17-3f3c83f523f4>
+  PrefabRemaps:
+    []
+  Name: component_63
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4dccd574-a3ae-4164-8fd1-d425b6913d15
+  Mesh: !<reference> 3e6ff6e6-a0df-48d7-a93c-f1dcd984e66a
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/ee2178b3-9413-40a5-b986-96d52a97c52d>
+  PrefabRemaps:
+    []
+  Name: component_49
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4dccd574-a3ae-4164-8fd1-d425b6913d15
+  Mesh: !<reference> 69ba50c3-b4ff-482a-a43d-626a58b48194
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/eec6643b-34d3-41ba-baa2-9b68ec218835>
+  PrefabRemaps:
+    []
+  Name: Cube
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -1.851347, y: 17.403084, z: 11.567030}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 2ed9e90f-febf-4c96-b283-07e04dd253b3
+- !<RenderMeshVisual/f17ce93c-b926-48a5-86bd-aa9a48fcae9d>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 76ec82c6-4ff1-4458-b23b-2c038f93ff8c
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/f3633ae0-03b5-4ab8-96bc-3ea41f281f60>
+  PrefabRemaps:
+    []
+  Name: Safe.011
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -1.124299, y: 14.193896, z: 22.058092}
+    Rotation: {x: 0.000000, y: -0.000000, z: -90.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 62e1d3a6-56f3-42b9-9d28-0b32105bf2a6
+- !<SceneObject/f376a217-3112-4d62-a01f-0af3400a9a17>
+  PrefabRemaps:
+    []
+  Name: Safe
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -1.124299, y: 0.203225, z: 22.058092}
+    Rotation: {x: 0.000000, y: -0.000000, z: -90.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> cbbd2bfa-1e72-4b2c-99e6-2f4579de8def
+- !<SceneObject/f571d6e5-51bb-4000-9a02-334612148524>
+  PrefabRemaps:
+    []
+  Name: Cylinder.006
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 6.010204, y: -16.245476, z: 27.897469}
+    Rotation: {x: 0.000000, y: -0.000000, z: -90.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> b8870b85-088b-4327-93da-13c3c326ad35
+- !<SceneObject/f662ae91-25e8-442d-bf02-16f0f970ee2c>
+  PrefabRemaps:
+    []
+  Name: Cylinder.003
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -8.258792, y: -16.245476, z: 16.218719}
+    Rotation: {x: 0.000000, y: -0.000000, z: -90.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> f736e0f4-b9b9-42af-9002-29f22b227c17
+- !<RenderMeshVisual/f736e0f4-b9b9-42af-9002-29f22b227c17>
+  PrefabRemaps:
+    []
+  Name: component_10
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 3e62a941-3cda-4875-bb7a-06c95969a131
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/f7894c04-641d-48f4-ac80-d6d19f1af843>
+  PrefabRemaps:
+    []
+  Name: component_52
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4dccd574-a3ae-4164-8fd1-d425b6913d15
+  Mesh: !<reference> 7789cda7-52ce-4051-a64f-04c881d2c7a7
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/f7b99a42-20e2-4279-8b58-5edd439b700e>
+  PrefabRemaps:
+    []
+  Name: Safe_Shelf
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -1.196038, y: 0.203225, z: 22.058092}
+    Rotation: {x: 0.000000, y: -0.000000, z: -90.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ecdd7aa3-aba0-4333-bb17-3f3c83f523f4
+- !<SceneObject/f94b29d0-6ab0-4047-8b5e-3edfe669cf9b>
+  PrefabRemaps:
+    []
+  Name: Cube.012
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -3.387838, y: 9.966188, z: -3.130009}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 00d4f6bc-67f3-4666-9b80-37a241551499
+- !<RenderMeshVisual/f950e147-61d6-4662-91ef-c14eab185889>
+  PrefabRemaps:
+    []
+  Name: component_42
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 24a4d2b7-5287-4ce0-88de-31e887ab19ef
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/f9d3fe98-03f9-4901-a725-edfec2e2c28e>
+  PrefabRemaps:
+    []
+  Name: component_55
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4dccd574-a3ae-4164-8fd1-d425b6913d15
+  Mesh: !<reference> 59b6e576-d788-40d9-818b-1e81c4eb4c3f
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/fad17035-cf7b-4449-9245-228532e8916f>
+  PrefabRemaps:
+    []
+  Name: Cube.002
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -1.124298, y: -14.162619, z: 34.926979}
+    Rotation: {x: 0.000000, y: -0.000000, z: -90.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> d9af78ad-e835-4e38-b9c1-1aa4d6c14560
+- !<SceneObject/fc8baed3-9860-40c6-b13d-3cbc3044388c>
+  PrefabRemaps:
+    []
+  Name: BézierCurve.001
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -7.587650, y: -16.245476, z: 19.161901}
+    Rotation: {x: 0.000000, y: -0.000000, z: -90.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> f17ce93c-b926-48a5-86bd-aa9a48fcae9d
+- !<RenderMeshVisual/fea33dde-07b8-4512-8930-e393e893f02a>
+  PrefabRemaps:
+    []
+  Name: component_32
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4dccd574-a3ae-4164-8fd1-d425b6913d15
+  Mesh: !<reference> c7a4076d-1c9a-4895-a923-d8c362aff9d8
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

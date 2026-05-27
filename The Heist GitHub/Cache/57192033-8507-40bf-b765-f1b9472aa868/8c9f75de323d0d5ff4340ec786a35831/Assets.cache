@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    f6f9c382-abcf-451d-95ea-e24be130ff91: 57192033-8507-40bf-b765-f1b9472aa868/8c9f75de323d0d5ff4340ec786a35831/Data/rope_normals.jpeg
+  Assets:
+    - !<FileTexture/f6f9c382-abcf-451d-95ea-e24be130ff91>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 2048
+        Height: 2048
+  SourceHash: 8c9f75de323d0d5ff4340ec786a35831
+  FileHash: 4d39d9a75e7c2cdeafb575fbef8bf97f
+  NativePackageItems:
+    []

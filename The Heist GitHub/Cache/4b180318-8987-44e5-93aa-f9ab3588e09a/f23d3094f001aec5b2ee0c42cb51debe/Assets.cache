@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    a03cd510-e2a8-4936-8f66-4ab20128fef9: 4b180318-8987-44e5-93aa-f9ab3588e09a/f23d3094f001aec5b2ee0c42cb51debe/Data/Button Click 1.mp3
+  Assets:
+    - !<FileAudioTrack/a03cd510-e2a8-4936-8f66-4ab20128fef9>
+      PackagePath: ""
+  SourceHash: f23d3094f001aec5b2ee0c42cb51debe
+  FileHash: 9b3247dd0fd2d112793c62b1eb373d8f
+  NativePackageItems:
+    []

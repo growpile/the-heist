@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    7be4d8e3-9c14-4625-bcf7-2e367c492668: abc7d938-5715-4b4c-b04b-4f83ff516f38/7bb1664f7212cade62d61a7b9d1726ea/Data/Page 4.jpg
+  Assets:
+    - !<FileTexture/7be4d8e3-9c14-4625-bcf7-2e367c492668>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1275
+        Height: 1650
+  SourceHash: 7bb1664f7212cade62d61a7b9d1726ea
+  FileHash: 3e7f4f13acd7e2542d9a3ffe2ec821be
+  NativePackageItems:
+    []

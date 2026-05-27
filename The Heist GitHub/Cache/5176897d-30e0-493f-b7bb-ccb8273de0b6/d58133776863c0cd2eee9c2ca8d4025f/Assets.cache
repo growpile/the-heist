@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    3098d0aa-ea89-46d3-8fcc-76043ede9280: 5176897d-30e0-493f-b7bb-ccb8273de0b6/d58133776863c0cd2eee9c2ca8d4025f/Data/Fuse.004.mesh
+  Assets:
+    - !<FileMesh/3098d0aa-ea89-46d3-8fcc-76043ede9280>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 1308
+        Vertices: 729
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 9.006920, y: 3.652970, z: 1.652584}
+  SourceHash: d58133776863c0cd2eee9c2ca8d4025f
+  FileHash: 7632da71d9f09e27803785e12ddb51bc
+  NativePackageItems:
+    []

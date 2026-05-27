@@ -1,0 +1,2759 @@
+{ 
+	"ui": 
+	[
+		{
+        	"label": "Graph Parameters",
+        	"widget": "group_start"
+        },
+{
+                	"label":       "Mesh Type",
+                	"bindingType": "defineSelect",
+                	"values":      
+                	[
+                		
+                		{
+                			"value": "MESHTYPE 0",
+                			"label": "Quad"
+                		},
+                		
+                		{
+                			"value": "MESHTYPE 1",
+                			"label": "3D Mesh"
+                		}
+                	],
+                	"sortIndex":   "-1",
+                	"hint":        "Determines how the particle positions and normals will be calculated.\n\nQuad = the default particle setting. Used to render 2D particles that face the camera. Useful for effects that only need textures (like sparkles and snow). When using this mode, ensure that Double-Sided rendering is enabled. In most cases, Depth Write can be disabled.\n\n3D Mesh = 3D particles that can move and rotate independently in 3D space. Useful for rendering full 3D objects that benefit from complex rotation and lighting (like asteroids and crowds). When using this mode, make sure that Double-Sided rendering is disabled and Depth Write is enabled. Note that this mode is more computationally expensive."
+                },
+                
+                {
+                	"label":       "World / Local Space",
+                	"bindingType": "defineSelect",
+                	"values":      
+                	[
+                		
+                		{
+                			"value": "rotationSpace 0",
+                			"label": "Local Space"
+                		},
+                		
+                		{
+                			"value": "rotationSpace 1",
+                			"label": "World Space - Ignore Emitter Rotation"
+                		},
+                		
+                		{
+                			"value": "rotationSpace 2",
+                			"label": "World Force - Gravity Ingores Emitter Rotation"
+                		}
+                	],
+                	"sortIndex":   "0",
+                	"hint":        "Specifies the purpose for which Rotation will be used."
+                },
+                
+                {
+                	"label": "Spawn Location / Shape",
+                	"widget": "group_start"
+                },                    
+                    {
+                    	"label":       "Initial Volume Spawn",
+                    	"bindingName": "INILOCATION",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"widget":      "group_start",
+                    	"sortIndex":   "0",
+                    	"hint":        "Initial Spawn Shape Offset."
+                    }
+                    ,                        
+                        {
+                        	"label":       "Spawn Volume Position",
+                        	"bindingType": "defineSelect",
+                        	"values":      
+                        	[
+                        		
+                        		{
+                        			"value": "NODE_248_DROPLIST_ITEM 0",
+                        			"label": "Sphere"
+                        		},
+                        		
+                        		{
+                        			"value": "NODE_248_DROPLIST_ITEM 1",
+                        			"label": "Cube"
+                        		},
+                        		
+                        		{
+                        			"value": "NODE_248_DROPLIST_ITEM 2",
+                        			"label": "Cylinder"
+                        		},
+                        		
+                        		{
+                        			"value": "NODE_248_DROPLIST_ITEM 3",
+                        			"label": "Torus"
+                        		},
+                        		
+                        		{
+                        			"value": "NODE_248_DROPLIST_ITEM 4",
+                        			"label": "Grid"
+                        		},
+                        		
+                        		{
+                        			"value": "NODE_248_DROPLIST_ITEM 5",
+                        			"label": "Helix"
+                        		},
+                        		
+                        		{
+                        			"value": "NODE_248_DROPLIST_ITEM 6",
+                        			"label": "Curves"
+                        		},
+                        		
+                        		{
+                        			"value": "NODE_248_DROPLIST_ITEM 7",
+                        			"label": "Screen Space"
+                        		}
+                        	],
+                        	"sortIndex":   "0",
+                        	"hint":        ""
+                        },
+                        
+                        {
+                        	"label": "Volume Sphere",
+                        	"widget": "group_start"
+                        },                            
+                            {
+                            	"bindingName": "Tweak_N255",
+                            	"label":       "Type",
+                            	"widget":      "slider",
+                            	"min":         0,
+                            	"max":         2,
+                            	"step":        "1",
+                            	"sortIndex":   "0",
+                            	"hint":        "",
+                            	"default":     "0.0"
+                            },
+                            
+                            {
+                            	"bindingName": "Tweak_N254",
+                            	"label":       "Radius",
+                            	"widget":      "spinbox",
+                            	"step":        "0.01",
+                            	"sortIndex":   "0",
+                            	"hint":        "",
+                            	"default":     "1.0"
+                            },
+                            
+                            {
+                            	"bindingName": "Tweak_N252",
+                            	"label":       "Scale",
+                            	"widget":      "spinbox",
+                            	"step":        "0.01",
+                            	"sortIndex":   "0",
+                            	"hint":        "",
+                            	"default":     "1.0"
+                            },
+                            
+                            {
+                            	"bindingName": "Tweak_N253",
+                            	"label":       "Center",
+                            	"widget":      "spinbox",
+                            	"step":        "0.01",
+                            	"sortIndex":   "0",
+                            	"hint":        "",
+                            	"default":     "0.0"
+                            },
+                            
+                            {
+                            	"bindingName": "Tweak_N224",
+                            	"label":       "Volume Fill",
+                            	"widget":      "slider",
+                            	"min":         0,
+                            	"max":         1,
+                            	"step":        "0.01",
+                            	"sortIndex":   "0",
+                            	"hint":        "",
+                            	"default":     "1.0"
+                            },
+                        {
+                        	"widget": "group_end"
+                        },
+                        
+                        {
+                        	"label": "Volume Cube",
+                        	"widget": "group_start"
+                        },                            
+                            {
+                            	"bindingName": "Tweak_N250",
+                            	"label":       "Scale",
+                            	"widget":      "spinbox",
+                            	"step":        "0.01",
+                            	"sortIndex":   "0",
+                            	"hint":        "",
+                            	"default":     "1.0"
+                            },
+                            
+                            {
+                            	"bindingName": "Tweak_N251",
+                            	"label":       "Center",
+                            	"widget":      "spinbox",
+                            	"step":        "0.01",
+                            	"sortIndex":   "0",
+                            	"hint":        "",
+                            	"default":     "0.0"
+                            },
+                            
+                            {
+                            	"bindingName": "volumeFill",
+                            	"label":       "Volume Fill",
+                            	"widget":      "slider",
+                            	"min":         0,
+                            	"max":         1,
+                            	"step":        "0.01",
+                            	"sortIndex":   "0",
+                            	"hint":        "",
+                            	"default":     "1.0"
+                            },
+                        {
+                        	"widget": "group_end"
+                        },
+                        
+                        {
+                        	"label": "Volume Cylinder",
+                        	"widget": "group_start"
+                        },                            
+                            {
+                            	"bindingName": "Tweak_N238",
+                            	"label":       "Radius",
+                            	"widget":      "spinbox",
+                            	"step":        "0.01",
+                            	"sortIndex":   "0",
+                            	"hint":        "",
+                            	"default":     "2.0"
+                            },
+                            
+                            {
+                            	"bindingName": "Tweak_N16",
+                            	"label":       "START Radius",
+                            	"widget":      "slider",
+                            	"min":         0,
+                            	"max":         1,
+                            	"step":        "0.01",
+                            	"sortIndex":   "0",
+                            	"hint":        "",
+                            	"default":     "1.0"
+                            },
+                            
+                            {
+                            	"bindingName": "Tweak_N234",
+                            	"label":       "END Radius",
+                            	"widget":      "slider",
+                            	"min":         0,
+                            	"max":         1,
+                            	"step":        "0.01",
+                            	"sortIndex":   "0",
+                            	"hint":        "",
+                            	"default":     "1.0"
+                            },
+                            
+                            {
+                            	"bindingName": "Tweak_N239",
+                            	"label":       "Height",
+                            	"widget":      "spinbox",
+                            	"step":        "0.01",
+                            	"sortIndex":   "0",
+                            	"hint":        "",
+                            	"default":     "5.0"
+                            },
+                            
+                            {
+                            	"bindingName": "Tweak_N240",
+                            	"label":       "Arc Angels",
+                            	"widget":      "spinbox",
+                            	"step":        "0.01",
+                            	"sortIndex":   "0",
+                            	"hint":        "",
+                            	"default":     "0.0"
+                            },
+                            
+                            {
+                            	"bindingName": "Tweak_N241",
+                            	"label":       "Scale",
+                            	"widget":      "spinbox",
+                            	"step":        "0.01",
+                            	"sortIndex":   "0",
+                            	"hint":        "",
+                            	"default":     "1.0"
+                            },
+                            
+                            {
+                            	"bindingName": "Tweak_N242",
+                            	"label":       "Center",
+                            	"widget":      "spinbox",
+                            	"step":        "0.01",
+                            	"sortIndex":   "0",
+                            	"hint":        "",
+                            	"default":     "0.0"
+                            },
+                            
+                            {
+                            	"bindingName": "Tweak_N226",
+                            	"label":       "Volume Fill",
+                            	"widget":      "slider",
+                            	"min":         0,
+                            	"max":         1,
+                            	"step":        "0.01",
+                            	"sortIndex":   "0",
+                            	"hint":        "",
+                            	"default":     "1.0"
+                            },
+                            
+                            {
+                            	"bindingName": "Tweak_N243",
+                            	"label":       "Orientation Axis",
+                            	"widget":      "slider",
+                            	"min":         0,
+                            	"max":         2,
+                            	"step":        "1",
+                            	"sortIndex":   "0",
+                            	"hint":        "",
+                            	"default":     "1.0"
+                            },
+                        {
+                        	"widget": "group_end"
+                        },
+                        
+                        {
+                        	"label": "Volume Torus",
+                        	"widget": "group_start"
+                        },                            
+                            {
+                            	"bindingName": "Tweak_N257",
+                            	"label":       "Inner Radius",
+                            	"widget":      "spinbox",
+                            	"step":        "0.01",
+                            	"sortIndex":   "0",
+                            	"hint":        "",
+                            	"default":     "1.0"
+                            },
+                            
+                            {
+                            	"bindingName": "Tweak_N258",
+                            	"label":       "Outer Radius",
+                            	"widget":      "spinbox",
+                            	"step":        "0.01",
+                            	"sortIndex":   "0",
+                            	"hint":        "",
+                            	"default":     "1.0"
+                            },
+                            
+                            {
+                            	"bindingName": "Tweak_N259",
+                            	"label":       "Arc Angles",
+                            	"widget":      "spinbox",
+                            	"step":        "0.01",
+                            	"sortIndex":   "0",
+                            	"hint":        "",
+                            	"default":     "1.0"
+                            },
+                            
+                            {
+                            	"bindingName": "Tweak_N260",
+                            	"label":       "Scale",
+                            	"widget":      "spinbox",
+                            	"step":        "0.01",
+                            	"sortIndex":   "0",
+                            	"hint":        "",
+                            	"default":     "1.0"
+                            },
+                            
+                            {
+                            	"bindingName": "Tweak_N261",
+                            	"label":       "Center",
+                            	"widget":      "spinbox",
+                            	"step":        "0.01",
+                            	"sortIndex":   "0",
+                            	"hint":        "",
+                            	"default":     "0.0"
+                            },
+                            
+                            {
+                            	"bindingName": "Tweak_N262",
+                            	"label":       "Volume Fill",
+                            	"widget":      "slider",
+                            	"min":         0,
+                            	"max":         1,
+                            	"step":        "0.01",
+                            	"sortIndex":   "0",
+                            	"hint":        "",
+                            	"default":     "1.0"
+                            },
+                            
+                            {
+                            	"bindingName": "Tweak_N263",
+                            	"label":       "Orientation Axis",
+                            	"widget":      "slider",
+                            	"min":         0,
+                            	"max":         2,
+                            	"step":        "1",
+                            	"sortIndex":   "0",
+                            	"hint":        "",
+                            	"default":     "0.0"
+                            },
+                        {
+                        	"widget": "group_end"
+                        },
+                        
+                        {
+                        	"label": "Volume Grid",
+                        	"widget": "group_start"
+                        },                            
+                            {
+                            	"bindingName": "Tweak_N236",
+                            	"label":       "Size",
+                            	"widget":      "spinbox",
+                            	"step":        "0.01",
+                            	"sortIndex":   "0",
+                            	"hint":        "",
+                            	"default":     "10.0"
+                            },
+                            
+                            {
+                            	"bindingName": "Tweak_N237",
+                            	"label":       "Dimention",
+                            	"widget":      "spinbox",
+                            	"min":         1,
+                            	"step":        "1",
+                            	"sortIndex":   "0",
+                            	"hint":        "",
+                            	"default":     "10.0"
+                            },
+                            
+                            {
+                            	"bindingName": "Tweak_N264",
+                            	"label":       "Offset",
+                            	"widget":      "spinbox",
+                            	"step":        "0.01",
+                            	"sortIndex":   "0",
+                            	"hint":        "",
+                            	"default":     "0.0"
+                            },
+                        {
+                        	"widget": "group_end"
+                        },
+                        
+                        {
+                        	"label": "Volume Helix",
+                        	"widget": "group_start"
+                        },                            
+                            {
+                            	"bindingName": "Tweak_N232",
+                            	"label":       "Start Radius",
+                            	"widget":      "slider",
+                            	"min":         1,
+                            	"max":         64,
+                            	"step":        "0.01",
+                            	"sortIndex":   "0",
+                            	"hint":        "",
+                            	"default":     "1.0"
+                            },
+                            
+                            {
+                            	"bindingName": "Tweak_N233",
+                            	"label":       "End Radius",
+                            	"widget":      "slider",
+                            	"min":         1,
+                            	"max":         64,
+                            	"step":        "0.01",
+                            	"sortIndex":   "0",
+                            	"hint":        "",
+                            	"default":     "1.0"
+                            },
+                            
+                            {
+                            	"bindingName": "Tweak_N231",
+                            	"label":       "Height",
+                            	"widget":      "slider",
+                            	"min":         0,
+                            	"max":         64,
+                            	"step":        "0.01",
+                            	"sortIndex":   "0",
+                            	"hint":        "",
+                            	"default":     "1.0"
+                            },
+                            
+                            {
+                            	"bindingName": "Tweak_N304",
+                            	"label":       "Height to center",
+                            	"widget":      "slider",
+                            	"min":         0,
+                            	"max":         2,
+                            	"step":        "1",
+                            	"sortIndex":   "0",
+                            	"hint":        "0 - Start, 1 - Center, 2 - End",
+                            	"default":     "0.0"
+                            },
+                            
+                            {
+                            	"bindingName": "Tweak_N229",
+                            	"label":       "Thickness",
+                            	"widget":      "slider",
+                            	"min":         0,
+                            	"max":         64,
+                            	"step":        "0.01",
+                            	"sortIndex":   "0",
+                            	"hint":        "",
+                            	"default":     "1.0"
+                            },
+                            
+                            {
+                            	"bindingName": "Tweak_N285",
+                            	"label":       "Volume Fill",
+                            	"widget":      "slider",
+                            	"min":         0,
+                            	"max":         1,
+                            	"step":        "0.01",
+                            	"sortIndex":   "0",
+                            	"hint":        "",
+                            	"default":     "1.0"
+                            },
+                            
+                            {
+                            	"bindingName": "Tweak_N245",
+                            	"label":       "Orientation Axis",
+                            	"widget":      "slider",
+                            	"min":         0,
+                            	"max":         2,
+                            	"step":        "1",
+                            	"sortIndex":   "0",
+                            	"hint":        "",
+                            	"default":     "0.0"
+                            },
+                            
+                            {
+                            	"bindingName": "Tweak_N230",
+                            	"label":       "Turns",
+                            	"widget":      "slider",
+                            	"min":         0,
+                            	"max":         16,
+                            	"step":        "0.01",
+                            	"sortIndex":   "0",
+                            	"hint":        "",
+                            	"default":     "1.0"
+                            },
+                            
+                            {
+                            	"bindingName": "animated",
+                            	"label":       "Animated",
+                            	"widget":      "checkbox",
+                            	"sortIndex":   "0",
+                            	"hint":        "along the path"
+                            },
+                            
+                            {
+                            	"bindingName": "Tweak_N279",
+                            	"label":       "Speed",
+                            	"widget":      "spinbox",
+                            	"step":        "0.01",
+                            	"sortIndex":   "0",
+                            	"hint":        "",
+                            	"default":     "0.1"
+                            },
+                            
+                            {
+                            	"bindingName": "Tweak_N303",
+                            	"label":       "Random Speed",
+                            	"widget":      "checkbox",
+                            	"sortIndex":   "0",
+                            	"hint":        ""
+                            },
+                            
+                            {
+                            	"bindingName": "Tweak_N336",
+                            	"label":       "Random Speed Min/Max",
+                            	"widget":      "spinbox",
+                            	"step":        "0.01",
+                            	"sortIndex":   "0",
+                            	"hint":        "",
+                            	"default":     "0.1"
+                            },
+                            
+                            {
+                            	"label": "Thickness Parameters",
+                            	"widget": "group_start"
+                            },                                
+                                {
+                                	"bindingName": "Tweak_N280",
+                                	"label":       "from Curve",
+                                	"widget":      "checkbox",
+                                	"sortIndex":   "0",
+                                	"hint":        ""
+                                },
+                                
+                                {
+                                	
+                                	"bindingName": "Tweak_N157",
+                                	"label":       "Curve",
+                                	"sortIndex":   "0",
+                                	"hint":        ""
+                                	
+                                },
+                            {
+                            	"widget": "group_end"
+                            },
+                        {
+                        	"widget": "group_end"
+                        },
+                        
+                        {
+                        	"label": "Volume Curves",
+                        	"widget": "group_start"
+                        },                            
+                            {
+                            	
+                            	"bindingName": "Tweak_N293",
+                            	"label":       "Curve X",
+                            	"sortIndex":   "0",
+                            	"hint":        ""
+                            	
+                            },
+                            
+                            {
+                            	
+                            	"bindingName": "Tweak_N305",
+                            	"label":       "Curve Y",
+                            	"sortIndex":   "0",
+                            	"hint":        ""
+                            	
+                            },
+                            
+                            {
+                            	
+                            	"bindingName": "Tweak_N297",
+                            	"label":       "Curve Z",
+                            	"sortIndex":   "0",
+                            	"hint":        ""
+                            	
+                            },
+                            
+                            {
+                            	"bindingName": "Tweak_N298",
+                            	"label":       "Scale All",
+                            	"widget":      "slider",
+                            	"min":         0,
+                            	"max":         64,
+                            	"step":        "0.01",
+                            	"sortIndex":   "0",
+                            	"hint":        "",
+                            	"default":     "0.1"
+                            },
+                            
+                            {
+                            	"bindingName": "Tweak_N330",
+                            	"label":       "Scale XYZ",
+                            	"widget":      "spinbox",
+                            	"min":         0,
+                            	"max":         16,
+                            	"step":        "0.01",
+                            	"sortIndex":   "0",
+                            	"hint":        "",
+                            	"default":     "1.0"
+                            },
+                            
+                            {
+                            	"bindingName": "Tweak_N308",
+                            	"label":       "Animated",
+                            	"widget":      "checkbox",
+                            	"sortIndex":   "0",
+                            	"hint":        "along the path"
+                            },
+                            
+                            {
+                            	"bindingName": "Tweak_N294",
+                            	"label":       "Speed",
+                            	"widget":      "spinbox",
+                            	"step":        "0.01",
+                            	"sortIndex":   "0",
+                            	"hint":        "",
+                            	"default":     "0.1"
+                            },
+                            
+                            {
+                            	"bindingName": "Tweak_N339",
+                            	"label":       "Random Speed",
+                            	"widget":      "checkbox",
+                            	"sortIndex":   "0",
+                            	"hint":        ""
+                            },
+                            
+                            {
+                            	"bindingName": "Tweak_N342",
+                            	"label":       "Random Speed Min/Max",
+                            	"widget":      "spinbox",
+                            	"step":        "0.01",
+                            	"sortIndex":   "0",
+                            	"hint":        "",
+                            	"default":     "0.1"
+                            },
+                            
+                            {
+                            	"bindingName": "Tweak_N301",
+                            	"label":       "Thickness",
+                            	"widget":      "slider",
+                            	"min":         0,
+                            	"max":         2,
+                            	"step":        "0.01",
+                            	"sortIndex":   "0",
+                            	"hint":        "",
+                            	"default":     "1.0"
+                            },
+                            
+                            {
+                            	"bindingName": "Tweak_N302",
+                            	"label":       "Volume Fill",
+                            	"widget":      "slider",
+                            	"min":         0,
+                            	"max":         1,
+                            	"step":        "0.01",
+                            	"sortIndex":   "0",
+                            	"hint":        "",
+                            	"default":     "1.0"
+                            },
+                            
+                            {
+                            	"bindingName": "Tweak_N318",
+                            	"label":       "Resolution",
+                            	"widget":      "spinbox",
+                            	"step":        "0.001",
+                            	"sortIndex":   "0",
+                            	"hint":        "",
+                            	"default":     "0.03"
+                            },
+                            
+                            {
+                            	"label": "Thickness Parameters",
+                            	"widget": "group_start"
+                            },                                
+                                {
+                                	"bindingName": "Tweak_N274",
+                                	"label":       "from Curve",
+                                	"widget":      "checkbox",
+                                	"sortIndex":   "0",
+                                	"hint":        ""
+                                },
+                                
+                                {
+                                	
+                                	"bindingName": "Tweak_N299",
+                                	"label":       "Curve Thickness",
+                                	"sortIndex":   "0",
+                                	"hint":        ""
+                                	
+                                },
+                            {
+                            	"widget": "group_end"
+                            },
+                        {
+                        	"widget": "group_end"
+                        },
+                        
+                        {
+                        	"label": "Volume Screen Coordinates",
+                        	"widget": "group_start"
+                        },                            
+                            {
+                            	"bindingName": "Tweak_N271",
+                            	"label":       "Seed",
+                            	"widget":      "spinbox",
+                            	"min":         1,
+                            	"step":        1,
+                            	"sortIndex":   "0",
+                            	"hint":        "Random UV position INT seed"
+                            },
+                            
+                            {
+                            	"bindingName": "Tweak_N273",
+                            	"label":       "Position Z",
+                            	"widget":      "spinbox",
+                            	"step":        "0.01",
+                            	"sortIndex":   "0",
+                            	"hint":        "Z Depth",
+                            	"default":     "40.0"
+                            },
+                            
+                            {
+                            	"bindingName": "Tweak_N270",
+                            	"label":       "Expand XY",
+                            	"widget":      "spinbox",
+                            	"step":        "0.01",
+                            	"sortIndex":   "0",
+                            	"hint":        "",
+                            	"default":     "0.0"
+                            },
+                            
+                            {
+                            	"bindingName": "Tweak_N272",
+                            	"label":       "Offset",
+                            	"widget":      "spinbox",
+                            	"step":        "0.01",
+                            	"sortIndex":   "0",
+                            	"hint":        "XY offset",
+                            	"default":     "0.0"
+                            },
+                            
+                            {
+                            	"bindingName": "Tweak_N269",
+                            	"label":       "Depth Thickness",
+                            	"widget":      "slider",
+                            	"min":         0,
+                            	"max":         1,
+                            	"step":        "0.01",
+                            	"sortIndex":   "0",
+                            	"hint":        "normalized distance from Depth to Camera and back",
+                            	"default":     "1.0"
+                            },
+                            
+                            {
+                            	"bindingName": "Tweak_N275",
+                            	"label":       "Push",
+                            	"widget":      "slider",
+                            	"min":         0,
+                            	"max":         1,
+                            	"step":        "0.01",
+                            	"sortIndex":   "0",
+                            	"hint":        "",
+                            	"default":     "1.0"
+                            },
+                            
+                            {
+                            	"bindingName": "Tweak_N161",
+                            	"label":       "Push Metod",
+                            	"widget":      "slider",
+                            	"min":         0,
+                            	"max":         2,
+                            	"step":        1,
+                            	"sortIndex":   "0",
+                            	"hint":        "0 - no push, 1 - distance remap,  2 - mix all"
+                            },
+                        {
+                        	"widget": "group_end"
+                        },
+                    {
+                    	"_bindingName": "INILOCATION",
+                    	"widget": "group_end"
+                    }
+                    ,
+                    
+                    {
+                    	"label":       "Initial Box Spawn",
+                    	"bindingName": "BOXSPAWN",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"widget":      "group_start",
+                    	"sortIndex":   "0",
+                    	"hint":        "Initial Spawn Shape Offset."
+                    }
+                    ,                        
+                        {
+                        	"bindingName": "spawnBox",
+                        	"label":       "Spawn Box",
+                        	"widget":      "spinbox",
+                        	"step":        "0.01",
+                        	"sortIndex":   "14",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                    {
+                    	"_bindingName": "BOXSPAWN",
+                    	"widget": "group_end"
+                    }
+                    ,
+                    
+                    {
+                    	"label":       "Initial Sphere Spawn",
+                    	"bindingName": "SPHERESPAWN",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"widget":      "group_start",
+                    	"sortIndex":   "0",
+                    	"hint":        "Initial Spawn Shape Offset."
+                    }
+                    ,                        
+                        {
+                        	"bindingName": "spawnSphere",
+                        	"label":       "Spawn Sphere",
+                        	"widget":      "spinbox",
+                        	"step":        "0.01",
+                        	"sortIndex":   "16",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                    {
+                    	"_bindingName": "SPHERESPAWN",
+                    	"widget": "group_end"
+                    }
+                    ,
+                {
+                	"widget": "group_end"
+                },
+                
+                {
+                	"label": "Spawn / Time",
+                	"widget": "group_start"
+                },                    
+                    {
+                    	"bindingName": "timeGlobal",
+                    	"label":       "Global Time Multiplier",
+                    	"widget":      "spinbox",
+                    	"step":        "0.01",
+                    	"sortIndex":   "1",
+                    	"hint":        "Particle System Time Multiplier. 1.0 is default.",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"label":       "External Time",
+                    	"bindingName": "EXTERNALTIME",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"widget":      "group_start",
+                    	"sortIndex":   "0",
+                    	"hint":        "Time can be overrided by this function"
+                    }
+                    ,                        
+                        {
+                        	"bindingName": "externalTimeInput",
+                        	"label":       "External Time Input",
+                        	"widget":      "spinbox",
+                        	"step":        "0.01",
+                        	"sortIndex":   "3",
+                        	"hint":        "Use externalTimeInput to override particles time.",
+                        	"default":     "0.0"
+                        },
+                    {
+                    	"_bindingName": "EXTERNALTIME",
+                    	"widget": "group_end"
+                    }
+                    ,
+                    
+                    {
+                    	"bindingName": "externalSeed",
+                    	"label":       "External Seed",
+                    	"widget":      "slider",
+                    	"min":         0,
+                    	"max":         1,
+                    	"step":        "0.01",
+                    	"sortIndex":   "4",
+                    	"hint":        "This control randomizes the look of the particle system given the same setup. Valid range is 0-1.",
+                    	"default":     "0.0"
+                    },
+                    
+                    {
+                    	"bindingName": "WORLDPOSSEED",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"label":       "World Position Seed",
+                    	"widget":      "checkbox",
+                    	"sortIndex":   "5",
+                    	"hint":        "Use World Position as Seed Value."
+                    },
+                    
+                    {
+                    	"bindingName": "lifeTimeConstant",
+                    	"label":       "Lifetime",
+                    	"widget":      "spinbox",
+                    	"step":        "0.01",
+                    	"sortIndex":   "6",
+                    	"hint":        "How long particles live.",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"label":       "Lifetime Random",
+                    	"bindingName": "LIFETIMEMINMAX",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"widget":      "group_start",
+                    	"sortIndex":   "0",
+                    	"hint":        "When enabled, particles lifetime is randomized using Lifetime Min/Max."
+                    }
+                    ,                        
+                        {
+                        	"bindingName": "lifeTimeMinMax",
+                        	"label":       "Lifetime Min/Max",
+                        	"widget":      "spinbox",
+                        	"step":        "0.01",
+                        	"sortIndex":   "8",
+                        	"hint":        "The min and max possible lifetime for particles.",
+                        	"default":     "1.0"
+                        },
+                    {
+                    	"_bindingName": "LIFETIMEMINMAX",
+                    	"widget": "group_end"
+                    }
+                    ,
+                    
+                    {
+                    	"bindingName": "spawnDuration",
+                    	"label":       "Spawn Duration",
+                    	"widget":      "spinbox",
+                    	"step":        "0.01",
+                    	"sortIndex":   "9",
+                    	"hint":        "The number of seconds between when the lens starts and when spawning stops. 0 means infinite spawn.",
+                    	"default":     "0.0"
+                    },
+                    
+                    {
+                    	"bindingName": "INSTANTSPAWN",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"label":       "Instant Spawn",
+                    	"widget":      "checkbox",
+                    	"sortIndex":   "20",
+                    	"hint":        "All Particle Spawn at Time of 0."
+                    },
+                    
+                    {
+                    	"bindingName": "CONSTANTSPAWN",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"label":       "Constant Spawn",
+                    	"widget":      "checkbox",
+                    	"sortIndex":   "21",
+                    	"hint":        "When enabled, particles spawn at consistent intervals. The interval is based on the lifetime of the particles and the particle count."
+                    },
+                    
+                    {
+                    	"bindingName": "PREWARMSPAWN",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"label":       "Pre-Warm",
+                    	"widget":      "checkbox",
+                    	"sortIndex":   "22",
+                    	"hint":        "When enabled, particles spawn as if the system has already been running.\nOtherwise, particles spawn in when enabled."
+                    },
+                {
+                	"widget": "group_end"
+                },
+                
+                {
+                	"label": "Textures",
+                	"widget": "group_start"
+                },                    
+                    {
+                    	"label":       "Base Texture",
+                    	"bindingName": "BASETEXTURE",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"widget":      "group_start",
+                    	"sortIndex":   "0",
+                    	"hint":        "Base Texture for Particles."
+                    }
+                    ,                        
+                        { 
+                        	"bindingName": "mainTexture", 
+                        	"label":       "Texture", 
+                        	"widget":      "texture_group",
+                        	"sortIndex":   "21",
+                        	"hint":        ""
+                        },
+                    {
+                    	"_bindingName": "BASETEXTURE",
+                    	"widget": "group_end"
+                    }
+                    ,
+                    
+                    {
+                    	"label":       "Flipbook",
+                    	"bindingName": "FLIPBOOK",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"widget":      "group_start",
+                    	"sortIndex":   "0",
+                    	"hint":        "This function can be used to create a texture animation."
+                    }
+                    ,                        
+                        {
+                        	"bindingName": "gridSize",
+                        	"label":       "Num Columns, Rows",
+                        	"widget":      "spinbox",
+                        	"min":         1,
+                        	"step":        "1",
+                        	"sortIndex":   "23",
+                        	"hint":        "Sets the flipbook texture atlas grid size. x is the number of columns, y is the number of rows in the atlas.",
+                        	"default":     "1.0"
+                        },
+                        
+                        {
+                        	"bindingName": "numValidFrames",
+                        	"label":       "Num Valid Frames",
+                        	"widget":      "spinbox",
+                        	"min":         1,
+                        	"step":        "1",
+                        	"sortIndex":   "24",
+                        	"hint":        "Number of valid animation frames. May be set to at most columns*rows. May be set to less if there are unused frames at the end of the grid.",
+                        	"default":     "1.0"
+                        },
+                        
+                        {
+                        	"bindingName": "flipBookSpeedMult",
+                        	"label":       "Flipbook Speed",
+                        	"widget":      "spinbox",
+                        	"step":        "0.01",
+                        	"sortIndex":   "25",
+                        	"hint":        "Flipbook playback speed, in frames per second. (For example, speed = 10 will play 10 frames per second). \n\nWhen By Life is enabled, then speed is frames per particle lifetime.",
+                        	"default":     "0.0"
+                        },
+                        
+                        {
+                        	"bindingName": "flipBookRandomStart",
+                        	"label":       "Flipbook Random",
+                        	"widget":      "spinbox",
+                        	"step":        "1",
+                        	"sortIndex":   "26",
+                        	"hint":        "Randomizes the start frame, with a range of 0 to Random Value.\n\nFor example:\n   - A value of 0 will have no random offset (all animations start on Frame 0).\n   - A value of 1 will cause the start frame to be either Frame 0 or Frame 1.",
+                        	"default":     "0.0"
+                        },
+                        
+                        {
+                        	"bindingName": "FLIPBOOKBLEND",
+                        	"bindingType": "define",
+                        	"optimize":    true,
+                        	"label":       "Frame Blend",
+                        	"widget":      "checkbox",
+                        	"sortIndex":   "27",
+                        	"hint":        "Blend Flipbook between frames."
+                        },
+                        
+                        {
+                        	"bindingName": "FLIPBOOKBYLIFE",
+                        	"bindingType": "define",
+                        	"optimize":    true,
+                        	"label":       "By Life",
+                        	"widget":      "checkbox",
+                        	"sortIndex":   "40",
+                        	"hint":        "Flipbook speed normalized by particle life."
+                        },
+                    {
+                    	"_bindingName": "FLIPBOOK",
+                    	"widget": "group_end"
+                    }
+                    ,
+                    
+                    {
+                    	"label":       "Color Ramp Texture",
+                    	"bindingName": "COLORRAMP",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"widget":      "group_start",
+                    	"sortIndex":   "0",
+                    	"hint":        "This can animate color/alpha over lifetime by ramp texture. size need to be 128x1."
+                    }
+                    ,                        
+                        { 
+                        	"bindingName": "colorRampTexture", 
+                        	"label":       "Texture", 
+                        	"widget":      "texture_group",
+                        	"sortIndex":   "37",
+                        	"hint":        ""
+                        },
+                        
+                        {
+                        	"bindingName": "colorRampMult",
+                        	"label":       "Color Ramp Mult",
+                        	"widget":      "spinbox",
+                        	"step":        "0.01",
+                        	"sortIndex":   "38",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                        
+                        {
+                        	"label":       "No Random Offset",
+                        	"bindingName": "NORANDOFFSET",
+                        	"bindingType": "define",
+                        	"optimize":    true,
+                        	"widget":      "group_start",
+                        	"sortIndex":   "0",
+                        	"hint":        ""
+                        }
+                        ,                        {
+                        	"_bindingName": "NORANDOFFSET",
+                        	"widget": "group_end"
+                        }
+                        ,
+                        
+                        {
+                        	"label":       "Quantize",
+                        	"bindingName": "QUANTIZE",
+                        	"bindingType": "define",
+                        	"optimize":    true,
+                        	"widget":      "group_start",
+                        	"sortIndex":   "0",
+                        	"hint":        ""
+                        }
+                        ,                        {
+                        	"_bindingName": "QUANTIZE",
+                        	"widget": "group_end"
+                        }
+                        ,
+                    {
+                    	"_bindingName": "COLORRAMP",
+                    	"widget": "group_end"
+                    }
+                    ,
+                {
+                	"widget": "group_end"
+                },
+                
+                {
+                	"label": "Color / Alpha",
+                	"widget": "group_start"
+                },                    
+                    {
+                    	"bindingName": "colorStart",
+                    	"label":       "Color Start",
+                    	"widget":      "color",
+                    	"sortIndex":   "29",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "colorEnd",
+                    	"label":       "Color End",
+                    	"widget":      "color",
+                    	"sortIndex":   "30",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"label":       "Color Random",
+                    	"bindingName": "COLORMINMAX",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"widget":      "group_start",
+                    	"sortIndex":   "0",
+                    	"hint":        ""
+                    }
+                    ,                        
+                        {
+                        	"bindingName": "colorMinStart",
+                        	"label":       "Color Min Start",
+                        	"widget":      "color",
+                        	"sortIndex":   "32",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                        
+                        {
+                        	"bindingName": "colorMaxStart",
+                        	"label":       "Color Max Start",
+                        	"widget":      "color",
+                        	"sortIndex":   "33",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                        
+                        {
+                        	"bindingName": "colorMinEnd",
+                        	"label":       "Color Min End",
+                        	"widget":      "color",
+                        	"sortIndex":   "34",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                        
+                        {
+                        	"bindingName": "colorMaxEnd",
+                        	"label":       "Color Max End",
+                        	"widget":      "color",
+                        	"sortIndex":   "35",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                    {
+                    	"_bindingName": "COLORMINMAX",
+                    	"widget": "group_end"
+                    }
+                    ,
+                    
+                    {
+                    	"bindingName": "alphaStart",
+                    	"label":       "Alpha Start",
+                    	"widget":      "spinbox",
+                    	"step":        "0.01",
+                    	"sortIndex":   "40",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "alphaEnd",
+                    	"label":       "Alpha End",
+                    	"widget":      "spinbox",
+                    	"step":        "0.01",
+                    	"sortIndex":   "41",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"label":       "Alpha Random",
+                    	"bindingName": "ALPHAMINMAX",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"widget":      "group_start",
+                    	"sortIndex":   "0",
+                    	"hint":        ""
+                    }
+                    ,                        
+                        {
+                        	"bindingName": "alphaMinStart",
+                        	"label":       "Alpha Min Start",
+                        	"widget":      "spinbox",
+                        	"step":        "0.01",
+                        	"sortIndex":   "43",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                        
+                        {
+                        	"bindingName": "alphaMinEnd",
+                        	"label":       "Alpha Min End",
+                        	"widget":      "spinbox",
+                        	"step":        "0.01",
+                        	"sortIndex":   "44",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                        
+                        {
+                        	"bindingName": "alphaMaxStart",
+                        	"label":       "Alpha Max Start",
+                        	"widget":      "spinbox",
+                        	"step":        "0.01",
+                        	"sortIndex":   "45",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                        
+                        {
+                        	"bindingName": "alphaMaxEnd",
+                        	"label":       "Alpha Max End",
+                        	"widget":      "spinbox",
+                        	"step":        "0.01",
+                        	"sortIndex":   "46",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                    {
+                    	"_bindingName": "ALPHAMINMAX",
+                    	"widget": "group_end"
+                    }
+                    ,
+                    
+                    {
+                    	"bindingName": "PREMULTIPLIEDCOLOR",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"label":       "Premultiplied Color",
+                    	"widget":      "checkbox",
+                    	"sortIndex":   "47",
+                    	"hint":        "Use Premultiplied Alpha as Blend Mode."
+                    },
+                    
+                    {
+                    	"bindingName": "BLACKASALPHA",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"label":       "Black as Alpha",
+                    	"widget":      "checkbox",
+                    	"sortIndex":   "55",
+                    	"hint":        "Use Add or Screen as Blend Mode."
+                    },
+                    
+                    {
+                    	"label":       "Alpha Dissolving",
+                    	"bindingName": "ALPHADISSOLVE",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"widget":      "group_start",
+                    	"sortIndex":   "0",
+                    	"hint":        "global dissovle control, the bigger the number the faster particle will dissolve."
+                    }
+                    ,                        
+                        {
+                        	"bindingName": "alphaDissolveMult",
+                        	"label":       "Dissolve Speed",
+                        	"widget":      "spinbox",
+                        	"step":        "0.01",
+                        	"sortIndex":   "58",
+                        	"hint":        "Global dissovle control, the bigger the number the faster particle will dissolve.",
+                        	"default":     "1.0"
+                        },
+                    {
+                    	"_bindingName": "ALPHADISSOLVE",
+                    	"widget": "group_end"
+                    }
+                    ,
+                    
+                    {
+                    	"bindingName": "COLORMONOMIN",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"label":       "Mono Color Random",
+                    	"widget":      "checkbox",
+                    	"sortIndex":   "59",
+                    	"hint":        ""
+                    },
+                    
+                    {
+                    	"label":       "Fade Close to Camera",
+                    	"bindingName": "SCREENFADE",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"widget":      "group_start",
+                    	"sortIndex":   "0",
+                    	"hint":        ""
+                    }
+                    ,                        
+                        {
+                        	"bindingName": "fadeDistanceVisible",
+                        	"label":       "Fade Dist Visible",
+                        	"widget":      "slider",
+                        	"min":         0,
+                        	"max":         1000,
+                        	"step":        "0.01",
+                        	"sortIndex":   "60",
+                        	"hint":        "Particles will be fully visible at this distance, and fade out towards Fade Dist Invisible.",
+                        	"default":     "50.0"
+                        },
+                        
+                        {
+                        	"bindingName": "fadeDistanceInvisible",
+                        	"label":       "Fade Dist Invisible",
+                        	"widget":      "slider",
+                        	"min":         0,
+                        	"max":         1000,
+                        	"step":        "0.01",
+                        	"sortIndex":   "60",
+                        	"hint":        "Particles will be fully invisible at this distance, and will in towards Fade Dist Visible.",
+                        	"default":     "25.0"
+                        },
+                    {
+                    	"_bindingName": "SCREENFADE",
+                    	"widget": "group_end"
+                    }
+                    ,
+                {
+                	"widget": "group_end"
+                },
+                
+                {
+                	"label":       "PBR",
+                	"bindingName": "PBR",
+                	"bindingType": "define",
+                	"optimize":    true,
+                	"widget":      "group_start",
+                	"sortIndex":   "0",
+                	"hint":        "(3D Mesh only) When enabled, applies PBR lighting to the mesh."
+                }
+                ,                    
+                    {
+                    	"bindingName": "metallic",
+                    	"label":       "Metallic",
+                    	"widget":      "slider",
+                    	"min":         0,
+                    	"max":         1,
+                    	"step":        "0.01",
+                    	"sortIndex":   "60",
+                    	"hint":        "(3D Mesh only) The metallic value for PBR lighting.",
+                    	"default":     "0.0"
+                    },
+                    
+                    {
+                    	"bindingName": "roughness",
+                    	"label":       "Roughness",
+                    	"widget":      "slider",
+                    	"min":         0,
+                    	"max":         1,
+                    	"step":        "0.01",
+                    	"sortIndex":   "60",
+                    	"hint":        "(3D Mesh only) The roughness value for PBR lighting.",
+                    	"default":     "0.0"
+                    },
+                    
+                    {
+                    	"label":       "Normal Map",
+                    	"bindingName": "PBRNORMALTEX",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"widget":      "group_start",
+                    	"sortIndex":   "0",
+                    	"hint":        "(3D Mesh Only)"
+                    }
+                    ,                        
+                        { 
+                        	"bindingName": "normalTexPBR", 
+                        	"label":       "Texture", 
+                        	"widget":      "texture_group",
+                        	"sortIndex":   "60",
+                        	"hint":        "(3D Mesh only) Applies a normal map to use with PBR lighting."
+                        },
+                    {
+                    	"_bindingName": "PBRNORMALTEX",
+                    	"widget": "group_end"
+                    }
+                    ,
+                {
+                	"_bindingName": "PBR",
+                	"widget": "group_end"
+                }
+                ,
+                
+                {
+                	"label":       "Matcap",
+                	"bindingName": "matcap",
+                	"bindingType": "define",
+                	"optimize":    true,
+                	"widget":      "group_start",
+                	"sortIndex":   "0",
+                	"hint":        "(3D Mesh only) When enabled, applies PBR lighting to the mesh."
+                }
+                ,                    
+                    {
+                    	"bindingName": "intensityMatcap",
+                    	"label":       "Intensity",
+                    	"widget":      "spinbox",
+                    	"step":        "0.01",
+                    	"sortIndex":   "61",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"label": "Matcap Map",
+                    	"widget": "group_start"
+                    },                        
+                        { 
+                        	"bindingName": "matcapTex", 
+                        	"label":       "Texture", 
+                        	"widget":      "texture_group",
+                        	"sortIndex":   "61",
+                        	"hint":        ""
+                        },
+                    {
+                    	"widget": "group_end"
+                    },
+                    
+                    {
+                    	"label":       "Normal Map",
+                    	"bindingName": "Tweak_N296",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"widget":      "group_start",
+                    	"sortIndex":   "0",
+                    	"hint":        "(3D Mesh Only)"
+                    }
+                    ,                        
+                        { 
+                        	"bindingName": "normalTexMatcap", 
+                        	"label":       "Texture", 
+                        	"widget":      "texture_group",
+                        	"sortIndex":   "61",
+                        	"hint":        "(3D Mesh only) Applies a normal map to use with PBR lighting."
+                        },
+                    {
+                    	"_bindingName": "Tweak_N296",
+                    	"widget": "group_end"
+                    }
+                    ,
+                {
+                	"_bindingName": "matcap",
+                	"widget": "group_end"
+                }
+                ,
+                
+                {
+                	"bindingName": "Tweak_N323",
+                	"bindingType": "define",
+                	"optimize":    true,
+                	"label":       "Soft Occluder ",
+                	"widget":      "checkbox",
+                	"sortIndex":   "62",
+                	"hint":        ""
+                },
+                
+                {
+                	"label": "Soft Occluder",
+                	"widget": "group_start"
+                },                    
+                    { 
+                    	"bindingName": "depthMap", 
+                    	"label":       "Depth Map", 
+                    	"widget":      "texture_group",
+                    	"sortIndex":   "62",
+                    	"hint":        ""
+                    },
+                    
+                    {
+                    	"bindingName": "startFade",
+                    	"label":       "Start Fade",
+                    	"widget":      "spinbox",
+                    	"step":        "0.01",
+                    	"sortIndex":   "62",
+                    	"hint":        "",
+                    	"default":     "3.0"
+                    },
+                    
+                    {
+                    	"bindingName": "endFade",
+                    	"label":       "End Fade",
+                    	"widget":      "spinbox",
+                    	"step":        "0.01",
+                    	"sortIndex":   "62",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "exponentFade",
+                    	"label":       "Exponent",
+                    	"widget":      "spinbox",
+                    	"step":        "0.01",
+                    	"sortIndex":   "62",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                {
+                	"widget": "group_end"
+                },
+                
+                {
+                	"label": "Noise",
+                	"widget": "group_start"
+                },                    
+                    {
+                    	"label":       "Noise",
+                    	"bindingName": "NOISE",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"widget":      "group_start",
+                    	"sortIndex":   "0",
+                    	"hint":        ""
+                    }
+                    ,                        
+                        {
+                        	"bindingName": "noiseMult",
+                        	"label":       "Noise Scale",
+                        	"widget":      "spinbox",
+                        	"step":        "0.01",
+                        	"sortIndex":   "81",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                        
+                        {
+                        	"bindingName": "noiseFrequency",
+                        	"label":       "Noise Frequency",
+                        	"widget":      "spinbox",
+                        	"step":        "0.01",
+                        	"sortIndex":   "82",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                    {
+                    	"_bindingName": "NOISE",
+                    	"widget": "group_end"
+                    }
+                    ,
+                    
+                    {
+                    	"label":       "Simplex Noise",
+                    	"bindingName": "SNOISE",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"widget":      "group_start",
+                    	"sortIndex":   "0",
+                    	"hint":        "Applies simplex noise to the velocity. IMPORTANT: only compatible with Mid and High End devices."
+                    }
+                    ,                        
+                        {
+                        	"bindingName": "sNoiseMult",
+                        	"label":       "Noise Scale",
+                        	"widget":      "spinbox",
+                        	"step":        "0.01",
+                        	"sortIndex":   "91",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                        
+                        {
+                        	"bindingName": "sNoiseFrequency",
+                        	"label":       "Noise Frequency",
+                        	"widget":      "spinbox",
+                        	"step":        "0.01",
+                        	"sortIndex":   "92",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                    {
+                    	"_bindingName": "SNOISE",
+                    	"widget": "group_end"
+                    }
+                    ,
+                {
+                	"widget": "group_end"
+                },
+                
+                {
+                	"label": "Velocity",
+                	"widget": "group_start"
+                },                    
+                    {
+                    	"label":       "Velocity Ramp Texture",
+                    	"bindingName": "VELRAMP",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"widget":      "group_start",
+                    	"sortIndex":   "0",
+                    	"hint":        "Using RGB channel to multiply XYZ Velocity over lifetime."
+                    }
+                    ,                        
+                        { 
+                        	"bindingName": "velRampTexture", 
+                        	"label":       "Velocity Ramp Texture", 
+                        	"widget":      "texture_group",
+                        	"sortIndex":   "91",
+                        	"hint":        "Using RGB channel to multiply XYZ Velocity over lifetime."
+                        },
+                    {
+                    	"_bindingName": "VELRAMP",
+                    	"widget": "group_end"
+                    }
+                    ,
+                    
+                    {
+                    	"bindingName": "velocityMin",
+                    	"label":       "Velocity Min",
+                    	"widget":      "spinbox",
+                    	"step":        "0.01",
+                    	"sortIndex":   "92",
+                    	"hint":        "",
+                    	"default":     "-1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "velocityMax",
+                    	"label":       "Velocity Max",
+                    	"widget":      "spinbox",
+                    	"step":        "0.01",
+                    	"sortIndex":   "93",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "velocityDrag",
+                    	"label":       "Velocity Drag",
+                    	"widget":      "spinbox",
+                    	"step":        "0.01",
+                    	"sortIndex":   "94",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                {
+                	"widget": "group_end"
+                },
+                
+                {
+                	"label": "Rotation",
+                	"widget": "group_start"
+                },                    
+                    {
+                    	"bindingName": "CENTER_BBOX",
+                    	"label":       "Center BBox",
+                    	"widget":      "checkbox",
+                    	"sortIndex":   "95",
+                    	"hint":        "(3D Mesh only) When enabled, particles will be centered about their local origin before being rotated."
+                    },
+                    
+                    {
+                    	"bindingName": "rotationRateX",
+                    	"label":       "Rotation Rate X",
+                    	"widget":      "spinbox",
+                    	"step":        "0.01",
+                    	"sortIndex":   "96",
+                    	"hint":        "(3D Mesh only) The min and max number of complete rotations a particle will complete about its X axis during its lifetime.\n\nThis rotation will be overridden if any Alignment settings are enabled.",
+                    	"default":     "0.0"
+                    },
+                    
+                    {
+                    	"bindingName": "rotationRandomX",
+                    	"label":       "Initial Rotation X",
+                    	"widget":      "spinbox",
+                    	"step":        "0.01",
+                    	"sortIndex":   "97",
+                    	"hint":        "(3D Mesh only) The min and max rotations in radians about its X axis each particle will have at birth.\n\nThis rotation will be overriden if any Alignment settings are enabled.",
+                    	"default":     "0.0"
+                    },
+                    
+                    {
+                    	"bindingName": "rotationRateY",
+                    	"label":       "Rotation Rate Y",
+                    	"widget":      "spinbox",
+                    	"step":        "0.01",
+                    	"sortIndex":   "98",
+                    	"hint":        "(3D Mesh only) The min and max number of complete rotations a particle will complete about its Y axis during its lifetime.\n\nThis rotation will be overridden if any Alignment settings are enabled.",
+                    	"default":     "0.0"
+                    },
+                    
+                    {
+                    	"bindingName": "randomRotationY",
+                    	"label":       "Initial Rotation Y",
+                    	"widget":      "spinbox",
+                    	"step":        "0.01",
+                    	"sortIndex":   "99",
+                    	"hint":        "(3D Mesh only) The min and max rotations in radians about its Y axis each particle will have at birth.\n\nThis rotation will be overridden if any Alignment settings are enabled.",
+                    	"default":     "0.0"
+                    },
+                    
+                    {
+                    	"bindingName": "rotationRate",
+                    	"label":       "Rotation Rate",
+                    	"widget":      "spinbox",
+                    	"step":        "0.01",
+                    	"sortIndex":   "100",
+                    	"hint":        "The min and max rotations each particle will have rotated over their life.",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "rotationRateZ",
+                    	"label":       "Rotation Rate Z",
+                    	"widget":      "spinbox",
+                    	"step":        "0.01",
+                    	"sortIndex":   "100",
+                    	"hint":        "(3D Mesh only) The min and max number of complete rotations a particle will complete about its Z axis during its lifetime.\n\nThis rotation can be applied with Alignment settings enabled.",
+                    	"default":     "0.0"
+                    },
+                    
+                    {
+                    	"bindingName": "rotationRandom",
+                    	"label":       "Initial Rotation",
+                    	"widget":      "spinbox",
+                    	"step":        "0.01",
+                    	"sortIndex":   "101",
+                    	"hint":        "The min and max rotations in radians each particle will have at birth.",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "randomRotationZ",
+                    	"label":       "Initial Rotation Z",
+                    	"widget":      "spinbox",
+                    	"step":        "0.01",
+                    	"sortIndex":   "101",
+                    	"hint":        "(3D Mesh only) The min and max rotations in radians about its Z axis each particle will have at birth.\n\nThis rotation can be applied with Alignment settings enabled.",
+                    	"default":     "0.0"
+                    },
+                    
+                    {
+                    	"bindingName": "rotationDrag",
+                    	"label":       "Rotation Drag",
+                    	"widget":      "spinbox",
+                    	"step":        "0.01",
+                    	"sortIndex":   "102",
+                    	"hint":        "The power applied to the rotation rate on each particle.",
+                    	"default":     "0.0"
+                    },
+                {
+                	"widget": "group_end"
+                },
+                
+                {
+                	"label": "Alignment",
+                	"widget": "group_start"
+                },                    
+                    {
+                    	"label":       "Align Particles",
+                    	"bindingName": "ALIGNPARTICLES",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"widget":      "group_start",
+                    	"sortIndex":   "0",
+                    	"hint":        "Enables controls for Particle Alignment."
+                    }
+                    ,                        
+                        {
+                        	"label":       "Align To",
+                        	"bindingType": "defineSelect",
+                        	"values":      
+                        	[
+                        		
+                        		{
+                        			"value": "ALIGN_PARTICLES_TO_OPTION 0",
+                        			"label": "Direction"
+                        		},
+                        		
+                        		{
+                        			"value": "ALIGN_PARTICLES_TO_OPTION 1",
+                        			"label": "X Axis"
+                        		},
+                        		
+                        		{
+                        			"value": "ALIGN_PARTICLES_TO_OPTION 2",
+                        			"label": "Y Axis"
+                        		},
+                        		
+                        		{
+                        			"value": "ALIGN_PARTICLES_TO_OPTION 3",
+                        			"label": "Z Axis"
+                        		}
+                        	],
+                        	"sortIndex":   "110",
+                        	"hint":        "Controls how particle alignment. (Note: 3D Mesh particles align using their +Z vector as the forward vector.)\n - Direction: particles align to their movement (based on velocity and forces).\n - X Axis: particles align to the world X Axis.\n - Y Axis: particles align to the world Y Axis.\n - Z Axis: particles align to the world Z Axis."
+                        },
+                        
+                        {
+                        	"bindingName": "sizeVelScale",
+                        	"label":       "Velocity Scale Mult",
+                        	"widget":      "spinbox",
+                        	"step":        "0.01",
+                        	"sortIndex":   "111",
+                        	"hint":        "Multiplier for velocity stretch. Higher numbers result in more stretching. \nThe final length of the particle = clamp(length(velocity) * vel scale mult * particle size, vel scale min, vel scale max)",
+                        	"default":     "1.0"
+                        },
+                        
+                        {
+                        	"bindingName": "velScaleMinMax",
+                        	"label":       "Clamp Scale (Min / Max)",
+                        	"widget":      "spinbox",
+                        	"step":        "0.01",
+                        	"sortIndex":   "112",
+                        	"hint":        "Clamps the velocity scaling to the specified range. \nThe final length of the particle = clamp(length(velocity) * vel scale mult * particle size, vel scale min, vel scale max)",
+                        	"default":     "1.0"
+                        },
+                        
+                        {
+                        	"bindingName": "IGNOREVEL",
+                        	"label":       "Ignore Velocity Scale",
+                        	"widget":      "checkbox",
+                        	"sortIndex":   "113",
+                        	"hint":        "Disables velocity stretching. Particles will still stretch based on the Velocity Scale Multiplier. \nWhen enabled, the final length of the particle = clamp(vel scale mult * particle size, vel scale min, vel scale max).\n\nNOTE: this will override Nomralize Scale setting."
+                        },
+                        
+                        {
+                        	"bindingName": "NORMALIZESCALETOTRANSFORM",
+                        	"label":       "Normalize Scale",
+                        	"widget":      "checkbox",
+                        	"sortIndex":   "114",
+                        	"hint":        "When enabled, the stretching will be normalized to the transform scale. This can help prevent extra stretching when the particle system's transform scale is big."
+                        },
+                    {
+                    	"_bindingName": "ALIGNPARTICLES",
+                    	"widget": "group_end"
+                    }
+                    ,
+                    
+                    {
+                    	"label": "Quads / Trails",
+                    	"widget": "group_start"
+                    },                        
+                        {
+                        	"label":       "Align to Camera",
+                        	"bindingType": "defineSelect",
+                        	"values":      
+                        	[
+                        		
+                        		{
+                        			"value": "ALIGN_TO_CAMERA 0",
+                        			"label": "World Up"
+                        		},
+                        		
+                        		{
+                        			"value": "ALIGN_TO_CAMERA 1",
+                        			"label": "Camera Up"
+                        		}
+                        	],
+                        	"sortIndex":   "115",
+                        	"hint":        "Controls which Up vector is used to align Quad and Trail particles to the camera."
+                        },
+                    {
+                    	"widget": "group_end"
+                    },
+                {
+                	"widget": "group_end"
+                },
+                
+                {
+                	"label": "Size",
+                	"widget": "group_start"
+                },                    
+                    {
+                    	"bindingName": "SIZEMINMAX",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"label":       "Size Random",
+                    	"widget":      "checkbox",
+                    	"sortIndex":   "119",
+                    	"hint":        "Randomizes the size of the particle size within the specified ranges. The particle's size at birth will be in the range [Size Start, Size Start Max], and the size at death will be in the range [Size End, Size End Max]."
+                    },
+                    
+                    {
+                    	"bindingName": "sizeStart",
+                    	"label":       "Size Start",
+                    	"widget":      "spinbox",
+                    	"step":        "0.01",
+                    	"sortIndex":   "120",
+                    	"hint":        "The size of the particle at birth.",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "sizeStartMax",
+                    	"label":       "Size Start Max",
+                    	"widget":      "spinbox",
+                    	"step":        "0.01",
+                    	"sortIndex":   "120",
+                    	"hint":        "Randomizes particle size at birth, in the range [Size Start, Size Start Max].",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "sizeEnd",
+                    	"label":       "Size End",
+                    	"widget":      "spinbox",
+                    	"step":        "0.01",
+                    	"sortIndex":   "121",
+                    	"hint":        "The size of the particle at death.",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "sizeEndMax",
+                    	"label":       "Size End Max",
+                    	"widget":      "spinbox",
+                    	"step":        "0.01",
+                    	"sortIndex":   "121",
+                    	"hint":        "Randomizes particle size at death, in the range [Size End, Size End Max].",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "sizeStart3D",
+                    	"label":       "Size Start",
+                    	"widget":      "spinbox",
+                    	"step":        "0.01",
+                    	"sortIndex":   "122",
+                    	"hint":        "The size of the particle at birth.\n\n(Note: Trails using 3D Mesh geometry mode will only use the X and Y values.)",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "sizeStartMax3D",
+                    	"label":       "Size Start Max",
+                    	"widget":      "spinbox",
+                    	"step":        "0.01",
+                    	"sortIndex":   "122",
+                    	"hint":        "Randomizes particle size at birth, in the range [Size Start, Size Start Max].\n\n(Note: Trails using 3D Mesh geometry mode will only use the X and Y values.)",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "sizeEnd3D",
+                    	"label":       "Size End",
+                    	"widget":      "spinbox",
+                    	"step":        "0.01",
+                    	"sortIndex":   "123",
+                    	"hint":        "The size of the particle at death.\n\n(Note: Trails using 3D Mesh geometry mode will only use the X and Y values.)",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "sizeEndMax3D",
+                    	"label":       "Size End Max",
+                    	"widget":      "spinbox",
+                    	"step":        "0.01",
+                    	"sortIndex":   "123",
+                    	"hint":        "Randomizes particle size at death, in the range [Size End, Size End Max].\n\n(Note: Trails using 3D Mesh geometry mode will only use the X and Y values.)",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "sizeSpeed",
+                    	"label":       "Size Drag",
+                    	"widget":      "spinbox",
+                    	"step":        "0.01",
+                    	"sortIndex":   "127",
+                    	"hint":        "Power applied to time controlling how quickly particles change size from Size Start to Size End.",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"label":       "Size Ramp Texture",
+                    	"bindingName": "SIZERAMP",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"widget":      "group_start",
+                    	"sortIndex":   "0",
+                    	"hint":        "CAUTION! not supported by Low-End Mobile devices (size will become 0 on Low-End devices). \n\nInterpolates the size of the particle between [0, Size Start] over the particle's lifetime. If using Size Random, the upper bound is randomized between [Size Start, Size Start Max]. The texture is read from left to right over the particle's lifetime.\n - Quad: Uses R and G values from texture to apply X and Y scale, respectively.\n - 3D Mesh: Uses R, G, and B values from texture to apply X, Y, and Z scale, respectively."
+                    }
+                    ,                        
+                        { 
+                        	"bindingName": "sizeRampTexture", 
+                        	"label":       "Size Ramp Texture", 
+                        	"widget":      "texture_group",
+                        	"sortIndex":   "129",
+                        	"hint":        "CAUTION! not supported by Low-End Mobile devices (size will become 0 on Low-End devices). \n\nInterpolates the size of the particle between [0, Size Start] over the particle's lifetime. If using Size Random, the upper bound is randomized between Size Start and Size Start Max. The texture is read from left to right over the particle's lifetime.\n - Quad: Uses R and G values from texture to apply X and Y scale, respectively.\n - 3D Mesh: Uses R, G, and B values from texture to apply X, Y, and Z scale, respectively."
+                        },
+                        
+                        {
+                        	"bindingName": "ENABLE_SIZERAMPSTARTENDASBOUNDS",
+                        	"bindingType": "define",
+                        	"optimize":    true,
+                        	"label":       "Size as Bounds",
+                        	"widget":      "checkbox",
+                        	"sortIndex":   "130",
+                        	"hint":        "When enabled, the texture value interpolates particle size between [Size End, Size Start]. If Size Random is enabled, the bounds are randomized between [Size End, Size End Max] for the lower bound, and [Size Start, Size Start Max] for the upper bound."
+                        },
+                    {
+                    	"_bindingName": "SIZERAMP",
+                    	"widget": "group_end"
+                    }
+                    ,
+                {
+                	"widget": "group_end"
+                },
+                
+                {
+                	"label": "Force / Gravity",
+                	"widget": "group_start"
+                },                    
+                    {
+                    	"bindingName": "gravity",
+                    	"label":       "Gravity - cm/s",
+                    	"widget":      "spinbox",
+                    	"step":        "0.01",
+                    	"sortIndex":   "149",
+                    	"hint":        "",
+                    	"default":     "-9.8"
+                    },
+                    
+                    {
+                    	"label":       "Local Force",
+                    	"bindingName": "FORCE",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"widget":      "group_start",
+                    	"sortIndex":   "0",
+                    	"hint":        "Adding Local Force separate from Gravity, Can be used as Wind."
+                    }
+                    ,                        
+                        {
+                        	"bindingName": "localForce",
+                        	"label":       "Amount",
+                        	"widget":      "spinbox",
+                        	"step":        "0.01",
+                        	"sortIndex":   "151",
+                        	"hint":        "Adding Local Force separate from Gravity, Can be used as Wind.",
+                        	"default":     "1.0"
+                        },
+                    {
+                    	"_bindingName": "FORCE",
+                    	"widget": "group_end"
+                    }
+                    ,
+                    
+                    {
+                    	"label":       "Custom Force",
+                    	"bindingName": "CUSTOMFORCE",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"widget":      "group_start",
+                    	"sortIndex":   "0",
+                    	"hint":        "Applies a custom force equation to GPU Particles. The default example is Attract / Repel. You can modify this force equation directly by editing the graph in the 'Custom Force (EDIT ME)' section."
+                    }
+                    ,                        
+                        {
+                        	"bindingName": "Tweak_N131",
+                        	"bindingType": "define",
+                        	"optimize":    true,
+                        	"label":       "Attract / Repel",
+                        	"widget":      "checkbox",
+                        	"sortIndex":   "152",
+                        	"hint":        ""
+                        },
+                        
+                        {
+                        	"label": "Attract / Repel",
+                        	"widget": "group_start"
+                        },                            
+                            {
+                            	"bindingName": "attractRepelForceStrength",
+                            	"label":       "Strength",
+                            	"widget":      "spinbox",
+                            	"step":        "0.01",
+                            	"sortIndex":   "152",
+                            	"hint":        "Strength of the Custom Force.\nPositive values create an attraction force.\nNegative values create a repel force.",
+                            	"default":     "1.0"
+                            },
+                            
+                            {
+                            	"bindingName": "customForceOrigin",
+                            	"label":       "Force Origin",
+                            	"widget":      "spinbox",
+                            	"step":        "0.01",
+                            	"sortIndex":   "152",
+                            	"hint":        "The origin of the custom force. This is relative to the Transform position.",
+                            	"default":     "0.0"
+                            },
+                        {
+                        	"widget": "group_end"
+                        },
+                        
+                        {
+                        	"bindingName": "Tweak_N133",
+                        	"bindingType": "define",
+                        	"optimize":    true,
+                        	"label":       "3D Texture Force",
+                        	"widget":      "checkbox",
+                        	"sortIndex":   "155",
+                        	"hint":        ""
+                        },
+                        
+                        {
+                        	"label": "3D Texture Force",
+                        	"widget": "group_start"
+                        },                            
+                            { 
+                            	"bindingName": "Tex3d", 
+                            	"label":       "3d Texture", 
+                            	"widget":      "texture_group",
+                            	"sortIndex":   "155",
+                            	"hint":        ""
+                            },
+                            
+                            {
+                            	"bindingName": "Tex3dScale",
+                            	"label":       "3d Texture Scale",
+                            	"widget":      "spinbox",
+                            	"step":        "0.01",
+                            	"sortIndex":   "155",
+                            	"hint":        "",
+                            	"default":     "1.0"
+                            },
+                            
+                            {
+                            	"bindingName": "Tex3dScrollSpeed",
+                            	"label":       "Scroll Speed",
+                            	"widget":      "spinbox",
+                            	"step":        "0.01",
+                            	"sortIndex":   "155",
+                            	"hint":        "",
+                            	"default":     "0.0"
+                            },
+                            
+                            {
+                            	"bindingName": "Tex3dForceStrength",
+                            	"label":       "Strength",
+                            	"widget":      "spinbox",
+                            	"step":        "0.01",
+                            	"sortIndex":   "155",
+                            	"hint":        "",
+                            	"default":     "1.0"
+                            },
+                        {
+                        	"widget": "group_end"
+                        },
+                        
+                        {
+                        	"bindingName": "Tweak_N313",
+                        	"bindingType": "define",
+                        	"optimize":    true,
+                        	"label":       "Path Direction Force",
+                        	"widget":      "checkbox",
+                        	"sortIndex":   "156",
+                        	"hint":        ""
+                        },
+                        
+                        {
+                        	"label": "Path Direction Force [Helix Emitter Only]",
+                        	"widget": "group_start"
+                        },                            
+                            {
+                            	"bindingName": "Tweak_N314",
+                            	"label":       "Strength",
+                            	"widget":      "spinbox",
+                            	"step":        "0.01",
+                            	"sortIndex":   "156",
+                            	"hint":        "",
+                            	"default":     "1.0"
+                            },
+                        {
+                        	"widget": "group_end"
+                        },
+                    {
+                    	"_bindingName": "CUSTOMFORCE",
+                    	"widget": "group_end"
+                    }
+                    ,
+                {
+                	"widget": "group_end"
+                },
+                
+                {
+                	"label": "Transformation",
+                	"widget": "group_start"
+                },                    
+                    {
+                    	"bindingName": "Tweak_N282",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"label":       "Displace",
+                    	"widget":      "checkbox",
+                    	"sortIndex":   "160",
+                    	"hint":        ""
+                    },
+                    
+                    {
+                    	"label": "Displace",
+                    	"widget": "group_start"
+                    },                        
+                        {
+                        	"bindingName": "Tweak_N331",
+                        	"bindingType": "define",
+                        	"optimize":    true,
+                        	"label":       "Local Space (Displace)",
+                        	"widget":      "checkbox",
+                        	"sortIndex":   "160",
+                        	"hint":        ""
+                        },
+                        
+                        { 
+                        	"bindingName": "displace3dTex", 
+                        	"label":       "3d Texture", 
+                        	"widget":      "texture_group",
+                        	"sortIndex":   "160",
+                        	"hint":        ""
+                        },
+                        
+                        {
+                        	"bindingName": "displaceScale",
+                        	"label":       "3d Texture Scale",
+                        	"widget":      "spinbox",
+                        	"step":        "0.01",
+                        	"sortIndex":   "160",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                        
+                        {
+                        	"bindingName": "displaceSpeed",
+                        	"label":       "Texture Scroll Speed",
+                        	"widget":      "spinbox",
+                        	"step":        "0.01",
+                        	"sortIndex":   "160",
+                        	"hint":        "",
+                        	"default":     "0.0"
+                        },
+                        
+                        {
+                        	"bindingName": "displaceStrength",
+                        	"label":       "Displace Strength",
+                        	"widget":      "spinbox",
+                        	"step":        "0.01",
+                        	"sortIndex":   "160",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                    {
+                    	"widget": "group_end"
+                    },
+                    
+                    {
+                    	"bindingName": "Tweak_N228",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"label":       "Orbit",
+                    	"widget":      "checkbox",
+                    	"sortIndex":   "165",
+                    	"hint":        ""
+                    },
+                    
+                    {
+                    	"label": "Orbit",
+                    	"widget": "group_start"
+                    },                        
+                        {
+                        	"bindingName": "Tweak_N332",
+                        	"bindingType": "define",
+                        	"optimize":    true,
+                        	"label":       "Local Space (Orbit)",
+                        	"widget":      "checkbox",
+                        	"sortIndex":   "165",
+                        	"hint":        ""
+                        },
+                        
+                        {
+                        	"bindingName": "orbitAxis",
+                        	"label":       "Axis",
+                        	"widget":      "spinbox",
+                        	"step":        "0.01",
+                        	"sortIndex":   "165",
+                        	"hint":        "",
+                        	"default":     "0.0"
+                        },
+                        
+                        {
+                        	"bindingName": "orbitCenter",
+                        	"label":       "Center",
+                        	"widget":      "spinbox",
+                        	"step":        "0.01",
+                        	"sortIndex":   "165",
+                        	"hint":        "",
+                        	"default":     "0.0"
+                        },
+                        
+                        {
+                        	"bindingName": "orbitMinMaxAngle",
+                        	"label":       "Min/Max Initial Angle",
+                        	"widget":      "spinbox",
+                        	"step":        "0.01",
+                        	"sortIndex":   "165",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                        
+                        {
+                        	"bindingName": "orbitMinMaxSpeed",
+                        	"label":       "Min/Max Speed",
+                        	"widget":      "spinbox",
+                        	"step":        "0.01",
+                        	"sortIndex":   "165",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                    {
+                    	"widget": "group_end"
+                    },
+                {
+                	"widget": "group_end"
+                },
+                
+                {
+                	"label":       "Trails",
+                	"bindingName": "TRAILS",
+                	"bindingType": "define",
+                	"optimize":    true,
+                	"widget":      "group_start",
+                	"sortIndex":   "0",
+                	"hint":        "Enables particles to have trails. IMPORTANT: trail geometry is a quad split vertically with red applied to the vertex color."
+                }
+                ,                    
+                    {
+                    	"label":       "Trail Behavior",
+                    	"bindingType": "defineSelect",
+                    	"values":      
+                    	[
+                    		
+                    		{
+                    			"value": "TRAILBEHAVIOR 0",
+                    			"label": "Match Head"
+                    		},
+                    		
+                    		{
+                    			"value": "TRAILBEHAVIOR 1",
+                    			"label": "Independent"
+                    		}
+                    	],
+                    	"sortIndex":   "161",
+                    	"hint":        "Determines how trail size, color, and fading is applied to the trail. Match Head: particle size, color, and life will be applied uniformly to the entire trail, matching the head particle. Trails will die once the head particle dies. Independent: particle size and color will be applied over the trail's lifetime. Particle trails will live the full lifetime of the particle + trail length mult."
+                    },
+                    
+                    {
+                    	"bindingName": "trailLength",
+                    	"label":       "Trail Length Mult",
+                    	"widget":      "spinbox",
+                    	"min":         0,
+                    	"step":        "0.01",
+                    	"sortIndex":   "162",
+                    	"hint":        "Multiplies the length of the trail. This setting will increase the overall lifetime of particles when Particle Behavior set to 'Independent.' IMPORTANT: the overall length of the trail is influenced by how long the particle lives and how far the particle travels over its lifetime.",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "trailWidth",
+                    	"label":       "Trail Width Mult",
+                    	"widget":      "spinbox",
+                    	"step":        "0.01",
+                    	"sortIndex":   "162",
+                    	"hint":        "Scales the width of the trail relative to the head.",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"label": "Taper",
+                    	"widget": "group_start"
+                    },                        
+                        {
+                        	"bindingName": "trailTaper",
+                        	"label":       "Front / End",
+                        	"widget":      "spinbox",
+                        	"min":         0,
+                        	"max":         1,
+                        	"step":        "0.01",
+                        	"sortIndex":   "163",
+                        	"hint":        "The width of the taper as a percentage of the particle size.",
+                        	"default":     "1.0"
+                        },
+                    {
+                    	"widget": "group_end"
+                    },
+                    
+                    {
+                    	"label": "Fade",
+                    	"widget": "group_start"
+                    },                        
+                        {
+                        	"bindingName": "trailFadeStartEnd",
+                        	"label":       "Start / End",
+                        	"widget":      "spinbox",
+                        	"min":         0,
+                        	"max":         1,
+                        	"step":        "0.01",
+                        	"sortIndex":   "164",
+                        	"hint":        "Fading applied to the tips of the trail, calculated as a percentage of the particle's length. X = fading applied to the start of the trail as it is born. Y = fading applied to the end of the trail as it dies.",
+                        	"default":     "0.1"
+                        },
+                        
+                        {
+                        	"bindingName": "trailFadeInOut",
+                        	"label":       "In / Out",
+                        	"widget":      "spinbox",
+                        	"min":         0,
+                        	"max":         1,
+                        	"step":        "0.01",
+                        	"sortIndex":   "165",
+                        	"hint":        "(NOTE: this setting is only available when Particle Behavior is set to 'Match Head'). Fading applied uniformly to the entire particle on birth and death, calculated as a percentage of the particle's lifetime. X = how long it takes for particles to fade in after birth. Y = how long it takes particles to fade out before death.",
+                        	"default":     "0.1"
+                        },
+                    {
+                    	"widget": "group_end"
+                    },
+                    
+                    {
+                    	"bindingName": "TRAILTWIST",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"label":       "Twist",
+                    	"widget":      "checkbox",
+                    	"sortIndex":   "166",
+                    	"hint":        "When enabled, trails will twist using the Rotation settings. Works best with Two-Sided rendering enabled."
+                    },
+                    
+                    {
+                    	"label": "Textures",
+                    	"widget": "group_start"
+                    },                        
+                        {
+                        	"label":       "Trail Texture",
+                        	"bindingName": "TRAILTEXTURE",
+                        	"bindingType": "define",
+                        	"optimize":    true,
+                        	"widget":      "group_start",
+                        	"sortIndex":   "0",
+                        	"hint":        "Applies a texture to the trail. The texture is aligned with the top being closest to the head (or leading edge) of the trail, and the bottom towards the end of the trail. IMPORTANT: Trails do not use the Base Texture or Flipbook texture settings."
+                        }
+                        ,                            
+                            { 
+                            	"bindingName": "trailTex", 
+                            	"label":       "Texture", 
+                            	"widget":      "texture_group",
+                            	"sortIndex":   "167",
+                            	"hint":        ""
+                            },
+                        {
+                        	"_bindingName": "TRAILTEXTURE",
+                        	"widget": "group_end"
+                        }
+                        ,
+                        
+                        {
+                        	"label":       "Trail Color Ramp",
+                        	"bindingName": "TRAILCOLORRAMP",
+                        	"bindingType": "define",
+                        	"optimize":    true,
+                        	"widget":      "group_start",
+                        	"sortIndex":   "0",
+                        	"hint":        "Applies an additional color ramp to the trail only. The color ramp combines with all other color settings, and is affected by the Trail Behavior setting."
+                        }
+                        ,                            
+                            { 
+                            	"bindingName": "trailColorRampTex", 
+                            	"label":       "Texture", 
+                            	"widget":      "texture_group",
+                            	"sortIndex":   "168",
+                            	"hint":        ""
+                            },
+                        {
+                        	"_bindingName": "TRAILCOLORRAMP",
+                        	"widget": "group_end"
+                        }
+                        ,
+                        
+                        {
+                        	"label":       "Trail Size Ramp",
+                        	"bindingName": "TRAILSIZERAMP",
+                        	"bindingType": "define",
+                        	"optimize":    true,
+                        	"widget":      "group_start",
+                        	"sortIndex":   "0",
+                        	"hint":        "Applies a size ramp to the trail using the base particle size settings. IMPORTANT: this will override the general particle Size Ramp."
+                        }
+                        ,                            
+                            { 
+                            	"bindingName": "trailSizeRampTex", 
+                            	"label":       "Trail Size Ramp Texture", 
+                            	"widget":      "texture_group",
+                            	"sortIndex":   "169",
+                            	"hint":        ""
+                            },
+                            
+                            {
+                            	"bindingName": "TRAILSIZERAMPSTARTENDASBOUNDS",
+                            	"bindingType": "define",
+                            	"optimize":    true,
+                            	"label":       "Size as Bounds",
+                            	"widget":      "checkbox",
+                            	"sortIndex":   "170",
+                            	"hint":        "When enabled, the ramp value will interpolate the trail size between the Size Start and Size End values. Otherwise, the size is interpolated between 0 and Size Start."
+                            },
+                        {
+                        	"_bindingName": "TRAILSIZERAMP",
+                        	"widget": "group_end"
+                        }
+                        ,
+                    {
+                    	"widget": "group_end"
+                    },
+                {
+                	"_bindingName": "TRAILS",
+                	"widget": "group_end"
+                }
+                ,
+                
+                {
+                	"label": "Mask(Screen Space)",
+                	"widget": "group_start"
+                },                    
+                    {
+                    	"label": "Frame / Texture Mask",
+                    	"widget": "group_start"
+                    },                        
+                        {
+                        	"bindingName": "circularMask",
+                        	"label":       "Circular Mask",
+                        	"widget":      "checkbox",
+                        	"sortIndex":   "170",
+                        	"hint":        ""
+                        },
+                        
+                        {
+                        	"bindingName": "squareMask",
+                        	"label":       "Square Mask",
+                        	"widget":      "checkbox",
+                        	"sortIndex":   "171",
+                        	"hint":        ""
+                        },
+                        
+                        {
+                        	"label": "Mask Parameters",
+                        	"widget": "group_start"
+                        },                            
+                            {
+                            	"bindingName": "maskTreshold",
+                            	"label":       "Mask Threshold",
+                            	"widget":      "slider",
+                            	"min":         0,
+                            	"max":         1,
+                            	"step":        "0.01",
+                            	"sortIndex":   "172",
+                            	"hint":        "",
+                            	"default":     "1.0"
+                            },
+                            
+                            {
+                            	"bindingName": "maskFeather",
+                            	"label":       "Mask Feather",
+                            	"widget":      "slider",
+                            	"min":         0,
+                            	"max":         1,
+                            	"step":        "0.01",
+                            	"sortIndex":   "172",
+                            	"hint":        "",
+                            	"default":     "1.0"
+                            },
+                        {
+                        	"widget": "group_end"
+                        },
+                        
+                        {
+                        	"bindingName": "texMask",
+                        	"label":       "Texture Mask",
+                        	"widget":      "checkbox",
+                        	"sortIndex":   "175",
+                        	"hint":        ""
+                        },
+                        
+                        {
+                        	"label": "Texture Mask",
+                        	"widget": "group_start"
+                        },                            
+                            {
+                            	"bindingName": "texMaskInvert",
+                            	"label":       "Invert",
+                            	"widget":      "checkbox",
+                            	"sortIndex":   "175",
+                            	"hint":        ""
+                            },
+                            
+                            { 
+                            	"bindingName": "segTex", 
+                            	"label":       "Segmentation Texture", 
+                            	"widget":      "texture_group",
+                            	"sortIndex":   "175",
+                            	"hint":        ""
+                            },
+                        {
+                        	"widget": "group_end"
+                        },
+                    {
+                    	"widget": "group_end"
+                    },
+                {
+                	"widget": "group_end"
+                },
+
+        {
+        	"widget": "group_end"
+        },
+        
+		
+	{
+		"bindingName": "alphaTestThreshold",
+		"widget": "slider",
+		"min" : 0.0,
+		"max" : 1.0,
+		"step": 0.001,
+		"default": 0.5,
+		"hint": "When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear."
+	}
+	
+	],
+	
+	"shaderType": "Mesh3d",
+	
+	"extraDefines":
+	[
+		"SC_ENABLE_RT_RECEIVER"
+	]
+}

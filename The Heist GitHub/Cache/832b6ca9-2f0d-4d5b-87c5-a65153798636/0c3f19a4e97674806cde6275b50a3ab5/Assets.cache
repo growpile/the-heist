@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    a8f9aff6-4d3a-4648-b197-6b0b43e713c2: 832b6ca9-2f0d-4d5b-87c5-a65153798636/0c3f19a4e97674806cde6275b50a3ab5/Data/person.fill.svg
+  Assets:
+    - !<BinAsset/a8f9aff6-4d3a-4648-b197-6b0b43e713c2>
+      PackagePath: ""
+  SourceHash: 0c3f19a4e97674806cde6275b50a3ab5
+  FileHash: ce1d5755943b0acabe4ab363bc14b698
+  NativePackageItems:
+    []

@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    2332afed-6f45-4ab8-8407-0e06159fb6b7: 444b5a46-5a9b-74f9-95aa-fbfe18c4e254/dea908d750a3a9236143255529f583eb/Data/Hint Occluder.png
+  Assets:
+    - !<FileTexture/2332afed-6f45-4ab8-8407-0e06159fb6b7>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 983
+        Height: 234
+  SourceHash: dea908d750a3a9236143255529f583eb
+  FileHash: 75763acf178b3e8751b4b5df9ad683fa
+  NativePackageItems:
+    []

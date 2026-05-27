@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    896544e0-804a-40ec-a52c-35220126d39d: 36c275dd-2ca0-4a1c-895c-4230938abf56/d66c921da9fd304dec3c85cbb74794f5/Data/Mechanical Lever Pull 1.mp3
+  Assets:
+    - !<FileAudioTrack/896544e0-804a-40ec-a52c-35220126d39d>
+      PackagePath: ""
+  SourceHash: d66c921da9fd304dec3c85cbb74794f5
+  FileHash: 18b75747d9b7c3e2e398753a564864e3
+  NativePackageItems:
+    []

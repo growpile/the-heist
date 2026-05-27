@@ -1,0 +1,247 @@
+- !<AssetCache>
+  AssetFiles:
+    {}
+  Assets:
+    []
+  SourceHash: e0f000dcf28a397836f7da97a798111d
+  FileHash: 7d8acf29fbccead027850ee3c899f96b
+  NativePackageItems:
+    - !<own> 3b6c49ca-6e93-9ad1-bbd0-17c6fa405a2a
+    - !<own> c9ecc428-7272-b9f6-0684-92369c2c3019
+    - !<own> 7b62f194-8f9a-e34a-6bdb-3cf759b6f8ec
+    - !<own> fb8a9934-c6db-0549-458b-17c6da7efd4f
+    - !<own> a02d7da0-656e-98f4-0183-9b3647bb8142
+    - !<own> b21b926c-75d2-6472-cdde-2107e324cdc0
+    - !<own> 022c3131-ba54-fe6d-973f-02403e22eadf
+    - !<own> 16a180a6-1747-ea4f-aefb-2dd4b042810f
+- !<AssetImportMetadata/022c3131-ba54-fe6d-973f-02403e22eadf>
+  ImportedAssetIds:
+    Texture: !<reference> 2a474e60-54ea-4c84-9e1f-d7f58349bcf1
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> 2a474e60-54ea-4c84-9e1f-d7f58349bcf1
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: Performance
+    CompressionSettings: !<TextureCompressionMipmapSettings>
+      Level: Medium
+      Mipmap: false
+- !<SceneObject/0e72a7a1-8ad0-4552-759a-cf7fc4eee35c>
+  PrefabRemaps:
+    []
+  Name: Rounded Push Button
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 690def63-23dd-489e-65b2-65eb7ae61711
+  Components:
+    []
+- !<AssetImportMetadata/16a180a6-1747-ea4f-aefb-2dd4b042810f>
+  ImportedAssetIds:
+    NativePackageDescriptor: !<reference> 69e5f7b5-e24d-40a3-9b1a-f9266b3b4418
+  ImporterName: NativePackageDescriptorImporter
+  PrimaryAsset: !<reference> 69e5f7b5-e24d-40a3-9b1a-f9266b3b4418
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/3b6c49ca-6e93-9ad1-bbd0-17c6fa405a2a>
+  ImportedAssetIds:
+    .hidden/Material: !<reference> e872ce94-a3a4-4fce-a0d1-3b17247d6410
+    .hidden/white: !<reference> 42d09e76-6584-4988-95ce-3eb2fa79dd44
+    42f1f02ecc578ba6: !<reference> 690def63-23dd-489e-9a4d-9a148519e8ee
+    66780cf3a4dcb2b8: !<reference> 0e72a7a1-8ad0-4552-8a65-30803b111ca3
+    76a07637944ffdf0: !<reference> 7183a368-3ab4-4c5e-9ccc-e3d05b3f87dd
+    Materials/Material: !<reference> d8d686df-a6e2-4829-88ef-d78f7b174624
+    Materials/Material|Material|GraphPassInfo: !<reference> c3992d29-3764-4843-a2ed-b90ef24ad95c
+    Meshes/Cube: !<reference> 3cea8fa2-51d0-46df-a859-1bdc214c0df0
+    Scene: !<reference> 0ab03a4f-de3c-47d1-9137-cd7d9c526b19
+  ImporterName: FbxImporter
+  PrimaryAsset: !<reference> 0ab03a4f-de3c-47d1-9137-cd7d9c526b19
+  PackageType: LegacyPackage
+  LegacyPackagePolicy: CanBeUnpackedTransparent
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> 69f30822-5662-4cbb-be84-d5cf41e5c1ad
+  DependentFiles:
+    []
+  ImporterSettings: !<FbxImporterSettings>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBased
+    AnimationCurveOptimization: true
+    CustomAnimationSamplingRate: 30.000000
+    ImportVertexColor: true
+    ImportTangentsAndBinormals: true
+    RegenerateTangentsAndBinormals: false
+    RegenerateNormalsForSkinnedMeshes: true
+    ImportBlendShapeAnimation: true
+    ImportVertexAnimation: true
+    GeneratePivots: true
+    TriangulateNURBS: true
+    UseLegacyFbxLoader: false
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      None Compression: !<SingleCompressionSettings>
+        CompressorName: None
+        CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+      Performance Compression: !<SingleCompressionSettings>
+        CompressorName: Performance
+        CompressionSettings: !<TextureCompressionMipmapSettings>
+          Level: Medium
+          Mipmap: false
+    ExtensionMappings:
+      mesh: None Compression
+      jpg: Performance Compression
+    Overrides:
+      {}
+- !<SceneObject/690def63-23dd-489e-65b2-65eb7ae61711>
+  PrefabRemaps:
+    []
+  Name: Cube
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 90.000000, y: 0.000000, z: 180.000000}
+    Scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 7183a368-3ab4-4c5e-6333-1c2fa4c07822
+- !<ObjectPrefabAssetData/69f30822-5662-4cbb-be84-d5cf41e5c1ad>
+  Prototype: !<ObjectOwner/475b2280-7686-42d1-8236-c1f18270dce2>
+    PackagePath: ""
+    objects:
+      - !<own> 0e72a7a1-8ad0-4552-759a-cf7fc4eee35c
+- !<RenderMeshVisual/7183a368-3ab4-4c5e-6333-1c2fa4c07822>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> d8d686df-a6e2-4829-88ef-d78f7b174624
+  Mesh: !<reference> 3cea8fa2-51d0-46df-a859-1bdc214c0df0
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<AssetImportMetadata/7b62f194-8f9a-e34a-6bdb-3cf759b6f8ec>
+  ImportedAssetIds:
+    Texture: !<reference> 102b2887-7a6d-4cb5-8045-3929a4bfb84c
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> 102b2887-7a6d-4cb5-8045-3929a4bfb84c
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: Performance
+    CompressionSettings: !<TextureCompressionMipmapSettings>
+      Level: Medium
+      Mipmap: false
+- !<AssetImportMetadata/a02d7da0-656e-98f4-0183-9b3647bb8142>
+  ImportedAssetIds:
+    Material: !<reference> 13ef59af-affd-4383-8642-919fc777ee3f
+  ImporterName: MaterialImporter
+  PrimaryAsset: !<reference> 13ef59af-affd-4383-8642-919fc777ee3f
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/b21b926c-75d2-6472-cdde-2107e324cdc0>
+  ImportedAssetIds:
+    ShaderGraph: !<reference> e8a2d9d1-20a5-4e09-84f4-928574af59aa
+  ImporterName: ShaderGraphPassImporter
+  PrimaryAsset: !<reference> e8a2d9d1-20a5-4e09-84f4-928574af59aa
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/c9ecc428-7272-b9f6-0684-92369c2c3019>
+  ImportedAssetIds:
+    Texture: !<reference> 396e76bd-59c6-44f1-9e8e-a324b8af77ec
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> 396e76bd-59c6-44f1-9e8e-a324b8af77ec
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/fb8a9934-c6db-0549-458b-17c6da7efd4f>
+  ImportedAssetIds:
+    Texture: !<reference> 1f504f25-eb9a-4df3-95d9-666e4b358c84
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> 1f504f25-eb9a-4df3-95d9-666e4b358c84
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: Performance
+    CompressionSettings: !<TextureCompressionMipmapSettings>
+      Level: Medium
+      Mipmap: false

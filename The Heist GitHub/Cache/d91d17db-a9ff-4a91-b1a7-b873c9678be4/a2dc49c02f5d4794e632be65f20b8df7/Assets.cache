@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    2caf0f01-b04e-4cca-a862-0aa65aaf7441: d91d17db-a9ff-4a91-b1a7-b873c9678be4/a2dc49c02f5d4794e632be65f20b8df7/Data/ButtonPressingInnerPart.mesh
+  Assets:
+    - !<FileMesh/2caf0f01-b04e-4cca-a862-0aa65aaf7441>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 82
+        Vertices: 92
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 13.791682, y: 2.704507, z: 13.791682}
+  SourceHash: a2dc49c02f5d4794e632be65f20b8df7
+  FileHash: 48af440bdafb2cf058e9aced68efbd3f
+  NativePackageItems:
+    []

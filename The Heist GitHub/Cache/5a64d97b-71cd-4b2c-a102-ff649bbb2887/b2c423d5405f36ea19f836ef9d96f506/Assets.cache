@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    dde4db81-0c82-4008-a5c5-53c629eddd56: 5a64d97b-71cd-4b2c-a102-ff649bbb2887/b2c423d5405f36ea19f836ef9d96f506/Data/Penalty.mp3
+  Assets:
+    - !<FileAudioTrack/dde4db81-0c82-4008-a5c5-53c629eddd56>
+      PackagePath: ""
+  SourceHash: b2c423d5405f36ea19f836ef9d96f506
+  FileHash: 2cf621d4898f9ae3e266983eaa58a7a1
+  NativePackageItems:
+    []

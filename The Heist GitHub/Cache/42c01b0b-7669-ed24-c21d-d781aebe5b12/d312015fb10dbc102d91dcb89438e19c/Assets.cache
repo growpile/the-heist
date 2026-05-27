@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    81623899-f475-4915-9205-ca68a226637b: 42c01b0b-7669-ed24-c21d-d781aebe5b12/d312015fb10dbc102d91dcb89438e19c/Data/Gothica LICENSE.md
+  Assets:
+    - !<MarkdownAsset/81623899-f475-4915-9205-ca68a226637b>
+      PackagePath: ""
+  SourceHash: d312015fb10dbc102d91dcb89438e19c
+  FileHash: 8613bf559537a3e68bf47e6cdc563dc4
+  NativePackageItems:
+    []

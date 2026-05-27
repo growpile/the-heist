@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    18f49826-26fd-4243-a9ac-4f0838a47fbd: b3dbf5d1-14f8-4c54-9e8d-88db9fe8cec1/1fb2b87c2517841924bef9a2cf41254c/Data/WireLeft.mesh
+  Assets:
+    - !<FileMesh/18f49826-26fd-4243-a9ac-4f0838a47fbd>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 1280
+        Vertices: 697
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 9.125950, y: 11.217505, z: 8.052443}
+  SourceHash: 1fb2b87c2517841924bef9a2cf41254c
+  FileHash: 17dbc16beaf1635f4f46eaf936ea3ab8
+  NativePackageItems:
+    []

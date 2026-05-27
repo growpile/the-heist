@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    be21401a-620a-4090-84e3-fa6e00b8c9cb: 5b712d2f-557e-49fb-b8bb-b35c77699602/0a758a6920bcde9471725a130ab186fc/Data/gear.png
+  Assets:
+    - !<FileTexture/be21401a-620a-4090-84e3-fa6e00b8c9cb>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 409
+        Height: 404
+  SourceHash: 0a758a6920bcde9471725a130ab186fc
+  FileHash: 9aece87e787388441e454f802ec71c89
+  NativePackageItems:
+    []

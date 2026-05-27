@@ -1,0 +1,69 @@
+- !<ObjectPrefab/2295d413-d001-4c1e-bd4f-e95836642445>
+  PackagePath: ""
+  objects:
+    - !<own> e59dca8b-5a29-4752-8d06-f734a9a83ea8
+  LazyLoading: false
+  RetainAssets: true
+- !<VFXComponent/620490e2-afd3-4718-8e92-f142589411c4>
+  PrefabRemaps:
+    []
+  Name: VFX Component
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  VFXAsset: !<reference> 1ade3665-5c68-4e7a-852d-64fdc0824985
+- !<SceneObject/6544bea7-d290-4809-bea4-56e796170512>
+  PrefabRemaps:
+    []
+  Name: VFX
+  Enabled: true
+  Layers: 1835007
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 35.000000, z: -40.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 620490e2-afd3-4718-8e92-f142589411c4
+    - !<own> c6481caa-6570-4e59-a4d9-aa4bd0b78db6
+- !<ScriptComponent/c6481caa-6570-4e59-a4d9-aa4bd0b78db6>
+  PrefabRemaps:
+    []
+  Name: Global Hierarchy Pointer
+  Enabled: true
+  ScriptAsset: !<reference> dc0ea5b3-e78b-41d6-924a-29b13b93bb8c
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      pointerIdentifier: pbVfxComponent
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/e59dca8b-5a29-4752-8d06-f734a9a83ea8>
+  PrefabRemaps:
+    - 620490e2-afd3-4718-8e92-f142589411c4: 620490e2-afd3-4718-716d-0ebda76bee3b
+    - 6544bea7-d290-4809-bea4-56e796170512: 6544bea7-d290-4809-415b-a91869e8faed
+    - c6481caa-6570-4e59-a4d9-aa4bd0b78db6: 195b1f6c-7e2b-419f-becb-cec510e877dd
+    - e59dca8b-5a29-4752-8d06-f734a9a83ea8: e59dca8b-5a29-4752-72f9-08cb5657c157
+  Name: Score VFX
+  Enabled: true
+  Layers: 1835007
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 6544bea7-d290-4809-bea4-56e796170512
+  Components:
+    []

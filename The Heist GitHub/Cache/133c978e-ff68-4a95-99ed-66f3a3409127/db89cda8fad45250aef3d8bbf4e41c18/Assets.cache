@@ -1,0 +1,75 @@
+- !<AssetCache>
+  AssetFiles:
+    402ab287-6d1f-47cb-a67c-76c251a1a202: 133c978e-ff68-4a95-99ed-66f3a3409127/db89cda8fad45250aef3d8bbf4e41c18/Data/Meshes/Testing Dial.mesh
+  Assets:
+    - !<ObjectPrefab/824a2eb0-b939-4886-bc6a-622f69538fe7>
+      PackagePath: ""
+      objects:
+        - !<own> 4bd8e4c7-4341-4ace-a157-98dadf345ffe
+      LazyLoading: false
+      RetainAssets: true
+    - !<FileMesh/402ab287-6d1f-47cb-a67c-76c251a1a202>
+      PackagePath: Meshes/Testing Dial
+      Info: !<MeshInfo>
+        Triangles: 286
+        Vertices: 262
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 3.999996, y: 3.351783, z: 4.538137}
+  SourceHash: db89cda8fad45250aef3d8bbf4e41c18
+  FileHash: e5f5e2caa14006fec46b28e4f0e0b555
+  NativePackageItems:
+    []
+- !<SceneObject/21f46e77-2506-478d-8b43-785f64500f60>
+  PrefabRemaps:
+    []
+  Name: Testing Dial
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: -180.000000, y: 0.000000, z: -180.000000}
+    Scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 500471ad-587e-4b52-b417-ee860cb81cb3
+- !<SceneObject/4bd8e4c7-4341-4ace-a157-98dadf345ffe>
+  PrefabRemaps:
+    - 21f46e77-2506-478d-8b43-785f64500f60: 21f46e77-2506-478d-74bc-87a09baff09f
+    - 4bd8e4c7-4341-4ace-a157-98dadf345ffe: 4bd8e4c7-4341-4ace-5ea8-672520cba001
+    - 500471ad-587e-4b52-b417-ee860cb81cb3: 500471ad-587e-4b52-4be8-1179f347e34c
+  Name: Testing Dial
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 21f46e77-2506-478d-8b43-785f64500f60
+  Components:
+    []
+- !<RenderMeshVisual/500471ad-587e-4b52-b417-ee860cb81cb3>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 402ab287-6d1f-47cb-a67c-76c251a1a202
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

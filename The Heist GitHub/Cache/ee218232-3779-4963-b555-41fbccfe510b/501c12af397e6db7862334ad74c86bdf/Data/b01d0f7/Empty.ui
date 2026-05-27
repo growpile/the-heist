@@ -1,0 +1,126 @@
+{ 
+	"ui": 
+	[
+		{
+        	"label": "Graph Parameters",
+        	"widget": "group_start"
+        },
+{
+                	"bindingName": "rimColor",
+                	"label":       "Rim Color",
+                	"widget":      "color",
+                	"sortIndex":   "0",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                {
+                	"bindingName": "baseColor",
+                	"label":       "Color",
+                	"widget":      "color",
+                	"sortIndex":   "0",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                { 
+                	"bindingName": "aoTex", 
+                	"label":       "Ambien Occlusion", 
+                	"widget":      "texture_group",
+                	"sortIndex":   "0",
+                	"hint":        ""
+                },
+                
+                {
+                	"bindingName": "aoScale",
+                	"label":       "AO Scale",
+                	"widget":      "slider",
+                	"min":         0,
+                	"max":         1,
+                	"step":        "0.01",
+                	"sortIndex":   "0",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                {
+                	"bindingName": "enableAlbedo",
+                	"bindingType": "define",
+                	"optimize":    true,
+                	"label":       "Enable Albedo",
+                	"widget":      "checkbox",
+                	"sortIndex":   "1",
+                	"hint":        ""
+                },
+                
+                { 
+                	"bindingName": "albedoTex", 
+                	"label":       "Albedo", 
+                	"widget":      "texture_group",
+                	"sortIndex":   "2",
+                	"hint":        ""
+                },
+                
+                {
+                	"bindingName": "enableNormals",
+                	"bindingType": "define",
+                	"optimize":    true,
+                	"label":       "Enable Normals",
+                	"widget":      "checkbox",
+                	"sortIndex":   "3",
+                	"hint":        ""
+                },
+                
+                {
+                	"bindingName": "enableRim",
+                	"bindingType": "define",
+                	"optimize":    true,
+                	"label":       "Enable Rim Light",
+                	"widget":      "checkbox",
+                	"sortIndex":   "4",
+                	"hint":        ""
+                },
+                
+                { 
+                	"bindingName": "normalTex", 
+                	"label":       "Normals", 
+                	"widget":      "texture_group",
+                	"sortIndex":   "4",
+                	"hint":        ""
+                },
+                
+                {
+                	"bindingName": "enableAO",
+                	"bindingType": "define",
+                	"optimize":    true,
+                	"label":       "Enable AO",
+                	"widget":      "checkbox",
+                	"sortIndex":   "5",
+                	"hint":        ""
+                },
+
+        {
+        	"widget": "group_end"
+        },
+        
+		
+	{
+		"bindingName": "alphaTestThreshold",
+		"widget": "slider",
+		"min" : 0.0,
+		"max" : 1.0,
+		"step": 0.001,
+		"default": 0.5,
+		"hint": "When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear."
+	}
+	
+	],
+	
+	"shaderType": "Mesh3d",
+	
+	"extraDefines":
+	[
+		"SC_ENABLE_RT_CASTER",
+		"SC_ENABLE_RT_RECEIVER"
+	]
+}

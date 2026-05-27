@@ -1,0 +1,2486 @@
+- !<ObjectPrefab/4ac90c9f-917e-4956-85d0-82839b3b5f95>
+  PackagePath: ""
+  objects:
+    - !<own> 328d2387-6563-453d-98af-9aba0b17f4df
+  LazyLoading: false
+  RetainAssets: true
+- !<RenderMeshVisual/019f7366-d32d-4bc8-a969-e510b3c5f6b7>
+  PrefabRemaps:
+    []
+  Name: component_35
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 2c03ebb5-38cb-414a-af47-029a54b73e3b
+  Mesh: !<reference> 5244fae2-4c64-41f1-b61f-b5abc7566a64
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/07edc556-418b-48b3-8839-190f143d64d4>
+  PrefabRemaps:
+    []
+  Name: Wire Socket 1 Visual
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 5.147263, y: -0.520035, z: 5.168638}
+    Rotation: {x: 270.000000, y: 90.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 85613e04-ad3c-4a71-b62a-0ed1f83cf1c3
+    - !<own> 7e527a0a-f8f3-4448-86b1-85fa03dc0a86
+    - !<own> 357585b0-3b02-4059-bc7f-1c92ae94185a
+- !<SceneObject/083e0f09-c80b-471c-8448-ae08574a937c>
+  PrefabRemaps:
+    []
+  Name: Wire USB
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: -0.000000, z: 180.000000}
+    Scale: {x: 0.700000, y: 0.700000, z: 0.700000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/0dbe638d-f2f0-43d7-8b5d-dd7665a951da>
+  PrefabRemaps:
+    []
+  Name: Long Button Group
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: -0.074921, z: -4.065811}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> bd1417fa-57c0-41ce-93aa-6c09cbacf77f
+  Components:
+    - !<own> 8896a615-82ce-445b-bcce-64a7830c98df
+    - !<own> ed393f96-a896-46ca-b422-e19b19e14993
+- !<RenderMeshVisual/11bd39a1-a3a8-4d3d-a17c-7a813a7303b8>
+  PrefabRemaps:
+    []
+  Name: component_40
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 86598a2f-527c-4a85-bf35-f7538cb98d22
+  Mesh: !<reference> f79268b5-f28d-4b53-a24f-ef99150dd322
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/11da1b27-18e3-4448-b274-e307e6135710>
+  PrefabRemaps:
+    []
+  Name: Red Wire Head Visuals
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: -0.053533, y: -90.000000, z: -89.947708}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 73327a12-9f3d-4bca-9fe9-57db7187445e
+    - !<own> 45c07f81-c140-4f31-a8a7-c9998eac7107
+- !<BodyComponent/141ad9bc-2fe4-47ca-88ae-dfd6ecdc1f14>
+  PrefabRemaps:
+    []
+  Name: Physics Body
+  Enabled: true
+  Shape: !<Cylinder>
+    Axis: Y
+    Length: 2.000000
+    Radius: 0.500000
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+  Dynamic: false
+  BodySetting: Density
+  BodySettingValue: 1.000000
+  Damping: 0.000000
+  AngularDamping: 0.000000
+- !<RenderMeshVisual/14da9be0-4b8f-4703-9a8b-deff69c6de79>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> df240942-e25a-458f-b3cc-9a5cda56edfa
+  Mesh: !<reference> aedaf020-1838-4f6f-a2fa-fe3cf6c6654a
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ScriptComponent/16d69e9f-2fbc-4e39-bf13-f73065f2a15d>
+  PrefabRemaps:
+    []
+  Name: WireConnector
+  Enabled: true
+  ScriptAsset: !<reference> b610d5e9-b9ed-49ba-9229-d5fa3dbc7104
+  ScriptInputsDefault:
+    wireRadius: true
+    followSpeed: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      wireMaterial: !<reference.Material> 9d7ed56e-bfbf-4a56-a106-e372c86dcb79
+      wireFaceCount: !<float> 16.000000
+      wireRadius: 0.250000
+      wireSegments: !<float> 20.000000
+      wireHead: !<reference.SceneObject> 358c7d03-05a3-4eba-a66a-7b95fe6bc48a
+      wireEnd: !<reference.SceneObject> 451e788a-751e-4cb0-8958-738a25e01b77
+      wireHandle: !<reference.SceneObject> 7c597b21-9398-4b25-9cab-cc435e502d7f
+      followSpeed: !<float> 10.000000
+      maxWireLength: !<float> 10.000000
+      snapDistance: 0.400000
+      wireSockets: !<reference.SceneObject[]>
+        - !<reference> 8555054b-1e19-4102-bb90-af105100c9a5
+        - !<reference> fa9055d3-607e-40d5-9cc9-1d4560ced369
+        - !<reference> 4939e479-c654-48a5-a409-312160960e9c
+        - !<reference> 1785d023-cfda-429d-ae7b-69d1e07c4b9e
+      raiseDirection: !<Vec3> {x: 0.000000, y: 0.000000, z: 1.000000}
+      raiseOffset: 0.500000
+      wireManager: !<reference.ScriptComponent> feff32c6-3965-471a-a39a-0837a30ad3f9
+  ScriptTypes:
+    "":
+      {}
+- !<RenderMeshVisual/16e27d6c-e102-4ace-aefc-3b59d07d7ff2>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: false
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 57678b9c-660e-4113-97d7-e0e724068746
+  Mesh: !<reference> e542623c-1432-4bfa-881d-a28905bd9e57
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/1785d023-cfda-429d-ae7b-69d1e07c4b9e>
+  PrefabRemaps:
+    []
+  Name: Wire Socket 3
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 2.878813, y: -0.065258, z: 0.000000}
+    Rotation: {x: 269.996277, y: 90.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 16e27d6c-e102-4ace-aefc-3b59d07d7ff2
+- !<SceneObject/19a2de86-757b-4515-91f1-48e74098e590>
+  PrefabRemaps:
+    []
+  Name: Red Wire
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: -5.168600, z: 1.020962}
+    Rotation: {x: 90.000008, y: 0.000000, z: -0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 7c597b21-9398-4b25-9cab-cc435e502d7f
+    - !<own> a10d180c-d5f7-441e-a8ca-f84fb9dfe1a8
+    - !<own> 8555054b-1e19-4102-bb90-af105100c9a5
+    - !<own> 358c7d03-05a3-4eba-a66a-7b95fe6bc48a
+  Components:
+    []
+- !<RenderMeshVisual/19ef7e83-7f7a-4b95-b2ef-792b2a8282f2>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: false
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 57678b9c-660e-4113-97d7-e0e724068746
+  Mesh: !<reference> e542623c-1432-4bfa-881d-a28905bd9e57
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/1d1b2550-b176-44ac-a3bc-c14cae3bc19c>
+  PrefabRemaps:
+    []
+  Name: Wire Socket 3 Visual
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 5.147263, y: -0.520035, z: 1.398249}
+    Rotation: {x: 270.000000, y: 90.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> a243b5c3-2912-4d35-998b-a99e0a0e1390
+    - !<own> bff1de73-a679-48b6-9ea8-f1f2c0dfe875
+    - !<own> c980afa8-0371-423a-bb90-07a0abc2217f
+- !<ScriptComponent/1d7dd6be-2ae8-435b-809a-41fa73fccec5>
+  PrefabRemaps:
+    []
+  Name: InteractableManipulation
+  Enabled: true
+  ScriptAsset: !<reference> 664b556b-1946-4c2c-866a-e675b4e86006
+  ScriptInputsDefault:
+    enableTranslation: true
+    minimumScaleFactor: true
+    maximumScaleFactor: true
+    zStretchFactorMin: true
+    zStretchFactorMax: true
+    useFilter: true
+    _enableXTranslation: true
+    _enableYTranslation: true
+    _enableZTranslation: true
+    showRotationProperties: true
+    _rotationAxis: true
+    isSynced: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      manipulateRootSceneObject: !<reference.SceneObject> 65be72b1-5452-4611-aab0-0ecee0ced5bb
+      enableTranslation: true
+      enableRotation: false
+      enableScale: false
+      minimumScaleFactor: 0.250000
+      maximumScaleFactor: !<float> 20.000000
+      enableStretchZ: false
+      zStretchFactorMin: !<float> 1.000000
+      zStretchFactorMax: !<float> 12.000000
+      useFilter: true
+      showTranslationProperties: true
+      _enableXTranslation: true
+      _enableYTranslation: true
+      _enableZTranslation: true
+      showRotationProperties: false
+      _rotationAxis: All
+      isSynced: false
+  ScriptTypes:
+    "":
+      {}
+- !<RenderMeshVisual/200880f3-119d-46d9-a615-1993f43cdd5b>
+  PrefabRemaps:
+    []
+  Name: component_30
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 86598a2f-527c-4a85-bf35-f7538cb98d22
+  Mesh: !<reference> f4ca8ff4-cd21-45b2-a9e5-fbbe041c52d0
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/2209ce9c-8e41-45c2-81f2-dd3396e3a9e5>
+  PrefabRemaps:
+    []
+  Name: Wire Reel 2
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -5.147263, y: -0.520035, z: 3.283444}
+    Rotation: {x: 0.000000, y: -0.000000, z: 180.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 200880f3-119d-46d9-a615-1993f43cdd5b
+    - !<own> fb7f28f5-aec7-4853-93aa-828465774168
+- !<RenderMeshVisual/220c5b51-2c5d-47a4-8b77-29ebc567c78c>
+  PrefabRemaps:
+    []
+  Name: component_41
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 57678b9c-660e-4113-97d7-e0e724068746
+  Mesh: !<reference> 2cc9ee3f-70bc-4233-a4e1-dc746664bb68
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/27561686-fcff-438b-98db-2268352e7157>
+  PrefabRemaps:
+    []
+  Name: Blue Wire Head
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -4.647690, y: -0.190949, z: 0.000000}
+    Rotation: {x: 269.996277, y: 90.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 70457e33-83e0-4dec-9ee8-dbc9805bbbe1
+    - !<own> 3912c953-a4ec-42c1-979f-b529073ed7e8
+    - !<own> d17f022a-ed16-43bd-9b1c-e265ae1d411e
+  Components:
+    []
+- !<RenderMeshVisual/27f53b3d-6bc9-4034-a868-430ff034c93d>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 57678b9c-660e-4113-97d7-e0e724068746
+  Mesh: !<reference> c1c798ee-cd46-49da-be37-46c1cced86f4
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/2b78ca98-911c-4339-9b32-c2fca7eaa124>
+  PrefabRemaps:
+    []
+  Name: Wire Socket 4 Visual
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 5.147263, y: -0.520035, z: -0.486946}
+    Rotation: {x: 270.000000, y: 90.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> eb0db7f4-398b-4b1f-954d-e5a96ad020cb
+    - !<own> 49f9e32a-da76-46bc-9751-75418c16befb
+    - !<own> f7f88a9e-56a3-45bb-a72b-a6b912c394fc
+- !<RenderMeshVisual/2bf10eb1-baa4-49bc-a345-51a98ab28c01>
+  PrefabRemaps:
+    []
+  Name: component_34
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 86598a2f-527c-4a85-bf35-f7538cb98d22
+  Mesh: !<reference> f4ca8ff4-cd21-45b2-a9e5-fbbe041c52d0
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/328d2387-6563-453d-98af-9aba0b17f4df>
+  PrefabRemaps:
+    - 019f7366-d32d-4bc8-a969-e510b3c5f6b7: 019f7366-d32d-4bc8-5696-1aef4c3a0948
+    - 07edc556-418b-48b3-8839-190f143d64d4: 07edc556-418b-48b3-77c6-e6f0ebc29b2b
+    - 083e0f09-c80b-471c-8448-ae08574a937c: 083e0f09-c80b-471c-7bb7-51f7a8b56c83
+    - 0dbe638d-f2f0-43d7-8b5d-dd7665a951da: 0dbe638d-f2f0-43d7-74a2-22899a56ae25
+    - 11bd39a1-a3a8-4d3d-a17c-7a813a7303b8: 11bd39a1-a3a8-4d3d-5e83-857ec58cfc47
+    - 11da1b27-18e3-4448-b274-e307e6135710: 11da1b27-18e3-4448-4d8b-1cf819eca8ef
+    - 141ad9bc-2fe4-47ca-88ae-dfd6ecdc1f14: 141ad9bc-2fe4-47ca-7751-20291323e0eb
+    - 14da9be0-4b8f-4703-9a8b-deff69c6de79: 14da9be0-4b8f-4703-6574-210096392186
+    - 16d69e9f-2fbc-4e39-bf13-f73065f2a15d: 6557a8ca-bd4d-4fbb-bffa-42eaffcfd765
+    - 16e27d6c-e102-4ace-aefc-3b59d07d7ff2: 16e27d6c-e102-4ace-5103-c4a62f82800d
+    - 1785d023-cfda-429d-ae7b-69d1e07c4b9e: 1785d023-cfda-429d-5184-962e1f83b461
+    - 19a2de86-757b-4515-91f1-48e74098e590: 19a2de86-757b-4515-6e0e-b718bf671a6f
+    - 19ef7e83-7f7a-4b95-b2ef-792b2a8282f2: 19ef7e83-7f7a-4b95-4d10-86d4d57d7d0d
+    - 1d1b2550-b176-44ac-a3bc-c14cae3bc19c: 1d1b2550-b176-44ac-5c43-3eb351c43e63
+    - 1d7dd6be-2ae8-435b-809a-41fa73fccec5: 1d7dd6be-2ae8-435b-7f65-be058c03313a
+    - 200880f3-119d-46d9-a615-1993f43cdd5b: 200880f3-119d-46d9-59ea-e66c0bc322a4
+    - 2209ce9c-8e41-45c2-81f2-dd3396e3a9e5: 2209ce9c-8e41-45c2-7e0d-22cc691c561a
+    - 220c5b51-2c5d-47a4-8b77-29ebc567c78c: 220c5b51-2c5d-47a4-7488-d6143a983873
+    - 27561686-fcff-438b-98db-2268352e7157: 27561686-fcff-438b-6724-dd97cad18ea8
+    - 27f53b3d-6bc9-4034-a868-430ff034c93d: 27f53b3d-6bc9-4034-5797-bcf00fcb36c2
+    - 2b78ca98-911c-4339-9b32-c2fca7eaa124: 2b78ca98-911c-4339-64cd-3d0358155edb
+    - 2bf10eb1-baa4-49bc-a345-51a98ab28c01: 2bf10eb1-baa4-49bc-5cba-ae56754d73fe
+    - 328d2387-6563-453d-98af-9aba0b17f4df: 328d2387-6563-453d-6750-6545f4e80b20
+    - 357585b0-3b02-4059-bc7f-1c92ae94185a: 357585b0-3b02-4059-4380-e36d516be7a5
+    - 358c7d03-05a3-4eba-a66a-7b95fe6bc48a: 358c7d03-05a3-4eba-5995-846a01943b75
+    - 35b4d32e-ee80-4193-a748-6f1875ed834a: 35b4d32e-ee80-4193-58b7-90e78a127cb5
+    - 3912c953-a4ec-42c1-979f-b529073ed7e8: 3912c953-a4ec-42c1-6860-4ad6f8c12817
+    - 3d4d28a9-6c42-437d-b17e-f23e94874f6c: 3d4d28a9-6c42-437d-4e81-0dc16b78b093
+    - 451e788a-751e-4cb0-8958-738a25e01b77: 451e788a-751e-4cb0-76a7-8c75da1fe488
+    - 45c07f81-c140-4f31-a8a7-c9998eac7107: 45c07f81-c140-4f31-5758-366671538ef8
+    - 475431e2-6cba-475d-b7a4-47528510169c: 475431e2-6cba-475d-485b-b8ad7aefe963
+    - 4939e479-c654-48a5-a409-312160960e9c: 4939e479-c654-48a5-5bf6-cede9f69f163
+    - 49f9e32a-da76-46bc-9751-75418c16befb: 49f9e32a-da76-46bc-68ae-8abe73e94104
+    - 4b8bb011-84cc-4ab6-af98-630cc635a999: fc1c35df-e705-4101-82c9-ad5d62b6f87f
+    - 4feedd77-80f5-45bd-96d9-160feff745c3: 4feedd77-80f5-45bd-6926-e9f01008ba3c
+    - 53cc46c7-a948-4a49-81ba-b07ae4699440: 53cc46c7-a948-4a49-7e45-4f851b966bbf
+    - 56ef26f0-c5be-4c5d-9eb7-b8b9bbd9368e: 56ef26f0-c5be-4c5d-6148-47464426c971
+    - 5d64b087-f992-4cf8-a2c9-b2c3beba7db4: 5d64b087-f992-4cf8-5d36-4d3c4145824b
+    - 60bb2802-fcde-46fe-91f2-43e9f9e44643: 60bb2802-fcde-46fe-6e0d-bc16061bb9bc
+    - 61ef8e67-a10b-4e02-9349-26d8f1b2973c: 61ef8e67-a10b-4e02-6cb6-d9270e4d68c3
+    - 65be72b1-5452-4611-aab0-0ecee0ced5bb: 65be72b1-5452-4611-554f-f1311f312a44
+    - 66a79bf0-e6b3-4063-9432-df7218fb56b6: 66a79bf0-e6b3-4063-6bcd-208de704a949
+    - 699a0777-7722-4319-9f19-db1c5e8447c8: 699a0777-7722-4319-60e6-24e3a17bb837
+    - 69eae634-b664-4b7f-9f1e-a1b72d0ecb23: 69eae634-b664-4b7f-60e1-5e48d2f134dc
+    - 6e9ff497-66a5-4714-bfce-0f2494a99d81: 6e9ff497-66a5-4714-4031-f0db6b56627e
+    - 70457e33-83e0-4dec-9ee8-dbc9805bbbe1: 70457e33-83e0-4dec-6117-24367fa4441e
+    - 73327a12-9f3d-4bca-9fe9-57db7187445e: 73327a12-9f3d-4bca-6016-a8248e78bba1
+    - 738ddf98-7b8b-42b1-a5b3-bed62a626ff9: 738ddf98-7b8b-42b1-5a4c-4129d59d9006
+    - 73ab08b5-b424-4f53-92f6-e4d82267a7d5: 7d0af61d-da49-4be2-bc7c-e1e5f05d8d96
+    - 75c39b36-8732-45e6-9bb3-42b25e096495: 75c39b36-8732-45e6-644c-bd4da1f69b6a
+    - 79817748-5451-43dc-8b9e-b2cda5de20eb: 79817748-5451-43dc-7461-4d325a21df14
+    - 7b87ef5e-ca6a-4d80-a628-50b0e82e03c3: 7b87ef5e-ca6a-4d80-59d7-af4f17d1fc3c
+    - 7c597b21-9398-4b25-9cab-cc435e502d7f: 7c597b21-9398-4b25-6354-33bca1afd280
+    - 7e527a0a-f8f3-4448-86b1-85fa03dc0a86: 7e527a0a-f8f3-4448-794e-7a05fc23f579
+    - 8231b43a-47c8-46bb-9cfd-39b5a589e72c: 8231b43a-47c8-46bb-6302-c64a5a7618d3
+    - 8555054b-1e19-4102-bb90-af105100c9a5: 8555054b-1e19-4102-446f-50efaeff365a
+    - 85613e04-ad3c-4a71-b62a-0ed1f83cf1c3: 85613e04-ad3c-4a71-49d5-f12e07c30e3c
+    - 8640e6c2-9315-41dc-83e3-aa127d7ffbba: 8640e6c2-9315-41dc-7c1c-55ed82800445
+    - 8896a615-82ce-445b-bcce-64a7830c98df: 8896a615-82ce-445b-4331-9b587cf36720
+    - 90da75c5-d19b-4842-b7ec-6c077f238226: 90da75c5-d19b-4842-4813-93f880dc7dd9
+    - 936c0235-a0e9-4975-b5df-d88d5745efd8: 5bec5902-91f6-42a6-9fa9-cfb02515b6e0
+    - 94594bae-6108-4158-9e62-5bb4bde65817: 94594bae-6108-4158-619d-a44b4219a7e8
+    - 94763055-dda1-4daa-91a2-8e1a231622d0: 94763055-dda1-4daa-6e5d-71e5dce9dd2f
+    - a10d180c-d5f7-441e-a8ca-f84fb9dfe1a8: a10d180c-d5f7-441e-5735-07b046201e57
+    - a243b5c3-2912-4d35-998b-a99e0a0e1390: a243b5c3-2912-4d35-6674-5661f5f1ec6f
+    - a45dfad9-ec1a-4b18-87b7-5e02395ec444: a45dfad9-ec1a-4b18-7848-a1fdc6a13bbb
+    - a5964415-6987-4ec2-93ae-9c6e7eea1c43: 965825cd-fd93-4882-a2f0-1908f58b2245
+    - a8417906-187e-4724-8d5b-f3f1aa496ade: a8417906-187e-4724-72a4-0c0e55b69521
+    - a850987c-6de7-4202-9b2c-a9a74f27cdba: a850987c-6de7-4202-64d3-5658b0d83245
+    - a93373b0-e618-44fe-8e81-3c22325d1999: a93373b0-e618-44fe-717e-c3ddcda2e666
+    - aaa6c9da-0c4e-45dd-8a64-3f51376212d7: aaa6c9da-0c4e-45dd-759b-c0aec89ded28
+    - adfeaf89-b0ee-4fe4-b948-16c1995f3ab1: adfeaf89-b0ee-4fe4-46b7-e93e66a0c54e
+    - b073e235-eab4-46ae-b639-c82a954d5f0e: b073e235-eab4-46ae-49c6-37d56ab2a0f1
+    - b0e310cc-3c07-464f-a928-5b007bddaa2c: a2904289-1425-4aa4-8c0d-d2e48fd5efcb
+    - b393b3b7-7b37-4b5a-b097-5a0d316f9c90: b393b3b7-7b37-4b5a-4f68-a5f2ce90636f
+    - b54a1187-2392-44e6-aa71-292ccbfa688a: b54a1187-2392-44e6-558e-d6d334059775
+    - bb13ec3a-4f0e-4c6d-b643-ccd1acf86785: b3bea099-4af3-4cfd-bc98-64af7a04032e
+    - bd1417fa-57c0-41ce-93aa-6c09cbacf77f: bd1417fa-57c0-41ce-6c55-93f634530880
+    - bf6aff3d-19c5-44f3-8ff3-05aeef900d68: b131d76b-d4f6-4249-93cc-9d15c33e4ce3
+    - bff1de73-a679-48b6-9ea8-f1f2c0dfe875: bff1de73-a679-48b6-6157-0e0d3f20178a
+    - c2bba2d7-2fae-4299-b9be-dfcb69bc730d: c2bba2d7-2fae-4299-4641-203496438cf2
+    - c37e9097-88d0-49ba-814e-df0ca09d5514: c37e9097-88d0-49ba-7eb1-20f35f62aaeb
+    - c8229334-362f-488b-ac83-12317590a6e0: c8229334-362f-488b-537c-edce8a6f591f
+    - c937c06a-8943-4458-bedd-b632cc92e3e3: c937c06a-8943-4458-4122-49cd336d1c1c
+    - c980afa8-0371-423a-bb90-07a0abc2217f: c980afa8-0371-423a-446f-f85f543dde80
+    - cd92afaf-6d51-4de2-95a4-1ffb9009e0a6: cd92afaf-6d51-4de2-6a5b-e0046ff61f59
+    - ce14dbe2-41a2-4dcc-85c5-0989a5b2dec8: ce14dbe2-41a2-4dcc-7a3a-f6765a4d2137
+    - d123d0f4-d8d8-463c-b541-7b17d60364e5: d123d0f4-d8d8-463c-4abe-84e829fc9b1a
+    - d16e303c-c486-4ccb-a027-69cdfaea745c: d16e303c-c486-4ccb-5fd8-963205158ba3
+    - d17f022a-ed16-43bd-9b1c-e265ae1d411e: d17f022a-ed16-43bd-64e3-1d9a51e2bee1
+    - d2a2b90d-e079-47cb-a56b-dd4566d34a1b: d2a2b90d-e079-47cb-5a94-22ba992cb5e4
+    - d2eaacdb-76b9-47ae-80d3-d325c49106dd: 26e47836-5e8d-4f62-b255-c64e2d8fab4c
+    - d3489a6b-2eda-4a0c-8940-75011211b8ae: a93f0841-9825-421b-9b99-cede9dee483e
+    - d429f048-af90-490c-a089-67bb10de1093: d429f048-af90-490c-5f76-9844ef21ef6c
+    - d50638c5-98e1-41e2-9cac-1404d90a5774: d50638c5-98e1-41e2-6353-ebfb26f5a88b
+    - d898b322-7fb9-4a3a-983d-d09ccff14d2f: d898b322-7fb9-4a3a-67c2-2f63300eb2d0
+    - d9d334e8-34b1-4aa9-8b3f-eea5aa1d086f: d9d334e8-34b1-4aa9-74c0-115a55e2f790
+    - da2e336a-70e9-4764-8491-285a62e4721d: da2e336a-70e9-4764-7b6e-d7a59d1b8de2
+    - dd5f26a5-94e9-404c-9fa8-e411c53dbd6e: dd5f26a5-94e9-404c-6057-1bee3ac24291
+    - e2c1246f-99c3-4f07-81f5-0b503cff55be: e2c1246f-99c3-4f07-7e0a-f4afc300aa41
+    - e4ae71c8-ce11-4fc7-958a-a1b68e68c681: e4ae71c8-ce11-4fc7-6a75-5e497197397e
+    - eb0db7f4-398b-4b1f-954d-e5a96ad020cb: eb0db7f4-398b-4b1f-6ab2-1a56952fdf34
+    - ed393f96-a896-46ca-b422-e19b19e14993: deb204db-1057-40dd-899a-ceb804985cbc
+    - f0792924-2b68-4268-bbb8-471b5d370799: f0792924-2b68-4268-4447-b8e4a2c8f866
+    - f126e337-4af1-4e13-a376-47e951c895eb: f126e337-4af1-4e13-5c89-b816ae376a14
+    - f71f9208-e374-4bfe-81f9-2a0ff246cca5: f71f9208-e374-4bfe-7e06-d5f00db9335a
+    - f756795a-aa17-42e5-b2e5-d755368b9d74: f756795a-aa17-42e5-4d1a-28aac974628b
+    - f7f88a9e-56a3-45bb-a72b-a6b912c394fc: f7f88a9e-56a3-45bb-58d4-5946ed3c6b03
+    - fa9055d3-607e-40d5-9cc9-1d4560ced369: fa9055d3-607e-40d5-6336-e2ba9f312c96
+    - fb7f28f5-aec7-4853-93aa-828465774168: fb7f28f5-aec7-4853-6c55-7d7b9a88be97
+    - fd259a16-3491-4f88-8fcc-db54c4ae9bf2: fd259a16-3491-4f88-7033-24ab3b51640d
+    - fdd4fb7b-8f81-4f9e-a56f-aa99d8789900: fdd4fb7b-8f81-4f9e-5a90-5566278766ff
+    - feff32c6-3965-471a-a39a-0837a30ad3f9: 5dad77fc-947c-4166-b3f3-e40696bfcb43
+    - ffb5135f-f8a7-4a44-908f-fdd3ab0a5067: ffb5135f-f8a7-4a44-6f70-022c54f5af98
+  Name: Wire Fusebox
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: -0.000000, y: -0.000010, z: -0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> f71f9208-e374-4bfe-81f9-2a0ff246cca5
+    - !<own> 07edc556-418b-48b3-8839-190f143d64d4
+    - !<own> 6e9ff497-66a5-4714-bfce-0f2494a99d81
+    - !<own> 1d1b2550-b176-44ac-a3bc-c14cae3bc19c
+    - !<own> 2b78ca98-911c-4339-9b32-c2fca7eaa124
+    - !<own> da2e336a-70e9-4764-8491-285a62e4721d
+    - !<own> 2209ce9c-8e41-45c2-81f2-dd3396e3a9e5
+    - !<own> f0792924-2b68-4268-bbb8-471b5d370799
+    - !<own> a8417906-187e-4724-8d5b-f3f1aa496ade
+    - !<own> 0dbe638d-f2f0-43d7-8b5d-dd7665a951da
+    - !<own> a5964415-6987-4ec2-93ae-9c6e7eea1c43
+  Components:
+    - !<own> feff32c6-3965-471a-a39a-0837a30ad3f9
+- !<RenderMeshVisual/357585b0-3b02-4059-bc7f-1c92ae94185a>
+  PrefabRemaps:
+    []
+  Name: component_38
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 57678b9c-660e-4113-97d7-e0e724068746
+  Mesh: !<reference> 2cc9ee3f-70bc-4233-a4e1-dc746664bb68
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/358c7d03-05a3-4eba-a66a-7b95fe6bc48a>
+  PrefabRemaps:
+    []
+  Name: Red Wire Head
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -4.647690, y: -0.190949, z: 0.000000}
+    Rotation: {x: 269.996277, y: 90.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 083e0f09-c80b-471c-8448-ae08574a937c
+    - !<own> 11da1b27-18e3-4448-b274-e307e6135710
+    - !<own> 451e788a-751e-4cb0-8958-738a25e01b77
+  Components:
+    []
+- !<SceneObject/35b4d32e-ee80-4193-a748-6f1875ed834a>
+  PrefabRemaps:
+    []
+  Name: Green Wire Handle
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -4.647690, y: -0.190949, z: 0.000000}
+    Rotation: {x: 269.996277, y: 90.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 141ad9bc-2fe4-47ca-88ae-dfd6ecdc1f14
+    - !<own> 56ef26f0-c5be-4c5d-9eb7-b8b9bbd9368e
+    - !<own> a850987c-6de7-4202-9b2c-a9a74f27cdba
+    - !<own> 4b8bb011-84cc-4ab6-af98-630cc635a999
+- !<SceneObject/3912c953-a4ec-42c1-979f-b529073ed7e8>
+  PrefabRemaps:
+    []
+  Name: Blue Wire Head Visuals
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: -0.053533, y: -90.000000, z: -89.947708}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> a45dfad9-ec1a-4b18-87b7-5e02395ec444
+    - !<own> 4feedd77-80f5-45bd-96d9-160feff745c3
+- !<ScriptComponent/3d4d28a9-6c42-437d-b17e-f23e94874f6c>
+  PrefabRemaps:
+    []
+  Name: Interactable
+  Enabled: true
+  ScriptAsset: !<reference> 652e631a-22d0-4941-9f74-2943df59f34c
+  ScriptInputsDefault:
+    ignoreInteractionPlane: true
+    keepHoverOnTrigger: true
+    enableInstantDrag: true
+    isScrollable: true
+    allowMultipleInteractors: true
+    enablePokeDirectionality: true
+    acceptableXDirections: true
+    acceptableYDirections: true
+    acceptableZDirections: true
+    useFilteredPinch: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      targetingMode: !<float> 1.000000
+      targetingVisual: !<float> 0.000000
+      ignoreInteractionPlane: false
+      keepHoverOnTrigger: false
+      enableInstantDrag: false
+      isScrollable: false
+      allowMultipleInteractors: true
+      enablePokeDirectionality: false
+      acceptableXDirections: !<float> 0.000000
+      acceptableYDirections: !<float> 0.000000
+      acceptableZDirections: !<float> 1.000000
+      useFilteredPinch: false
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/451e788a-751e-4cb0-8958-738a25e01b77>
+  PrefabRemaps:
+    []
+  Name: Red Wire End
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.750000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<RenderMeshVisual/45c07f81-c140-4f31-a8a7-c9998eac7107>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 86598a2f-527c-4a85-bf35-f7538cb98d22
+  Mesh: !<reference> f017c491-0aa7-4b4d-b71d-b31c8c6991e5
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/475431e2-6cba-475d-b7a4-47528510169c>
+  PrefabRemaps:
+    []
+  Name: Yellow Wire
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.000000, y: 0.486900, z: 1.020963}
+    Rotation: {x: 90.000008, y: 0.000000, z: -0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 65be72b1-5452-4611-aab0-0ecee0ced5bb
+    - !<own> 94763055-dda1-4daa-91a2-8e1a231622d0
+    - !<own> 1785d023-cfda-429d-ae7b-69d1e07c4b9e
+    - !<own> b393b3b7-7b37-4b5a-b097-5a0d316f9c90
+  Components:
+    []
+- !<SceneObject/4939e479-c654-48a5-a409-312160960e9c>
+  PrefabRemaps:
+    []
+  Name: Wire Socket 2
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 2.878813, y: -0.065258, z: 0.000000}
+    Rotation: {x: 269.996277, y: 90.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 19ef7e83-7f7a-4b95-b2ef-792b2a8282f2
+- !<RenderMeshVisual/49f9e32a-da76-46bc-9751-75418c16befb>
+  PrefabRemaps:
+    []
+  Name: component_46
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 86598a2f-527c-4a85-bf35-f7538cb98d22
+  Mesh: !<reference> f79268b5-f28d-4b53-a24f-ef99150dd322
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ScriptComponent/4b8bb011-84cc-4ab6-af98-630cc635a999>
+  PrefabRemaps:
+    []
+  Name: InteractableOutlineFeedback
+  Enabled: true
+  ScriptAsset: !<reference> 657cbbe5-2a9c-4889-93fb-fd72ba8a1d52
+  ScriptInputsDefault:
+    hoveringColor: true
+    activatingColor: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      targetOutlineMaterial: !<reference.Material> 7231c7bc-6c14-4331-ad23-9ab928107707
+      hoveringColor: !<Vec4> {x: 1.000000, y: 1.000000, z: 0.040000, w: 1.000000}
+      activatingColor: !<Vec4> {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      outlineWeight: 0.100000
+      meshVisuals: !<reference.RenderMeshVisual[]>
+        - !<reference> 14da9be0-4b8f-4703-9a8b-deff69c6de79
+  ScriptTypes:
+    "":
+      {}
+- !<RenderMeshVisual/4feedd77-80f5-45bd-96d9-160feff745c3>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 86598a2f-527c-4a85-bf35-f7538cb98d22
+  Mesh: !<reference> f017c491-0aa7-4b4d-b71d-b31c8c6991e5
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/53cc46c7-a948-4a49-81ba-b07ae4699440>
+  PrefabRemaps:
+    []
+  Name: Wire
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.500000, y: 0.500000, z: 0.500000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> e2c1246f-99c3-4f07-81f5-0b503cff55be
+- !<ScriptComponent/56ef26f0-c5be-4c5d-9eb7-b8b9bbd9368e>
+  PrefabRemaps:
+    []
+  Name: InteractableManipulation
+  Enabled: true
+  ScriptAsset: !<reference> 664b556b-1946-4c2c-866a-e675b4e86006
+  ScriptInputsDefault:
+    enableTranslation: true
+    minimumScaleFactor: true
+    maximumScaleFactor: true
+    zStretchFactorMin: true
+    zStretchFactorMax: true
+    useFilter: true
+    _enableXTranslation: true
+    _enableYTranslation: true
+    _enableZTranslation: true
+    showRotationProperties: true
+    _rotationAxis: true
+    isSynced: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      manipulateRootSceneObject: !<reference.SceneObject> 35b4d32e-ee80-4193-a748-6f1875ed834a
+      enableTranslation: true
+      enableRotation: false
+      enableScale: false
+      minimumScaleFactor: 0.250000
+      maximumScaleFactor: !<float> 20.000000
+      enableStretchZ: false
+      zStretchFactorMin: !<float> 1.000000
+      zStretchFactorMax: !<float> 12.000000
+      useFilter: true
+      showTranslationProperties: true
+      _enableXTranslation: true
+      _enableYTranslation: true
+      _enableZTranslation: true
+      showRotationProperties: false
+      _rotationAxis: All
+      isSynced: false
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/5d64b087-f992-4cf8-a2c9-b2c3beba7db4>
+  PrefabRemaps:
+    []
+  Name: Blue Wire
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: -1.398200, z: 1.020963}
+    Rotation: {x: 90.000008, y: 0.000000, z: -0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> a93373b0-e618-44fe-8e81-3c22325d1999
+    - !<own> c2bba2d7-2fae-4299-b9be-dfcb69bc730d
+    - !<own> 4939e479-c654-48a5-a409-312160960e9c
+    - !<own> 27561686-fcff-438b-98db-2268352e7157
+  Components:
+    []
+- !<RenderMeshVisual/60bb2802-fcde-46fe-91f2-43e9f9e44643>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 86598a2f-527c-4a85-bf35-f7538cb98d22
+  Mesh: !<reference> f017c491-0aa7-4b4d-b71d-b31c8c6991e5
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/61ef8e67-a10b-4e02-9349-26d8f1b2973c>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: false
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 57678b9c-660e-4113-97d7-e0e724068746
+  Mesh: !<reference> e542623c-1432-4bfa-881d-a28905bd9e57
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/65be72b1-5452-4611-aab0-0ecee0ced5bb>
+  PrefabRemaps:
+    []
+  Name: Yellow Wire Handle
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -4.647690, y: -0.190949, z: 0.000000}
+    Rotation: {x: 269.996277, y: 90.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ce14dbe2-41a2-4dcc-85c5-0989a5b2dec8
+    - !<own> 1d7dd6be-2ae8-435b-809a-41fa73fccec5
+    - !<own> 94594bae-6108-4158-9e62-5bb4bde65817
+    - !<own> bb13ec3a-4f0e-4c6d-b643-ccd1acf86785
+- !<BodyComponent/66a79bf0-e6b3-4063-9432-df7218fb56b6>
+  PrefabRemaps:
+    []
+  Name: Physics Body
+  Enabled: true
+  Shape: !<Cylinder>
+    Axis: Y
+    Length: 2.000000
+    Radius: 0.500000
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+  Dynamic: false
+  BodySetting: Density
+  BodySettingValue: 1.000000
+  Damping: 0.000000
+  AngularDamping: 0.000000
+- !<RenderMeshVisual/699a0777-7722-4319-9f19-db1c5e8447c8>
+  PrefabRemaps:
+    []
+  Name: component_33
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 351955d7-c64c-4571-9975-3ea02912acae
+  Mesh: !<reference> 5244fae2-4c64-41f1-b61f-b5abc7566a64
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/69eae634-b664-4b7f-9f1e-a1b72d0ecb23>
+  PrefabRemaps:
+    []
+  Name: Yellow Wire Head Visuals
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: -0.053533, y: -90.000000, z: -89.947708}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> fdd4fb7b-8f81-4f9e-a56f-aa99d8789900
+    - !<own> b54a1187-2392-44e6-aa71-292ccbfa688a
+- !<SceneObject/6e9ff497-66a5-4714-bfce-0f2494a99d81>
+  PrefabRemaps:
+    []
+  Name: Wire Socket 2 Visual
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 5.147263, y: -0.520035, z: 3.283444}
+    Rotation: {x: 270.000000, y: 90.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> fd259a16-3491-4f88-8fcc-db54c4ae9bf2
+    - !<own> 11bd39a1-a3a8-4d3d-a17c-7a813a7303b8
+    - !<own> 220c5b51-2c5d-47a4-8b77-29ebc567c78c
+- !<SceneObject/70457e33-83e0-4dec-9ee8-dbc9805bbbe1>
+  PrefabRemaps:
+    []
+  Name: Wire USB
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: -0.000000, z: 180.000000}
+    Scale: {x: 0.700000, y: 0.700000, z: 0.700000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<RenderMeshVisual/73327a12-9f3d-4bca-9fe9-57db7187445e>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> df240942-e25a-458f-b3cc-9a5cda56edfa
+  Mesh: !<reference> aedaf020-1838-4f6f-a2fa-fe3cf6c6654a
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ColliderComponent/738ddf98-7b8b-42b1-a5b3-bed62a626ff9>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: false
+    Size: {x: 11.000000, y: 3.000000, z: 2.750000}
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+- !<ScriptComponent/73ab08b5-b424-4f53-92f6-e4d82267a7d5>
+  PrefabRemaps:
+    []
+  Name: InteractableOutlineFeedback
+  Enabled: true
+  ScriptAsset: !<reference> 657cbbe5-2a9c-4889-93fb-fd72ba8a1d52
+  ScriptInputsDefault:
+    hoveringColor: true
+    activatingColor: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      targetOutlineMaterial: !<reference.Material> 7231c7bc-6c14-4331-ad23-9ab928107707
+      hoveringColor: !<Vec4> {x: 1.000000, y: 1.000000, z: 0.040000, w: 1.000000}
+      activatingColor: !<Vec4> {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      outlineWeight: 0.100000
+      meshVisuals: !<reference.RenderMeshVisual[]>
+        - !<reference> a45dfad9-ec1a-4b18-87b7-5e02395ec444
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/75c39b36-8732-45e6-9bb3-42b25e096495>
+  PrefabRemaps:
+    []
+  Name: Wire USB
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: -0.000000, z: 180.000000}
+    Scale: {x: 0.700000, y: 0.700000, z: 0.700000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<RenderMeshVisual/79817748-5451-43dc-8b9e-b2cda5de20eb>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: false
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 57678b9c-660e-4113-97d7-e0e724068746
+  Mesh: !<reference> e542623c-1432-4bfa-881d-a28905bd9e57
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/7b87ef5e-ca6a-4d80-a628-50b0e82e03c3>
+  PrefabRemaps:
+    []
+  Name: Wire USB
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: -0.000000, z: 180.000000}
+    Scale: {x: 0.700000, y: 0.700000, z: 0.700000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/7c597b21-9398-4b25-9cab-cc435e502d7f>
+  PrefabRemaps:
+    []
+  Name: Red Wire Handle
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -4.647690, y: -0.190949, z: 0.000000}
+    Rotation: {x: 269.996277, y: 90.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 8640e6c2-9315-41dc-83e3-aa127d7ffbba
+    - !<own> c37e9097-88d0-49ba-814e-df0ca09d5514
+    - !<own> d123d0f4-d8d8-463c-b541-7b17d60364e5
+    - !<own> d3489a6b-2eda-4a0c-8940-75011211b8ae
+- !<RenderMeshVisual/7e527a0a-f8f3-4448-86b1-85fa03dc0a86>
+  PrefabRemaps:
+    []
+  Name: component_37
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 86598a2f-527c-4a85-bf35-f7538cb98d22
+  Mesh: !<reference> f79268b5-f28d-4b53-a24f-ef99150dd322
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/8231b43a-47c8-46bb-9cfd-39b5a589e72c>
+  PrefabRemaps:
+    []
+  Name: component_28
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 86598a2f-527c-4a85-bf35-f7538cb98d22
+  Mesh: !<reference> f4ca8ff4-cd21-45b2-a9e5-fbbe041c52d0
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/8555054b-1e19-4102-bb90-af105100c9a5>
+  PrefabRemaps:
+    []
+  Name: Wire Socket 0
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 2.878813, y: -0.065258, z: 0.000000}
+    Rotation: {x: 269.996277, y: 90.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 61ef8e67-a10b-4e02-9349-26d8f1b2973c
+- !<RenderMeshVisual/85613e04-ad3c-4a71-b62a-0ed1f83cf1c3>
+  PrefabRemaps:
+    []
+  Name: component_36
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> df240942-e25a-458f-b3cc-9a5cda56edfa
+  Mesh: !<reference> 05bfeb10-ec6f-4d0a-9fb2-8b8f293ec3f0
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<BodyComponent/8640e6c2-9315-41dc-83e3-aa127d7ffbba>
+  PrefabRemaps:
+    []
+  Name: Physics Body
+  Enabled: true
+  Shape: !<Cylinder>
+    Axis: Y
+    Length: 2.000000
+    Radius: 0.500000
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+  Dynamic: false
+  BodySetting: Density
+  BodySettingValue: 1.000000
+  Damping: 0.000000
+  AngularDamping: 0.000000
+- !<RenderMeshVisual/8896a615-82ce-445b-bcce-64a7830c98df>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> df240942-e25a-458f-b3cc-9a5cda56edfa
+  Mesh: !<reference> 5e98d5c4-59cc-451b-8a7d-aee24f432089
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/90da75c5-d19b-4842-b7ec-6c077f238226>
+  PrefabRemaps:
+    []
+  Name: Green Wire
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: -3.283400, z: 1.020963}
+    Rotation: {x: 90.000008, y: 0.000000, z: -0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 35b4d32e-ee80-4193-a748-6f1875ed834a
+    - !<own> e4ae71c8-ce11-4fc7-958a-a1b68e68c681
+    - !<own> fa9055d3-607e-40d5-9cc9-1d4560ced369
+    - !<own> ffb5135f-f8a7-4a44-908f-fdd3ab0a5067
+  Components:
+    []
+- !<ScriptComponent/936c0235-a0e9-4975-b5df-d88d5745efd8>
+  PrefabRemaps:
+    []
+  Name: InteractableOutlineFeedback
+  Enabled: true
+  ScriptAsset: !<reference> 657cbbe5-2a9c-4889-93fb-fd72ba8a1d52
+  ScriptInputsDefault:
+    targetOutlineMaterial: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      targetOutlineMaterial: !<reference.Material> 7ac80b6c-979a-4a00-a694-099f296be161
+      hoveringColor: !<Vec4> {x: 0.986267, y: 0.989700, z: 1.000000, w: 1.000000}
+      activatingColor: !<Vec4> {x: 0.793088, y: 0.789288, z: 0.796872, w: 1.000000}
+      outlineWeight: 0.100000
+      meshVisuals: !<reference.RenderMeshVisual[]>
+        - !<reference> d9d334e8-34b1-4aa9-8b3f-eea5aa1d086f
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/94594bae-6108-4158-9e62-5bb4bde65817>
+  PrefabRemaps:
+    []
+  Name: Interactable
+  Enabled: true
+  ScriptAsset: !<reference> 652e631a-22d0-4941-9f74-2943df59f34c
+  ScriptInputsDefault:
+    ignoreInteractionPlane: true
+    keepHoverOnTrigger: true
+    enableInstantDrag: true
+    isScrollable: true
+    allowMultipleInteractors: true
+    enablePokeDirectionality: true
+    acceptableXDirections: true
+    acceptableYDirections: true
+    acceptableZDirections: true
+    useFilteredPinch: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      targetingMode: !<float> 1.000000
+      targetingVisual: !<float> 0.000000
+      ignoreInteractionPlane: false
+      keepHoverOnTrigger: false
+      enableInstantDrag: false
+      isScrollable: false
+      allowMultipleInteractors: true
+      enablePokeDirectionality: false
+      acceptableXDirections: !<float> 0.000000
+      acceptableYDirections: !<float> 0.000000
+      acceptableZDirections: !<float> 1.000000
+      useFilteredPinch: false
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/94763055-dda1-4daa-91a2-8e1a231622d0>
+  PrefabRemaps:
+    []
+  Name: Yellow Wire
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -5.147690, y: -0.190949, z: 0.000000}
+    Rotation: {x: 270.000000, y: 90.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> d50638c5-98e1-41e2-9cac-1404d90a5774
+  Components:
+    - !<own> d2eaacdb-76b9-47ae-80d3-d325c49106dd
+- !<SceneObject/a10d180c-d5f7-441e-a8ca-f84fb9dfe1a8>
+  PrefabRemaps:
+    []
+  Name: Red Wire
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -5.147690, y: -0.190949, z: 0.000000}
+    Rotation: {x: 270.000000, y: 90.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> cd92afaf-6d51-4de2-95a4-1ffb9009e0a6
+  Components:
+    - !<own> 16d69e9f-2fbc-4e39-bf13-f73065f2a15d
+- !<RenderMeshVisual/a243b5c3-2912-4d35-998b-a99e0a0e1390>
+  PrefabRemaps:
+    []
+  Name: component_42
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> df240942-e25a-458f-b3cc-9a5cda56edfa
+  Mesh: !<reference> 05bfeb10-ec6f-4d0a-9fb2-8b8f293ec3f0
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/a45dfad9-ec1a-4b18-87b7-5e02395ec444>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> df240942-e25a-458f-b3cc-9a5cda56edfa
+  Mesh: !<reference> aedaf020-1838-4f6f-a2fa-fe3cf6c6654a
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/a5964415-6987-4ec2-93ae-9c6e7eea1c43>
+  PrefabRemaps:
+    []
+  Name: Wire Parent
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: -90.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 19a2de86-757b-4515-91f1-48e74098e590
+    - !<own> 90da75c5-d19b-4842-b7ec-6c077f238226
+    - !<own> 5d64b087-f992-4cf8-a2c9-b2c3beba7db4
+    - !<own> 475431e2-6cba-475d-b7a4-47528510169c
+  Components:
+    []
+- !<SceneObject/a8417906-187e-4724-8d5b-f3f1aa496ade>
+  PrefabRemaps:
+    []
+  Name: Wire Reel 4
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -5.147263, y: -0.520035, z: -0.486946}
+    Rotation: {x: 0.000000, y: -0.000000, z: 180.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 2bf10eb1-baa4-49bc-a345-51a98ab28c01
+    - !<own> 019f7366-d32d-4bc8-a969-e510b3c5f6b7
+- !<ScriptComponent/a850987c-6de7-4202-9b2c-a9a74f27cdba>
+  PrefabRemaps:
+    []
+  Name: Interactable
+  Enabled: true
+  ScriptAsset: !<reference> 652e631a-22d0-4941-9f74-2943df59f34c
+  ScriptInputsDefault:
+    ignoreInteractionPlane: true
+    keepHoverOnTrigger: true
+    enableInstantDrag: true
+    isScrollable: true
+    allowMultipleInteractors: true
+    enablePokeDirectionality: true
+    acceptableXDirections: true
+    acceptableYDirections: true
+    acceptableZDirections: true
+    useFilteredPinch: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      targetingMode: !<float> 1.000000
+      targetingVisual: !<float> 0.000000
+      ignoreInteractionPlane: false
+      keepHoverOnTrigger: false
+      enableInstantDrag: false
+      isScrollable: false
+      allowMultipleInteractors: true
+      enablePokeDirectionality: false
+      acceptableXDirections: !<float> 0.000000
+      acceptableYDirections: !<float> 0.000000
+      acceptableZDirections: !<float> 1.000000
+      useFilteredPinch: false
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/a93373b0-e618-44fe-8e81-3c22325d1999>
+  PrefabRemaps:
+    []
+  Name: Blue Wire Handle
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -4.647690, y: -0.190949, z: 0.000000}
+    Rotation: {x: 269.996277, y: 90.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 66a79bf0-e6b3-4063-9432-df7218fb56b6
+    - !<own> f126e337-4af1-4e13-a376-47e951c895eb
+    - !<own> 3d4d28a9-6c42-437d-b17e-f23e94874f6c
+    - !<own> 73ab08b5-b424-4f53-92f6-e4d82267a7d5
+- !<SceneObject/aaa6c9da-0c4e-45dd-8a64-3f51376212d7>
+  PrefabRemaps:
+    []
+  Name: Wire
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.500000, y: 0.500000, z: 0.500000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> c8229334-362f-488b-ac83-12317590a6e0
+- !<RenderMeshVisual/adfeaf89-b0ee-4fe4-b948-16c1995f3ab1>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 57678b9c-660e-4113-97d7-e0e724068746
+  Mesh: !<reference> 00b0d776-ff3a-4b3b-8b23-9011cae37140
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/b073e235-eab4-46ae-b639-c82a954d5f0e>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 57678b9c-660e-4113-97d7-e0e724068746
+  Mesh: !<reference> 00b0d776-ff3a-4b3b-8b23-9011cae37140
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ScriptComponent/b0e310cc-3c07-464f-a928-5b007bddaa2c>
+  PrefabRemaps:
+    []
+  Name: WireConnector
+  Enabled: true
+  ScriptAsset: !<reference> b610d5e9-b9ed-49ba-9229-d5fa3dbc7104
+  ScriptInputsDefault:
+    wireRadius: true
+    followSpeed: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      wireMaterial: !<reference.Material> 351955d7-c64c-4571-9975-3ea02912acae
+      wireFaceCount: !<float> 16.000000
+      wireRadius: 0.250000
+      wireSegments: !<float> 20.000000
+      wireHead: !<reference.SceneObject> 27561686-fcff-438b-98db-2268352e7157
+      wireEnd: !<reference.SceneObject> d17f022a-ed16-43bd-9b1c-e265ae1d411e
+      wireHandle: !<reference.SceneObject> a93373b0-e618-44fe-8e81-3c22325d1999
+      followSpeed: !<float> 10.000000
+      maxWireLength: !<float> 10.000000
+      snapDistance: 0.400000
+      wireSockets: !<reference.SceneObject[]>
+        - !<reference> 8555054b-1e19-4102-bb90-af105100c9a5
+        - !<reference> fa9055d3-607e-40d5-9cc9-1d4560ced369
+        - !<reference> 4939e479-c654-48a5-a409-312160960e9c
+        - !<reference> 1785d023-cfda-429d-ae7b-69d1e07c4b9e
+      raiseDirection: !<Vec3> {x: 0.000000, y: 0.000000, z: 1.000000}
+      raiseOffset: 0.500000
+      wireManager: !<reference.ScriptComponent> feff32c6-3965-471a-a39a-0837a30ad3f9
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/b393b3b7-7b37-4b5a-b097-5a0d316f9c90>
+  PrefabRemaps:
+    []
+  Name: Yellow Wire Head
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -4.647690, y: -0.190949, z: 0.000000}
+    Rotation: {x: 269.996277, y: 90.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 7b87ef5e-ca6a-4d80-a628-50b0e82e03c3
+    - !<own> 69eae634-b664-4b7f-9f1e-a1b72d0ecb23
+    - !<own> f756795a-aa17-42e5-b2e5-d755368b9d74
+  Components:
+    []
+- !<RenderMeshVisual/b54a1187-2392-44e6-aa71-292ccbfa688a>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 86598a2f-527c-4a85-bf35-f7538cb98d22
+  Mesh: !<reference> f017c491-0aa7-4b4d-b71d-b31c8c6991e5
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ScriptComponent/bb13ec3a-4f0e-4c6d-b643-ccd1acf86785>
+  PrefabRemaps:
+    []
+  Name: InteractableOutlineFeedback
+  Enabled: true
+  ScriptAsset: !<reference> 657cbbe5-2a9c-4889-93fb-fd72ba8a1d52
+  ScriptInputsDefault:
+    hoveringColor: true
+    activatingColor: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      targetOutlineMaterial: !<reference.Material> 7231c7bc-6c14-4331-ad23-9ab928107707
+      hoveringColor: !<Vec4> {x: 1.000000, y: 1.000000, z: 0.040000, w: 1.000000}
+      activatingColor: !<Vec4> {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      outlineWeight: 0.100000
+      meshVisuals: !<reference.RenderMeshVisual[]>
+        - !<reference> fdd4fb7b-8f81-4f9e-a56f-aa99d8789900
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/bd1417fa-57c0-41ce-93aa-6c09cbacf77f>
+  PrefabRemaps:
+    []
+  Name: Button Face
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 2.411012, z: 0.000001}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> d16e303c-c486-4ccb-a027-69cdfaea745c
+  Components:
+    - !<own> 738ddf98-7b8b-42b1-a5b3-bed62a626ff9
+    - !<own> d898b322-7fb9-4a3a-983d-d09ccff14d2f
+    - !<own> 936c0235-a0e9-4975-b5df-d88d5745efd8
+- !<ScriptComponent/bf6aff3d-19c5-44f3-8ff3-05aeef900d68>
+  PrefabRemaps:
+    []
+  Name: WireConnector
+  Enabled: true
+  ScriptAsset: !<reference> b610d5e9-b9ed-49ba-9229-d5fa3dbc7104
+  ScriptInputsDefault:
+    wireRadius: true
+    followSpeed: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      wireMaterial: !<reference.Material> 803a36f4-3946-4c7c-b580-769628e1c44b
+      wireFaceCount: !<float> 16.000000
+      wireRadius: 0.250000
+      wireSegments: !<float> 20.000000
+      wireHead: !<reference.SceneObject> ffb5135f-f8a7-4a44-908f-fdd3ab0a5067
+      wireEnd: !<reference.SceneObject> dd5f26a5-94e9-404c-9fa8-e411c53dbd6e
+      wireHandle: !<reference.SceneObject> 35b4d32e-ee80-4193-a748-6f1875ed834a
+      followSpeed: !<float> 10.000000
+      maxWireLength: !<float> 10.000000
+      snapDistance: 0.400000
+      wireSockets: !<reference.SceneObject[]>
+        - !<reference> 8555054b-1e19-4102-bb90-af105100c9a5
+        - !<reference> fa9055d3-607e-40d5-9cc9-1d4560ced369
+        - !<reference> 4939e479-c654-48a5-a409-312160960e9c
+        - !<reference> 1785d023-cfda-429d-ae7b-69d1e07c4b9e
+      raiseDirection: !<Vec3> {x: 0.000000, y: 0.000000, z: 1.000000}
+      raiseOffset: 0.500000
+      wireManager: !<reference.ScriptComponent> feff32c6-3965-471a-a39a-0837a30ad3f9
+  ScriptTypes:
+    "":
+      {}
+- !<RenderMeshVisual/bff1de73-a679-48b6-9ea8-f1f2c0dfe875>
+  PrefabRemaps:
+    []
+  Name: component_43
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 86598a2f-527c-4a85-bf35-f7538cb98d22
+  Mesh: !<reference> f79268b5-f28d-4b53-a24f-ef99150dd322
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/c2bba2d7-2fae-4299-b9be-dfcb69bc730d>
+  PrefabRemaps:
+    []
+  Name: Blue Wire
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -5.147690, y: -0.190949, z: 0.000000}
+    Rotation: {x: 270.000000, y: 90.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 53cc46c7-a948-4a49-81ba-b07ae4699440
+  Components:
+    - !<own> b0e310cc-3c07-464f-a928-5b007bddaa2c
+- !<ScriptComponent/c37e9097-88d0-49ba-814e-df0ca09d5514>
+  PrefabRemaps:
+    []
+  Name: InteractableManipulation
+  Enabled: true
+  ScriptAsset: !<reference> 664b556b-1946-4c2c-866a-e675b4e86006
+  ScriptInputsDefault:
+    enableTranslation: true
+    minimumScaleFactor: true
+    maximumScaleFactor: true
+    zStretchFactorMin: true
+    zStretchFactorMax: true
+    useFilter: true
+    _enableXTranslation: true
+    _enableYTranslation: true
+    _enableZTranslation: true
+    showRotationProperties: true
+    _rotationAxis: true
+    isSynced: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      manipulateRootSceneObject: !<reference.SceneObject> 7c597b21-9398-4b25-9cab-cc435e502d7f
+      enableTranslation: true
+      enableRotation: false
+      enableScale: false
+      minimumScaleFactor: 0.250000
+      maximumScaleFactor: !<float> 20.000000
+      enableStretchZ: false
+      zStretchFactorMin: !<float> 1.000000
+      zStretchFactorMax: !<float> 12.000000
+      useFilter: true
+      showTranslationProperties: true
+      _enableXTranslation: true
+      _enableYTranslation: true
+      _enableZTranslation: true
+      showRotationProperties: false
+      _rotationAxis: All
+      isSynced: false
+  ScriptTypes:
+    "":
+      {}
+- !<RenderMeshVisual/c8229334-362f-488b-ac83-12317590a6e0>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 57678b9c-660e-4113-97d7-e0e724068746
+  Mesh: !<reference> 00b0d776-ff3a-4b3b-8b23-9011cae37140
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/c937c06a-8943-4458-bedd-b632cc92e3e3>
+  PrefabRemaps:
+    []
+  Name: component_29
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 9d7ed56e-bfbf-4a56-a106-e372c86dcb79
+  Mesh: !<reference> 5244fae2-4c64-41f1-b61f-b5abc7566a64
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/c980afa8-0371-423a-bb90-07a0abc2217f>
+  PrefabRemaps:
+    []
+  Name: component_44
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 57678b9c-660e-4113-97d7-e0e724068746
+  Mesh: !<reference> 2cc9ee3f-70bc-4233-a4e1-dc746664bb68
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/cd92afaf-6d51-4de2-95a4-1ffb9009e0a6>
+  PrefabRemaps:
+    []
+  Name: Wire
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.500000, y: 0.500000, z: 0.500000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> adfeaf89-b0ee-4fe4-b948-16c1995f3ab1
+- !<BodyComponent/ce14dbe2-41a2-4dcc-85c5-0989a5b2dec8>
+  PrefabRemaps:
+    []
+  Name: Physics Body
+  Enabled: true
+  Shape: !<Cylinder>
+    Axis: Y
+    Length: 2.000000
+    Radius: 0.500000
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+  Dynamic: false
+  BodySetting: Density
+  BodySettingValue: 1.000000
+  Damping: 0.000000
+  AngularDamping: 0.000000
+- !<ScriptComponent/d123d0f4-d8d8-463c-b541-7b17d60364e5>
+  PrefabRemaps:
+    []
+  Name: Interactable
+  Enabled: true
+  ScriptAsset: !<reference> 652e631a-22d0-4941-9f74-2943df59f34c
+  ScriptInputsDefault:
+    ignoreInteractionPlane: true
+    keepHoverOnTrigger: true
+    enableInstantDrag: true
+    isScrollable: true
+    allowMultipleInteractors: true
+    enablePokeDirectionality: true
+    acceptableXDirections: true
+    acceptableYDirections: true
+    acceptableZDirections: true
+    useFilteredPinch: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      targetingMode: !<float> 1.000000
+      targetingVisual: !<float> 0.000000
+      ignoreInteractionPlane: false
+      keepHoverOnTrigger: false
+      enableInstantDrag: false
+      isScrollable: false
+      allowMultipleInteractors: true
+      enablePokeDirectionality: false
+      acceptableXDirections: !<float> 0.000000
+      acceptableYDirections: !<float> 0.000000
+      acceptableZDirections: !<float> 1.000000
+      useFilteredPinch: false
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/d16e303c-c486-4ccb-a027-69cdfaea745c>
+  PrefabRemaps:
+    []
+  Name: Long Button
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: -1.904907, z: -0.000001}
+    Rotation: {x: -90.000000, y: -0.000000, z: 0.000007}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> d9d334e8-34b1-4aa9-8b3f-eea5aa1d086f
+- !<SceneObject/d17f022a-ed16-43bd-9b1c-e265ae1d411e>
+  PrefabRemaps:
+    []
+  Name: Blue Wire End
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.750000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<RenderMeshVisual/d2a2b90d-e079-47cb-a56b-dd4566d34a1b>
+  PrefabRemaps:
+    []
+  Name: component_32
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 86598a2f-527c-4a85-bf35-f7538cb98d22
+  Mesh: !<reference> f4ca8ff4-cd21-45b2-a9e5-fbbe041c52d0
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ScriptComponent/d2eaacdb-76b9-47ae-80d3-d325c49106dd>
+  PrefabRemaps:
+    []
+  Name: WireConnector
+  Enabled: true
+  ScriptAsset: !<reference> b610d5e9-b9ed-49ba-9229-d5fa3dbc7104
+  ScriptInputsDefault:
+    wireRadius: true
+    followSpeed: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      wireMaterial: !<reference.Material> 2c03ebb5-38cb-414a-af47-029a54b73e3b
+      wireFaceCount: !<float> 16.000000
+      wireRadius: 0.250000
+      wireSegments: !<float> 20.000000
+      wireHead: !<reference.SceneObject> b393b3b7-7b37-4b5a-b097-5a0d316f9c90
+      wireEnd: !<reference.SceneObject> f756795a-aa17-42e5-b2e5-d755368b9d74
+      wireHandle: !<reference.SceneObject> 65be72b1-5452-4611-aab0-0ecee0ced5bb
+      followSpeed: !<float> 10.000000
+      maxWireLength: !<float> 10.000000
+      snapDistance: 0.400000
+      wireSockets: !<reference.SceneObject[]>
+        - !<reference> 8555054b-1e19-4102-bb90-af105100c9a5
+        - !<reference> fa9055d3-607e-40d5-9cc9-1d4560ced369
+        - !<reference> 4939e479-c654-48a5-a409-312160960e9c
+        - !<reference> 1785d023-cfda-429d-ae7b-69d1e07c4b9e
+      raiseDirection: !<Vec3> {x: 0.000000, y: 0.000000, z: 1.000000}
+      raiseOffset: 0.500000
+      wireManager: !<reference.ScriptComponent> feff32c6-3965-471a-a39a-0837a30ad3f9
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/d3489a6b-2eda-4a0c-8940-75011211b8ae>
+  PrefabRemaps:
+    []
+  Name: InteractableOutlineFeedback
+  Enabled: true
+  ScriptAsset: !<reference> 657cbbe5-2a9c-4889-93fb-fd72ba8a1d52
+  ScriptInputsDefault:
+    hoveringColor: true
+    activatingColor: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      targetOutlineMaterial: !<reference.Material> 7231c7bc-6c14-4331-ad23-9ab928107707
+      hoveringColor: !<Vec4> {x: 1.000000, y: 1.000000, z: 0.040000, w: 1.000000}
+      activatingColor: !<Vec4> {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      outlineWeight: 0.100000
+      meshVisuals: !<reference.RenderMeshVisual[]>
+        - !<reference> 73327a12-9f3d-4bca-9fe9-57db7187445e
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/d429f048-af90-490c-a089-67bb10de1093>
+  PrefabRemaps:
+    []
+  Name: Green Wire Head Visuals
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: -0.053533, y: -90.000000, z: -89.947708}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 14da9be0-4b8f-4703-9a8b-deff69c6de79
+    - !<own> 60bb2802-fcde-46fe-91f2-43e9f9e44643
+- !<SceneObject/d50638c5-98e1-41e2-9cac-1404d90a5774>
+  PrefabRemaps:
+    []
+  Name: Wire
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.500000, y: 0.500000, z: 0.500000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> b073e235-eab4-46ae-b639-c82a954d5f0e
+- !<ScriptComponent/d898b322-7fb9-4a3a-983d-d09ccff14d2f>
+  PrefabRemaps:
+    []
+  Name: Interactable
+  Enabled: true
+  ScriptAsset: !<reference> 652e631a-22d0-4941-9f74-2943df59f34c
+  ScriptInputsDefault:
+    ignoreInteractionPlane: true
+    keepHoverOnTrigger: true
+    enableInstantDrag: true
+    isScrollable: true
+    enablePokeDirectionality: true
+    acceptableXDirections: true
+    acceptableYDirections: true
+    acceptableZDirections: true
+    useFilteredPinch: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      targetingMode: !<float> 4.000000
+      targetingVisual: !<float> 0.000000
+      ignoreInteractionPlane: false
+      keepHoverOnTrigger: false
+      enableInstantDrag: false
+      isScrollable: false
+      allowMultipleInteractors: false
+      enablePokeDirectionality: false
+      acceptableXDirections: !<float> 0.000000
+      acceptableYDirections: !<float> 0.000000
+      acceptableZDirections: !<float> 1.000000
+      useFilteredPinch: false
+  ScriptTypes:
+    "":
+      {}
+- !<RenderMeshVisual/d9d334e8-34b1-4aa9-8b3f-eea5aa1d086f>
+  PrefabRemaps:
+    []
+  Name: component_3
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 13ef59af-affd-4383-8642-919fc777ee3f
+  Mesh: !<reference> 0baa3453-97a3-482c-b2fb-2de2c2ccf698
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/da2e336a-70e9-4764-8491-285a62e4721d>
+  PrefabRemaps:
+    []
+  Name: Wire Reel 1
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -5.147263, y: -0.520033, z: 5.168641}
+    Rotation: {x: 0.000000, y: -0.000000, z: 180.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 8231b43a-47c8-46bb-9cfd-39b5a589e72c
+    - !<own> c937c06a-8943-4458-bedd-b632cc92e3e3
+- !<SceneObject/dd5f26a5-94e9-404c-9fa8-e411c53dbd6e>
+  PrefabRemaps:
+    []
+  Name: Green Wire End
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.750000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<RenderMeshVisual/e2c1246f-99c3-4f07-81f5-0b503cff55be>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 57678b9c-660e-4113-97d7-e0e724068746
+  Mesh: !<reference> 00b0d776-ff3a-4b3b-8b23-9011cae37140
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/e4ae71c8-ce11-4fc7-958a-a1b68e68c681>
+  PrefabRemaps:
+    []
+  Name: Green Wire
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -5.147690, y: -0.190949, z: 0.000000}
+    Rotation: {x: 270.000000, y: 90.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> aaa6c9da-0c4e-45dd-8a64-3f51376212d7
+  Components:
+    - !<own> bf6aff3d-19c5-44f3-8ff3-05aeef900d68
+- !<RenderMeshVisual/eb0db7f4-398b-4b1f-954d-e5a96ad020cb>
+  PrefabRemaps:
+    []
+  Name: component_45
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> df240942-e25a-458f-b3cc-9a5cda56edfa
+  Mesh: !<reference> 05bfeb10-ec6f-4d0a-9fb2-8b8f293ec3f0
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ScriptComponent/ed393f96-a896-46ca-b422-e19b19e14993>
+  PrefabRemaps:
+    []
+  Name: PushButton
+  Enabled: true
+  ScriptAsset: !<reference> 4a5319c7-1953-4e35-b8b2-0df827316cbf
+  ScriptInputsDefault:
+    pushX: true
+    pushZ: true
+    callWithArgument: true
+    argument: true
+    debugLogs: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      buttonFace: !<reference.SceneObject> bd1417fa-57c0-41ce-93aa-6c09cbacf77f
+      customFaceSize: true
+      faceSize: !<Vec3> {x: 10.000000, y: 10.000000, z: 4.000000}
+      pressThresholds: !<Vec2> {x: 0.050000, y: 0.700000}
+      maxTravel: 1.300000
+      pushX: false
+      pushY: true
+      pushZ: false
+      externalScript: !<reference.ScriptComponent> feff32c6-3965-471a-a39a-0837a30ad3f9
+      externalFunctionName: checkConnections
+      callWithArgument: false
+      argument: ""
+      debugLogs: true
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/f0792924-2b68-4268-bbb8-471b5d370799>
+  PrefabRemaps:
+    []
+  Name: Wire Reel 3
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -5.147263, y: -0.520035, z: 1.398249}
+    Rotation: {x: 0.000000, y: -0.000000, z: -180.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> d2a2b90d-e079-47cb-a56b-dd4566d34a1b
+    - !<own> 699a0777-7722-4319-9f19-db1c5e8447c8
+- !<ScriptComponent/f126e337-4af1-4e13-a376-47e951c895eb>
+  PrefabRemaps:
+    []
+  Name: InteractableManipulation
+  Enabled: true
+  ScriptAsset: !<reference> 664b556b-1946-4c2c-866a-e675b4e86006
+  ScriptInputsDefault:
+    enableTranslation: true
+    minimumScaleFactor: true
+    maximumScaleFactor: true
+    zStretchFactorMin: true
+    zStretchFactorMax: true
+    useFilter: true
+    _enableXTranslation: true
+    _enableYTranslation: true
+    _enableZTranslation: true
+    showRotationProperties: true
+    _rotationAxis: true
+    isSynced: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      manipulateRootSceneObject: !<reference.SceneObject> a93373b0-e618-44fe-8e81-3c22325d1999
+      enableTranslation: true
+      enableRotation: false
+      enableScale: false
+      minimumScaleFactor: 0.250000
+      maximumScaleFactor: !<float> 20.000000
+      enableStretchZ: false
+      zStretchFactorMin: !<float> 1.000000
+      zStretchFactorMax: !<float> 12.000000
+      useFilter: true
+      showTranslationProperties: true
+      _enableXTranslation: true
+      _enableYTranslation: true
+      _enableZTranslation: true
+      showRotationProperties: false
+      _rotationAxis: All
+      isSynced: false
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/f71f9208-e374-4bfe-81f9-2a0ff246cca5>
+  PrefabRemaps:
+    []
+  Name: Module Body
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 90.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 27f53b3d-6bc9-4034-a868-430ff034c93d
+- !<SceneObject/f756795a-aa17-42e5-b2e5-d755368b9d74>
+  PrefabRemaps:
+    []
+  Name: Yellow Wire End
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.750000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<RenderMeshVisual/f7f88a9e-56a3-45bb-a72b-a6b912c394fc>
+  PrefabRemaps:
+    []
+  Name: component_47
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 57678b9c-660e-4113-97d7-e0e724068746
+  Mesh: !<reference> 2cc9ee3f-70bc-4233-a4e1-dc746664bb68
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/fa9055d3-607e-40d5-9cc9-1d4560ced369>
+  PrefabRemaps:
+    []
+  Name: Wire Socket 1
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 2.878813, y: -0.065258, z: 0.000000}
+    Rotation: {x: 269.996277, y: 90.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 79817748-5451-43dc-8b9e-b2cda5de20eb
+- !<RenderMeshVisual/fb7f28f5-aec7-4853-93aa-828465774168>
+  PrefabRemaps:
+    []
+  Name: component_31
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 803a36f4-3946-4c7c-b580-769628e1c44b
+  Mesh: !<reference> 5244fae2-4c64-41f1-b61f-b5abc7566a64
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/fd259a16-3491-4f88-8fcc-db54c4ae9bf2>
+  PrefabRemaps:
+    []
+  Name: component_39
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> df240942-e25a-458f-b3cc-9a5cda56edfa
+  Mesh: !<reference> 05bfeb10-ec6f-4d0a-9fb2-8b8f293ec3f0
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/fdd4fb7b-8f81-4f9e-a56f-aa99d8789900>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> df240942-e25a-458f-b3cc-9a5cda56edfa
+  Mesh: !<reference> aedaf020-1838-4f6f-a2fa-fe3cf6c6654a
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ScriptComponent/feff32c6-3965-471a-a39a-0837a30ad3f9>
+  PrefabRemaps:
+    []
+  Name: WireFuseboxModule
+  Enabled: true
+  ScriptAsset: !<reference> 6278a3d1-6658-4ac5-92f5-af48d1ae0029
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      buttonComponent: !<reference.ScriptComponent> ed393f96-a896-46ca-b422-e19b19e14993
+      wireReels: !<reference.RenderMeshVisual[]>
+        - !<reference> c937c06a-8943-4458-bedd-b632cc92e3e3
+        - !<reference> fb7f28f5-aec7-4853-93aa-828465774168
+        - !<reference> 699a0777-7722-4319-9f19-db1c5e8447c8
+        - !<reference> 019f7366-d32d-4bc8-a969-e510b3c5f6b7
+      wireConnectors: !<reference.ScriptComponent[]>
+        - !<reference> 16d69e9f-2fbc-4e39-bf13-f73065f2a15d
+        - !<reference> bf6aff3d-19c5-44f3-8ff3-05aeef900d68
+        - !<reference> b0e310cc-3c07-464f-a928-5b007bddaa2c
+        - !<reference> d2eaacdb-76b9-47ae-80d3-d325c49106dd
+      wireColorMaterials: !<reference.Material[]>
+        - !<reference> 9d7ed56e-bfbf-4a56-a106-e372c86dcb79
+        - !<reference> 803a36f4-3946-4c7c-b580-769628e1c44b
+        - !<reference> 351955d7-c64c-4571-9975-3ea02912acae
+        - !<reference> 2c03ebb5-38cb-414a-af47-029a54b73e3b
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/ffb5135f-f8a7-4a44-908f-fdd3ab0a5067>
+  PrefabRemaps:
+    []
+  Name: Green Wire Head
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -4.647690, y: -0.190949, z: 0.000000}
+    Rotation: {x: 269.996277, y: 90.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 75c39b36-8732-45e6-9bb3-42b25e096495
+    - !<own> d429f048-af90-490c-a089-67bb10de1093
+    - !<own> dd5f26a5-94e9-404c-9fa8-e411c53dbd6e
+  Components:
+    []

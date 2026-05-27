@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    76934b3d-f26c-4e4f-9704-f111f1ee0e10: 7837eb50-96d0-4372-bc26-d77b7442f294/3694911babe50289c03df7051974c3a3/Data/dynamite_ao.jpg
+  Assets:
+    - !<FileTexture/76934b3d-f26c-4e4f-9704-f111f1ee0e10>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 2048
+        Height: 2048
+  SourceHash: 3694911babe50289c03df7051974c3a3
+  FileHash: 74039d091c186afcffab3a54c501097f
+  NativePackageItems:
+    []

@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    5ffb0aa1-2888-48ed-9bfa-50f39710a3fb: cc69b8e7-b53a-4655-bd2a-6042676f1117/7faeb35760ce3d79ae7747c5ae96ab09/Data/Slavic F.jpg
+  Assets:
+    - !<FileTexture/5ffb0aa1-2888-48ed-9bfa-50f39710a3fb>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: 7faeb35760ce3d79ae7747c5ae96ab09
+  FileHash: 6b7698f006168918dee526e347d34ce0
+  NativePackageItems:
+    []

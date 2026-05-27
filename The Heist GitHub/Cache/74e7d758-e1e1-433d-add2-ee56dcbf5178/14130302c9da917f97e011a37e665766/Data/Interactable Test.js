@@ -1,0 +1,1 @@
+script.getSceneObject().getComponent("Component.Script").

@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    c4a1d1e3-56e2-409f-b3ca-19c5a4edf810: 4c586a30-7d17-4ae7-aca8-66bf689e3701/e32368ba16343845012b23af6f8e6778/Data/StethoscopeListeningPart.mesh
+  Assets:
+    - !<FileMesh/c4a1d1e3-56e2-409f-b3ca-19c5a4edf810>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 220
+        Vertices: 232
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.482401, y: 0.482401, z: 0.223492}
+  SourceHash: e32368ba16343845012b23af6f8e6778
+  FileHash: 783a782cf3253ad79bf363c51f3e0c78
+  NativePackageItems:
+    []

@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    8a956bb9-cdc5-4faf-8e10-e1f7e1b1c814: 92a71e92-b0db-41bb-9e51-7bf56b98a875/6e90461f860f87e8a58eb8c13d626a29/Data/CursedTimerUlil-Aznm.ttf
+  Assets:
+    - !<Font/8a956bb9-cdc5-4faf-8e10-e1f7e1b1c814>
+      PackagePath: ""
+  SourceHash: 6e90461f860f87e8a58eb8c13d626a29
+  FileHash: 4707b99789636701633abb3873a212df
+  NativePackageItems:
+    []

@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    20a22b7d-ae43-4627-9743-fd9c333aaa7b: c0a20f00-e4ef-4bd9-aba5-5679e37a988d/b37fad14eb63944ec85b8a69224ad3c2/Data/Rounded Push Button_Material_materialParams.png
+  Assets:
+    - !<FileTexture/20a22b7d-ae43-4627-9743-fd9c333aaa7b>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: b37fad14eb63944ec85b8a69224ad3c2
+  FileHash: c6a8687e38432525b20f824a26114bb4
+  NativePackageItems:
+    []

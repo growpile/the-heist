@@ -1,0 +1,123 @@
+- !<AssetCache>
+  AssetFiles:
+    d83e96a3-5edb-442d-b7c4-7412bef349c6: 42fe68c9-23e2-4027-982f-4835f1bdb9f4/b9cce592723b942240a9b7a4457c8935/Data/Meshes/Base.mesh
+    11d25c7a-b92c-4ef0-85a3-ccd33ddf2dd6: 42fe68c9-23e2-4027-982f-4835f1bdb9f4/b9cce592723b942240a9b7a4457c8935/Data/Meshes/Circle Button.mesh
+  Assets:
+    - !<ObjectPrefab/a0325222-9236-495b-b1bc-921ac8540cb9>
+      PackagePath: ""
+      objects:
+        - !<own> d47d1c0e-c392-40d0-b939-d9a07e90eae0
+      LazyLoading: false
+      RetainAssets: true
+    - !<FileMesh/d83e96a3-5edb-442d-b7c4-7412bef349c6>
+      PackagePath: Meshes/Base
+      Info: !<MeshInfo>
+        Triangles: 170
+        Vertices: 110
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 2.866508, y: 0.968243, z: 2.866508}
+    - !<FileMesh/11d25c7a-b92c-4ef0-85a3-ccd33ddf2dd6>
+      PackagePath: Meshes/Circle Button
+      Info: !<MeshInfo>
+        Triangles: 286
+        Vertices: 262
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 2.000000, y: 2.000000, z: 1.675893}
+  SourceHash: b9cce592723b942240a9b7a4457c8935
+  FileHash: 277deef11af7df8b1bceb6be133ea879
+  NativePackageItems:
+    []
+- !<RenderMeshVisual/0d00aa13-0ad7-4b9b-977d-fe2e843c6256>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> d83e96a3-5edb-442d-b7c4-7412bef349c6
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/3fff6e71-866b-499b-8c71-e45439c58f66>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 11d25c7a-b92c-4ef0-85a3-ccd33ddf2dd6
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/6d451a32-059d-46be-a331-2051dada1ba8>
+  PrefabRemaps:
+    []
+  Name: Circle Button
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: -23.502779}
+    Rotation: {x: -180.000000, y: 0.000000, z: -180.000000}
+    Scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 3fff6e71-866b-499b-8c71-e45439c58f66
+- !<SceneObject/a5608246-1848-4e36-b972-69cd04b873a7>
+  PrefabRemaps:
+    []
+  Name: Base
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 90.000000, y: 0.000000, z: 180.000000}
+    Scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 0d00aa13-0ad7-4b9b-977d-fe2e843c6256
+- !<SceneObject/d47d1c0e-c392-40d0-b939-d9a07e90eae0>
+  PrefabRemaps:
+    - 0d00aa13-0ad7-4b9b-977d-fe2e843c6256: 0d00aa13-0ad7-4b9b-6882-01d17bc39da9
+    - 3fff6e71-866b-499b-8c71-e45439c58f66: 3fff6e71-866b-499b-738e-1babc63a7099
+    - 6d451a32-059d-46be-a331-2051dada1ba8: 6d451a32-059d-46be-5cce-dfae2525e457
+    - a5608246-1848-4e36-b972-69cd04b873a7: a5608246-1848-4e36-468d-9632fb478c58
+    - d47d1c0e-c392-40d0-b939-d9a07e90eae0: d47d1c0e-c392-40d0-46c6-265f816f151f
+  Name: Circle Button + Base
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> a5608246-1848-4e36-b972-69cd04b873a7
+    - !<own> 6d451a32-059d-46be-a331-2051dada1ba8
+  Components:
+    []

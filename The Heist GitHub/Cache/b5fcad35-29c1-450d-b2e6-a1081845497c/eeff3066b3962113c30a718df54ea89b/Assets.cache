@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    882666a8-00b0-4261-afaa-beddf35516ea: b5fcad35-29c1-450d-b2e6-a1081845497c/eeff3066b3962113c30a718df54ea89b/Data/BombTimer1.mesh
+  Assets:
+    - !<FileMesh/882666a8-00b0-4261-afaa-beddf35516ea>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 18
+        Vertices: 20
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 7.480711, y: 2.016854, z: 3.127924}
+  SourceHash: eeff3066b3962113c30a718df54ea89b
+  FileHash: 80ecf9a4d19ebb5538ab1248788ecd91
+  NativePackageItems:
+    []

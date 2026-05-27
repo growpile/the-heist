@@ -1,0 +1,81 @@
+- !<AssetImportMetadata/93a99abd-5d0e-4200-2053-36844aa85e38>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 2295d413-d001-4c1e-bd4f-e95836642445
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 2295d413-d001-4c1e-bd4f-e95836642445
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 24deedb8-f5a0-47df-bcfc-f152c16bb365
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptComponent/195b1f6c-7e2b-419f-becb-cec510e877dd>
+  PrefabRemaps:
+    []
+  Name: Global Hierarchy Pointer
+  Enabled: true
+  ScriptAsset: !<reference> dc0ea5b3-e78b-41d6-924a-29b13b93bb8c
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      pointerIdentifier: pbVfxComponent
+  ScriptTypes:
+    "":
+      {}
+- !<ObjectPrefabAssetData/24deedb8-f5a0-47df-bcfc-f152c16bb365>
+  Prototype: !<ObjectOwner/8d31fcbe-56bd-41c5-9ea8-ce4ef6d2811c>
+    PackagePath: ""
+    objects:
+      - !<own> e59dca8b-5a29-4752-72f9-08cb5657c157
+- !<VFXComponent/620490e2-afd3-4718-716d-0ebda76bee3b>
+  PrefabRemaps:
+    []
+  Name: VFX Component
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  VFXAsset: !<reference> 1ade3665-5c68-4e7a-852d-64fdc0824985
+- !<SceneObject/6544bea7-d290-4809-415b-a91869e8faed>
+  PrefabRemaps:
+    []
+  Name: VFX
+  Enabled: true
+  Layers: 1835007
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 35.000000, z: -40.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 620490e2-afd3-4718-716d-0ebda76bee3b
+    - !<own> 195b1f6c-7e2b-419f-becb-cec510e877dd
+- !<SceneObject/e59dca8b-5a29-4752-72f9-08cb5657c157>
+  PrefabRemaps:
+    []
+  Name: Score VFX
+  Enabled: true
+  Layers: 1835007
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 6544bea7-d290-4809-415b-a91869e8faed
+  Components:
+    []

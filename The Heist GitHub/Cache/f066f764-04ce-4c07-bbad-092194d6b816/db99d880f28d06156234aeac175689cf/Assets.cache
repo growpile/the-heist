@@ -1,0 +1,75 @@
+- !<AssetCache>
+  AssetFiles:
+    cad5fe03-7af4-4ecf-a2e5-b1ff64fe4293: f066f764-04ce-4c07-bbad-092194d6b816/db99d880f28d06156234aeac175689cf/Data/Meshes/Default Button.mesh
+  Assets:
+    - !<ObjectPrefab/3909ed02-1f4c-4a50-be62-fa1b0066faac>
+      PackagePath: ""
+      objects:
+        - !<own> 5d77a775-1a53-49ea-91d4-acba71da834d
+      LazyLoading: false
+      RetainAssets: true
+    - !<FileMesh/cad5fe03-7af4-4ecf-a2e5-b1ff64fe4293>
+      PackagePath: Meshes/Default Button
+      Info: !<MeshInfo>
+        Triangles: 110
+        Vertices: 114
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 39.999973, y: 18.433092, z: 39.999985}
+  SourceHash: db99d880f28d06156234aeac175689cf
+  FileHash: 5af5d5eb2c0419000df08347d63bc5fd
+  NativePackageItems:
+    []
+- !<SceneObject/5d77a775-1a53-49ea-91d4-acba71da834d>
+  PrefabRemaps:
+    - 5d77a775-1a53-49ea-91d4-acba71da834d: 5d77a775-1a53-49ea-6e2b-53458e257cb2
+    - bf624550-48a7-4d76-aeac-17b126fd83ae: bf624550-48a7-4d76-5153-e84ed9027c51
+    - c06e9fd6-a547-4f49-983d-9dd14280f82d: c06e9fd6-a547-4f49-67c2-622ebd7f07d2
+  Name: ButtonTest2
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> bf624550-48a7-4d76-aeac-17b126fd83ae
+  Components:
+    []
+- !<SceneObject/bf624550-48a7-4d76-aeac-17b126fd83ae>
+  PrefabRemaps:
+    []
+  Name: Default Button
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> c06e9fd6-a547-4f49-983d-9dd14280f82d
+- !<RenderMeshVisual/c06e9fd6-a547-4f49-983d-9dd14280f82d>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> cad5fe03-7af4-4ecf-a2e5-b1ff64fe4293
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

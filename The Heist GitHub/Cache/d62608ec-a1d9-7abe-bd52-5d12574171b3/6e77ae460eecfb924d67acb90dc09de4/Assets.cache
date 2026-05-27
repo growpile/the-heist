@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    72afc9ca-4997-4f97-bc12-c9219be6be63: d62608ec-a1d9-7abe-bd52-5d12574171b3/6e77ae460eecfb924d67acb90dc09de4/Data/sparkles.png
+  Assets:
+    - !<FileTexture/72afc9ca-4997-4f97-bc12-c9219be6be63>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 32
+        Height: 32
+  SourceHash: 6e77ae460eecfb924d67acb90dc09de4
+  FileHash: 90e4719780b19a6dcf512488689f132b
+  NativePackageItems:
+    []

@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    61c4a53d-f5a1-46fa-8d23-7e8c8070a6ca: f74a21d8-0f2e-4c97-88ce-454e711d21c3/117e974463102d40454085870c4d6bcb/Data/Lock.012.mesh
+  Assets:
+    - !<FileMesh/61c4a53d-f5a1-46fa-8d23-7e8c8070a6ca>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 188
+        Vertices: 148
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.977828, y: 0.977829, z: 0.977829}
+  SourceHash: 117e974463102d40454085870c4d6bcb
+  FileHash: 6ec16388236a4dc200818f98c696dad1
+  NativePackageItems:
+    []

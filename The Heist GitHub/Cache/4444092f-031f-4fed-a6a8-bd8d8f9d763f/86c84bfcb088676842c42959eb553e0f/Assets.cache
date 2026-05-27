@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    3bee826f-0b0f-4499-9d7a-d4b2c5d5f1db: 4444092f-031f-4fed-a6a8-bd8d8f9d763f/86c84bfcb088676842c42959eb553e0f/Data/Cylinder.004_UV_Mesh.002.mesh
+  Assets:
+    - !<FileMesh/3bee826f-0b0f-4499-9d7a-d4b2c5d5f1db>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 286
+        Vertices: 160
+        Blendshapes:
+          - uv
+        Joints: 0
+        AabbSize: {x: 4.195651, y: 4.195651, z: 2.235799}
+  SourceHash: 86c84bfcb088676842c42959eb553e0f
+  FileHash: d4d51cd2eae5e52181b62c3c68bbe29c
+  NativePackageItems:
+    []

@@ -1,0 +1,92 @@
+- !<AssetImportMetadata/2985075f-d028-459e-8baa-4f8142e458c8>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> b610d5e9-b9ed-49ba-9229-d5fa3dbc7104
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> b610d5e9-b9ed-49ba-9229-d5fa3dbc7104
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> cb4c31cd-0d1d-4be2-a83f-bd9439a1f314
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/cb4c31cd-0d1d-4be2-a83f-bd9439a1f314>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: d73d388a-cdb6-470d-96d3-63d4b997e8ae
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    followSpeed: false
+    maxWireLength: false
+    raiseDirection: false
+    raiseOffset: false
+    snapDistance: false
+    wireEnd: false
+    wireFaceCount: false
+    wireHandle: false
+    wireHead: false
+    wireManager: false
+    wireMaterial: false
+    wireRadius: false
+    wireSegments: false
+    wireSockets: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - wireMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      wireFaceCount: !<float> 8.000000
+      wireRadius: 0.250000
+      wireSegments: !<float> 5.000000
+      wireHead: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      wireEnd: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      wireHandle: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      followSpeed: !<float> 10.000000
+      maxWireLength: !<float> 15.000000
+      snapDistance: 0.500000
+      wireSockets: !<reference.SceneObject[]>
+        []
+      raiseDirection: !<Vec3> {x: 0.000000, y: 1.000000, z: 0.000000}
+      raiseOffset: 0.200000
+      wireManager: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Wire Material</span>"}'
+    - '// @input Asset.Material wireMaterial {"hint":"Assigned at runtime by WireFuseboxModule; may also set in Inspector."}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Mesh</span>"}'
+    - '// @input float wireFaceCount = 8 {"widget":"slider", "min":3, "max":24, "step":1}'
+    - // @input float wireRadius = 0.25
+    - '// @input float wireSegments = 5 {"widget":"slider", "min":1, "max":30, "step":1}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Transforms</span>"}'
+    - // @input SceneObject wireHead
+    - // @input SceneObject wireEnd
+    - // @input SceneObject wireHandle
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Drag & Snap</span>"}'
+    - '// @input float followSpeed = 10 {"hint":"Follow lerp speed."}'
+    - '// @input float maxWireLength = 15 {"hint":"Max wire length (cm)."}'
+    - '// @input float snapDistance = 0.5 {"hint":"Snap distance (cm)."}'
+    - "// @input SceneObject[] wireSockets = {}"
+    - "// @input vec3 raiseDirection = {0,1,0}"
+    - // @input float raiseOffset = 0.2
+    - '// @input Component.ScriptComponent wireManager {"hint":"WireFuseboxModule; also set via setManager()."}'

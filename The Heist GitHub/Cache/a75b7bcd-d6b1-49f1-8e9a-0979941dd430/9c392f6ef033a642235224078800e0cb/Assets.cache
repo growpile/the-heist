@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    22471819-f97a-4491-8e20-7fc109be74b6: a75b7bcd-d6b1-49f1-8e9a-0979941dd430/9c392f6ef033a642235224078800e0cb/Data/Horizontal Line.jpg
+  Assets:
+    - !<FileTexture/22471819-f97a-4491-8e20-7fc109be74b6>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: 9c392f6ef033a642235224078800e0cb
+  FileHash: 217d2f284a90c186a21aa4264a0a4952
+  NativePackageItems:
+    []

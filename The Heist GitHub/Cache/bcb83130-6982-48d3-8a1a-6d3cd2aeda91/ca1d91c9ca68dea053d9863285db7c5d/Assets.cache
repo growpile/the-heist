@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    f7574984-c831-4eee-825b-480de18951e7: bcb83130-6982-48d3-8a1a-6d3cd2aeda91/ca1d91c9ca68dea053d9863285db7c5d/Data/Gold Bar.mesh
+  Assets:
+    - !<FileMesh/f7574984-c831-4eee-825b-480de18951e7>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 188
+        Vertices: 148
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 10.146607, y: 4.585049, z: 1.830810}
+  SourceHash: ca1d91c9ca68dea053d9863285db7c5d
+  FileHash: 32ab2f9143b66ce942dc61f61fada7cd
+  NativePackageItems:
+    []

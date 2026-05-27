@@ -1,0 +1,123 @@
+- !<AssetCache>
+  AssetFiles:
+    a00f2c70-15a5-44b0-9564-a9f57fee622a: 7e5eb166-b697-46f8-8d0a-e16d7a83e107/8c6253102e7c7fb441330879e1248981/Data/Meshes/Cylinder.003.mesh
+    13bf1920-ed58-441e-8e76-acbbeaf3ec4e: 7e5eb166-b697-46f8-8d0a-e16d7a83e107/8c6253102e7c7fb441330879e1248981/Data/Meshes/Cylinder.004.mesh
+  Assets:
+    - !<ObjectPrefab/1faa86f0-ba93-4bde-9b58-9f02ec782862>
+      PackagePath: ""
+      objects:
+        - !<own> 23bea3fd-d6b6-4cf0-855f-798e5e3f6ef7
+      LazyLoading: false
+      RetainAssets: true
+    - !<FileMesh/a00f2c70-15a5-44b0-9564-a9f57fee622a>
+      PackagePath: Meshes/Cylinder.003
+      Info: !<MeshInfo>
+        Triangles: 316
+        Vertices: 259
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 4.930157, y: 0.432198, z: 4.930157}
+    - !<FileMesh/13bf1920-ed58-441e-8e76-acbbeaf3ec4e>
+      PackagePath: Meshes/Cylinder.004
+      Info: !<MeshInfo>
+        Triangles: 316
+        Vertices: 228
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 4.195651, y: 2.235799, z: 4.195651}
+  SourceHash: 8c6253102e7c7fb441330879e1248981
+  FileHash: 150f3c2eb64c055ea4421b90cb0982fd
+  NativePackageItems:
+    []
+- !<SceneObject/01b49236-4bb9-455a-a919-1a205e931b52>
+  PrefabRemaps:
+    []
+  Name: Cylinder.003
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.000000, y: 7.775163, z: 10.523282}
+    Rotation: {x: 90.000000, y: -0.000000, z: -180.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 91706486-9256-479a-93cb-e138d8a725f7
+- !<SceneObject/23bea3fd-d6b6-4cf0-855f-798e5e3f6ef7>
+  PrefabRemaps:
+    - 01b49236-4bb9-455a-a919-1a205e931b52: 01b49236-4bb9-455a-56e6-e5dfa16ce4ad
+    - 23bea3fd-d6b6-4cf0-855f-798e5e3f6ef7: 23bea3fd-d6b6-4cf0-7aa0-8671a1c09108
+    - 91706486-9256-479a-93cb-e138d8a725f7: 91706486-9256-479a-6c34-1ec72758da08
+    - f628db24-a815-4cc1-ac7b-218307f927ff: f628db24-a815-4cc1-5384-de7cf806d800
+    - fcfc9f79-495c-4abc-a317-b3051d089285: fcfc9f79-495c-4abc-5ce8-4cfae2f76d7a
+  Name: CircularButton
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 01b49236-4bb9-455a-a919-1a205e931b52
+    - !<own> f628db24-a815-4cc1-ac7b-218307f927ff
+  Components:
+    []
+- !<RenderMeshVisual/91706486-9256-479a-93cb-e138d8a725f7>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> a00f2c70-15a5-44b0-9564-a9f57fee622a
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/f628db24-a815-4cc1-ac7b-218307f927ff>
+  PrefabRemaps:
+    []
+  Name: Cylinder.004
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.000000, y: 7.775164, z: 10.955476}
+    Rotation: {x: 90.000000, y: -0.000000, z: -180.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> fcfc9f79-495c-4abc-a317-b3051d089285
+- !<RenderMeshVisual/fcfc9f79-495c-4abc-a317-b3051d089285>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 13bf1920-ed58-441e-8e76-acbbeaf3ec4e
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

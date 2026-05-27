@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    6bc1714d-d40a-44ea-a665-86b4ad95e0e0: 9c10bc71-7f71-4e20-8bf3-5f4f84a94637/547104aea85e211ac822580bbdf495d2/Data/Flashlight.mesh
+  Assets:
+    - !<FileMesh/6bc1714d-d40a-44ea-a665-86b4ad95e0e0>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 9630
+        Vertices: 10717
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 7.255034, y: 37.580036, z: 7.255033}
+  SourceHash: 547104aea85e211ac822580bbdf495d2
+  FileHash: e0d1b572e0d23a6e21dacea0442bdee2
+  NativePackageItems:
+    []

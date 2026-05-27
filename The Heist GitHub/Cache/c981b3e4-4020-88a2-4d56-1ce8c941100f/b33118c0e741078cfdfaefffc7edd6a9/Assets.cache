@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    3e19cafb-2d49-4b7a-bdf7-e4ae83e5c123: c981b3e4-4020-88a2-4d56-1ce8c941100f/b33118c0e741078cfdfaefffc7edd6a9/Data/FA-1 LICENSE.md
+  Assets:
+    - !<MarkdownAsset/3e19cafb-2d49-4b7a-bdf7-e4ae83e5c123>
+      PackagePath: ""
+  SourceHash: b33118c0e741078cfdfaefffc7edd6a9
+  FileHash: b7fe7697ed27374306a3a491534aa2cd
+  NativePackageItems:
+    []

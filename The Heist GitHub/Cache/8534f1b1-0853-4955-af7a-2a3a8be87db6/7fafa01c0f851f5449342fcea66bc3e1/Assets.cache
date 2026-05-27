@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    f1f4e54f-3826-442c-8aaa-792860ad8a11: 8534f1b1-0853-4955-af7a-2a3a8be87db6/7fafa01c0f851f5449342fcea66bc3e1/Data/Digital Dismay.otf
+  Assets:
+    - !<Font/f1f4e54f-3826-442c-8aaa-792860ad8a11>
+      PackagePath: ""
+  SourceHash: 7fafa01c0f851f5449342fcea66bc3e1
+  FileHash: bbe910eb75b15033a6391302405c7cdb
+  NativePackageItems:
+    []

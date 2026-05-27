@@ -1,0 +1,460 @@
+- !<AssetCache>
+  AssetFiles:
+    {}
+  Assets:
+    []
+  SourceHash: b9a697f9d44c0d9fd2a66849ca25e3e4
+  FileHash: 91e321313c0c39a9e69aa7a04b31242c
+  NativePackageItems:
+    - !<own> de4cf37d-3815-428c-45d3-38f6b13ca5ab
+    - !<own> 1f877586-dc93-080d-22a2-0d73301d5630
+    - !<own> 513f605c-5b25-d3aa-dc11-41d4c6b7a42c
+    - !<own> 8eecd850-932d-304b-4d58-b291cc4d2a6a
+    - !<own> 3ea497b7-8b80-7249-f65f-0961c61c763d
+    - !<own> 220092b4-1f43-3ef1-850b-5107129fbd28
+    - !<own> 669e0542-08e9-e762-1fea-31e6699919c5
+    - !<own> da867e58-6bed-d682-6825-c4daf6303c7d
+    - !<own> 23d2c6c8-cf2a-f6de-d3b8-b828c7beaecc
+    - !<own> aac318a8-dc12-2efb-2e6e-98170d2658db
+    - !<own> 7f6b40be-b7c9-3a41-6138-81dfdbeee0e3
+- !<RenderMeshVisual/17ce4ce3-3254-45a8-64fe-a13542df1d9e>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: false
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 5b3c68bb-acf2-4c1a-aac3-ce1148feba99
+  Mesh: !<reference> e542623c-1432-4bfa-881d-a28905bd9e57
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<AssetImportMetadata/1f877586-dc93-080d-22a2-0d73301d5630>
+  ImportedAssetIds:
+    Texture: !<reference> 55eb7bbc-a5f6-47ef-9e9b-736092e0253f
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> 55eb7bbc-a5f6-47ef-9e9b-736092e0253f
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/220092b4-1f43-3ef1-850b-5107129fbd28>
+  ImportedAssetIds:
+    Material: !<reference> 5b3c68bb-acf2-4c1a-aac3-ce1148feba99
+  ImporterName: MaterialImporter
+  PrimaryAsset: !<reference> 5b3c68bb-acf2-4c1a-aac3-ce1148feba99
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/23d2c6c8-cf2a-f6de-d3b8-b828c7beaecc>
+  ImportedAssetIds:
+    ShaderGraph: !<reference> 7f4c314e-1d1b-4636-9d6d-3784205199f4
+  ImporterName: ShaderGraphPassImporter
+  PrimaryAsset: !<reference> 7f4c314e-1d1b-4636-9d6d-3784205199f4
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/3963f71d-5dd3-4c5a-56ed-466fb2cdcdfb>
+  PrefabRemaps:
+    []
+  Name: "[VolumetricLine] __PLACE_IN_SCENE"
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 54eb164c-6007-4f01-5cce-77b279ef4e64
+    - !<own> 8d0a6675-5935-4661-42dd-c6dfdbddd2a7
+    - !<own> f59c95e3-b096-4553-585a-7aa356fe3d5a
+    - !<own> e2f40927-da99-46a7-7397-c271611380d3
+  Components:
+    - !<own> fa9fa1e9-cda6-48df-6b18-561713f40ebb
+- !<AssetImportMetadata/3ea497b7-8b80-7249-f65f-0961c61c763d>
+  ImportedAssetIds:
+    Material: !<reference> 6fe31c1b-a45e-4e2e-a368-4363a4893312
+  ImporterName: MaterialImporter
+  PrimaryAsset: !<reference> 6fe31c1b-a45e-4e2e-a368-4363a4893312
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/513f605c-5b25-d3aa-dc11-41d4c6b7a42c>
+  ImportedAssetIds:
+    Texture: !<reference> 76deae64-fe18-4f54-aa66-f62212e33e3d
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> 76deae64-fe18-4f54-aa66-f62212e33e3d
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/54eb164c-6007-4f01-5cce-77b279ef4e64>
+  PrefabRemaps:
+    []
+  Name: Box
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -27.455322, y: 57.490734, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 10.000000, y: 10.000000, z: 10.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 905b29b8-bd67-42df-75a3-17630ce5eaa5
+- !<RenderMeshVisual/5774f34d-5c99-4640-4490-6e38384bed82>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: false
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 5b3c68bb-acf2-4c1a-aac3-ce1148feba99
+  Mesh: !<reference> e542623c-1432-4bfa-881d-a28905bd9e57
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ObjectPrefabAssetData/599558e6-82eb-4e4b-8648-6211c040c6f1>
+  Prototype: !<ObjectOwner/b893379f-28e7-4519-9c87-8e78476871f1>
+    PackagePath: ""
+    objects:
+      - !<own> 3963f71d-5dd3-4c5a-56ed-466fb2cdcdfb
+- !<AssetImportMetadata/669e0542-08e9-e762-1fea-31e6699919c5>
+  ImportedAssetIds:
+    MarkdownAsset: !<reference> af7c122b-be3b-43cf-b528-d076a5348d05
+  ImporterName: MarkdownAssetImporter
+  PrimaryAsset: !<reference> af7c122b-be3b-43cf-b528-d076a5348d05
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/7f6b40be-b7c9-3a41-6138-81dfdbeee0e3>
+  ImportedAssetIds:
+    NativePackageDescriptor: !<reference> 18b4474d-abe9-4f6a-ba18-ddbbd71d8a64
+  ImporterName: NativePackageDescriptorImporter
+  PrimaryAsset: !<reference> 18b4474d-abe9-4f6a-ba18-ddbbd71d8a64
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/8d0a6675-5935-4661-42dd-c6dfdbddd2a7>
+  PrefabRemaps:
+    []
+  Name: Box 1
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 20.775642, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 10.000000, y: 10.000000, z: 10.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> bf15f10e-1d13-46cf-7b30-dadb72984632
+- !<AssetImportMetadata/8eecd850-932d-304b-4d58-b291cc4d2a6a>
+  ImportedAssetIds:
+    Texture: !<reference> 1ceeca9a-8ad3-4410-9b91-79ad1a0ad626
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> 1ceeca9a-8ad3-4410-9b91-79ad1a0ad626
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<RenderMeshVisual/905b29b8-bd67-42df-75a3-17630ce5eaa5>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: false
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 5b3c68bb-acf2-4c1a-aac3-ce1148feba99
+  Mesh: !<reference> e542623c-1432-4bfa-881d-a28905bd9e57
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<AssetImportMetadata/aac318a8-dc12-2efb-2e6e-98170d2658db>
+  ImportedAssetIds:
+    ShaderGraph: !<reference> e92dbf39-8708-404b-a71a-ad936f327c52
+  ImporterName: ShaderGraphPassImporter
+  PrimaryAsset: !<reference> e92dbf39-8708-404b-a71a-ad936f327c52
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<RenderMeshVisual/bf15f10e-1d13-46cf-7b30-dadb72984632>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: false
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 5b3c68bb-acf2-4c1a-aac3-ce1148feba99
+  Mesh: !<reference> e542623c-1432-4bfa-881d-a28905bd9e57
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<AssetImportMetadata/da867e58-6bed-d682-6825-c4daf6303c7d>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 03947a8d-5aba-440e-888c-8194bd90e1cb
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 03947a8d-5aba-440e-888c-8194bd90e1cb
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> ec54964a-2874-4e94-a4c6-f41d36f73b58
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/de4cf37d-3815-428c-45d3-38f6b13ca5ab>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 894130db-4d72-45fa-8ce7-1956cb00819f
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 894130db-4d72-45fa-8ce7-1956cb00819f
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 599558e6-82eb-4e4b-8648-6211c040c6f1
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/e2f40927-da99-46a7-7397-c271611380d3>
+  PrefabRemaps:
+    []
+  Name: Box 3
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 8.236235, y: -45.405872, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 10.000000, y: 10.000000, z: 10.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 17ce4ce3-3254-45a8-64fe-a13542df1d9e
+- !<TypeScriptAssetData/ec54964a-2874-4e94-a4c6-f41d36f73b58>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 22b125e0-3a6b-4847-b800-f922e38e945e
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    _autoCorrectOffset: false
+    _circleSegments: false
+    _color: false
+    _debugPositions: false
+    _interpolationSteps: false
+    _radius: false
+    _smoothness: false
+    _useRelativeToComponent: false
+    _useWorldPosition: false
+    _zOffset: false
+    capEnds: false
+    material: false
+    pathPoints: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - pathPoints: !<reference.SceneObject[]>
+        []
+      _radius: !<float> 10.000000
+      _circleSegments: !<float> 16.000000
+      _interpolationSteps: !<float> 10.000000
+      _smoothness: 0.500000
+      material: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      _color: !<Vec3> {x: 1.000000, y: 1.000000, z: 0.000000}
+      capEnds: true
+      _zOffset: !<float> 0.000000
+      _useWorldPosition: true
+      _autoCorrectOffset: true
+      _useRelativeToComponent: true
+      _debugPositions: false
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input SceneObject[] pathPoints {"hint":"Array of scene objects that define the path of the 3D line"}'
+    - '// @input float _radius = 10 {"hint":"Radius of the circular cross-section"}'
+    - '// @input float _circleSegments = 16 {"hint":"Number of segments around the circle (higher = smoother)"}'
+    - '// @input float _interpolationSteps = 10 {"hint":"Number of interpolated points between each path point for smooth curves"}'
+    - '// @input float _smoothness = 0.5 {"hint":"Smoothing factor for spline interpolation (0=linear, 1=smooth)", "widget":"slider", "min":0, "max":1, "step":0.01}'
+    - '// @input Asset.Material material {"hint":"Material to apply to the 3D line mesh"}'
+    - '// @input vec3 _color = "{1, 1, 0}" {"widget":"color"}'
+    - '// @input bool capEnds = true {"hint":"Whether to cap the ends of the tube"}'
+    - '// @input float _zOffset {"hint":"Manual Z-axis offset to compensate for position alignment issues"}'
+    - '// @input bool _useWorldPosition = true {"hint":"Use world position instead of local position (fixes most offset issues)"}'
+    - '// @input bool _autoCorrectOffset = true {"hint":"Enable automatic position offset detection and correction"}'
+    - "// @input bool _useRelativeToComponent = true {\"hint\":\"Apply additional coordinate space transformation relative to this component's transform\"}"
+    - '// @input bool _debugPositions {"hint":"Debug: Show position information in console"}'
+- !<SceneObject/f59c95e3-b096-4553-585a-7aa356fe3d5a>
+  PrefabRemaps:
+    []
+  Name: Box 2
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -14.336655, y: -16.691174, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 10.000000, y: 10.000000, z: 10.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 5774f34d-5c99-4640-4490-6e38384bed82
+- !<ScriptComponent/fa9fa1e9-cda6-48df-6b18-561713f40ebb>
+  PrefabRemaps:
+    []
+  Name: VolumetricLine
+  Enabled: true
+  ScriptAsset: !<reference> 03947a8d-5aba-440e-888c-8194bd90e1cb
+  ScriptInputsDefault:
+    _color: true
+    capEnds: true
+    _zOffset: true
+    _useWorldPosition: true
+    _autoCorrectOffset: true
+    _useRelativeToComponent: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      pathPoints: !<reference.SceneObject[]>
+        - !<reference> 54eb164c-6007-4f01-5cce-77b279ef4e64
+        - !<reference> 8d0a6675-5935-4661-42dd-c6dfdbddd2a7
+        - !<reference> f59c95e3-b096-4553-585a-7aa356fe3d5a
+        - !<reference> e2f40927-da99-46a7-7397-c271611380d3
+      _radius: !<float> 5.000000
+      _circleSegments: !<float> 20.000000
+      _interpolationSteps: !<float> 600.000000
+      _smoothness: 0.980000
+      material: !<reference.Material> 6fe31c1b-a45e-4e2e-a368-4363a4893312
+      _color: !<Vec3> {x: 1.000000, y: 1.000000, z: 0.000000}
+      capEnds: true
+      _zOffset: !<float> 0.000000
+      _useWorldPosition: true
+      _autoCorrectOffset: true
+      _useRelativeToComponent: true
+      _debugPositions: true
+  ScriptTypes:
+    "":
+      {}

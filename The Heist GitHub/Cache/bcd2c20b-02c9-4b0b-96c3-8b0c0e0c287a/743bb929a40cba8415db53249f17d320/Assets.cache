@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    e90c3634-1e09-4848-9cdb-5c8c35bffb46: bcd2c20b-02c9-4b0b-96c3-8b0c0e0c287a/743bb929a40cba8415db53249f17d320/Data/Wire Connect.mp3
+  Assets:
+    - !<FileAudioTrack/e90c3634-1e09-4848-9cdb-5c8c35bffb46>
+      PackagePath: ""
+  SourceHash: 743bb929a40cba8415db53249f17d320
+  FileHash: ee038020afa2025e9b98352d9f60f410
+  NativePackageItems:
+    []

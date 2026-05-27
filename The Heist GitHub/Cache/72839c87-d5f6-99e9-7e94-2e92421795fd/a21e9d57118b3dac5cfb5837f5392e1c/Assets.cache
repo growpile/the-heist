@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    ea9a8626-d82d-4cae-968a-93204de83e63: 72839c87-d5f6-99e9-7e94-2e92421795fd/a21e9d57118b3dac5cfb5837f5392e1c/Data/Hands_Opacity_Gradient.png
+  Assets:
+    - !<FileTexture/ea9a8626-d82d-4cae-968a-93204de83e63>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 4
+        Height: 64
+  SourceHash: a21e9d57118b3dac5cfb5837f5392e1c
+  FileHash: 50eae031532e51db146c55284bc65a4c
+  NativePackageItems:
+    []

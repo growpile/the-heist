@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    7583741b-61ed-45ed-a0dd-66eca929eaf9: e5697f63-c88b-4dff-aaa7-5d023b82e8d1/60ff4f47e4d1b325368d9a231c17b538/Data/Cogwheel.mesh
+  Assets:
+    - !<FileMesh/7583741b-61ed-45ed-a0dd-66eca929eaf9>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 6656
+        Vertices: 6295
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 3.722112, y: 3.722112, z: 0.365400}
+  SourceHash: 60ff4f47e4d1b325368d9a231c17b538
+  FileHash: 5c23f7c3e05d6f218bbd0f66a46e6087
+  NativePackageItems:
+    []

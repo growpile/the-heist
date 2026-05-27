@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    3587cf7a-2664-401c-a4ce-af29f7b1fd74: 246fd41f-a9c0-4c48-8961-a2830b92e017/9bf91d29b6804fe2b74b9ad56ca7a59a/Data/Module Frame Left.mesh
+  Assets:
+    - !<FileMesh/3587cf7a-2664-401c-a4ce-af29f7b1fd74>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 530
+        Vertices: 411
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 1.070088, y: 15.018781, z: 15.018781}
+  SourceHash: 9bf91d29b6804fe2b74b9ad56ca7a59a
+  FileHash: 7590dc49437b94890046bb7b588c133a
+  NativePackageItems:
+    []

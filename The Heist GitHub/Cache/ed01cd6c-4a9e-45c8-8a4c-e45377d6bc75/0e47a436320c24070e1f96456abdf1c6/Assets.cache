@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    8ab08518-b951-420c-a3b3-6a590fd9e0db: ed01cd6c-4a9e-45c8-8a4c-e45377d6bc75/0e47a436320c24070e1f96456abdf1c6/Data/plus_pattern.png
+  Assets:
+    - !<FileTexture/8ab08518-b951-420c-a3b3-6a590fd9e0db>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1080
+        Height: 1080
+  SourceHash: 0e47a436320c24070e1f96456abdf1c6
+  FileHash: 585deec6be41d3ef9c88b61a1315858d
+  NativePackageItems:
+    []

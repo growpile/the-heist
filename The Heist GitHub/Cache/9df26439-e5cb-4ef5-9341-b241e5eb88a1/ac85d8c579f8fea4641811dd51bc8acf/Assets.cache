@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    22196e22-d521-4dcf-9fb4-320b6dae4dd9: 9df26439-e5cb-4ef5-9341-b241e5eb88a1/ac85d8c579f8fea4641811dd51bc8acf/Data/light-orb.png
+  Assets:
+    - !<FileTexture/22196e22-d521-4dcf-9fb4-320b6dae4dd9>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 500
+        Height: 500
+  SourceHash: ac85d8c579f8fea4641811dd51bc8acf
+  FileHash: c79df5097d5b21a01698bcfdacc811ba
+  NativePackageItems:
+    []

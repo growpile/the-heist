@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    906d5f95-2664-4586-9ddf-ad07a946835c: 5d1d87a2-312c-468f-9860-7c5bc8777e96/486064bcbad2cc3a8e2f2f530f1e12ad/Data/arrow_left.svg
+  Assets:
+    - !<BinAsset/906d5f95-2664-4586-9ddf-ad07a946835c>
+      PackagePath: ""
+  SourceHash: 486064bcbad2cc3a8e2f2f530f1e12ad
+  FileHash: 7f7417132dbc32a787bb812854d2e01b
+  NativePackageItems:
+    []

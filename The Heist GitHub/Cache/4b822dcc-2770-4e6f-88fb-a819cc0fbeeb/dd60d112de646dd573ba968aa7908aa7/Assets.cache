@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    9810f85f-092f-4efc-bba8-c0e861be069b: 4b822dcc-2770-4e6f-88fb-a819cc0fbeeb/dd60d112de646dd573ba968aa7908aa7/Data/person.2.fill.png
+  Assets:
+    - !<FileTexture/9810f85f-092f-4efc-bba8-c0e861be069b>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 561
+        Height: 385
+  SourceHash: dd60d112de646dd573ba968aa7908aa7
+  FileHash: 8efd8d4387fc8f479d33703ee40ea2c3
+  NativePackageItems:
+    []

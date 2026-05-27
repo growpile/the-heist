@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    4bec3e65-d3d8-47e8-9504-0a197f143347: 78ecd179-8cbe-4cae-9901-f46732020933/76c10833b63583337d49c6c242ccae1b/Data/Safe Door Open.mp3
+  Assets:
+    - !<FileAudioTrack/4bec3e65-d3d8-47e8-9504-0a197f143347>
+      PackagePath: ""
+  SourceHash: 76c10833b63583337d49c6c242ccae1b
+  FileHash: c849dfeb0f06a1c140d711da0cd24146
+  NativePackageItems:
+    []

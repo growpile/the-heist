@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    00edac1a-966e-4531-91a0-8d7a5e0323b1: 5990c6e1-7eeb-4651-843f-18eab7e6d42a/42cb7d496006b0bb33619cafbaed0094/Data/Ticking Critical (1).mp3
+  Assets:
+    - !<FileAudioTrack/00edac1a-966e-4531-91a0-8d7a5e0323b1>
+      PackagePath: ""
+  SourceHash: 42cb7d496006b0bb33619cafbaed0094
+  FileHash: 7592a2288dce1b90d42e0afff760d8fe
+  NativePackageItems:
+    []

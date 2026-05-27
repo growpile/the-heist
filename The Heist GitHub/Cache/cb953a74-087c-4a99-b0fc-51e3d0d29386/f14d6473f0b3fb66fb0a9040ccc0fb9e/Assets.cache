@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    d30def80-ac70-4fa3-bac7-8f3770654215: cb953a74-087c-4a99-b0fc-51e3d0d29386/f14d6473f0b3fb66fb0a9040ccc0fb9e/Data/Heist_SoloPlay.webp
+  Assets:
+    - !<FileTexture/d30def80-ac70-4fa3-bac7-8f3770654215>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: f14d6473f0b3fb66fb0a9040ccc0fb9e
+  FileHash: 438b3acf960afef869372a3838cf1edc
+  NativePackageItems:
+    []

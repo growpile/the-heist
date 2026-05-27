@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    e9976072-9231-4561-b3d6-147d727751bf: 948c037a-1d3c-4026-872b-f60d5a13052c/dafe02e9cf220a4d4e75acfab1e40cfb/Data/rope_normals.png
+  Assets:
+    - !<FileTexture/e9976072-9231-4561-b3d6-147d727751bf>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 2048
+        Height: 2048
+  SourceHash: dafe02e9cf220a4d4e75acfab1e40cfb
+  FileHash: 52a82fe1296e9e08006fec97bab09ede
+  NativePackageItems:
+    []

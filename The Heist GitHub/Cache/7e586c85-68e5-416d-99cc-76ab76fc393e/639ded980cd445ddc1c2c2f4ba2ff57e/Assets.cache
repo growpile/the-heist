@@ -1,0 +1,75 @@
+- !<AssetCache>
+  AssetFiles:
+    3bee826f-0b0f-4499-9d7a-d4b2c5d5f1db: 7e586c85-68e5-416d-99cc-76ab76fc393e/639ded980cd445ddc1c2c2f4ba2ff57e/Data/Meshes/Cylinder.004_UV_Mesh.002.mesh
+  Assets:
+    - !<ObjectPrefab/5d87639f-6b82-420c-b2fb-89f8d17e218a>
+      PackagePath: ""
+      objects:
+        - !<own> 8d922b85-d315-426c-a571-f3922d0456dc
+      LazyLoading: false
+      RetainAssets: true
+    - !<FileMesh/3bee826f-0b0f-4499-9d7a-d4b2c5d5f1db>
+      PackagePath: Meshes/Cylinder.004_UV_Mesh.002
+      Info: !<MeshInfo>
+        Triangles: 286
+        Vertices: 160
+        Blendshapes:
+          - uv
+        Joints: 0
+        AabbSize: {x: 4.195651, y: 4.195651, z: 2.235799}
+  SourceHash: 639ded980cd445ddc1c2c2f4ba2ff57e
+  FileHash: 8a06924ab558b4c7c11cb776091715ba
+  NativePackageItems:
+    []
+- !<RenderMeshVisual/16ba172c-5d76-43aa-926e-a151ec77fd59>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 3bee826f-0b0f-4499-9d7a-d4b2c5d5f1db
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    uv: 1.000000
+- !<SceneObject/3e4c8a47-8a1f-41fe-add3-aaeaf044ab52>
+  PrefabRemaps:
+    []
+  Name: Cylinder.004_UV_Mesh.002
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: -90.000000, y: -0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 16ba172c-5d76-43aa-926e-a151ec77fd59
+- !<SceneObject/8d922b85-d315-426c-a571-f3922d0456dc>
+  PrefabRemaps:
+    - 16ba172c-5d76-43aa-926e-a151ec77fd59: 16ba172c-5d76-43aa-6d91-5eae138802a6
+    - 3e4c8a47-8a1f-41fe-add3-aaeaf044ab52: 3e4c8a47-8a1f-41fe-522c-55150fbb54ad
+    - 8d922b85-d315-426c-a571-f3922d0456dc: 8d922b85-d315-426c-5a8e-0c6dd2fba923
+  Name: CircleButton (1)
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 3e4c8a47-8a1f-41fe-add3-aaeaf044ab52
+  Components:
+    []

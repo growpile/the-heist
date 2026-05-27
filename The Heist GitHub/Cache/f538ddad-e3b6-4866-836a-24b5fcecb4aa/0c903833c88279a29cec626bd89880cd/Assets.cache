@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    a489c12a-b5bf-40ec-8540-d28a704d80a9: f538ddad-e3b6-4866-836a-24b5fcecb4aa/0c903833c88279a29cec626bd89880cd/Data/Slide1_TeamPlay 2.webp
+  Assets:
+    - !<FileTexture/a489c12a-b5bf-40ec-8540-d28a704d80a9>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 512
+  SourceHash: 0c903833c88279a29cec626bd89880cd
+  FileHash: 1a8bc14200cc8d4cd37496dede51a105
+  NativePackageItems:
+    []

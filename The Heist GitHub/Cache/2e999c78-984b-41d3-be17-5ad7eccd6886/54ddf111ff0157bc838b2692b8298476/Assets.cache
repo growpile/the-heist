@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    231fb09b-b75f-4e68-b399-bd9d08351663: 2e999c78-984b-41d3-be17-5ad7eccd6886/54ddf111ff0157bc838b2692b8298476/Data/RightScreenBorder.mesh
+  Assets:
+    - !<FileMesh/231fb09b-b75f-4e68-b399-bd9d08351663>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 70
+        Vertices: 66
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 1.348202, y: 3.707060, z: 3.948980}
+  SourceHash: 54ddf111ff0157bc838b2692b8298476
+  FileHash: 51bca99166507d246f1028c71286cfcf
+  NativePackageItems:
+    []

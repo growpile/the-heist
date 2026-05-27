@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    3b163f9e-e34c-467a-81cf-34cbc386c7c4: 85e85d03-3322-4ca0-abda-1802ac63e498/25e1dbfa29d0a9256cd489465b2bc628/Data/close_button.svg
+  Assets:
+    - !<BinAsset/3b163f9e-e34c-467a-81cf-34cbc386c7c4>
+      PackagePath: ""
+  SourceHash: 25e1dbfa29d0a9256cd489465b2bc628
+  FileHash: 244b98030b28f0436e3c3bcfe69cd5b8
+  NativePackageItems:
+    []

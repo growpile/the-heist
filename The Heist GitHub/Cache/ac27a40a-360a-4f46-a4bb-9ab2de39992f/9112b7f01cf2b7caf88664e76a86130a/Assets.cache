@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    5ba96152-eae9-4c43-97d1-fdc9d62c344a: ac27a40a-360a-4f46-a4bb-9ab2de39992f/9112b7f01cf2b7caf88664e76a86130a/Data/bidy_ant_ao.jpg
+  Assets:
+    - !<FileTexture/5ba96152-eae9-4c43-97d1-fdc9d62c344a>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: 9112b7f01cf2b7caf88664e76a86130a
+  FileHash: 4692ba7dc8102d1cea4f76e245dadc5d
+  NativePackageItems:
+    []

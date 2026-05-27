@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    7044a2dd-2762-43f6-8d56-e721648e0d85: 8b2885a8-9e4a-46e3-acda-359e4ddd3283/002f2391c1cfa22bf28ef4a03c1515f0/Data/Rotate Icon.png
+  Assets:
+    - !<FileTexture/7044a2dd-2762-43f6-8d56-e721648e0d85>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 173
+        Height: 437
+  SourceHash: 002f2391c1cfa22bf28ef4a03c1515f0
+  FileHash: abf2f4a99f31830ff3744063360bf174
+  NativePackageItems:
+    []

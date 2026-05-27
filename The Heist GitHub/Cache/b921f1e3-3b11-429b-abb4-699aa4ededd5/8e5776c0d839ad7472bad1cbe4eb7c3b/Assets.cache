@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    e2ce29d3-62d8-4684-bf04-f25d8ec65ee6: b921f1e3-3b11-429b-abb4-699aa4ededd5/8e5776c0d839ad7472bad1cbe4eb7c3b/Data/albedo_normals.png
+  Assets:
+    - !<FileTexture/e2ce29d3-62d8-4684-bf04-f25d8ec65ee6>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 2048
+        Height: 2048
+  SourceHash: 8e5776c0d839ad7472bad1cbe4eb7c3b
+  FileHash: c0d95c1598218fb3c5aebb2b25e804bf
+  NativePackageItems:
+    []

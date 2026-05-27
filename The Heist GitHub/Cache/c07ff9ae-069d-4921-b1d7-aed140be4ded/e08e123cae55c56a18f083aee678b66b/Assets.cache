@@ -1,0 +1,190 @@
+- !<AssetCache>
+  AssetFiles:
+    {}
+  Assets:
+    []
+  SourceHash: e08e123cae55c56a18f083aee678b66b
+  FileHash: 6d7183749ed865cc8d8a158e37413263
+  NativePackageItems:
+    - !<own> 19359abf-5f8b-3bb8-4396-1b8576f9b003
+    - !<own> 2ca70b99-2850-c38c-f04c-c881f36c36e2
+    - !<own> e6a793e8-5405-ac36-5f80-03de09dfa44e
+    - !<own> 1353646e-57d6-5caa-f9af-82bd28c62d0b
+    - !<own> 58e08ad3-f613-584a-feea-014ba66474c6
+    - !<own> e623fe1c-8472-36d9-ed3c-a620d830c51c
+- !<ScriptComponent/10428b58-e1f2-4aff-7b5a-384699143d1e>
+  PrefabRemaps:
+    []
+  Name: Hint System
+  Enabled: true
+  ScriptAsset: !<reference> e0a7fb1b-cf28-4d33-ba0c-6ebb5e3702db
+  ScriptInputsDefault:
+    typewriterDuration: true
+    occluderShowAlpha: true
+    hintDisplayTime: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      textOccluder: !<reference.Material> 1e361dfe-19d5-472b-b086-44c80a7e7356
+      hintTextComponent: !<reference.Text> 328f6b3d-e396-42ce-ae38-49664498ad2c
+      typewriterDuration: 0.500000
+      occluderShowAlpha: 0.700000
+      hintDisplayTime: !<float> 1.000000
+  ScriptTypes:
+    "":
+      {}
+- !<AssetImportMetadata/1353646e-57d6-5caa-f9af-82bd28c62d0b>
+  ImportedAssetIds:
+    ShaderGraph: !<reference> 7f36f572-12ac-4161-a5c1-deab9da6de6c
+  ImporterName: ShaderGraphPassImporter
+  PrimaryAsset: !<reference> 7f36f572-12ac-4161-a5c1-deab9da6de6c
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/19359abf-5f8b-3bb8-4396-1b8576f9b003>
+  ImportedAssetIds:
+    Texture: !<reference> 65d01794-b033-40fc-870d-871dbd8513dc
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> 65d01794-b033-40fc-870d-871dbd8513dc
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: Performance
+    CompressionSettings: !<TextureCompressionMipmapSettings>
+      Level: Medium
+      Mipmap: false
+- !<AssetImportMetadata/2ca70b99-2850-c38c-f04c-c881f36c36e2>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 3561dcac-2ab5-4077-be0b-36cad1745a83
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 3561dcac-2ab5-4077-be0b-36cad1745a83
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 6b4c03b4-46a7-4a1c-a6c2-e5e25a8dfc8c
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/4be5cde5-d632-404c-b01d-9c14521c11c8>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 5e3dc44f-5065-4f44-ab6a-76117691870b
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    hintDisplayTime: false
+    hintTextComponent: false
+    occluderShowAlpha: false
+    textOccluder: false
+    typewriterDuration: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - textOccluder: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      hintTextComponent: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      typewriterDuration: 0.500000
+      occluderShowAlpha: 0.700000
+      hintDisplayTime: !<float> 1.000000
+  ScriptTypes:
+    -
+      {}
+- !<AssetImportMetadata/58e08ad3-f613-584a-feea-014ba66474c6>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> e0a7fb1b-cf28-4d33-ba0c-6ebb5e3702db
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> e0a7fb1b-cf28-4d33-ba0c-6ebb5e3702db
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 4be5cde5-d632-404c-b01d-9c14521c11c8
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ObjectPrefabAssetData/6b4c03b4-46a7-4a1c-a6c2-e5e25a8dfc8c>
+  Prototype: !<ObjectOwner/42043adb-346b-411b-9a6b-ba8db0d9a385>
+    PackagePath: ""
+    objects:
+      - !<own> e8f583de-059e-46e9-4a8f-4f355daeaa66
+- !<AssetImportMetadata/e623fe1c-8472-36d9-ed3c-a620d830c51c>
+  ImportedAssetIds:
+    NativePackageDescriptor: !<reference> a545282e-47c8-4599-9397-3b601e7ef95d
+  ImporterName: NativePackageDescriptorImporter
+  PrimaryAsset: !<reference> a545282e-47c8-4599-9397-3b601e7ef95d
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/e6a793e8-5405-ac36-5f80-03de09dfa44e>
+  ImportedAssetIds:
+    Material: !<reference> 1e361dfe-19d5-472b-b086-44c80a7e7356
+  ImporterName: MaterialImporter
+  PrimaryAsset: !<reference> 1e361dfe-19d5-472b-b086-44c80a7e7356
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/e8f583de-059e-46e9-4a8f-4f355daeaa66>
+  PrefabRemaps:
+    []
+  Name: Hint System
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 10428b58-e1f2-4aff-7b5a-384699143d1e

@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    2b5cec8d-1463-491b-b537-f2efc64ad920: 8533e663-8332-4105-969f-05b954219926/9b330e3786c0ea6e4e3876372bd1c802/Data/Star Outline Icon.png
+  Assets:
+    - !<FileTexture/2b5cec8d-1463-491b-b537-f2efc64ad920>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 415
+        Height: 423
+  SourceHash: 9b330e3786c0ea6e4e3876372bd1c802
+  FileHash: 9e9973eb4f4ec2590dc00cc2f34e7a2f
+  NativePackageItems:
+    []

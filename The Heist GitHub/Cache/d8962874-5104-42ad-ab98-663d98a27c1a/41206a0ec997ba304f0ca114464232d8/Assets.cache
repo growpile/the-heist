@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    a85da8b5-d41e-4810-a377-6cf9685f8bd2: d8962874-5104-42ad-ab98-663d98a27c1a/41206a0ec997ba304f0ca114464232d8/Data/PCB.mesh
+  Assets:
+    - !<FileMesh/a85da8b5-d41e-4810-a377-6cf9685f8bd2>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 12
+        Vertices: 24
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 10.993101, y: 6.375586, z: 4.450846}
+  SourceHash: 41206a0ec997ba304f0ca114464232d8
+  FileHash: ca95e8c1eb657bfa5d1820605a13f887
+  NativePackageItems:
+    []

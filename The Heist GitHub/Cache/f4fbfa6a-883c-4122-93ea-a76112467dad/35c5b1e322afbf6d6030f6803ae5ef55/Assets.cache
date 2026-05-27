@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    ca2e4e5a-b03d-4f28-b7af-3c983659f1eb: f4fbfa6a-883c-4122-93ea-a76112467dad/35c5b1e322afbf6d6030f6803ae5ef55/Data/Testing Dial Numbers.png
+  Assets:
+    - !<FileTexture/ca2e4e5a-b03d-4f28-b7af-3c983659f1eb>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: 35c5b1e322afbf6d6030f6803ae5ef55
+  FileHash: 5b511a0422010049aff4538dcc599e4d
+  NativePackageItems:
+    []

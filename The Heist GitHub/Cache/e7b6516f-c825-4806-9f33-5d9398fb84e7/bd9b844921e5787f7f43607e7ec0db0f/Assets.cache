@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    fed9eb5c-a5b5-49ce-9d48-8f2f6406538c: e7b6516f-c825-4806-9f33-5d9398fb84e7/bd9b844921e5787f7f43607e7ec0db0f/Data/Big Yus.jpg
+  Assets:
+    - !<FileTexture/fed9eb5c-a5b5-49ce-9d48-8f2f6406538c>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: bd9b844921e5787f7f43607e7ec0db0f
+  FileHash: 2ebe2f8a26351a78466d6feaae795150
+  NativePackageItems:
+    []

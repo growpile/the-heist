@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    7ba2dae1-24c0-42ce-95ce-272955fed9aa: e16222ca-db53-4195-bb1c-3ce44db3b039/a5ad6da5883728e961526e35519f552c/Data/Safe_Leg.008.mesh
+  Assets:
+    - !<FileMesh/7ba2dae1-24c0-42ce-95ce-272955fed9aa>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 68
+        Vertices: 123
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 2.166101, y: 2.206789, z: 0.873287}
+  SourceHash: a5ad6da5883728e961526e35519f552c
+  FileHash: 14e843cdb4f08e423e010e48abb0ee07
+  NativePackageItems:
+    []

@@ -1,0 +1,120 @@
+- !<AssetCache>
+  AssetFiles:
+    {}
+  Assets:
+    []
+  SourceHash: 89df15900493b9acf8e98c15f6be4d10
+  FileHash: caa6716e4b21b416768c358ccc849ea7
+  NativePackageItems:
+    - !<own> b895ec5b-00f1-ab6e-906e-8469f8a72608
+    - !<own> 188c4e1e-800d-0eea-0c06-74aa55e450ab
+- !<AssetImportMetadata/188c4e1e-800d-0eea-0c06-74aa55e450ab>
+  ImportedAssetIds:
+    NativePackageDescriptor: !<reference> 88bad9b2-565b-4e7b-9db4-df8b5f387f01
+  ImporterName: NativePackageDescriptorImporter
+  PrimaryAsset: !<reference> 88bad9b2-565b-4e7b-9db4-df8b5f387f01
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/1a97ae22-2f1e-472c-8cc1-ec10ca5d9e6f>
+  SvgIcon: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 201.5 201.5"><defs><style>.cls-1{fill:#0f0056;}.cls-2{fill:#fff;stroke:#0f0056;stroke-miterlimit:10;stroke-width:9px;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><circle class="cls-1" cx="100.75" cy="100.75" r="100.75"/><path class="cls-2" d="M167.2,118.23,148.89,100a34.5,34.5,0,0,0-48.76,48.8l18.28,18.26a34.51,34.51,0,0,0,48.79-48.83ZM131.56,153.9,114,136.4l-.51-.53A15.9,15.9,0,0,1,136,113.38l.53.51,17.55,17.5a15.91,15.91,0,1,1-22.49,22.51Z"/><path class="cls-2" d="M100,52.82,81.68,34.58A34.5,34.5,0,0,0,32.92,83.39L51.2,101.65A34.51,34.51,0,1,0,100,52.82ZM64.35,88.49,46.8,71l-.51-.54A15.9,15.9,0,0,1,68.76,48l.53.51L86.84,66A15.91,15.91,0,1,1,64.35,88.49Z"/><path class="cls-2" d="M79.69,91.44l-.52-.53c-6-6.16-5.11-11.06-1.59-14.59S86,71.88,92.17,77.91l.52.52,32.14,32.14c6.21,6.2,5.74,11.57,2.15,15.15s-9,4.06-15.15-2.15Z"/><path class="cls-2" d="M144,155.91l-.52-.53c-6-6.15-5.11-11.06-1.59-14.58s8.43-4.45,14.59,1.59l.52.51,16.48,16.48c6.2,6.21,5.74,11.57,2.15,15.16s-8.95,4.05-15.15-2.15Z"/><path class="cls-2" d="M28.65,42.24l-.52-.53c-6-6.15-5.11-11-1.58-14.58S35,22.69,41.13,28.72l.53.52L58.13,45.72c6.21,6.2,5.74,11.57,2.15,15.15s-9,4.05-15.15-2.15Z"/></g></g></svg>'
+  SetupScript:
+    code: ""
+  Description: |+
+    Description : This script is used to setup physics on rigged objects that are connected as a chain
+    Each joint in the rigged object will get a physics body component and a constraint connecting it to the previous joint.
+    
+    === API ===
+    setChain(SceneObjectp[] newJoints, bool isConstrained) - create a new chain, newJoints being the joints, isConstrained determines if the chain is double ended. Can be called only if the chain wasn't set up before and has no other joints referenced.
+    
+    getJoints() - returns the list of joints in the chain
+    
+    
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 0005fa4e-1291-ef79-0000-000000019d82
+  ExportUid: c1134c4c-8eed-4083-ba36-62b7fae39836
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    HingeOffset: false
+    anchorBothEnds: false
+    angDamping: false
+    baseDensity: false
+    baseWeight: false
+    camera: false
+    chainBase: false
+    constraintType: false
+    customCamera: false
+    cylinderLength: false
+    damping: false
+    endConstraintType: false
+    intangible: false
+    joints: false
+    massSetting: false
+    physicsMatter: false
+    shapeRadius: false
+    showColliders: false
+    showConstraints: false
+    tipDensity: false
+    tipWeight: false
+    useHierarchy: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - useHierarchy: true
+      chainBase: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      joints: !<reference.SceneObject[]>
+        []
+      shapeRadius: 0.200000
+      cylinderLength: !<float> 1.000000
+      HingeOffset: 1.400000
+      constraintType: Point
+      massSetting: Weight
+      baseWeight: !<float> 1.000000
+      tipWeight: 0.200000
+      baseDensity: !<float> 1.000000
+      tipDensity: 0.200000
+      damping: 0.040000
+      angDamping: 0.040000
+      physicsMatter: !<reference.Matter> 00000000-0000-0000-0000-000000000000
+      anchorBothEnds: false
+      endConstraintType: Point
+      intangible: false
+      customCamera: false
+      camera: !<reference.Camera> 00000000-0000-0000-0000-000000000000
+      showConstraints: false
+      showColliders: false
+  ScriptTypes:
+    -
+      {}
+- !<AssetImportMetadata/b895ec5b-00f1-ab6e-906e-8469f8a72608>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> ce70fe32-2283-43ab-8246-20d895e376bf
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> ce70fe32-2283-43ab-8246-20d895e376bf
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 1a97ae22-2f1e-472c-8cc1-ec10ca5d9e6f
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000

@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    6d780de0-b8b9-44c6-9143-77c50667573b: 5078d891-56ed-4f3b-a083-6aab31b5d3fc/cf57123158900593b31cc5c1c4727de3/Data/Safe Crackers Test Logo.png
+  Assets:
+    - !<FileTexture/6d780de0-b8b9-44c6-9143-77c50667573b>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1119
+        Height: 681
+  SourceHash: cf57123158900593b31cc5c1c4727de3
+  FileHash: b269e104f6f323bdc2fe180e42bba192
+  NativePackageItems:
+    []

@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    d6300135-c546-4eeb-a1f4-f9b68f913fd2: 2454c7d7-51e9-46da-9fea-fd98506a1f24/f086f915e26d7728a373b83a58106aae/Data/CarouselEnd.003.mesh
+  Assets:
+    - !<FileMesh/d6300135-c546-4eeb-a1f4-f9b68f913fd2>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 286
+        Vertices: 195
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 4.625253, y: 4.625253, z: 1.035718}
+  SourceHash: f086f915e26d7728a373b83a58106aae
+  FileHash: d42e2269bed48fc9101e04c707db3960
+  NativePackageItems:
+    []

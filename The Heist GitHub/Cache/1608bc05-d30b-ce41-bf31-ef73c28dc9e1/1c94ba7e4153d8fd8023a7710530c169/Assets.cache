@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    aab2915f-f1f8-4e50-89c5-a6c0c33e9cb8: 1608bc05-d30b-ce41-bf31-ef73c28dc9e1/1c94ba7e4153d8fd8023a7710530c169/Data/Particles Texture.png
+  Assets:
+    - !<FileTexture/aab2915f-f1f8-4e50-89c5-a6c0c33e9cb8>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 32
+        Height: 32
+  SourceHash: 1c94ba7e4153d8fd8023a7710530c169
+  FileHash: 0b40ca3f870ff0c3a7a8b249a5ddbd17
+  NativePackageItems:
+    []

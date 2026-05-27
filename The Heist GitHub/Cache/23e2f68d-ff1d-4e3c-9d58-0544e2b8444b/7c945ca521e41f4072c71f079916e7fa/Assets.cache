@@ -1,0 +1,139 @@
+- !<AssetCache>
+  AssetFiles:
+    {}
+  Assets:
+    []
+  SourceHash: 7c945ca521e41f4072c71f079916e7fa
+  FileHash: 72d948e230ca355651ea1e30879162d7
+  NativePackageItems:
+    - !<own> d62608ec-a1d9-7abe-bd52-5d12574171b3
+    - !<own> 7025106c-de5a-9e96-7fa9-e1fc2855a92d
+    - !<own> 01d4f0ff-72d1-ae0c-c8e3-f65d0b82798f
+    - !<own> adadcee3-6e1a-39c7-0579-c52a6e956571
+- !<AssetImportMetadata/01d4f0ff-72d1-ae0c-c8e3-f65d0b82798f>
+  ImportedAssetIds:
+    VFXGraph: !<reference> fe14cf41-99ff-4c05-a940-f4954fa17302
+  ImporterName: VFXAssetImporter
+  PrimaryAsset: !<reference> fe14cf41-99ff-4c05-a940-f4954fa17302
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    VFXGraph: !<own> 3ecd8ebc-19b9-4357-ac51-c01bcaff7988
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ObjectPrefabAssetData/083fe78a-764d-4c01-9215-fd0fbb66f112>
+  Prototype: !<ObjectOwner/f6c41fad-78f9-4e3c-a7e8-1b9004c36a4b>
+    PackagePath: ""
+    objects:
+      - !<own> 979a8cc9-9db1-44be-4a39-4215b8e381ab
+- !<VFXAssetData/3ecd8ebc-19b9-4357-ac51-c01bcaff7988>
+  Mesh: !<reference> 00000000-0000-0000-0000-000000000000
+  SystemPassProperties:
+    39: !<VFXSystemPassProperties/f701a842-6440-4fd4-8642-e767c2a2ef29>
+      FeedbackProperties:
+        {}
+      SimulateProperties:
+        {}
+      RenderProperties:
+        flipbookTex:
+          typeIdx: 9
+          value:
+            id: 72afc9ca-4997-4f97-bc12-c9219be6be63
+            sampler:
+              filteringMode: Trilinear
+              wrapModeU: Repeat
+              wrapModeV: Repeat
+              wrapModeW: ClampToEdge
+              borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+              mipmaps: false
+            type: Texture2D
+      FeedbackDefines:
+        []
+      SimulateDefines:
+        []
+      RenderDefines:
+        []
+- !<AssetImportMetadata/7025106c-de5a-9e96-7fa9-e1fc2855a92d>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 386da99a-9bf3-4349-9b66-8818e71dcb2a
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 386da99a-9bf3-4349-9b66-8818e71dcb2a
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 083fe78a-764d-4c01-9215-fd0fbb66f112
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/979a8cc9-9db1-44be-4a39-4215b8e381ab>
+  PrefabRemaps:
+    []
+  Name: SparklesVFX__PLACE_IN_SCENE
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: -40.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> a395903f-127e-487c-4398-bcff319d5a65
+- !<VFXComponent/a395903f-127e-487c-4398-bcff319d5a65>
+  PrefabRemaps:
+    []
+  Name: VFX Component
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  VFXAsset: !<reference> fe14cf41-99ff-4c05-a940-f4954fa17302
+- !<AssetImportMetadata/adadcee3-6e1a-39c7-0579-c52a6e956571>
+  ImportedAssetIds:
+    NativePackageDescriptor: !<reference> dbe32d9d-9f81-4e06-8fc7-ca83e3c4154f
+  ImporterName: NativePackageDescriptorImporter
+  PrimaryAsset: !<reference> dbe32d9d-9f81-4e06-8fc7-ca83e3c4154f
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/d62608ec-a1d9-7abe-bd52-5d12574171b3>
+  ImportedAssetIds:
+    Texture: !<reference> 72afc9ca-4997-4f97-bc12-c9219be6be63
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> 72afc9ca-4997-4f97-bc12-c9219be6be63
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: Performance
+    CompressionSettings: !<TextureCompressionSettings>
+      Level: Medium

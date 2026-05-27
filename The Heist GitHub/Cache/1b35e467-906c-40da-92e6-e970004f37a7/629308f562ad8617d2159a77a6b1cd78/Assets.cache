@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    cd3a2bfd-0879-4bf2-b3b5-164612af3dda: 1b35e467-906c-40da-92e6-e970004f37a7/629308f562ad8617d2159a77a6b1cd78/Data/StethoscopeCable.mesh
+  Assets:
+    - !<FileMesh/cd3a2bfd-0879-4bf2-b3b5-164612af3dda>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 1024
+        Vertices: 561
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.332912, y: 2.991474, z: 0.295713}
+  SourceHash: 629308f562ad8617d2159a77a6b1cd78
+  FileHash: 9381d40229041f0dce26b8f166a00b7c
+  NativePackageItems:
+    []

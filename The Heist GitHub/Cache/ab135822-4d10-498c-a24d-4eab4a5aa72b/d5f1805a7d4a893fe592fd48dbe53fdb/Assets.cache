@@ -1,0 +1,650 @@
+- !<AssetCache>
+  AssetFiles:
+    d9885d33-e544-4d1e-883f-dd542f288ef2: ab135822-4d10-498c-a24d-4eab4a5aa72b/d5f1805a7d4a893fe592fd48dbe53fdb/Data/Meshes/CarouselEnd.mesh
+    b2e9c6cf-b091-4358-8e17-e11e4c176745: ab135822-4d10-498c-a24d-4eab4a5aa72b/d5f1805a7d4a893fe592fd48dbe53fdb/Data/Meshes/CarouselEnd.001.mesh
+    6ccf8add-12d9-4825-972c-a0d52b354a0a: ab135822-4d10-498c-a24d-4eab4a5aa72b/d5f1805a7d4a893fe592fd48dbe53fdb/Data/Meshes/LeverBall.002.mesh
+    35df9df2-9877-49f8-aca9-00d9c92cbcab: ab135822-4d10-498c-a24d-4eab4a5aa72b/d5f1805a7d4a893fe592fd48dbe53fdb/Data/Meshes/LeverBase.005.mesh
+    e5bb7ed3-bf45-4493-9598-edff6c44ddfa: ab135822-4d10-498c-a24d-4eab4a5aa72b/d5f1805a7d4a893fe592fd48dbe53fdb/Data/Meshes/LeverRod.002.mesh
+    16a9581e-5dde-4bee-b782-7b0e4bd9febf: ab135822-4d10-498c-a24d-4eab4a5aa72b/d5f1805a7d4a893fe592fd48dbe53fdb/Data/Meshes/LeverBase.004.mesh
+    6a62bbea-3a71-4fd8-bef1-b3dc869f8c54: ab135822-4d10-498c-a24d-4eab4a5aa72b/d5f1805a7d4a893fe592fd48dbe53fdb/Data/Meshes/SpinnerSeperator.004.mesh
+    cb461e26-80f7-45a1-a677-6a56e6c5c34d: ab135822-4d10-498c-a24d-4eab4a5aa72b/d5f1805a7d4a893fe592fd48dbe53fdb/Data/Meshes/SpinnerSeperator.005.mesh
+    ca9c78a9-74fe-46f0-994d-91014cebdbe6: ab135822-4d10-498c-a24d-4eab4a5aa72b/d5f1805a7d4a893fe592fd48dbe53fdb/Data/Meshes/SpinnerSeperator.006.mesh
+    71c67d38-1307-4280-80e8-6f25023513b5: ab135822-4d10-498c-a24d-4eab4a5aa72b/d5f1805a7d4a893fe592fd48dbe53fdb/Data/Meshes/SpinnerSeperator.007.mesh
+    2f0c729f-2d12-41f7-83e3-e4298630524a: ab135822-4d10-498c-a24d-4eab4a5aa72b/d5f1805a7d4a893fe592fd48dbe53fdb/Data/Meshes/SpinnerThings.003.mesh
+    62c7bf23-d88b-47d9-a1c8-6bc0d69a179d: ab135822-4d10-498c-a24d-4eab4a5aa72b/d5f1805a7d4a893fe592fd48dbe53fdb/Data/Meshes/SpinnerThings.004.mesh
+    72091274-d672-457f-bbdd-bbdbdf78cc30: ab135822-4d10-498c-a24d-4eab4a5aa72b/d5f1805a7d4a893fe592fd48dbe53fdb/Data/Meshes/SpinnerThings.005.mesh
+  Assets:
+    - !<ObjectPrefab/b96956bc-b13e-4ac7-9b8c-c9e9820306fb>
+      PackagePath: ""
+      objects:
+        - !<own> ace78c40-bc51-4d1a-8ac0-9741cdeca398
+      LazyLoading: false
+      RetainAssets: true
+    - !<FileMesh/d9885d33-e544-4d1e-883f-dd542f288ef2>
+      PackagePath: Meshes/CarouselEnd
+      Info: !<MeshInfo>
+        Triangles: 286
+        Vertices: 195
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 4.625253, y: 4.625253, z: 1.035718}
+    - !<FileMesh/b2e9c6cf-b091-4358-8e17-e11e4c176745>
+      PackagePath: Meshes/CarouselEnd.001
+      Info: !<MeshInfo>
+        Triangles: 286
+        Vertices: 195
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 4.625253, y: 4.625253, z: 1.035718}
+    - !<FileMesh/6ccf8add-12d9-4825-972c-a0d52b354a0a>
+      PackagePath: Meshes/LeverBall.002
+      Info: !<MeshInfo>
+        Triangles: 960
+        Vertices: 559
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 2.268157, y: 2.268158, z: 2.268159}
+    - !<FileMesh/35df9df2-9877-49f8-aca9-00d9c92cbcab>
+      PackagePath: Meshes/LeverBase.005
+      Info: !<MeshInfo>
+        Triangles: 252
+        Vertices: 195
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.670448, y: 0.670448, z: 0.670448}
+    - !<FileMesh/e5bb7ed3-bf45-4493-9598-edff6c44ddfa>
+      PackagePath: Meshes/LeverRod.002
+      Info: !<MeshInfo>
+        Triangles: 1152
+        Vertices: 796
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.710766, y: 0.710766, z: 6.466606}
+    - !<FileMesh/16a9581e-5dde-4bee-b782-7b0e4bd9febf>
+      PackagePath: Meshes/LeverBase.004
+      Info: !<MeshInfo>
+        Triangles: 306
+        Vertices: 216
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 13.791682, y: 0.990442, z: 13.791682}
+    - !<FileMesh/6a62bbea-3a71-4fd8-bef1-b3dc869f8c54>
+      PackagePath: Meshes/SpinnerSeperator.004
+      Info: !<MeshInfo>
+        Triangles: 268
+        Vertices: 182
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 3.960500, y: 7.920999, z: 0.593437}
+    - !<FileMesh/cb461e26-80f7-45a1-a677-6a56e6c5c34d>
+      PackagePath: Meshes/SpinnerSeperator.005
+      Info: !<MeshInfo>
+        Triangles: 268
+        Vertices: 182
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 3.960500, y: 7.920999, z: 0.593437}
+    - !<FileMesh/ca9c78a9-74fe-46f0-994d-91014cebdbe6>
+      PackagePath: Meshes/SpinnerSeperator.006
+      Info: !<MeshInfo>
+        Triangles: 268
+        Vertices: 182
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 3.960500, y: 7.920999, z: 0.593437}
+    - !<FileMesh/71c67d38-1307-4280-80e8-6f25023513b5>
+      PackagePath: Meshes/SpinnerSeperator.007
+      Info: !<MeshInfo>
+        Triangles: 268
+        Vertices: 182
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 3.960500, y: 7.920999, z: 0.593437}
+    - !<FileMesh/2f0c729f-2d12-41f7-83e3-e4298630524a>
+      PackagePath: Meshes/SpinnerThings.003
+      Info: !<MeshInfo>
+        Triangles: 124
+        Vertices: 130
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 2.000000, y: 2.000000, z: 0.639037}
+    - !<FileMesh/62c7bf23-d88b-47d9-a1c8-6bc0d69a179d>
+      PackagePath: Meshes/SpinnerThings.004
+      Info: !<MeshInfo>
+        Triangles: 124
+        Vertices: 130
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 2.000000, y: 2.000000, z: 0.639037}
+    - !<FileMesh/72091274-d672-457f-bbdd-bbdbdf78cc30>
+      PackagePath: Meshes/SpinnerThings.005
+      Info: !<MeshInfo>
+        Triangles: 124
+        Vertices: 130
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 2.000000, y: 2.000000, z: 0.611408}
+  SourceHash: d5f1805a7d4a893fe592fd48dbe53fdb
+  FileHash: 56a9c8a2fb16acd7dbe454b9ea8724eb
+  NativePackageItems:
+    []
+- !<SceneObject/07b2b58a-8840-4bb6-87fe-84fa3da2975b>
+  PrefabRemaps:
+    []
+  Name: LeverBall.002
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -5.031909, y: 5.031909, z: -0.107651}
+    Rotation: {x: 89.999985, y: 0.000022, z: -135.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 45cf29f6-89ce-4cc7-943b-f1a2b75ac2e0
+- !<RenderMeshVisual/1624cdb5-39b8-4d10-b77c-e465691b19ea>
+  PrefabRemaps:
+    []
+  Name: component_11
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 62c7bf23-d88b-47d9-a1c8-6bc0d69a179d
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/1d16b1ca-54f5-4ea8-a870-7b09d6e9af5e>
+  PrefabRemaps:
+    []
+  Name: component_8
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> ca9c78a9-74fe-46f0-994d-91014cebdbe6
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/2c4f464c-2261-49e7-8c91-0f9ddc055d93>
+  PrefabRemaps:
+    []
+  Name: CarouselEnd
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -5.756590, y: 10.462301, z: 10.543789}
+    Rotation: {x: 89.999977, y: 90.000000, z: -30.963758}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 2ffdda35-a349-4a71-b120-f401af91526c
+- !<RenderMeshVisual/2ffdda35-a349-4a71-b120-f401af91526c>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> d9885d33-e544-4d1e-883f-dd542f288ef2
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/330617fa-2177-49ed-9da2-9931fbe95d0d>
+  PrefabRemaps:
+    []
+  Name: component_7
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> cb461e26-80f7-45a1-a677-6a56e6c5c34d
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/363b57fb-4c9f-481f-bfe0-624b09e83e20>
+  PrefabRemaps:
+    []
+  Name: component_12
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 72091274-d672-457f-bbdd-bbdbdf78cc30
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/3cb1f68b-005c-40e2-8dfb-3b1827426cce>
+  PrefabRemaps:
+    []
+  Name: component_5
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 16a9581e-5dde-4bee-b782-7b0e4bd9febf
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/445ffd3c-37b3-451c-9bf7-222937673ffc>
+  PrefabRemaps:
+    []
+  Name: component_9
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 71c67d38-1307-4280-80e8-6f25023513b5
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/45cf29f6-89ce-4cc7-943b-f1a2b75ac2e0>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 6ccf8add-12d9-4825-972c-a0d52b354a0a
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/4a1d7f4b-f775-4fe7-9d09-4f4f83f74077>
+  PrefabRemaps:
+    []
+  Name: LeverBase.005
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -1.627295, y: 1.627295, z: -0.107653}
+    Rotation: {x: -45.000000, y: -90.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 517a460e-d04b-4ad8-9ba6-cda9bbe6dc67
+- !<RenderMeshVisual/517a460e-d04b-4ad8-9ba6-cda9bbe6dc67>
+  PrefabRemaps:
+    []
+  Name: component_3
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 35df9df2-9877-49f8-aca9-00d9c92cbcab
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/667f8f57-9127-45c2-b3e5-53292b9e8177>
+  PrefabRemaps:
+    []
+  Name: LeverRod.002
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.000000, y: 0.000001, z: -0.107650}
+    Rotation: {x: 89.999977, y: 0.000000, z: -135.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 69789545-fa5c-4483-8112-8fa49db5595f
+- !<RenderMeshVisual/69789545-fa5c-4483-8112-8fa49db5595f>
+  PrefabRemaps:
+    []
+  Name: component_4
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> e5bb7ed3-bf45-4493-9598-edff6c44ddfa
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/7741fa88-980d-4dda-ba1c-9eb746c7540b>
+  PrefabRemaps:
+    []
+  Name: SpinnerSeperator.007
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -5.107487, y: 10.462300, z: 10.543790}
+    Rotation: {x: 0.000000, y: -89.980217, z: 0.000000}
+    Scale: {x: 0.920053, y: 0.920053, z: 1.207653}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 445ffd3c-37b3-451c-9bf7-222937673ffc
+- !<SceneObject/8231d920-2abe-4cfa-ab87-5b9347f6570d>
+  PrefabRemaps:
+    []
+  Name: CarouselEnd.001
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 5.729391, y: 10.462301, z: 10.543789}
+    Rotation: {x: 90.000000, y: -0.000000, z: -90.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 07b2b58a-8840-4bb6-87fe-84fa3da2975b
+    - !<own> 4a1d7f4b-f775-4fe7-9d09-4f4f83f74077
+    - !<own> 667f8f57-9127-45c2-b3e5-53292b9e8177
+  Components:
+    - !<own> b1fc1595-5307-4fe1-9d74-727786235828
+- !<SceneObject/8997228b-7ded-4dd8-8cbf-6914d2e677b5>
+  PrefabRemaps:
+    []
+  Name: SpinnerSeperator.004
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 5.102330, y: 10.462300, z: 10.543790}
+    Rotation: {x: 0.000000, y: -89.980217, z: 0.000000}
+    Scale: {x: 0.920053, y: 0.920053, z: 1.207653}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> cb40d691-bff3-4090-9d39-0bcd1dce9d75
+- !<SceneObject/9330bac9-22a3-4df4-be7a-77f951f4dd03>
+  PrefabRemaps:
+    []
+  Name: SpinnerThings.005
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.013600, y: 10.462300, z: 10.543790}
+    Rotation: {x: 0.000000, y: -89.980217, z: 0.000000}
+    Scale: {x: 3.404342, y: 3.404342, z: 5.112292}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 363b57fb-4c9f-481f-bfe0-624b09e83e20
+- !<SceneObject/a7a4e44a-683d-4711-806b-344f41d317ad>
+  PrefabRemaps:
+    []
+  Name: SpinnerThings.003
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 3.465218, y: 10.462300, z: 10.543790}
+    Rotation: {x: 0.000000, y: -89.980217, z: 0.000000}
+    Scale: {x: 3.404342, y: 3.404342, z: 5.112292}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> d142b099-7216-4203-87bc-87652bc5624e
+- !<SceneObject/ace78c40-bc51-4d1a-8ac0-9741cdeca398>
+  PrefabRemaps:
+    - 07b2b58a-8840-4bb6-87fe-84fa3da2975b: 07b2b58a-8840-4bb6-7801-7b05c25d68a4
+    - 1624cdb5-39b8-4d10-b77c-e465691b19ea: 1624cdb5-39b8-4d10-4883-1b9a96e4e615
+    - 1d16b1ca-54f5-4ea8-a870-7b09d6e9af5e: 1d16b1ca-54f5-4ea8-578f-84f6291650a1
+    - 2c4f464c-2261-49e7-8c91-0f9ddc055d93: 2c4f464c-2261-49e7-736e-f06223faa26c
+    - 2ffdda35-a349-4a71-b120-f401af91526c: 2ffdda35-a349-4a71-4edf-0bfe506ead93
+    - 330617fa-2177-49ed-9da2-9931fbe95d0d: 330617fa-2177-49ed-625d-66ce0416a2f2
+    - 363b57fb-4c9f-481f-bfe0-624b09e83e20: 363b57fb-4c9f-481f-401f-9db4f617c1df
+    - 3cb1f68b-005c-40e2-8dfb-3b1827426cce: 3cb1f68b-005c-40e2-7204-c4e7d8bd9331
+    - 445ffd3c-37b3-451c-9bf7-222937673ffc: 445ffd3c-37b3-451c-6408-ddd6c898c003
+    - 45cf29f6-89ce-4cc7-943b-f1a2b75ac2e0: 45cf29f6-89ce-4cc7-6bc4-0e5d48a53d1f
+    - 4a1d7f4b-f775-4fe7-9d09-4f4f83f74077: 4a1d7f4b-f775-4fe7-62f6-b0b07c08bf88
+    - 517a460e-d04b-4ad8-9ba6-cda9bbe6dc67: 517a460e-d04b-4ad8-6459-325644192398
+    - 667f8f57-9127-45c2-b3e5-53292b9e8177: 667f8f57-9127-45c2-4c1a-acd6d4617e88
+    - 69789545-fa5c-4483-8112-8fa49db5595f: 69789545-fa5c-4483-7eed-705b624aa6a0
+    - 7741fa88-980d-4dda-ba1c-9eb746c7540b: 7741fa88-980d-4dda-45e3-6148b938abf4
+    - 8231d920-2abe-4cfa-ab87-5b9347f6570d: 8231d920-2abe-4cfa-5478-a46cb809a8f2
+    - 8997228b-7ded-4dd8-8cbf-6914d2e677b5: 8997228b-7ded-4dd8-7340-96eb2d19884a
+    - 9330bac9-22a3-4df4-be7a-77f951f4dd03: 9330bac9-22a3-4df4-4185-8806ae0b22fc
+    - a7a4e44a-683d-4711-806b-344f41d317ad: a7a4e44a-683d-4711-7f94-cbb0be2ce852
+    - ace78c40-bc51-4d1a-8ac0-9741cdeca398: ace78c40-bc51-4d1a-753f-68be32135c67
+    - b1fc1595-5307-4fe1-9d74-727786235828: b1fc1595-5307-4fe1-628b-8d8879dca7d7
+    - b90d0d1f-675e-4cb5-bea2-8a9363ae2623: b90d0d1f-675e-4cb5-415d-756c9c51d9dc
+    - bf58bbda-62fd-46fc-be99-853684dfe341: bf58bbda-62fd-46fc-4166-7ac97b201cbe
+    - cb40d691-bff3-4090-9d39-0bcd1dce9d75: cb40d691-bff3-4090-62c6-f432e231628a
+    - ccf1319d-1693-4155-8a91-3befd6a136d6: ccf1319d-1693-4155-756e-c410295ec929
+    - d142b099-7216-4203-87bc-87652bc5624e: d142b099-7216-4203-7843-789ad43a9db1
+    - d23962cb-43d4-459d-9b68-55cb7976d6fb: d23962cb-43d4-459d-6497-aa3486892904
+  Name: CasinoAhhModule
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 2c4f464c-2261-49e7-8c91-0f9ddc055d93
+    - !<own> 8231d920-2abe-4cfa-ab87-5b9347f6570d
+    - !<own> d23962cb-43d4-459d-9b68-55cb7976d6fb
+    - !<own> 8997228b-7ded-4dd8-8cbf-6914d2e677b5
+    - !<own> b90d0d1f-675e-4cb5-bea2-8a9363ae2623
+    - !<own> ccf1319d-1693-4155-8a91-3befd6a136d6
+    - !<own> 7741fa88-980d-4dda-ba1c-9eb746c7540b
+    - !<own> a7a4e44a-683d-4711-806b-344f41d317ad
+    - !<own> bf58bbda-62fd-46fc-be99-853684dfe341
+    - !<own> 9330bac9-22a3-4df4-be7a-77f951f4dd03
+  Components:
+    []
+- !<RenderMeshVisual/b1fc1595-5307-4fe1-9d74-727786235828>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> b2e9c6cf-b091-4358-8e17-e11e4c176745
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/b90d0d1f-675e-4cb5-bea2-8a9363ae2623>
+  PrefabRemaps:
+    []
+  Name: SpinnerSeperator.005
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 1.745705, y: 10.462300, z: 10.543790}
+    Rotation: {x: 0.000000, y: -89.980217, z: 0.000000}
+    Scale: {x: 0.920053, y: 0.920053, z: 1.207653}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 330617fa-2177-49ed-9da2-9931fbe95d0d
+- !<SceneObject/bf58bbda-62fd-46fc-be99-853684dfe341>
+  PrefabRemaps:
+    []
+  Name: SpinnerThings.004
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -3.492418, y: 10.462300, z: 10.543790}
+    Rotation: {x: 0.000000, y: -89.980217, z: 0.000000}
+    Scale: {x: 3.404342, y: 3.404342, z: 5.112292}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 1624cdb5-39b8-4d10-b77c-e465691b19ea
+- !<RenderMeshVisual/cb40d691-bff3-4090-9d39-0bcd1dce9d75>
+  PrefabRemaps:
+    []
+  Name: component_6
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 6a62bbea-3a71-4fd8-bef1-b3dc869f8c54
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/ccf1319d-1693-4155-8a91-3befd6a136d6>
+  PrefabRemaps:
+    []
+  Name: SpinnerSeperator.006
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -1.699745, y: 10.462300, z: 10.543790}
+    Rotation: {x: 0.000000, y: -89.980217, z: 0.000000}
+    Scale: {x: 0.920053, y: 0.920053, z: 1.207653}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 1d16b1ca-54f5-4ea8-a870-7b09d6e9af5e
+- !<RenderMeshVisual/d142b099-7216-4203-87bc-87652bc5624e>
+  PrefabRemaps:
+    []
+  Name: component_10
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 2f0c729f-2d12-41f7-83e3-e4298630524a
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/d23962cb-43d4-459d-9b68-55cb7976d6fb>
+  PrefabRemaps:
+    []
+  Name: LeverBase.004
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 10.462300, z: 9.653380}
+    Rotation: {x: 90.000000, y: -0.000000, z: -180.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 3cb1f68b-005c-40e2-8dfb-3b1827426cce

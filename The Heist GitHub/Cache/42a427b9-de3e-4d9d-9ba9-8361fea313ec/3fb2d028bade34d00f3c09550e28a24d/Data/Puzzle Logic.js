@@ -1,0 +1,41 @@
+// @input Component.ScriptComponent[] wireButtons
+/** @type {ScriptComponent[]} */
+var wireButtons = script.wireButtons;
+
+function attemptWireCut(wireId) {
+    print("Attempting to cut wire " + (wireId + 1));
+    wireButtons[wireId].enabled = false;
+    var buttonSO = wireButtons[wireId].getSceneObject();
+    buttonSO.getChild(0).getComponent("Component.Text").text = "Cut " + (wireId + 1);
+}
+
+script.generatePuzzle = function() {
+    print("Generating new puzzle...");
+    for(var i = 0; i < wireButtons.length; i++) {
+        var buttonSO = wireButtons[i].getSceneObject();
+        buttonSO.enabled = true;
+        wireButtons[i].enabled = true;
+        wireButtons[i].initialize();
+        var textComponent = buttonSO.getChild(0).getComponent("Component.Text");
+        textComponent.text = "Wire " + (i + 1);
+    }
+        
+        print("Wire " + (i + 1) + " is active.");
+    }
+}
+
+script.cutWire1 = function(value) {
+    if(value) attemptWireCut(0);
+}
+script.cutWire2 = function(value) {
+    if(value) attemptWireCut(1);
+}
+script.cutWire3 = function(value) {
+    if(value) attemptWireCut(2);
+} 
+script.cutWire4 = function(value) {
+    if(value) attemptWireCut(3);
+}
+script.cutWire5 = function(value) {
+    if(value) attemptWireCut(4);
+}

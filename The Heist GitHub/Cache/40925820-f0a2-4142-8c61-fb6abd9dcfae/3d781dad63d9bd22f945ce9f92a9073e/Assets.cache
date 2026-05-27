@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    0d548552-caba-495c-b684-702da8a5d48c: 40925820-f0a2-4142-8c61-fb6abd9dcfae/3d781dad63d9bd22f945ce9f92a9073e/Data/diamond-icon.png
+  Assets:
+    - !<FileTexture/0d548552-caba-495c-b684-702da8a5d48c>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 312
+        Height: 312
+  SourceHash: 3d781dad63d9bd22f945ce9f92a9073e
+  FileHash: 1411b120a8e9e5576fbd4dda3c37acad
+  NativePackageItems:
+    []

@@ -1,0 +1,82 @@
+- !<ObjectPrefab/280887b9-1844-465b-bca7-45207e270584>
+  PackagePath: ""
+  objects:
+    - !<own> cf309f5c-0cc1-4dd0-87ae-86b359e88b56
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/28bcd608-0a3f-4052-9381-493d925e4ef5>
+  PrefabRemaps:
+    []
+  Name: Coin
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 5.000000, y: 5.000000, z: 5.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 5d824966-e518-4c78-86bd-8bfb20ff2601
+- !<RenderMeshVisual/5d824966-e518-4c78-86bd-8bfb20ff2601>
+  PrefabRemaps:
+    []
+  Name: component_3
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 58ca5d85-b73e-4561-b6d9-894e42909c43
+  Mesh: !<reference> 23f01368-61bf-4006-80b8-0c80d87059c4
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<BodyComponent/ce44aee3-1076-4df8-84f4-a917ebc16508>
+  PrefabRemaps:
+    []
+  Name: Physics Body
+  Enabled: true
+  Shape: !<Sphere>
+    FitVisual: false
+    Radius: 0.500000
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+  Dynamic: true
+  BodySetting: Density
+  BodySettingValue: 0.010000
+  Damping: 0.000000
+  AngularDamping: 0.000000
+- !<SceneObject/cf309f5c-0cc1-4dd0-87ae-86b359e88b56>
+  PrefabRemaps:
+    - 28bcd608-0a3f-4052-9381-493d925e4ef5: 28bcd608-0a3f-4052-6c7e-b6c26da1b10a
+    - 5d824966-e518-4c78-86bd-8bfb20ff2601: 5d824966-e518-4c78-7942-7404df00d9fe
+    - ce44aee3-1076-4df8-84f4-a917ebc16508: 4e725f4e-c523-4cfc-84ae-3813c2666f13
+    - cf309f5c-0cc1-4dd0-87ae-86b359e88b56: cf309f5c-0cc1-4dd0-7851-794ca61774a9
+  Name: Coin Prefab
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 28bcd608-0a3f-4052-9381-493d925e4ef5
+  Components:
+    - !<own> ce44aee3-1076-4df8-84f4-a917ebc16508

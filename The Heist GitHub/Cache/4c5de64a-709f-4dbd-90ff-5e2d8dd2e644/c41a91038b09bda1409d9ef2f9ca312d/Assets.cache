@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    f54b5f30-26b8-43b0-ac36-19d4b3f18721: 4c5de64a-709f-4dbd-90ff-5e2d8dd2e644/c41a91038b09bda1409d9ef2f9ca312d/Data/DialBlockout.mesh
+  Assets:
+    - !<FileMesh/f54b5f30-26b8-43b0-ac36-19d4b3f18721>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 188
+        Vertices: 208
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 4.677649, y: 4.727030, z: 4.677649}
+  SourceHash: c41a91038b09bda1409d9ef2f9ca312d
+  FileHash: 328dbedeeaa6111a6f7f659f8c4ce9c8
+  NativePackageItems:
+    []

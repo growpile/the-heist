@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    dbf9a370-fea0-4c27-a628-f7cc09c66a0f: a1e38d00-6303-4a06-9418-a873ebba49fd/e4610f484116afd3320b9aaf1f94f1a6/Data/Gold Texture.jpg
+  Assets:
+    - !<FileTexture/dbf9a370-fea0-4c27-a628-f7cc09c66a0f>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: e4610f484116afd3320b9aaf1f94f1a6
+  FileHash: 294ced705e55f7ba8aaef16b6106a7da
+  NativePackageItems:
+    []

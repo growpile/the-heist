@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    c2a3fa3e-824c-40c8-a13a-121910089f5f: 1dcd4cf0-c4d9-48f7-bffe-a8ffe1fab99a/d536c37afe2af502c213244817fdd3d5/Data/Dont Press.jpg
+  Assets:
+    - !<FileTexture/c2a3fa3e-824c-40c8-a13a-121910089f5f>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: d536c37afe2af502c213244817fdd3d5
+  FileHash: cd37636b8ad6697e93a84f49e3e85459
+  NativePackageItems:
+    []

@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    57eb9fa3-9724-4d82-8858-18ac0722c911: ce3de9eb-3741-493d-bdb7-2a2b31e85974/ea478ae28a4185121b61cffbcbc4bf60/Data/AnthenaLongPart.001.mesh
+  Assets:
+    - !<FileMesh/57eb9fa3-9724-4d82-8858-18ac0722c911>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 1490
+        Vertices: 1222
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.565576, y: 0.565576, z: 10.002769}
+  SourceHash: ea478ae28a4185121b61cffbcbc4bf60
+  FileHash: 34292aa04944b13c3a9754e41537bd10
+  NativePackageItems:
+    []

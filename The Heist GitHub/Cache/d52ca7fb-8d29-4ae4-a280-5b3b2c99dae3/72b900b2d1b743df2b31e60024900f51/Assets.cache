@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    20ebd233-ab48-44af-93d5-4a794aef72ac: d52ca7fb-8d29-4ae4-a280-5b3b2c99dae3/72b900b2d1b743df2b31e60024900f51/Data/Metal Dink 3.mp3
+  Assets:
+    - !<FileAudioTrack/20ebd233-ab48-44af-93d5-4a794aef72ac>
+      PackagePath: ""
+  SourceHash: 72b900b2d1b743df2b31e60024900f51
+  FileHash: 00e0e4d40e4d075d31837e9de303261e
+  NativePackageItems:
+    []

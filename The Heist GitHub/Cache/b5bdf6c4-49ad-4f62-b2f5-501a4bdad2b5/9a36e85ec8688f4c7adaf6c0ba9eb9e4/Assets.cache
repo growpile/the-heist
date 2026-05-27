@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    c087bc04-2ac3-42f1-a2f6-9b9494c5f312: b5bdf6c4-49ad-4f62-b2f5-501a4bdad2b5/9a36e85ec8688f4c7adaf6c0ba9eb9e4/Data/Outfit-VariableFont_wght.ttf
+  Assets:
+    - !<Font/c087bc04-2ac3-42f1-a2f6-9b9494c5f312>
+      PackagePath: ""
+  SourceHash: 9a36e85ec8688f4c7adaf6c0ba9eb9e4
+  FileHash: 7a95094d04c1271118be4eb424da25ea
+  NativePackageItems:
+    []

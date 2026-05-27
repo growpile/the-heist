@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    3693932f-00e6-44d8-95e0-8a077df2d4fd: 264cdcb9-ac0c-4835-a587-27b171a20970/d35efcc7515dad7225738f554f6f4586/Data/dynamite_albedo.jpg
+  Assets:
+    - !<FileTexture/3693932f-00e6-44d8-95e0-8a077df2d4fd>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: d35efcc7515dad7225738f554f6f4586
+  FileHash: 3a9435a739ad988adec9bb091fd35329
+  NativePackageItems:
+    []

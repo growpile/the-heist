@@ -1,0 +1,143 @@
+{ 
+	"ui": 
+	[
+		{
+        	"label": "Graph Parameters",
+        	"widget": "group_start"
+        },
+{ 
+                	"bindingName": "normalTex", 
+                	"label":       "Normal", 
+                	"widget":      "texture_group",
+                	"sortIndex":   "0",
+                	"hint":        ""
+                },
+                
+                {
+                	"bindingName": "Tweak_N7",
+                	"label":       "Custom Float",
+                	"widget":      "slider",
+                	"min":         0,
+                	"max":         1,
+                	"step":        "0.01",
+                	"sortIndex":   "0",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                { 
+                	"bindingName": "baseTex", 
+                	"label":       "Base Texture", 
+                	"widget":      "texture_group",
+                	"sortIndex":   "0",
+                	"hint":        ""
+                },
+                
+                {
+                	"bindingName": "tintColor",
+                	"label":       "Tint Color",
+                	"widget":      "color",
+                	"sortIndex":   "0",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                {
+                	"label":       "Fade Direction",
+                	"bindingType": "defineSelect",
+                	"values":      
+                	[
+                		
+                		{
+                			"value": "NODE_31_DROPLIST_ITEM 0",
+                			"label": "X ( Editor )"
+                		},
+                		
+                		{
+                			"value": "NODE_31_DROPLIST_ITEM 1",
+                			"label": "Y ( Spectacles )"
+                		},
+                		
+                		{
+                			"value": "NODE_31_DROPLIST_ITEM 2",
+                			"label": "Z"
+                		}
+                	],
+                	"sortIndex":   "0",
+                	"hint":        "Select X for correct gradient visuals on Simulator. Change to Y when pushing to Spectacles."
+                },
+                
+                {
+                	"bindingName": "isLeftHand",
+                	"bindingType": "define",
+                	"optimize":    true,
+                	"label":       "Invert ( Editor )",
+                	"widget":      "checkbox",
+                	"sortIndex":   "0",
+                	"hint":        "Uncheck for correct Right Hand visuals on Simulator."
+                },
+                
+                {
+                	"label": "Gradient Values",
+                	"widget": "group_start"
+                },                    
+                    {
+                    	"bindingName": "heightMin",
+                    	"label":       "Height Min",
+                    	"widget":      "slider",
+                    	"min":         -0.002,
+                    	"max":         0.008,
+                    	"step":        "0.001",
+                    	"sortIndex":   "0",
+                    	"hint":        "",
+                    	"default":     "0.001"
+                    },
+                    
+                    {
+                    	"bindingName": "heightMax",
+                    	"label":       "Height Max",
+                    	"widget":      "slider",
+                    	"min":         0.001,
+                    	"max":         0.009,
+                    	"step":        "0.001",
+                    	"sortIndex":   "1",
+                    	"hint":        "",
+                    	"default":     "0.002"
+                    },
+                {
+                	"widget": "group_end"
+                },
+                
+                { 
+                	"bindingName": "materialParamsTex", 
+                	"label":       "Material Params", 
+                	"widget":      "texture_group",
+                	"sortIndex":   "2",
+                	"hint":        ""
+                },
+
+        {
+        	"widget": "group_end"
+        },
+        
+		
+	{
+		"bindingName": "alphaTestThreshold",
+		"widget": "slider",
+		"min" : 0.0,
+		"max" : 1.0,
+		"step": 0.001,
+		"default": 0.5,
+		"hint": "When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear."
+	}
+	
+	],
+	
+	"shaderType": "Mesh3d",
+	
+	"extraDefines":
+	[
+		"SC_ENABLE_RT_CASTER",
+		"SC_ENABLE_RT_RECEIVER"
+	]
+}

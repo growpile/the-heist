@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    bd7ffc13-2444-4737-90ff-cc72f4eb372f: 587eb162-32e6-48ab-8547-539d27ae4b2f/b14937827ec5a3cea56a818c2020711a/Data/Safe
+  Assets:
+    - !<BinAsset/bd7ffc13-2444-4737-90ff-cc72f4eb372f>
+      PackagePath: ""
+  SourceHash: b14937827ec5a3cea56a818c2020711a
+  FileHash: 7f498d4624c30160d8984701d306aa99
+  NativePackageItems:
+    []

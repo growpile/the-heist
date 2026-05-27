@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    c7f3e9a3-50dd-4b8b-a804-00d258e1cff3: fc0bfca5-ce8d-a08d-6839-56ea5204cff3/51d79ab79e376b3a466000ec2929f193/Data/Left Hand FBX_Default OBJ.005_base.jpg
+  Assets:
+    - !<FileTexture/c7f3e9a3-50dd-4b8b-a804-00d258e1cff3>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 2048
+        Height: 2048
+  SourceHash: 51d79ab79e376b3a466000ec2929f193
+  FileHash: 076a4960a1c18c2fccdeb9423729f212
+  NativePackageItems:
+    []

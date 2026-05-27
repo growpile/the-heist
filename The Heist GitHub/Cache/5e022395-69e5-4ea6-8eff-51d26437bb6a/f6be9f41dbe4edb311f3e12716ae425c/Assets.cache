@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    40eaaad8-295a-4d7d-af57-d3c0d2bb6006: 5e022395-69e5-4ea6-8eff-51d26437bb6a/f6be9f41dbe4edb311f3e12716ae425c/Data/LeverBase.008.mesh
+  Assets:
+    - !<FileMesh/40eaaad8-295a-4d7d-af57-d3c0d2bb6006>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 252
+        Vertices: 195
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.670448, y: 0.670448, z: 0.670448}
+  SourceHash: f6be9f41dbe4edb311f3e12716ae425c
+  FileHash: 82b1e2a009a31f2e56565028c4dadca0
+  NativePackageItems:
+    []

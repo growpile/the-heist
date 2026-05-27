@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    338b94dc-22cc-4987-a445-105da5c02038: a631e65e-f34d-b116-1a4c-024b0aaf7f45/f56e3ca53a949e504d0819647c72b23d/Data/Liberation Serif LICENSE.md
+  Assets:
+    - !<MarkdownAsset/338b94dc-22cc-4987-a445-105da5c02038>
+      PackagePath: ""
+  SourceHash: f56e3ca53a949e504d0819647c72b23d
+  FileHash: b47dc8d1c8deb648da1430451925b6ef
+  NativePackageItems:
+    []

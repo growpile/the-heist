@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    296cf82b-4cb2-4564-846b-292db695bbe7: 23d24767-3f0d-43c6-9c61-59ca6111153a/c598a9976160fbab449457042616cc5a/Data/Fork.jpg
+  Assets:
+    - !<FileTexture/296cf82b-4cb2-4564-846b-292db695bbe7>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: c598a9976160fbab449457042616cc5a
+  FileHash: 1a1f5f9bd03fc66d034019e8f6f1fb57
+  NativePackageItems:
+    []

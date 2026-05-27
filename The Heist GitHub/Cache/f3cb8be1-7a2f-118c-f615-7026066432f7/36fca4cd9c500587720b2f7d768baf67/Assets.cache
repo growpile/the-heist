@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    cb24bf96-a183-48d6-858c-5a44c502a89a: f3cb8be1-7a2f-118c-f615-7026066432f7/36fca4cd9c500587720b2f7d768baf67/Data/Gothica - Scary Font.ttf
+  Assets:
+    - !<Font/cb24bf96-a183-48d6-858c-5a44c502a89a>
+      PackagePath: ""
+  SourceHash: 36fca4cd9c500587720b2f7d768baf67
+  FileHash: 5cc771d546e654d7904e3540bd731743
+  NativePackageItems:
+    []

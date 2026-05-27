@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    6d6a1ed9-8408-4282-bc61-634c7e8f018a: 83cc2932-4671-d98b-6a5d-e86e344282e9/d2f24ffabad05548dc8f3e5b206cc57b/Data/100_MC_v_56.jpg
+  Assets:
+    - !<FileTexture/6d6a1ed9-8408-4282-bc61-634c7e8f018a>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: d2f24ffabad05548dc8f3e5b206cc57b
+  FileHash: 8df68dc2361a7c4d9df982a0c61722f0
+  NativePackageItems:
+    []

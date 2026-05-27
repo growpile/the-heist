@@ -1,0 +1,113 @@
+{ 
+	"ui": 
+	[
+		{
+        	"label": "Graph Parameters",
+        	"widget": "group_start"
+        },
+{
+                	"label": "Rainbow",
+                	"widget": "group_start"
+                },                    
+                    {
+                    	"bindingName": "size",
+                    	"label":       "Size",
+                    	"widget":      "spinbox",
+                    	"step":        "0.01",
+                    	"sortIndex":   "0",
+                    	"hint":        "Total number of colors shows at a time",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "speed",
+                    	"label":       "Speed",
+                    	"widget":      "spinbox",
+                    	"step":        "0.01",
+                    	"sortIndex":   "1",
+                    	"hint":        "Animation speed of rainbow. If 0 then it will not be moving, negative values reverse the direction",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"label":       "Axis",
+                    	"bindingType": "defineSelect",
+                    	"values":      
+                    	[
+                    		
+                    		{
+                    			"value": "NODE_7_DROPLIST_ITEM 0",
+                    			"label": "X"
+                    		},
+                    		
+                    		{
+                    			"value": "NODE_7_DROPLIST_ITEM 1",
+                    			"label": "Y"
+                    		},
+                    		
+                    		{
+                    			"value": "NODE_7_DROPLIST_ITEM 2",
+                    			"label": "Z"
+                    		}
+                    	],
+                    	"sortIndex":   "3",
+                    	"hint":        "Which 3d axis to base the color off of"
+                    },
+                    
+                    {
+                    	"bindingName": "rotationAngle",
+                    	"label":       "Rotation Angle",
+                    	"widget":      "slider",
+                    	"min":         0,
+                    	"max":         360,
+                    	"step":        "0.05",
+                    	"sortIndex":   "4",
+                    	"hint":        "Rotates the gradient in degrees",
+                    	"default":     "1.0"
+                    },
+                {
+                	"widget": "group_end"
+                },
+                
+                {
+                	"bindingName": "Tweak_N9",
+                	"bindingType": "define",
+                	"optimize":    true,
+                	"label":       "Opacity Texture",
+                	"widget":      "checkbox",
+                	"sortIndex":   "20",
+                	"hint":        "Toggle an opacity texture input"
+                },
+                
+                { 
+                	"bindingName": "opacityTex", 
+                	"label":       "Texture", 
+                	"widget":      "texture_group",
+                	"sortIndex":   "21",
+                	"hint":        ""
+                },
+
+        {
+        	"widget": "group_end"
+        },
+        
+		
+	{
+		"bindingName": "alphaTestThreshold",
+		"widget": "slider",
+		"min" : 0.0,
+		"max" : 1.0,
+		"step": 0.001,
+		"default": 0.5,
+		"hint": "When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear."
+	}
+	
+	],
+	
+	"shaderType": "Mesh3d",
+	
+	"extraDefines":
+	[
+		"SC_ENABLE_RT_CASTER"
+	]
+}

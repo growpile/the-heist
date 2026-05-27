@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    68400a3a-dedc-4cd0-846c-a1517bda9c94: afae74f4-8563-43a9-a9ac-f770013c2de5/3e861d766e76ef5ef2e2f7ac196ac32d/Data/body-cam-frame.png
+  Assets:
+    - !<FileTexture/68400a3a-dedc-4cd0-846c-a1517bda9c94>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: 3e861d766e76ef5ef2e2f7ac196ac32d
+  FileHash: b893c0a7a4733df80a007f948c3ac7d5
+  NativePackageItems:
+    []

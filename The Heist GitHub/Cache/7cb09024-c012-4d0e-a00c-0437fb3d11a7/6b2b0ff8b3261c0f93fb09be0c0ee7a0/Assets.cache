@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    4e04b0a6-f9eb-4b26-817b-36d21f400bd3: 7cb09024-c012-4d0e-a00c-0437fb3d11a7/6b2b0ff8b3261c0f93fb09be0c0ee7a0/Data/Leather Gloves ORM Opti.jpg
+  Assets:
+    - !<FileTexture/4e04b0a6-f9eb-4b26-817b-36d21f400bd3>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: 6b2b0ff8b3261c0f93fb09be0c0ee7a0
+  FileHash: 0afbfb6245221b44d9e1ad60209a8f7d
+  NativePackageItems:
+    []
